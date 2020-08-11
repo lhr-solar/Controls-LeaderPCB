@@ -5,4 +5,5 @@
   (lib (name Power)(type Legacy)(uri ${KIPRJMOD}/../../Common/utsvt-power-regulators.lib)(options "")(descr ""))
   (lib (name BPS)(type Legacy)(uri ${KIPRJMOD}/../../BPS/Library/utsvt-bps.lib)(options "")(descr ""))
   (lib (name Dash2-rescue)(type Legacy)(uri ${KIPRJMOD}/Dash2-rescue.lib)(options "")(descr ""))
+  (lib (name Dashboard-rescue)(type Legacy)(uri ${KIPRJMOD}/Dashboard-rescue.lib)(options "")(descr ""))
 )
