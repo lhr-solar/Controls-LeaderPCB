@@ -1,4 +1,4 @@
-17066898051830789
+17071697909396743
 4-2172079-2
 TE_4-2172079-2
 
@@ -74871,6 +74871,13 @@ TE_4-2172079-2
 0
 6
 6
+UTSVT_Connectors
+ribbon_cable_right_2x10
+
+
+0
+20
+20
 UTSVT_ICs
 AS8510-ASSM
 
@@ -74998,6 +75005,13 @@ Mean_Well_12V
 4
 4
 UTSVT_Special
+CK1035
+
+
+0
+14
+14
+UTSVT_Special
 Diode_Symbol_Small
 
 
@@ -75032,6 +75046,13 @@ NucleoL432KC
 0
 30
 30
+UTSVT_Special
+RCD-24
+
+
+0
+6
+6
 UTSVT_Special
 Symbol_HighVoltage_Small
 Symbol, Highvoltage, Type 1, Copper Top, Small,
