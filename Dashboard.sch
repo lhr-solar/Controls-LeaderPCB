@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title "Dashboard"
 Date "2020-06-06"
 Rev "2.0"
@@ -14,91 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:LED D8
-U 1 1 5E48948C
-P 20150 6650
-F 0 "D8" H 20143 6866 50  0000 C CNN
-F 1 "MOTOR-PRECHARGE" H 20143 6775 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20150 6650 50  0001 C CNN
-F 3 "~" H 20150 6650 50  0001 C CNN
-	1    20150 6650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D9
-U 1 1 5E489B22
-P 20150 9150
-F 0 "D9" H 20143 9366 50  0000 C CNN
-F 1 "ARRAY-PRECHARGE" H 20143 9275 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20150 9150 50  0001 C CNN
-F 3 "~" H 20150 9150 50  0001 C CNN
-	1    20150 9150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 5E490E08
-P 4300 2000
-F 0 "D2" H 4293 2216 50  0000 C CNN
-F 1 "RightSignal" H 4293 2125 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 4300 2000 50  0001 C CNN
-F 3 "~" H 4300 2000 50  0001 C CNN
-	1    4300 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D1
-U 1 1 5E4915DA
-P 4300 1050
-F 0 "D1" H 4293 1266 50  0000 C CNN
-F 1 "LeftSignal" H 4293 1175 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 4300 1050 50  0001 C CNN
-F 3 "~" H 4300 1050 50  0001 C CNN
-	1    4300 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR043
-U 1 1 5E4929E3
-P 5000 1050
-F 0 "#PWR043" H 5000 900 50  0001 C CNN
-F 1 "+3.3V" H 5015 1223 50  0000 C CNN
-F 2 "" H 5000 1050 50  0001 C CNN
-F 3 "" H 5000 1050 50  0001 C CNN
-	1    5000 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R14
-U 1 1 5E495551
-P 4700 2000
-F 0 "R14" V 4495 2000 50  0000 C CNN
-F 1 "330R" V 4586 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4740 1990 50  0001 C CNN
-F 3 "~" H 4700 2000 50  0001 C CNN
-F 4 "71-CRCW0805330RFKEAC" H 4700 2000 50  0001 C CNN "Mouser Part Number"
-	1    4700 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R13
-U 1 1 5E495D04
-P 4700 1050
-F 0 "R13" V 4495 1050 50  0000 C CNN
-F 1 "330R" V 4586 1050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4740 1040 50  0001 C CNN
-F 3 "~" H 4700 1050 50  0001 C CNN
-F 4 "71-CRCW0805330RFKEAC" H 4700 1050 50  0001 C CNN "Mouser Part Number"
-	1    4700 1050
-	0    1    1    0   
-$EndComp
-$Comp
 L Switch:SW_SPDT SW1
 U 1 1 5E49A436
 P 1550 5600
 F 0 "SW1" H 1550 5275 50  0000 C CNN
 F 1 "CRUISE_SET" H 1550 5366 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 1550 5600 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 1550 5600 50  0001 C CNN
 F 3 "~" H 1550 5600 50  0001 C CNN
 	1    1550 5600
 	-1   0    0    1   
@@ -153,7 +74,7 @@ U 1 1 5E4BC4B0
 P 1550 6400
 F 0 "SW2" H 1550 6075 50  0000 C CNN
 F 1 "CRUISE" H 1550 6166 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 1550 6400 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 1550 6400 50  0001 C CNN
 F 3 "~" H 1550 6400 50  0001 C CNN
 	1    1550 6400
 	-1   0    0    1   
@@ -208,7 +129,7 @@ U 1 1 5E4BE578
 P 1550 7200
 F 0 "SW3" H 1550 6875 50  0000 C CNN
 F 1 "HAZARD" H 1550 6966 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 1550 7200 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 1550 7200 50  0001 C CNN
 F 3 "~" H 1550 7200 50  0001 C CNN
 	1    1550 7200
 	-1   0    0    1   
@@ -269,7 +190,7 @@ U 1 1 5E49B358
 P 4100 6500
 F 0 "SW8" H 4100 6175 50  0000 C CNN
 F 1 "TURN_SIGNAL_SW" H 4100 6266 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 4100 6500 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 4100 6500 50  0001 C CNN
 F 3 "~" H 4100 6500 50  0001 C CNN
 	1    4100 6500
 	-1   0    0    1   
@@ -303,7 +224,7 @@ U 1 1 5E4B768D
 P 3100 7200
 F 0 "SW5" H 3100 6875 50  0000 C CNN
 F 1 "F/R_SW" H 3100 6966 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 3100 7200 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 3100 7200 50  0001 C CNN
 F 3 "~" H 3100 7200 50  0001 C CNN
 	1    3100 7200
 	-1   0    0    1   
@@ -356,7 +277,7 @@ U 1 1 5E4CE104
 P 3100 8000
 F 0 "SW6" H 3100 7675 50  0000 C CNN
 F 1 "BACKUP_SW" H 3100 7766 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 3100 8000 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 3100 8000 50  0001 C CNN
 F 3 "~" H 3100 8000 50  0001 C CNN
 	1    3100 8000
 	-1   0    0    1   
@@ -389,7 +310,7 @@ U 1 1 5E500237
 P 4650 9300
 F 0 "SW9" H 4650 8975 50  0000 C CNN
 F 1 "KILL_SW" H 4650 9066 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 4650 9300 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 4650 9300 50  0001 C CNN
 F 3 "~" H 4650 9300 50  0001 C CNN
 	1    4650 9300
 	-1   0    0    1   
@@ -452,7 +373,7 @@ U 1 1 5E50B33B
 P 4450 9950
 F 0 "D3" V 4489 9832 50  0000 R CNN
 F 1 "KILL_SW_LED" V 4398 9832 50  0000 R CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 4450 9950 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 4450 9950 50  0001 C CNN
 F 3 "~" H 4450 9950 50  0001 C CNN
 	1    4450 9950
 	0    -1   -1   0   
@@ -476,7 +397,7 @@ U 1 1 5E52BA3C
 P 2650 9150
 F 0 "TP1" H 2708 9268 50  0000 L CNN
 F 1 "POWER" H 2708 9177 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2850 9150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2850 9150 50  0001 C CNN
 F 3 "~" H 2850 9150 50  0001 C CNN
 	1    2650 9150
 	1    0    0    -1  
@@ -679,9 +600,9 @@ $Comp
 L Connector_Generic:Conn_01x02 J15
 U 1 1 5E627CEB
 P 20950 9800
-F 0 "J15" H 20978 9776 50  0000 L CNN
-F 1 "Array-P" H 20978 9685 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20950 9800 50  0001 C CNN
+F 0 "J15" H 21050 9800 50  0000 L CNN
+F 1 "Array-P" H 21050 9700 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20950 9800 50  0001 C CNN
 F 3 "~" H 20950 9800 50  0001 C CNN
 	1    20950 9800
 	1    0    0    -1  
@@ -714,22 +635,6 @@ F 4 "71-CRCW0805105RFKEA " H 19600 9750 50  0001 C CNN "Mouser Part Number"
 $EndComp
 Wire Wire Line
 	19750 9750 19850 9750
-Wire Wire Line
-	19250 9750 19450 9750
-$Comp
-L Device:R_US R22
-U 1 1 5E63E1FD
-P 19250 9450
-F 0 "R22" H 19318 9496 50  0000 L CNN
-F 1 "330R" H 19318 9405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 19290 9440 50  0001 C CNN
-F 3 "~" H 19250 9450 50  0001 C CNN
-F 4 "71-CRCW0805330RFKEAC" H 19250 9450 50  0001 C CNN "Mouser Part Number"
-	1    19250 9450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19250 9600 19250 9750
 $Comp
 L power:GND #PWR068
 U 1 1 5E6423AD
@@ -761,9 +666,9 @@ $Comp
 L Connector_Generic:Conn_01x02 J13
 U 1 1 5E64BAA7
 P 20950 7300
-F 0 "J13" H 20978 7276 50  0000 L CNN
-F 1 "Motor-P" H 20978 7185 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20950 7300 50  0001 C CNN
+F 0 "J13" H 21050 7300 50  0000 L CNN
+F 1 "Motor-P" H 21050 7200 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20950 7300 50  0001 C CNN
 F 3 "~" H 20950 7300 50  0001 C CNN
 	1    20950 7300
 	1    0    0    -1  
@@ -794,22 +699,6 @@ F 4 "71-CRCW0805105RFKEA " H 19600 7250 50  0001 C CNN "Mouser Part Number"
 $EndComp
 Wire Wire Line
 	19750 7250 19850 7250
-Wire Wire Line
-	19250 7250 19450 7250
-$Comp
-L Device:R_US R21
-U 1 1 5E64BABB
-P 19250 6950
-F 0 "R21" H 19318 6996 50  0000 L CNN
-F 1 "330R" H 19318 6905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 19290 6940 50  0001 C CNN
-F 3 "~" H 19250 6950 50  0001 C CNN
-F 4 "71-CRCW0805330RFKEAC" H 19250 6950 50  0001 C CNN "Mouser Part Number"
-	1    19250 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19250 7100 19250 7250
 $Comp
 L power:GND #PWR066
 U 1 1 5E64BAC2
@@ -841,9 +730,9 @@ $Comp
 L Connector_Generic:Conn_01x02 J12
 U 1 1 5E652AE5
 P 20950 6050
-F 0 "J12" H 20978 6026 50  0000 L CNN
-F 1 "Motor-C" H 20978 5935 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20950 6050 50  0001 C CNN
+F 0 "J12" H 21050 6050 50  0000 L CNN
+F 1 "Motor-C" H 21050 5950 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20950 6050 50  0001 C CNN
 F 3 "~" H 20950 6050 50  0001 C CNN
 	1    20950 6050
 	1    0    0    -1  
@@ -891,49 +780,8 @@ Wire Wire Line
 	19750 6200 19850 6200
 Text Label 18850 6000 0    50   ~ 0
 M_CNCTR
-$Comp
-L power:GND #PWR071
-U 1 1 5E6A17F9
-P 20650 6800
-F 0 "#PWR071" H 20650 6550 50  0001 C CNN
-F 1 "GND" H 20655 6627 50  0000 C CNN
-F 2 "" H 20650 6800 50  0001 C CNN
-F 3 "" H 20650 6800 50  0001 C CNN
-	1    20650 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20650 6800 20650 6650
-Wire Wire Line
-	20300 6650 20650 6650
-Wire Wire Line
-	19250 6650 19250 6800
-Wire Wire Line
-	19250 6650 20000 6650
-Wire Wire Line
-	19250 7250 18850 7250
-Connection ~ 19250 7250
 Text Label 18850 7250 0    50   ~ 0
 M_PRCHG
-Wire Wire Line
-	19250 9300 19250 9150
-Wire Wire Line
-	19250 9150 20000 9150
-$Comp
-L power:GND #PWR070
-U 1 1 5E6DEA29
-P 20600 9250
-F 0 "#PWR070" H 20600 9000 50  0001 C CNN
-F 1 "GND" H 20605 9077 50  0000 C CNN
-F 2 "" H 20600 9250 50  0001 C CNN
-F 3 "" H 20600 9250 50  0001 C CNN
-	1    20600 9250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20600 9250 20600 9150
-Wire Wire Line
-	20300 9150 20600 9150
 Text Label 18850 9750 0    50   ~ 0
 A_PRCHG
 $Comp
@@ -952,9 +800,9 @@ $Comp
 L Connector_Generic:Conn_01x02 J14
 U 1 1 5E73B007
 P 20950 8550
-F 0 "J14" H 20978 8526 50  0000 L CNN
-F 1 "Array-C" H 20978 8435 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20950 8550 50  0001 C CNN
+F 0 "J14" H 21050 8550 50  0000 L CNN
+F 1 "Array-C" H 21050 8450 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 20950 8550 50  0001 C CNN
 F 3 "~" H 20950 8550 50  0001 C CNN
 	1    20950 8550
 	1    0    0    -1  
@@ -1002,9 +850,6 @@ Wire Wire Line
 	19750 8700 19850 8700
 Text Label 18850 8500 0    50   ~ 0
 A_CNCTR
-Wire Wire Line
-	18850 9750 19250 9750
-Connection ~ 19250 9750
 Wire Notes Line
 	22700 10450 22700 5050
 Wire Notes Line
@@ -1132,7 +977,7 @@ U 1 1 5EA716D2
 P 850 1350
 F 0 "J1" H 742 1025 50  0000 C CNN
 F 1 "Left_Signal" H 742 1116 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 850 1350 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 850 1350 50  0001 C CNN
 F 3 "~" H 850 1350 50  0001 C CNN
 	1    850  1350
 	-1   0    0    1   
@@ -1266,7 +1111,7 @@ U 1 1 5EAA8B33
 P 850 2300
 F 0 "J2" H 742 1975 50  0000 C CNN
 F 1 "Right_Signal" H 742 2066 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 850 2300 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 850 2300 50  0001 C CNN
 F 3 "~" H 850 2300 50  0001 C CNN
 	1    850  2300
 	-1   0    0    1   
@@ -1309,8 +1154,6 @@ F 4 "71-CRCW0805105RFKEA " H 3950 3500 50  0001 C CNN "Mouser Part Number"
 $EndComp
 Wire Wire Line
 	3650 3500 3800 3500
-Text Label 4400 3500 2    50   ~ 0
-BK_LGHT
 $Comp
 L power:GND #PWR037
 U 1 1 5EAB4232
@@ -1400,7 +1243,7 @@ U 1 1 5EAB425F
 P 850 3250
 F 0 "J3" H 742 2925 50  0000 C CNN
 F 1 "Brake Light" H 742 3016 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 850 3250 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 850 3250 50  0001 C CNN
 F 3 "~" H 850 3250 50  0001 C CNN
 	1    850  3250
 	-1   0    0    1   
@@ -1534,7 +1377,7 @@ U 1 1 5EAC0819
 P 850 4200
 F 0 "J4" H 742 3875 50  0000 C CNN
 F 1 "Headlight" H 742 3966 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 850 4200 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 850 4200 50  0001 C CNN
 F 3 "~" H 850 4200 50  0001 C CNN
 	1    850  4200
 	-1   0    0    1   
@@ -1551,33 +1394,6 @@ Wire Wire Line
 	1200 4250 1350 4250
 Wire Wire Line
 	1050 4200 1200 4200
-Wire Wire Line
-	4100 1050 4100 1600
-Wire Wire Line
-	4150 1050 4100 1050
-Wire Wire Line
-	4150 2000 4100 2000
-Wire Wire Line
-	4100 2000 4100 2550
-$Comp
-L power:+3.3V #PWR044
-U 1 1 5EBEA44E
-P 5000 2000
-F 0 "#PWR044" H 5000 1850 50  0001 C CNN
-F 1 "+3.3V" H 5015 2173 50  0000 C CNN
-F 2 "" H 5000 2000 50  0001 C CNN
-F 3 "" H 5000 2000 50  0001 C CNN
-	1    5000 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 2000 4450 2000
-Wire Wire Line
-	4850 2000 5000 2000
-Wire Wire Line
-	4450 1050 4550 1050
-Wire Wire Line
-	4850 1050 5000 1050
 Wire Wire Line
 	2800 5500 2900 5500
 Wire Wire Line
@@ -1616,7 +1432,7 @@ U 1 1 5E4C665B
 P 3100 5600
 F 0 "SW4" H 3100 5275 50  0000 C CNN
 F 1 "HEADLIGHT_SW" H 3100 5366 50  0000 C CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 3100 5600 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 3100 5600 50  0001 C CNN
 F 3 "~" H 3100 5600 50  0001 C CNN
 	1    3100 5600
 	-1   0    0    1   
@@ -1637,9 +1453,9 @@ $Comp
 L Connector_Generic:Conn_01x03 J16
 U 1 1 5EDF1A81
 P 21400 2900
-F 0 "J16" H 21428 2926 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 21428 2835 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 21400 2900 50  0001 C CNN
+F 0 "J16" H 21500 2950 50  0000 L CNN
+F 1 "AccelConn2" H 21500 2850 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 21400 2900 50  0001 C CNN
 F 3 "~" H 21400 2900 50  0001 C CNN
 	1    21400 2900
 	1    0    0    -1  
@@ -1685,30 +1501,6 @@ F 4 "71-CRCW080510K0FKEAC " H 20950 2900 50  0001 C CNN "Mouser Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D10
-U 1 1 5EE1CFB7
-P 20600 2750
-F 0 "D10" V 20554 2829 50  0000 L CNN
-F 1 "D" V 20645 2829 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 20600 2750 50  0001 C CNN
-F 3 "~" H 20600 2750 50  0001 C CNN
-F 4 "581-SD0805S020S1R0 " H 20600 2750 50  0001 C CNN "Mouser Part Number"
-	1    20600 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D11
-U 1 1 5EE1D563
-P 20600 3050
-F 0 "D11" V 20550 3100 50  0000 L CNN
-F 1 "D" V 20645 3129 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 20600 3050 50  0001 C CNN
-F 3 "~" H 20600 3050 50  0001 C CNN
-F 4 "581-SD0805S020S1R0 " H 20600 3050 50  0001 C CNN "Mouser Part Number"
-	1    20600 3050
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C18
 U 1 1 5EE1EA31
 P 19900 3050
@@ -1720,19 +1512,13 @@ F 4 "80-C0805C104K3R " H 19900 3050 50  0001 C CNN "Mouser Part Number"
 	1    19900 3050
 	1    0    0    -1  
 $EndComp
-Connection ~ 20600 2900
 Wire Wire Line
 	21100 3000 21100 3200
-Wire Wire Line
-	21100 3200 20600 3200
 Connection ~ 21100 3200
-Connection ~ 20600 3200
 Wire Wire Line
 	21100 3300 21100 3200
 Wire Wire Line
 	21100 2900 21200 2900
-Wire Wire Line
-	20600 2900 20800 2900
 Text Label 19450 2900 0    50   ~ 0
 Accel_Pot2
 Wire Wire Line
@@ -1749,9 +1535,9 @@ $Comp
 L Connector_Generic:Conn_01x03 J17
 U 1 1 5EEF4646
 P 21400 4200
-F 0 "J17" H 21428 4226 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 21428 4135 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 21400 4200 50  0001 C CNN
+F 0 "J17" H 21500 4250 50  0000 L CNN
+F 1 "BrakeConn2" H 21500 4150 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 21400 4200 50  0001 C CNN
 F 3 "~" H 21400 4200 50  0001 C CNN
 	1    21400 4200
 	1    0    0    -1  
@@ -1797,30 +1583,6 @@ F 4 "71-CRCW080510K0FKEAC " H 20950 4200 50  0001 C CNN "Mouser Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D12
-U 1 1 5EEF4661
-P 20600 4050
-F 0 "D12" V 20554 4129 50  0000 L CNN
-F 1 "D" V 20645 4129 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 20600 4050 50  0001 C CNN
-F 3 "~" H 20600 4050 50  0001 C CNN
-F 4 "581-SD0805S020S1R0 " H 20600 4050 50  0001 C CNN "Mouser Part Number"
-	1    20600 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D13
-U 1 1 5EEF4667
-P 20600 4350
-F 0 "D13" V 20550 4400 50  0000 L CNN
-F 1 "D" V 20645 4429 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 20600 4350 50  0001 C CNN
-F 3 "~" H 20600 4350 50  0001 C CNN
-F 4 "581-SD0805S020S1R0 " H 20600 4350 50  0001 C CNN "Mouser Part Number"
-	1    20600 4350
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C19
 U 1 1 5EEF4673
 P 19900 4350
@@ -1832,19 +1594,13 @@ F 4 "80-C0805C104K3R " H 19900 4350 50  0001 C CNN "Mouser Part Number"
 	1    19900 4350
 	1    0    0    -1  
 $EndComp
-Connection ~ 20600 4200
 Wire Wire Line
 	21100 4300 21100 4500
-Wire Wire Line
-	21100 4500 20600 4500
 Connection ~ 21100 4500
-Connection ~ 20600 4500
 Wire Wire Line
 	21100 4600 21100 4500
 Wire Wire Line
 	21100 4200 21200 4200
-Wire Wire Line
-	20600 4200 20800 4200
 Text Label 19450 4200 0    50   ~ 0
 Brake_Pot2
 Wire Wire Line
@@ -1856,7 +1612,6 @@ Wire Wire Line
 Connection ~ 21100 3850
 Wire Wire Line
 	21100 3800 21100 3850
-Connection ~ 19900 4200
 Wire Wire Line
 	19450 4200 19900 4200
 Wire Wire Line
@@ -1867,7 +1622,7 @@ U 1 1 5EF89C21
 P 4150 10400
 F 0 "J7" H 4230 10392 50  0000 L CNN
 F 1 "BPS_PWR" H 4230 10301 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 4150 10400 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 4150 10400 50  0001 C CNN
 F 3 "~" H 4150 10400 50  0001 C CNN
 	1    4150 10400
 	1    0    0    -1  
@@ -1878,7 +1633,7 @@ U 1 1 5EF8A410
 P 3750 8000
 F 0 "J6" H 3830 7992 50  0000 L CNN
 F 1 "Backup" H 3830 7901 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3750 8000 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3750 8000 50  0001 C CNN
 F 3 "~" H 3750 8000 50  0001 C CNN
 	1    3750 8000
 	1    0    0    -1  
@@ -2129,7 +1884,7 @@ NoConn ~ 2150 3200
 NoConn ~ 2150 4150
 Text Notes 9600 13450 0    50   ~ 10
 TODO: verify that this is all that needs to be done.\nRead the code to ensure all ports that are used are\non here.\n\nLook at all the other comments.\n\nAlso check over all the footprints again.\n\nAlso look at all the bodge wires running\naround the twins' board.
-Text Notes 20550 4000 2    50   ~ 0
+Text Notes 20800 4750 2    50   ~ 0
 TODO: figure out which diodes\nthese are.
 $Comp
 L power:GNDPWR #PWR028
@@ -2306,192 +2061,12 @@ Text Label 2000 6400 2    50   ~ 0
 CRUZ_EN
 Text Label 2800 6400 0    50   ~ 0
 LEFT_SW
-Wire Wire Line
-	4100 3500 4400 3500
-$Sheet
-S 7700 2850 600  400 
-U 5EBEF830
-F0 "lights-timer" 50
-F1 "lights-timer.sch" 50
-F2 "BLINK" I L 7700 2950 50 
-F3 "3.3V" I R 8300 2950 50 
-F4 "GND" I R 8300 3150 50 
-$EndSheet
 Text Notes 3000 2950 0    50   ~ 0
 These are negative-logic signals.
-$Comp
-L Device:Q_PNP_BEC Q1
-U 1 1 5ECD8676
-P 6000 1800
-F 0 "Q1" H 6191 1754 50  0000 L CNN
-F 1 "Q_PNP_BEC" H 6191 1845 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6200 1900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/MMBT2907ALT1-D-1811514.pdf" H 6000 1800 50  0001 C CNN
-	1    6000 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR046
-U 1 1 5EF8A3AE
-P 8500 2650
-F 0 "#PWR046" H 8500 2500 50  0001 C CNN
-F 1 "+3.3V" H 8515 2823 50  0000 C CNN
-F 2 "" H 8500 2650 50  0001 C CNN
-F 3 "" H 8500 2650 50  0001 C CNN
-	1    8500 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR047
-U 1 1 5EF8A9E1
-P 8500 3350
-F 0 "#PWR047" H 8500 3100 50  0001 C CNN
-F 1 "GND" H 8505 3177 50  0000 C CNN
-F 2 "" H 8500 3350 50  0001 C CNN
-F 3 "" H 8500 3350 50  0001 C CNN
-	1    8500 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 3350 8500 3150
-Wire Wire Line
-	8500 3150 8300 3150
-Wire Wire Line
-	8500 2650 8500 2950
-Wire Wire Line
-	8500 2950 8300 2950
-$Comp
-L Device:Q_PNP_BEC Q2
-U 1 1 5F9D9AB0
-P 6550 2750
-F 0 "Q2" H 6741 2704 50  0000 L CNN
-F 1 "Q_PNP_BEC" H 6741 2795 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6750 2850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/MMBT2907ALT1-D-1811514.pdf" H 6550 2750 50  0001 C CNN
-	1    6550 2750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Q_PNP_BEC Q3
-U 1 1 5F9E05C4
-P 7200 2350
-F 0 "Q3" H 7391 2304 50  0000 L CNN
-F 1 "Q_PNP_BEC" H 7391 2395 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7400 2450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/MMBT2907ALT1-D-1811514.pdf" H 7200 2350 50  0001 C CNN
-	1    7200 2350
-	-1   0    0    1   
-$EndComp
-Connection ~ 4100 1600
-Wire Wire Line
-	6450 2550 5650 2550
-Connection ~ 4100 2550
-Wire Wire Line
-	7100 2150 5650 2150
-Wire Wire Line
-	5650 2150 5650 2550
-Connection ~ 5650 2550
-Wire Wire Line
-	5650 2550 4100 2550
-Wire Wire Line
-	7650 2950 7650 2600
-Wire Wire Line
-	7650 2000 7250 2000
-Connection ~ 7650 2950
-Wire Wire Line
-	7650 2950 7700 2950
-Text Label 6700 1800 2    50   ~ 0
-LEFT_SW
-Text Label 7500 2750 2    50   ~ 0
-RIGHT_SW
 Wire Notes Line
 	5200 750  5200 4750
-Wire Notes Line
-	5200 1500 8800 1500
-Wire Notes Line
-	8800 1500 8800 3700
-Wire Notes Line
-	8800 3700 5200 3700
-Text Notes 7650 1700 0    50   ~ 0
-Timing control for the lights
-Wire Wire Line
-	4100 1600 5900 1600
-$Comp
-L Device:Q_PNP_BEC Q4
-U 1 1 602D1D5F
-P 7350 1800
-F 0 "Q4" H 7541 1754 50  0000 L CNN
-F 1 "Q_PNP_BEC" H 7500 1950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7550 1900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/MMBT2907ALT1-D-1811514.pdf" H 7350 1800 50  0001 C CNN
-	1    7350 1800
-	-1   0    0    1   
-$EndComp
-Connection ~ 7250 2000
-Text Label 8250 1800 2    50   ~ 0
+Text Label 12850 8350 2    50   ~ 0
 HZD_SW
-$Comp
-L Device:R_Small_US R17
-U 1 1 60370C02
-P 7750 1800
-F 0 "R17" V 7700 1650 50  0000 C CNN
-F 1 "100k" V 7850 1950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7750 1800 50  0001 C CNN
-F 3 "~" H 7750 1800 50  0001 C CNN
-	1    7750 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7850 1800 8250 1800
-Wire Wire Line
-	7550 1800 7600 1800
-Wire Wire Line
-	7600 1800 7600 2350
-Wire Wire Line
-	7600 2350 7400 2350
-Connection ~ 7600 1800
-Wire Wire Line
-	7600 1800 7650 1800
-$Comp
-L Device:R_Small_US R16
-U 1 1 6043EFF6
-P 6850 2750
-F 0 "R16" V 6800 2600 50  0000 C CNN
-F 1 "100k" V 6950 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6850 2750 50  0001 C CNN
-F 3 "~" H 6850 2750 50  0001 C CNN
-	1    6850 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6950 2750 7500 2750
-Wire Wire Line
-	6450 2950 7650 2950
-Wire Wire Line
-	7100 2550 7100 2600
-Wire Wire Line
-	7100 2600 7650 2600
-Connection ~ 7650 2600
-Wire Wire Line
-	7650 2600 7650 2000
-Connection ~ 5900 1600
-Wire Wire Line
-	5900 2000 7250 2000
-Wire Wire Line
-	5900 1600 7250 1600
-$Comp
-L Device:R_Small_US R15
-U 1 1 6050C317
-P 6300 1800
-F 0 "R15" V 6250 1650 50  0000 C CNN
-F 1 "100k" V 6400 1950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6300 1800 50  0001 C CNN
-F 3 "~" H 6300 1800 50  0001 C CNN
-	1    6300 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6400 1800 6700 1800
 Wire Wire Line
 	18850 6000 19450 6000
 $Comp
@@ -2563,9 +2138,9 @@ F 3 "" H 1800 14250 50  0001 C CNN
 $EndComp
 Text Label 2100 13950 2    50   ~ 0
 BPS_PWR
-Text Label 4500 1600 0    50   ~ 0
+Text Label 4650 1600 2    50   ~ 0
 LEFT_BLINK
-Text Label 4500 2550 0    50   ~ 0
+Text Label 4650 2550 2    50   ~ 0
 RIGHT_BLINK
 Text Label 2100 13850 2    50   ~ 0
 LEFT_BLINK
@@ -2915,14 +2490,6 @@ Text Label 12850 8750 2    50   ~ 0
 IG1
 Text Label 12850 8850 2    50   ~ 0
 IG2
-$Sheet
-S 13450 8800 850  250 
-U 5F479052
-F0 "Motor-CAN" 50
-F1 "CAN.sch" 50
-F2 "CAN_TX" I L 13450 8950 50 
-F3 "CAN_RX" O L 13450 8850 50 
-$EndSheet
 Wire Wire Line
 	13450 8850 13250 8850
 Wire Wire Line
@@ -2990,17 +2557,6 @@ F 3 "" H 11950 9200 50  0001 C CNN
 	1    11950 9200
 	1    0    0    -1  
 $EndComp
-$Comp
-L MCU_ST_STM32F4:STM32F413RHTx U7
-U 1 1 5F09EDEE
-P 11750 7250
-F 0 "U7" H 10850 5400 50  0000 C CNN
-F 1 "STM32F413RHTx" H 10850 5300 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 11150 5550 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282249.pdf" H 11750 7250 50  0001 C CNN
-	1    11750 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11950 9150 11950 9200
 Connection ~ 11950 9150
@@ -3008,22 +2564,18 @@ Wire Wire Line
 	11550 9150 11550 9200
 Connection ~ 11550 9150
 $Sheet
-S 9500 7650 600  550 
+S 9100 7650 600  550 
 U 5F7A9238
 F0 "sheet5F7A9234" 50
 F1 "USB.sch" 50
-F2 "UART_RX" I R 10100 8000 50 
-F3 "UART_TX" O R 10100 7800 50 
+F2 "UART_RX" I R 9700 8000 50 
+F3 "UART_TX" O R 9700 7800 50 
 $EndSheet
 Wire Wire Line
 	10500 8000 10500 7850
 Wire Wire Line
 	10500 7850 11050 7850
-Wire Wire Line
-	10500 8000 10100 8000
-Wire Wire Line
-	10100 7800 10500 7800
-Text Label 10500 7800 2    50   ~ 0
+Text Label 10150 7800 2    50   ~ 0
 UART3_Tx
 Text Label 12850 8450 2    50   ~ 0
 UART3_Tx
@@ -3094,8 +2646,8 @@ Wire Wire Line
 Wire Wire Line
 	14100 5950 12450 5950
 Wire Wire Line
-	12450 5750 12850 5750
-Text Label 12850 5750 2    50   ~ 0
+	12450 6150 13050 6150
+Text Label 13050 6150 2    50   ~ 0
 BK_LGHT
 Text Label 10600 7450 0    50   ~ 0
 Brake_Pot
@@ -3163,13 +2715,7 @@ Wire Wire Line
 Connection ~ 12600 1750
 NoConn ~ 11050 7150
 NoConn ~ 11050 7750
-NoConn ~ 11050 7950
-NoConn ~ 11050 8050
-NoConn ~ 11050 8150
-NoConn ~ 11050 8250
 NoConn ~ 11050 8350
-NoConn ~ 12450 8350
-NoConn ~ 12450 5850
 $Comp
 L Dash:RCD-24 PS1
 U 1 1 6092E63C
@@ -3218,13 +2764,9 @@ F 3 "" H 1750 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2150 4350
-NoConn ~ 12450 6150
 NoConn ~ 12450 6250
 NoConn ~ 12450 6350
 NoConn ~ 12450 6450
-NoConn ~ 12450 6550
-NoConn ~ 12450 6650
-NoConn ~ 12450 6750
 Wire Notes Line
 	16000 2200 22700 2200
 Wire Notes Line
@@ -3233,9 +2775,9 @@ $Comp
 L Connector_Generic:Conn_01x03 J10
 U 1 1 5EEA17CF
 P 18050 2900
-F 0 "J10" H 18078 2926 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 18078 2835 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 18050 2900 50  0001 C CNN
+F 0 "J10" H 18150 2950 50  0000 L CNN
+F 1 "AccelConn" H 18150 2850 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 18050 2900 50  0001 C CNN
 F 3 "~" H 18050 2900 50  0001 C CNN
 	1    18050 2900
 	1    0    0    -1  
@@ -3253,8 +2795,6 @@ F 3 "" H 17750 2500 50  0001 C CNN
 	1    17750 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17750 2800 17850 2800
 $Comp
 L power:GNDA #PWR062
 U 1 1 5EEA17DD
@@ -3265,44 +2805,6 @@ F 2 "" H 17750 3300 50  0001 C CNN
 F 3 "" H 17750 3300 50  0001 C CNN
 	1    17750 3300
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	17850 3000 17750 3000
-$Comp
-L Device:R_US R19
-U 1 1 5EEA17E5
-P 17600 2900
-F 0 "R19" V 17500 2900 50  0000 C CNN
-F 1 "10k" V 17700 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 17640 2890 50  0001 C CNN
-F 3 "~" H 17600 2900 50  0001 C CNN
-F 4 "71-CRCW080510K0FKEAC " H 17600 2900 50  0001 C CNN "Mouser Part Number"
-	1    17600 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D4
-U 1 1 5EEA17EC
-P 17250 2750
-F 0 "D4" V 17204 2829 50  0000 L CNN
-F 1 "D" V 17295 2829 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 17250 2750 50  0001 C CNN
-F 3 "~" H 17250 2750 50  0001 C CNN
-F 4 "581-SD0805S020S1R0 " H 17250 2750 50  0001 C CNN "Mouser Part Number"
-	1    17250 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 5EEA17F3
-P 17250 3050
-F 0 "D5" V 17200 3100 50  0000 L CNN
-F 1 "D" V 17295 3129 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 17250 3050 50  0001 C CNN
-F 3 "~" H 17250 3050 50  0001 C CNN
-F 4 "581-SD0805S020S1R0 " H 17250 3050 50  0001 C CNN "Mouser Part Number"
-	1    17250 3050
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C16
@@ -3316,38 +2818,21 @@ F 4 "80-C0805C104K3R " H 16550 3050 50  0001 C CNN "Mouser Part Number"
 	1    16550 3050
 	1    0    0    -1  
 $EndComp
-Connection ~ 17250 2900
-Wire Wire Line
-	17750 3000 17750 3200
-Wire Wire Line
-	17750 3200 17250 3200
-Connection ~ 17750 3200
-Connection ~ 17250 3200
 Wire Wire Line
 	17750 3300 17750 3200
-Wire Wire Line
-	17750 2900 17850 2900
-Wire Wire Line
-	17250 2900 17450 2900
 Text Label 16100 2900 0    50   ~ 0
 Accel_Pot
 Wire Wire Line
-	17750 2550 17750 2800
-Wire Wire Line
 	17250 2600 17250 2550
 Wire Wire Line
-	17250 2550 17750 2550
-Connection ~ 17750 2550
-Wire Wire Line
 	17750 2500 17750 2550
-Connection ~ 16550 2900
 $Comp
 L Connector_Generic:Conn_01x03 J11
 U 1 1 5EEA181C
 P 18050 4200
-F 0 "J11" H 18078 4226 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 18078 4135 50  0000 L CNN
-F 2 "utsvt_conn:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 18050 4200 50  0001 C CNN
+F 0 "J11" H 18150 4250 50  0000 L CNN
+F 1 "BrakeConn" H 18150 4150 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 18050 4200 50  0001 C CNN
 F 3 "~" H 18050 4200 50  0001 C CNN
 	1    18050 4200
 	1    0    0    -1  
@@ -3393,30 +2878,6 @@ F 4 "71-CRCW080510K0FKEAC " H 17600 4200 50  0001 C CNN "Mouser Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D6
-U 1 1 5EEA1839
-P 17250 4050
-F 0 "D6" V 17204 4129 50  0000 L CNN
-F 1 "D" V 17295 4129 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 17250 4050 50  0001 C CNN
-F 3 "~" H 17250 4050 50  0001 C CNN
-F 4 "581-SD0805S020S1R0 " H 17250 4050 50  0001 C CNN "Mouser Part Number"
-	1    17250 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D7
-U 1 1 5EEA1840
-P 17250 4350
-F 0 "D7" V 17200 4400 50  0000 L CNN
-F 1 "D" V 17295 4429 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 17250 4350 50  0001 C CNN
-F 3 "~" H 17250 4350 50  0001 C CNN
-F 4 "581-SD0805S020S1R0 " H 17250 4350 50  0001 C CNN "Mouser Part Number"
-	1    17250 4350
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C17
 U 1 1 5EEA184E
 P 16550 4350
@@ -3428,19 +2889,13 @@ F 4 "80-C0805C104K3R " H 16550 4350 50  0001 C CNN "Mouser Part Number"
 	1    16550 4350
 	1    0    0    -1  
 $EndComp
-Connection ~ 17250 4200
 Wire Wire Line
 	17750 4300 17750 4500
-Wire Wire Line
-	17750 4500 17250 4500
 Connection ~ 17750 4500
-Connection ~ 17250 4500
 Wire Wire Line
 	17750 4600 17750 4500
 Wire Wire Line
 	17750 4200 17850 4200
-Wire Wire Line
-	17250 4200 17450 4200
 Text Label 16100 4200 0    50   ~ 0
 Brake_Pot
 Wire Wire Line
@@ -3452,14 +2907,13 @@ Wire Wire Line
 Connection ~ 17750 3850
 Wire Wire Line
 	17750 3800 17750 3850
-Connection ~ 16550 4200
 Wire Wire Line
 	16100 4200 16550 4200
 Wire Wire Line
 	16100 2900 16550 2900
 Text Notes 16100 2400 0    50   ~ 0
 Potentiometers
-Text Notes 17200 4000 2    50   ~ 0
+Text Notes 19300 4750 2    50   ~ 0
 TODO: figure out which diodes\nthese are.
 Text Label 10600 7550 0    50   ~ 0
 Accel_Pot2
@@ -3474,19 +2928,441 @@ Wire Wire Line
 Wire Wire Line
 	10600 7450 11050 7450
 Wire Wire Line
-	16550 3200 17250 3200
+	4100 1600 4650 1600
 Wire Wire Line
-	16550 2900 17250 2900
+	4100 2550 4650 2550
+$Comp
+L utsvt-chips:BAS70-04 D4
+U 1 1 5F6BF6F2
+P 20600 2700
+F 0 "D4" V 20500 2750 50  0000 L CNN
+F 1 "BAS70-04" V 20600 2750 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 20600 2700 50  0001 C CNN
+F 3 "~" V 20600 2700 50  0001 C CNN
+	1    20600 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L utsvt-chips:BAS70-04 D4
+U 2 1 5F74BADC
+P 20600 3050
+F 0 "D4" V 20554 3120 50  0000 L CNN
+F 1 "BAS70-04" V 20645 3120 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 20600 3050 50  0001 C CNN
+F 3 "~" V 20600 3050 50  0001 C CNN
+	2    20600 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19900 2900 20300 2900
+Wire Wire Line
+	19900 3200 20300 3200
+Wire Wire Line
+	20600 2800 20600 2900
+Connection ~ 20600 2900
+Wire Wire Line
+	20600 2900 20800 2900
+Wire Wire Line
+	20600 2950 20600 2900
+Wire Wire Line
+	20600 3150 20600 3200
+Connection ~ 20600 3200
+Wire Wire Line
+	20600 3200 21100 3200
+$Comp
+L utsvt-chips:BAS70-04 D5
+U 1 1 5F85F9BA
+P 20600 4000
+F 0 "D5" V 20500 4050 50  0000 L CNN
+F 1 "BAS70-04" V 20600 4050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 20600 4000 50  0001 C CNN
+F 3 "~" V 20600 4000 50  0001 C CNN
+	1    20600 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L utsvt-chips:BAS70-04 D5
+U 2 1 5F85F9C0
+P 20600 4350
+F 0 "D5" V 20554 4420 50  0000 L CNN
+F 1 "BAS70-04" V 20645 4420 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 20600 4350 50  0001 C CNN
+F 3 "~" V 20600 4350 50  0001 C CNN
+	2    20600 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20600 4100 20600 4200
+Connection ~ 20600 4200
+Wire Wire Line
+	20600 4200 20800 4200
+Wire Wire Line
+	20600 4250 20600 4200
+Wire Wire Line
+	19900 4500 20600 4500
+Connection ~ 19900 4200
+Wire Wire Line
+	20600 4450 20600 4500
+Connection ~ 20600 4500
+Wire Wire Line
+	20600 4500 21100 4500
+Wire Wire Line
+	16550 3200 16950 3200
+$Comp
+L utsvt-chips:BAS70-04 D1
+U 1 1 5F9A03DA
+P 17250 2700
+F 0 "D1" V 17150 2750 50  0000 L CNN
+F 1 "BAS70-04" V 17250 2750 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 17250 2700 50  0001 C CNN
+F 3 "~" V 17250 2700 50  0001 C CNN
+	1    17250 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L utsvt-chips:BAS70-04 D1
+U 2 1 5F9A03E0
+P 17250 3050
+F 0 "D1" V 17204 3120 50  0000 L CNN
+F 1 "BAS70-04" V 17295 3120 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 17250 3050 50  0001 C CNN
+F 3 "~" V 17250 3050 50  0001 C CNN
+	2    17250 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17250 2800 17250 2900
+Connection ~ 17250 2900
+Wire Wire Line
+	17250 2950 17250 2900
+Wire Wire Line
+	17250 3150 17250 3200
+Connection ~ 17250 3200
 Wire Wire Line
 	16550 4500 17250 4500
+$Comp
+L utsvt-chips:BAS70-04 D2
+U 1 1 5FA58322
+P 17250 4000
+F 0 "D2" V 17150 4050 50  0000 L CNN
+F 1 "BAS70-04" V 17250 4050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 17250 4000 50  0001 C CNN
+F 3 "~" V 17250 4000 50  0001 C CNN
+	1    17250 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L utsvt-chips:BAS70-04 D2
+U 2 1 5FA58328
+P 17250 4350
+F 0 "D2" V 17204 4420 50  0000 L CNN
+F 1 "BAS70-04" V 17295 4420 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 17250 4350 50  0001 C CNN
+F 3 "~" V 17250 4350 50  0001 C CNN
+	2    17250 4350
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	16550 4200 17250 4200
 Wire Wire Line
-	19900 3200 20600 3200
+	17250 4100 17250 4200
+Connection ~ 17250 4200
 Wire Wire Line
-	19900 2900 20600 2900
+	17250 4200 17450 4200
 Wire Wire Line
-	19900 4500 20600 4500
+	17250 4250 17250 4200
+Wire Wire Line
+	17250 4450 17250 4500
+Connection ~ 17250 4500
+Wire Wire Line
+	17250 4500 17750 4500
+Text Label 13050 5750 2    50   ~ 0
+LEFT_BLINK
+Text Label 13050 5850 2    50   ~ 0
+RIGHT_BLINK
+Connection ~ 17750 2550
+Connection ~ 17750 3200
+Wire Wire Line
+	17250 3200 17750 3200
+Wire Wire Line
+	17250 2550 17750 2550
+Wire Wire Line
+	16550 2900 16950 2900
+Wire Wire Line
+	17250 2900 17450 2900
+Wire Wire Line
+	17750 2550 17750 2800
+Wire Wire Line
+	17750 2900 17850 2900
+Wire Wire Line
+	17750 3000 17750 3200
+$Comp
+L Device:R_US R19
+U 1 1 5EEA17E5
+P 17600 2900
+F 0 "R19" V 17500 2900 50  0000 C CNN
+F 1 "10k" V 17700 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 17640 2890 50  0001 C CNN
+F 3 "~" H 17600 2900 50  0001 C CNN
+F 4 "71-CRCW080510K0FKEAC " H 17600 2900 50  0001 C CNN "Mouser Part Number"
+	1    17600 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17850 3000 17750 3000
+Wire Wire Line
+	17750 2800 17850 2800
+Text Label 4650 3500 2    50   ~ 0
+BK_LGHT
+Wire Wire Line
+	4100 3500 4650 3500
+$Comp
+L Device:R_US R13
+U 1 1 5FCA3E4E
+P 16900 3850
+F 0 "R13" V 16800 3850 50  0000 C CNN
+F 1 "?" V 17000 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 16940 3840 50  0001 C CNN
+F 3 "~" H 16900 3850 50  0001 C CNN
+F 4 "71-CRCW080510K0FKEAC " H 16900 3850 50  0001 C CNN "Mouser Part Number"
+	1    16900 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R15
+U 1 1 5FD2C021
+P 20250 3850
+F 0 "R15" V 20150 3850 50  0000 C CNN
+F 1 "?" V 20350 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 20290 3840 50  0001 C CNN
+F 3 "~" H 20250 3850 50  0001 C CNN
+F 4 "71-CRCW080510K0FKEAC " H 20250 3850 50  0001 C CNN "Mouser Part Number"
+	1    20250 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R14
+U 1 1 5FD2DC56
+P 16950 3050
+F 0 "R14" H 17100 3100 50  0000 C CNN
+F 1 "?" H 17100 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 16990 3040 50  0001 C CNN
+F 3 "~" H 16950 3050 50  0001 C CNN
+F 4 "71-CRCW080510K0FKEAC " H 16950 3050 50  0001 C CNN "Mouser Part Number"
+	1    16950 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 16950 2900
+Wire Wire Line
+	16950 2900 17250 2900
+Connection ~ 16950 3200
+Wire Wire Line
+	16950 3200 17250 3200
+$Comp
+L Device:R_US R16
+U 1 1 5FF1E980
+P 20300 3050
+F 0 "R16" H 20450 3100 50  0000 C CNN
+F 1 "?" H 20450 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 20340 3040 50  0001 C CNN
+F 3 "~" H 20300 3050 50  0001 C CNN
+F 4 "71-CRCW080510K0FKEAC " H 20300 3050 50  0001 C CNN "Mouser Part Number"
+	1    20300 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 20300 2900
+Wire Wire Line
+	20300 2900 20600 2900
+Connection ~ 20300 3200
+Wire Wire Line
+	20300 3200 20600 3200
+Wire Wire Line
+	17050 3850 17250 3850
+Connection ~ 17250 3850
+Wire Wire Line
+	16750 3850 16550 3850
+Wire Wire Line
+	16550 3850 16550 4200
+Connection ~ 16550 4200
+Wire Wire Line
+	20600 3850 20400 3850
+Connection ~ 20600 3850
 Wire Wire Line
 	19900 4200 20600 4200
+Wire Wire Line
+	20100 3850 19900 3850
+Wire Wire Line
+	19900 3850 19900 4200
+Wire Wire Line
+	18850 9750 19450 9750
+Wire Wire Line
+	18850 7250 19450 7250
+$Comp
+L Connector_Generic:Conn_01x07 J24
+U 1 1 600A02F6
+P 16050 7850
+F 0 "J24" H 16130 7842 50  0000 L CNN
+F 1 "ExtraGPIO_Conn" H 16130 7751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 16050 7850 50  0001 C CNN
+F 3 "~" H 16050 7850 50  0001 C CNN
+	1    16050 7850
+	1    0    0    -1  
+$EndComp
+Text Notes 13050 9400 0    50   ~ 0
+Change one CAN connector to the 5 pin connector \nhttps://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/4-2172079-2/A120861-ND/5118755
+Text Notes 13550 9900 0    50   ~ 0
+Add test points\n
+$Sheet
+S 13450 8800 850  250 
+U 5F6018FB
+F0 "Motor_CAN" 50
+F1 "Motor_CAN.sch" 50
+F2 "CAN_TX" I L 13450 8950 50 
+F3 "CAN_RX" O L 13450 8850 50 
+$EndSheet
+Wire Wire Line
+	12450 8350 12850 8350
+Wire Wire Line
+	12450 5750 13050 5750
+Wire Wire Line
+	12450 5850 13050 5850
+$Comp
+L MCU_ST_STM32F4:STM32F413RHTx U7
+U 1 1 5F09EDEE
+P 11750 7250
+F 0 "U7" H 10850 5400 50  0000 C CNN
+F 1 "STM32F413RHTx" H 10850 5300 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 11150 5550 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282249.pdf" H 11750 7250 50  0001 C CNN
+	1    11750 7250
+	1    0    0    -1  
+$EndComp
+Text Label 10600 7950 0    50   ~ 0
+PC6
+Text Label 10600 8050 0    50   ~ 0
+PC7
+Text Label 10600 8150 0    50   ~ 0
+PC8
+Text Label 10600 8250 0    50   ~ 0
+PC9
+Text Label 13050 6550 2    50   ~ 0
+PA8
+Text Label 13050 6650 2    50   ~ 0
+PA9
+Text Label 13050 6750 2    50   ~ 0
+PA10
+Wire Wire Line
+	11050 7950 10600 7950
+Wire Wire Line
+	11050 8050 10600 8050
+Wire Wire Line
+	11050 8150 10600 8150
+Wire Wire Line
+	11050 8250 10600 8250
+Wire Wire Line
+	12450 6550 13050 6550
+Wire Wire Line
+	12450 6650 13050 6650
+Wire Wire Line
+	12450 6750 13050 6750
+Text Label 15400 7950 2    50   ~ 0
+PA8
+Text Label 15400 8050 2    50   ~ 0
+PA9
+Text Label 15400 8150 2    50   ~ 0
+PA10
+Text Label 15400 7850 2    50   ~ 0
+PC9
+Text Label 15400 7750 2    50   ~ 0
+PC8
+Text Label 15400 7650 2    50   ~ 0
+PC7
+Text Label 15400 7550 2    50   ~ 0
+PC6
+Wire Wire Line
+	15400 7550 15850 7550
+Wire Wire Line
+	15400 7650 15850 7650
+Wire Wire Line
+	15400 7750 15850 7750
+Wire Wire Line
+	15400 7850 15850 7850
+Wire Wire Line
+	15400 7950 15850 7950
+Wire Wire Line
+	15400 8050 15850 8050
+Wire Wire Line
+	15400 8150 15850 8150
+Text Label 10150 8000 2    50   ~ 0
+UART3_Rx
+Wire Wire Line
+	9700 7800 10150 7800
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5FBB07C8
+P 4650 1600
+F 0 "TP8" H 4592 1626 50  0000 R CNN
+F 1 "LEFT_BLINK" H 4592 1717 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4850 1600 50  0001 C CNN
+F 3 "~" H 4850 1600 50  0001 C CNN
+	1    4650 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5FBB2AF4
+P 4650 2550
+F 0 "TP11" H 4592 2576 50  0000 R CNN
+F 1 "RIGHT_BLINK" H 4592 2667 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4850 2550 50  0001 C CNN
+F 3 "~" H 4850 2550 50  0001 C CNN
+	1    4650 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5FBB5D70
+P 4650 3500
+F 0 "TP12" H 4592 3526 50  0000 R CNN
+F 1 "BK_LIGHT" H 4592 3617 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4850 3500 50  0001 C CNN
+F 3 "~" H 4850 3500 50  0001 C CNN
+	1    4650 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5FBB799A
+P 4300 4450
+F 0 "TP7" V 4254 4638 50  0000 L CNN
+F 1 "Headlight_PWR" V 4345 4638 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4500 4450 50  0001 C CNN
+F 3 "~" H 4500 4450 50  0001 C CNN
+	1    4300 4450
+	0    1    1    0   
+$EndComp
+Connection ~ 4300 4450
+Wire Wire Line
+	9700 8000 10500 8000
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FBDC250
+P 9150 8650
+AR Path="/5F6018FB/5FBDC250" Ref="J?"  Part="1" 
+AR Path="/5FBDC250" Ref="J25"  Part="1" 
+F 0 "J25" H 9068 8867 50  0000 C CNN
+F 1 "UART_TP" H 9068 8776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9150 8650 50  0001 C CNN
+F 3 "~" H 9150 8650 50  0001 C CNN
+	1    9150 8650
+	-1   0    0    -1  
+$EndComp
+Text Label 9800 8650 2    50   ~ 0
+UART3_Tx
+Text Label 9800 8750 2    50   ~ 0
+UART3_Rx
+Wire Wire Line
+	9350 8650 9800 8650
+Wire Wire Line
+	9350 8750 9800 8750
 $EndSCHEMATC
