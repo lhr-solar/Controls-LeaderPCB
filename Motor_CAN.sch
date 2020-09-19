@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -620,6 +620,7 @@ F 0 "J20" H 8770 5696 50  0000 R CNN
 F 1 "MotorCANConnector" H 8770 5605 50  0000 R CNN
 F 2 "UTSVT_Connectors:TE_4-2172079-2" H 9200 5150 50  0001 C CNN
 F 3 "" H 9200 5150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/4-2172079-2/A120861-ND/5118755" H 9200 5150 50  0001 C CNN "Digikey"
 	1    9200 5150
 	-1   0    0    -1  
 $EndComp
