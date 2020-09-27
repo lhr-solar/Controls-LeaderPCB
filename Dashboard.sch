@@ -672,8 +672,6 @@ Text Label 7000 6750 0    50   ~ 0
 BPS_FAULT
 Text Label 9600 5150 2    50   ~ 0
 CTRL_FAULT
-Text Label 9600 5650 2    50   ~ 0
-RSVD_LED
 Wire Wire Line
 	9600 7750 9000 7750
 Wire Wire Line
@@ -998,44 +996,6 @@ $EndComp
 Connection ~ 7450 5150
 Wire Wire Line
 	7450 5150 7600 5150
-$Sheet
-S 3900 9450 1150 900 
-U 5F7B30EA
-F0 "MinionBrdInterface" 50
-F1 "MinionBrdInterface.sch" 50
-F2 "MOSI" I R 5050 9900 50 
-F3 "MISO" O R 5050 9800 50 
-F4 "CLK" I R 5050 9700 50 
-F5 "CS" I R 5050 9600 50 
-F6 "UART2_Rx" O R 5050 10050 50 
-F7 "UART2_Tx" I R 5050 10150 50 
-$EndSheet
-$Sheet
-S 1550 8050 1150 2350
-U 5F768F42
-F0 "ShiftReg" 50
-F1 "ShiftReg.sch" 50
-F2 "M_CNCTR" B R 2700 8300 50 
-F3 "RSVD_LED" B R 2700 9000 50 
-F4 "CTRL_FAULT" B R 2700 8400 50 
-F5 "RIGHT_BLINK" B R 2700 8600 50 
-F6 "Headlight_ON" B R 2700 8700 50 
-F7 "A_CNCTR" B R 2700 8200 50 
-F8 "BPS_FAULT" B R 2700 8800 50 
-F9 "LEFT_BLINK" B R 2700 8500 50 
-F10 "BPS_PWR" B R 2700 8900 50 
-F11 "CRUZ_ST" B R 2700 9150 50 
-F12 "CRUZ_EN" B R 2700 9250 50 
-F13 "HZD_SW" B R 2700 9350 50 
-F14 "FR_SW" B R 2700 9450 50 
-F15 "Headlight_SW" B R 2700 9550 50 
-F16 "LEFT_SW" B R 2700 9650 50 
-F17 "RIGHT_SW" B R 2700 9750 50 
-F18 "CS" B R 2700 9900 50 
-F19 "SCK" B R 2700 10000 50 
-F20 "MISO" I R 2700 10100 50 
-F21 "MOSI" O R 2700 10200 50 
-$EndSheet
 Text Label 2950 7550 0    50   ~ 0
 A_PRCHG
 Text Label 2950 7450 0    50   ~ 0
@@ -1052,113 +1012,9 @@ Wire Wire Line
 	2700 7300 2950 7300
 Wire Wire Line
 	2700 7200 2950 7200
-Text Label 2950 8300 0    50   ~ 0
-M_CNCTR
-Wire Wire Line
-	2700 8300 2950 8300
-Wire Wire Line
-	2700 8200 2950 8200
-Wire Wire Line
-	2700 8400 2950 8400
-Wire Wire Line
-	2700 8500 2950 8500
-Wire Wire Line
-	2700 8600 2950 8600
-Wire Wire Line
-	2700 8700 2950 8700
-Wire Wire Line
-	2700 8800 2950 8800
-Wire Wire Line
-	2700 8900 2950 8900
-Wire Wire Line
-	2700 9000 2950 9000
-Wire Wire Line
-	2700 9150 2950 9150
-Wire Wire Line
-	2700 9250 2950 9250
-Wire Wire Line
-	2700 9350 2950 9350
-Wire Wire Line
-	2700 9450 2950 9450
-Wire Wire Line
-	2700 9900 2950 9900
-Wire Wire Line
-	2700 10000 2950 10000
-Wire Wire Line
-	2700 10100 2950 10100
-Wire Wire Line
-	2700 10200 2950 10200
-Wire Wire Line
-	2700 9550 2950 9550
-Wire Wire Line
-	2700 9650 2950 9650
-Wire Wire Line
-	2700 9750 2950 9750
-Text Label 2950 9000 0    50   ~ 0
-RSVD_LED
-Text Label 2950 8400 0    50   ~ 0
-CTRL_FAULT
-Text Label 2950 8600 0    50   ~ 0
-RIGHT_BLINK
-Text Label 2950 8700 0    50   ~ 0
-Headlight_ON
-Text Label 2950 8200 0    50   ~ 0
-A_CNCTR
-Text Label 2950 8800 0    50   ~ 0
-BPS_FAULT
-Text Label 2950 8500 0    50   ~ 0
-LEFT_BLINK
-Text Label 2950 8900 0    50   ~ 0
-BPS_PWR
-Text Label 2950 9150 0    50   ~ 0
-CRUZ_ST
-Text Label 2950 9250 0    50   ~ 0
-CRUZ_EN
-Text Label 2950 9350 0    50   ~ 0
-HZD_SW
-Text Label 2950 9450 0    50   ~ 0
-FR_SW
-Text Label 2950 9550 0    50   ~ 0
-Headlight_SW
-Text Label 2950 9650 0    50   ~ 0
-LEFT_SW
-Text Label 2950 9750 0    50   ~ 0
-RIGHT_SW
-Text Label 2950 9900 0    50   ~ 0
-CS
-Text Label 2950 10000 0    50   ~ 0
-SCK
-Text Label 2950 10100 0    50   ~ 0
-MISO
-Text Label 2950 10200 0    50   ~ 0
-MOSI
 Text Label 9600 5050 2    50   ~ 0
 UART2_Rx
 Text Label 9600 4950 2    50   ~ 0
-UART2_Tx
-Wire Wire Line
-	5050 9600 5300 9600
-Wire Wire Line
-	5050 9700 5300 9700
-Wire Wire Line
-	5050 9800 5300 9800
-Wire Wire Line
-	5050 9900 5300 9900
-Text Label 5300 9600 0    50   ~ 0
-CS
-Text Label 5300 9700 0    50   ~ 0
-SCK
-Text Label 5300 9800 0    50   ~ 0
-MISO
-Text Label 5300 9900 0    50   ~ 0
-MOSI
-Text Label 5300 10050 0    50   ~ 0
-UART2_Rx
-Wire Wire Line
-	5050 10050 5300 10050
-Wire Wire Line
-	5050 10150 5300 10150
-Text Label 5300 10150 0    50   ~ 0
 UART2_Tx
 Wire Wire Line
 	7600 6550 7000 6550
@@ -1209,9 +1065,151 @@ Wire Wire Line
 	12900 6150 12450 6150
 Text Label 12900 6250 2    50   ~ 0
 PC14
-Text Label 12900 6150 2    50   ~ 0
-PC15
 Text Label 11500 6050 0    50   ~ 0
 PD2
 NoConn ~ 12450 6050
+Text Label 5300 10150 0    50   ~ 0
+UART2_Tx
+Wire Wire Line
+	5050 10150 5300 10150
+Wire Wire Line
+	5050 10050 5300 10050
+Text Label 5300 10050 0    50   ~ 0
+UART2_Rx
+Text Label 5300 9900 0    50   ~ 0
+MOSI
+Text Label 5300 9800 0    50   ~ 0
+MISO
+Text Label 5300 9700 0    50   ~ 0
+SCK
+Text Label 5300 9600 0    50   ~ 0
+CS
+Wire Wire Line
+	5050 9900 5300 9900
+Wire Wire Line
+	5050 9800 5300 9800
+Wire Wire Line
+	5050 9700 5300 9700
+Wire Wire Line
+	5050 9600 5300 9600
+$Sheet
+S 3900 9450 1150 900 
+U 5F7B30EA
+F0 "MinionBrdInterface" 50
+F1 "MinionBrdInterface.sch" 50
+F2 "MOSI" I R 5050 9900 50 
+F3 "MISO" O R 5050 9800 50 
+F4 "CLK" I R 5050 9700 50 
+F5 "CS" I R 5050 9600 50 
+F6 "UART2_Rx" O R 5050 10050 50 
+F7 "UART2_Tx" I R 5050 10150 50 
+$EndSheet
+Text Label 2950 10200 0    50   ~ 0
+MOSI
+Text Label 2950 10100 0    50   ~ 0
+MISO
+Text Label 2950 10000 0    50   ~ 0
+SCK
+Text Label 2950 9900 0    50   ~ 0
+CS
+Text Label 2950 9750 0    50   ~ 0
+RIGHT_SW
+Text Label 2950 9650 0    50   ~ 0
+LEFT_SW
+Text Label 2950 9550 0    50   ~ 0
+Headlight_SW
+Text Label 2950 9450 0    50   ~ 0
+FR_SW
+Text Label 2950 9350 0    50   ~ 0
+HZD_SW
+Text Label 2950 9250 0    50   ~ 0
+CRUZ_EN
+Text Label 2950 9150 0    50   ~ 0
+CRUZ_ST
+Text Label 2950 8900 0    50   ~ 0
+BPS_PWR
+Text Label 2950 8500 0    50   ~ 0
+LEFT_BLINK
+Text Label 2950 8800 0    50   ~ 0
+BPS_FAULT
+Text Label 2950 8200 0    50   ~ 0
+A_CNCTR
+Text Label 2950 8700 0    50   ~ 0
+Headlight_ON
+Text Label 2950 8600 0    50   ~ 0
+RIGHT_BLINK
+Text Label 2950 8400 0    50   ~ 0
+CTRL_FAULT
+Text Label 2950 9000 0    50   ~ 0
+RSVD_LED
+Wire Wire Line
+	2700 9750 2950 9750
+Wire Wire Line
+	2700 9650 2950 9650
+Wire Wire Line
+	2700 9550 2950 9550
+Wire Wire Line
+	2700 10200 2950 10200
+Wire Wire Line
+	2700 10100 2950 10100
+Wire Wire Line
+	2700 10000 2950 10000
+Wire Wire Line
+	2700 9900 2950 9900
+Wire Wire Line
+	2700 9450 2950 9450
+Wire Wire Line
+	2700 9350 2950 9350
+Wire Wire Line
+	2700 9250 2950 9250
+Wire Wire Line
+	2700 9150 2950 9150
+Wire Wire Line
+	2700 9000 2950 9000
+Wire Wire Line
+	2700 8900 2950 8900
+Wire Wire Line
+	2700 8800 2950 8800
+Wire Wire Line
+	2700 8700 2950 8700
+Wire Wire Line
+	2700 8600 2950 8600
+Wire Wire Line
+	2700 8500 2950 8500
+Wire Wire Line
+	2700 8400 2950 8400
+Wire Wire Line
+	2700 8200 2950 8200
+Wire Wire Line
+	2700 8300 2950 8300
+Text Label 2950 8300 0    50   ~ 0
+M_CNCTR
+$Sheet
+S 1550 8050 1150 2350
+U 5F768F42
+F0 "ShiftReg" 50
+F1 "ShiftReg.sch" 50
+F2 "M_CNCTR" B R 2700 8300 50 
+F3 "RSVD_LED" B R 2700 9000 50 
+F4 "CTRL_FAULT" B R 2700 8400 50 
+F5 "RIGHT_BLINK" B R 2700 8600 50 
+F6 "Headlight_ON" B R 2700 8700 50 
+F7 "A_CNCTR" B R 2700 8200 50 
+F8 "BPS_FAULT" B R 2700 8800 50 
+F9 "LEFT_BLINK" B R 2700 8500 50 
+F10 "BPS_PWR" B R 2700 8900 50 
+F11 "CRUZ_ST" B R 2700 9150 50 
+F12 "CRUZ_EN" B R 2700 9250 50 
+F13 "HZD_SW" B R 2700 9350 50 
+F14 "FR_SW" B R 2700 9450 50 
+F15 "Headlight_SW" B R 2700 9550 50 
+F16 "LEFT_SW" B R 2700 9650 50 
+F17 "RIGHT_SW" B R 2700 9750 50 
+F18 "CS" B R 2700 9900 50 
+F19 "SCK" B R 2700 10000 50 
+F20 "MISO" I R 2700 10100 50 
+F21 "MOSI" O R 2700 10200 50 
+$EndSheet
+Text Label 12900 6150 2    50   ~ 0
+PC15
 $EndSCHEMATC
