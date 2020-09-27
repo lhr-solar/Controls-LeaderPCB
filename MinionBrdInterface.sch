@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -397,10 +397,10 @@ Wire Wire Line
 	9750 3350 9400 3350
 Wire Wire Line
 	9750 3450 9400 3450
-Text Label 9400 3350 0    50   ~ 0
-UART2_Rx
 Text Label 9400 3450 0    50   ~ 0
-UART2_Tx
+UART_Rx
+Text Label 9400 3350 0    50   ~ 0
+UART_Tx
 Wire Wire Line
 	8350 3550 9750 3550
 Wire Wire Line
@@ -439,8 +439,16 @@ NoConn ~ 9750 3950
 NoConn ~ 9750 4050
 NoConn ~ 9750 4150
 NoConn ~ 9750 4250
-Text HLabel 9400 3350 0    50   Output ~ 0
-UART2_Rx
-Text HLabel 9400 3450 0    50   Input ~ 0
-UART2_Tx
+Text HLabel 9400 3450 0    50   Output ~ 0
+UART_Rx
+Text HLabel 9400 3350 0    50   Input ~ 0
+UART_Tx
+Text Label 2850 3700 0    50   ~ 0
+MOSI
+Text Label 2850 3800 0    50   ~ 0
+MISO
+Text Label 2850 3900 0    50   ~ 0
+CLK
+Text Label 2850 4000 0    50   ~ 0
+CS
 $EndSCHEMATC

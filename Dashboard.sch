@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 11
+Sheet 1 10
 Title "Dashboard"
 Date "2020-06-06"
 Rev "2.0"
@@ -265,8 +265,6 @@ F 3 "~" H 13900 9150 50  0001 C CNN
 	1    13900 9150
 	1    0    0    -1  
 $EndComp
-Text Label 7000 6950 0    50   ~ 0
-HZD_SW
 Text Notes 13150 6900 0    50   ~ 0
 All of these are negative logic LEDs\n
 Text Notes 13150 6650 0    50   ~ 0
@@ -395,8 +393,6 @@ Wire Wire Line
 Connection ~ 6600 4600
 Text Label 7600 4250 2    50   ~ 0
 NRST
-Wire Wire Line
-	7600 4250 7600 4750
 $Comp
 L Device:C_Small C10
 U 1 1 5F33850B
@@ -494,10 +490,6 @@ F 3 "" H 6550 6150 50  0001 C CNN
 $EndComp
 Text Notes 7050 5950 0    50   ~ 10
 8M
-Wire Wire Line
-	7600 7050 7000 7050
-Text Label 7000 7050 0    50   ~ 0
-FR_SW
 Text Label 9600 6050 2    50   ~ 0
 SWDIO
 Text Label 9600 6150 2    50   ~ 0
@@ -557,17 +549,17 @@ Wire Wire Line
 	9000 6250 9600 6250
 Wire Wire Line
 	7000 6650 7600 6650
-Text Label 7000 6650 0    50   ~ 0
+Text Label 7000 6550 0    50   ~ 0
 M_CNCTR
-Text Label 9600 6850 2    50   ~ 0
+Text Label 7000 7350 0    50   ~ 0
 Accel_Pot
 Wire Wire Line
-	9000 6550 9600 6550
+	9000 4750 9600 4750
 Wire Wire Line
-	9000 6650 9600 6650
-Text Label 9600 6550 2    50   ~ 0
+	9000 4850 9600 4850
+Text Label 9600 4850 2    50   ~ 0
 IG1
-Text Label 9600 6650 2    50   ~ 0
+Text Label 9600 4750 2    50   ~ 0
 IG2
 $Sheet
 S 1550 4600 1150 400 
@@ -641,47 +633,19 @@ $EndSheet
 Wire Wire Line
 	7000 6850 7600 6850
 Text Label 2950 4050 0    50   ~ 0
-UART3_Tx
-Text Label 9600 7450 2    50   ~ 0
-UART3_Tx
+UART2_Tx
 Wire Wire Line
 	9000 7450 9600 7450
 Wire Wire Line
-	9000 6450 9600 6450
-Text Label 9600 6450 2    50   ~ 0
+	7600 7050 7000 7050
+Text Label 7000 7050 0    50   ~ 0
 BK_LIGHT
-Text Label 9600 6950 2    50   ~ 0
+Text Label 7000 7450 0    50   ~ 0
 Brake_Pot
-Wire Wire Line
-	9000 5550 9600 5550
-Text Label 9600 5550 2    50   ~ 0
-RIGHT_SW
-Text Label 9600 5450 2    50   ~ 0
+Text Label 7000 6950 0    50   ~ 0
 Headlight_ON
 Wire Wire Line
-	9600 5450 9000 5450
-Text Label 9600 7750 2    50   ~ 0
-CRUZ_ST
-Wire Wire Line
-	7600 7250 7000 7250
-Text Label 7000 7250 0    50   ~ 0
-LEFT_SW
-Text Label 9600 7850 2    50   ~ 0
-CRUZ_EN
-Text Label 7000 6750 0    50   ~ 0
-BPS_FAULT
-Text Label 9600 5150 2    50   ~ 0
-CTRL_FAULT
-Wire Wire Line
-	9600 7750 9000 7750
-Wire Wire Line
-	9600 7850 9000 7850
-Wire Wire Line
-	9600 5650 9000 5650
-Wire Wire Line
-	9600 5150 9000 5150
-Wire Wire Line
-	7000 6750 7600 6750
+	7000 6950 7600 6950
 Wire Wire Line
 	8550 2400 8050 2400
 Connection ~ 8550 2400
@@ -712,21 +676,21 @@ Wire Wire Line
 Wire Wire Line
 	9750 2900 9750 2800
 Connection ~ 9150 2900
-Text Label 9600 7050 2    50   ~ 0
+Text Label 7000 7550 0    50   ~ 0
 Accel_Pot2
-Text Label 9600 7150 2    50   ~ 0
+Text Label 7000 6150 0    50   ~ 0
 Brake_Pot2
 Wire Wire Line
-	9600 7150 9000 7150
+	7000 6150 7600 6150
 Wire Wire Line
-	9600 7050 9000 7050
+	7000 7550 7600 7550
 Wire Wire Line
-	9600 6850 9000 6850
+	7000 7350 7600 7350
 Wire Wire Line
-	9600 6950 9000 6950
-Text Label 9600 5250 2    50   ~ 0
+	7000 7450 7600 7450
+Text Label 7000 7250 0    50   ~ 0
 LEFT_BLINK
-Text Label 9600 5350 2    50   ~ 0
+Text Label 7000 7150 0    50   ~ 0
 RIGHT_BLINK
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J24
@@ -748,22 +712,9 @@ F2 "CAN_TX" I R 2700 5550 50
 F3 "CAN_RX" O R 2700 5450 50 
 $EndSheet
 Wire Wire Line
-	7600 6950 7000 6950
+	7600 7250 7000 7250
 Wire Wire Line
-	9000 5250 9600 5250
-Wire Wire Line
-	9000 5350 9600 5350
-$Comp
-L MCU_ST_STM32F4:STM32F413RHTx U7
-U 1 1 5F09EDEE
-P 8300 6250
-F 0 "U7" H 7400 4400 50  0000 C CNN
-F 1 "STM32F413RHTx" H 7400 4300 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 7700 4550 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282249.pdf" H 8300 6250 50  0001 C CNN
-	1    8300 6250
-	1    0    0    -1  
-$EndComp
+	7600 7150 7000 7150
 Text Label 7000 7650 0    50   ~ 0
 PC13
 Text Label 7000 7750 0    50   ~ 0
@@ -771,13 +722,13 @@ PC14
 Text Label 7000 7850 0    50   ~ 0
 PC15
 Wire Wire Line
-	7600 7350 7000 7350
+	9000 6850 9600 6850
 Wire Wire Line
-	7600 7450 7000 7450
+	9000 6950 9600 6950
 Wire Wire Line
-	7600 7550 7000 7550
+	9000 7050 9600 7050
 Wire Wire Line
-	7600 6150 7000 6150
+	9000 7150 9600 7150
 Wire Wire Line
 	7600 7650 7000 7650
 Wire Wire Line
@@ -802,9 +753,7 @@ F 3 "~" H 12150 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 11500 6850 0    50   ~ 0
-UART3_Tx
-Text Label 11500 6950 0    50   ~ 0
-UART3_Rx
+UART2_Tx
 Wire Wire Line
 	11950 6850 11500 6850
 Wire Wire Line
@@ -826,7 +775,7 @@ U 1 1 5F7C966B
 P 12000 9200
 F 0 "LOGO1" H 12000 9350 50  0001 C CNN
 F 1 "Dr. Hallock" H 12140 9200 50  0000 L CNN
-F 2 "UTSVT_Special:Hallock_Image_Small" H 12000 9275 50  0001 C CNN
+F 2 "UTSVT_Special:Hallock_Image" H 12000 9275 50  0001 C CNN
 F 3 "" H 12000 9275 50  0001 C CNN
 	1    12000 9200
 	1    0    0    -1  
@@ -849,10 +798,6 @@ F3 "RIGHT_BLINK" I R 2700 2300 50
 F4 "BK_LIGHT" I R 2700 2400 50 
 F5 "Headlight_ON" I R 2700 2500 50 
 $EndSheet
-Wire Wire Line
-	7000 7150 7600 7150
-Text Label 7000 7150 0    50   ~ 0
-Headlight_SW
 Text Label 2950 2200 0    50   ~ 0
 LEFT_BLINK
 Text Label 2950 2300 0    50   ~ 0
@@ -893,7 +838,7 @@ BPS_PWR
 Wire Wire Line
 	2700 4150 2950 4150
 Text Label 2950 4150 0    50   ~ 0
-UART3_Rx
+UART2_Rx
 Text Label 9600 5850 2    50   ~ 0
 CAN_Rx
 Text Label 9600 5950 2    50   ~ 0
@@ -1012,13 +957,9 @@ Wire Wire Line
 	2700 7300 2950 7300
 Wire Wire Line
 	2700 7200 2950 7200
-Text Label 9600 5050 2    50   ~ 0
-UART2_Rx
-Text Label 9600 4950 2    50   ~ 0
-UART2_Tx
 Wire Wire Line
 	7600 6550 7000 6550
-Text Label 7000 6550 0    50   ~ 0
+Text Label 7000 6650 0    50   ~ 0
 M_PRCHG
 Wire Wire Line
 	7000 6450 7600 6450
@@ -1028,16 +969,14 @@ Wire Wire Line
 	7600 6350 7000 6350
 Text Label 7000 6350 0    50   ~ 0
 A_PRCHG
-Text Label 7000 6150 0    50   ~ 0
-PD2
-Text Label 7000 7350 0    50   ~ 0
-PC10
-Text Label 7000 7450 0    50   ~ 0
-PC11
-Text Label 7000 7550 0    50   ~ 0
-PC12
-NoConn ~ 9000 4750
-NoConn ~ 9000 4850
+Text Label 9600 7150 2    50   ~ 0
+PB7
+Text Label 9600 6850 2    50   ~ 0
+PB4
+Text Label 9600 6950 2    50   ~ 0
+PB5
+Text Label 9600 7050 2    50   ~ 0
+PB6
 NoConn ~ 9000 5750
 NoConn ~ 9000 7250
 NoConn ~ 9000 7350
@@ -1048,11 +987,11 @@ Wire Wire Line
 Wire Wire Line
 	11500 6150 11950 6150
 Text Label 11500 6350 0    50   ~ 0
-PC10
+PB4
 Text Label 11500 6150 0    50   ~ 0
-PC12
+PB6
 Text Label 11500 6250 0    50   ~ 0
-PC11
+PB5
 Text Label 12900 6350 2    50   ~ 0
 PC13
 Wire Wire Line
@@ -1066,150 +1005,89 @@ Wire Wire Line
 Text Label 12900 6250 2    50   ~ 0
 PC14
 Text Label 11500 6050 0    50   ~ 0
-PD2
+PB7
 NoConn ~ 12450 6050
-Text Label 5300 10150 0    50   ~ 0
-UART2_Tx
+Text Label 2950 8750 0    50   ~ 0
+UART3_Tx
 Wire Wire Line
-	5050 10150 5300 10150
+	2700 8750 2950 8750
 Wire Wire Line
-	5050 10050 5300 10050
-Text Label 5300 10050 0    50   ~ 0
-UART2_Rx
-Text Label 5300 9900 0    50   ~ 0
-MOSI
-Text Label 5300 9800 0    50   ~ 0
-MISO
-Text Label 5300 9700 0    50   ~ 0
-SCK
-Text Label 5300 9600 0    50   ~ 0
-CS
-Wire Wire Line
-	5050 9900 5300 9900
-Wire Wire Line
-	5050 9800 5300 9800
-Wire Wire Line
-	5050 9700 5300 9700
-Wire Wire Line
-	5050 9600 5300 9600
-$Sheet
-S 3900 9450 1150 900 
-U 5F7B30EA
-F0 "MinionBrdInterface" 50
-F1 "MinionBrdInterface.sch" 50
-F2 "MOSI" I R 5050 9900 50 
-F3 "MISO" O R 5050 9800 50 
-F4 "CLK" I R 5050 9700 50 
-F5 "CS" I R 5050 9600 50 
-F6 "UART2_Rx" O R 5050 10050 50 
-F7 "UART2_Tx" I R 5050 10150 50 
-$EndSheet
-Text Label 2950 10200 0    50   ~ 0
-MOSI
-Text Label 2950 10100 0    50   ~ 0
-MISO
-Text Label 2950 10000 0    50   ~ 0
-SCK
-Text Label 2950 9900 0    50   ~ 0
-CS
-Text Label 2950 9750 0    50   ~ 0
-RIGHT_SW
-Text Label 2950 9650 0    50   ~ 0
-LEFT_SW
-Text Label 2950 9550 0    50   ~ 0
-Headlight_SW
-Text Label 2950 9450 0    50   ~ 0
-FR_SW
-Text Label 2950 9350 0    50   ~ 0
-HZD_SW
-Text Label 2950 9250 0    50   ~ 0
-CRUZ_EN
-Text Label 2950 9150 0    50   ~ 0
-CRUZ_ST
-Text Label 2950 8900 0    50   ~ 0
-BPS_PWR
+	2700 8650 2950 8650
+Text Label 2950 8650 0    50   ~ 0
+UART3_Rx
 Text Label 2950 8500 0    50   ~ 0
-LEFT_BLINK
-Text Label 2950 8800 0    50   ~ 0
-BPS_FAULT
-Text Label 2950 8200 0    50   ~ 0
-A_CNCTR
-Text Label 2950 8700 0    50   ~ 0
-Headlight_ON
-Text Label 2950 8600 0    50   ~ 0
-RIGHT_BLINK
+MOSI
 Text Label 2950 8400 0    50   ~ 0
-CTRL_FAULT
-Text Label 2950 9000 0    50   ~ 0
-RSVD_LED
-Wire Wire Line
-	2700 9750 2950 9750
-Wire Wire Line
-	2700 9650 2950 9650
-Wire Wire Line
-	2700 9550 2950 9550
-Wire Wire Line
-	2700 10200 2950 10200
-Wire Wire Line
-	2700 10100 2950 10100
-Wire Wire Line
-	2700 10000 2950 10000
-Wire Wire Line
-	2700 9900 2950 9900
-Wire Wire Line
-	2700 9450 2950 9450
-Wire Wire Line
-	2700 9350 2950 9350
-Wire Wire Line
-	2700 9250 2950 9250
-Wire Wire Line
-	2700 9150 2950 9150
-Wire Wire Line
-	2700 9000 2950 9000
-Wire Wire Line
-	2700 8900 2950 8900
-Wire Wire Line
-	2700 8800 2950 8800
-Wire Wire Line
-	2700 8700 2950 8700
-Wire Wire Line
-	2700 8600 2950 8600
+MISO
+Text Label 2950 8300 0    50   ~ 0
+CLK
+Text Label 2950 8200 0    50   ~ 0
+CS
 Wire Wire Line
 	2700 8500 2950 8500
 Wire Wire Line
 	2700 8400 2950 8400
 Wire Wire Line
-	2700 8200 2950 8200
-Wire Wire Line
 	2700 8300 2950 8300
-Text Label 2950 8300 0    50   ~ 0
-M_CNCTR
+Wire Wire Line
+	2700 8200 2950 8200
 $Sheet
-S 1550 8050 1150 2350
-U 5F768F42
-F0 "ShiftReg" 50
-F1 "ShiftReg.sch" 50
-F2 "M_CNCTR" B R 2700 8300 50 
-F3 "RSVD_LED" B R 2700 9000 50 
-F4 "CTRL_FAULT" B R 2700 8400 50 
-F5 "RIGHT_BLINK" B R 2700 8600 50 
-F6 "Headlight_ON" B R 2700 8700 50 
-F7 "A_CNCTR" B R 2700 8200 50 
-F8 "BPS_FAULT" B R 2700 8800 50 
-F9 "LEFT_BLINK" B R 2700 8500 50 
-F10 "BPS_PWR" B R 2700 8900 50 
-F11 "CRUZ_ST" B R 2700 9150 50 
-F12 "CRUZ_EN" B R 2700 9250 50 
-F13 "HZD_SW" B R 2700 9350 50 
-F14 "FR_SW" B R 2700 9450 50 
-F15 "Headlight_SW" B R 2700 9550 50 
-F16 "LEFT_SW" B R 2700 9650 50 
-F17 "RIGHT_SW" B R 2700 9750 50 
-F18 "CS" B R 2700 9900 50 
-F19 "SCK" B R 2700 10000 50 
-F20 "MISO" I R 2700 10100 50 
-F21 "MOSI" O R 2700 10200 50 
+S 1550 8050 1150 900 
+U 5F7B30EA
+F0 "MinionBrdInterface" 50
+F1 "MinionBrdInterface.sch" 50
+F2 "MOSI" I R 2700 8500 50 
+F3 "MISO" O R 2700 8400 50 
+F4 "CLK" I R 2700 8300 50 
+F5 "CS" I R 2700 8200 50 
+F6 "UART_Rx" O R 2700 8650 50 
+F7 "UART_Tx" I R 2700 8750 50 
 $EndSheet
 Text Label 12900 6150 2    50   ~ 0
 PC15
+Wire Wire Line
+	7600 4250 7600 4750
+NoConn ~ 9000 7750
+NoConn ~ 9000 7850
+NoConn ~ 7600 6750
+NoConn ~ 9000 5550
+NoConn ~ 9000 5650
+NoConn ~ 9000 6450
+$Comp
+L MCU_ST_STM32F4:STM32F413RHTx U7
+U 1 1 5F09EDEE
+P 8300 6250
+F 0 "U7" H 7400 4400 50  0000 C CNN
+F 1 "STM32F413RHTx" H 7400 4300 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 7700 4550 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282249.pdf" H 8300 6250 50  0001 C CNN
+	1    8300 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 5450 9000 5450
+Text Label 9600 5450 2    50   ~ 0
+MOSI
+Wire Wire Line
+	9000 5350 9600 5350
+Text Label 9600 5350 2    50   ~ 0
+MISO
+Wire Wire Line
+	9600 5250 9000 5250
+Text Label 9600 5250 2    50   ~ 0
+CLK
+Wire Wire Line
+	9000 5150 9600 5150
+Text Label 9600 5150 2    50   ~ 0
+CS
+NoConn ~ 9000 6550
+NoConn ~ 9000 6650
+Text Label 9600 5050 2    50   ~ 0
+UART2_Rx
+Text Label 9600 4950 2    50   ~ 0
+UART2_Tx
+Text Label 9600 7450 2    50   ~ 0
+UART3_Tx
+Text Label 11500 6950 0    50   ~ 0
+UART2_Rx
 $EndSCHEMATC
