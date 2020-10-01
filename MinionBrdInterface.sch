@@ -451,4 +451,31 @@ Text Label 2850 3900 0    50   ~ 0
 CLK
 Text Label 2850 4000 0    50   ~ 0
 CS
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5F76763B
+P 5250 5450
+F 0 "J6" H 5330 5442 50  0000 L CNN
+F 1 "SPI" H 5330 5351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5250 5450 50  0001 C CNN
+F 3 "~" H 5250 5450 50  0001 C CNN
+	1    5250 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5350 5050 5350
+Wire Wire Line
+	4600 5550 5050 5550
+Wire Wire Line
+	4600 5650 5050 5650
+Wire Wire Line
+	4600 5450 5050 5450
+Text Label 4600 5350 0    50   ~ 0
+MOSI
+Text Label 4600 5450 0    50   ~ 0
+MISO
+Text Label 4600 5550 0    50   ~ 0
+CLK
+Text Label 4600 5650 0    50   ~ 0
+CS
 $EndSCHEMATC
