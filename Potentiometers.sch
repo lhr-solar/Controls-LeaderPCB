@@ -377,19 +377,6 @@ F 3 "~" V 7350 2950 50  0001 C CNN
 	1    7350 2950
 	0    1    1    0   
 $EndComp
-$Comp
-L utsvt-chips:BAS70-04 D?
-U 2 1 5FAAA58E
-P 7350 3300
-AR Path="/5FAAA58E" Ref="D?"  Part="2" 
-AR Path="/5FA99DC3/5FAAA58E" Ref="D4"  Part="2" 
-F 0 "D4" V 7304 3370 50  0000 L CNN
-F 1 "BAS70-04" V 7395 3370 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" V 7350 3300 50  0001 C CNN
-F 3 "~" V 7350 3300 50  0001 C CNN
-	2    7350 3300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6650 3150 7050 3150
 Wire Wire Line
@@ -417,19 +404,6 @@ F 1 "BAS70-04" V 7350 4300 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" V 7350 4250 50  0001 C CNN
 F 3 "~" V 7350 4250 50  0001 C CNN
 	1    7350 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L utsvt-chips:BAS70-04 D?
-U 2 1 5FAAA5A3
-P 7350 4600
-AR Path="/5FAAA5A3" Ref="D?"  Part="2" 
-AR Path="/5FA99DC3/5FAAA5A3" Ref="D5"  Part="2" 
-F 0 "D5" V 7304 4670 50  0000 L CNN
-F 1 "BAS70-04" V 7395 4670 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" V 7350 4600 50  0001 C CNN
-F 3 "~" V 7350 4600 50  0001 C CNN
-	2    7350 4600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -462,19 +436,6 @@ F 3 "~" V 4000 2950 50  0001 C CNN
 	1    4000 2950
 	0    1    1    0   
 $EndComp
-$Comp
-L utsvt-chips:BAS70-04 D?
-U 2 1 5FAAA5B9
-P 4000 3300
-AR Path="/5FAAA5B9" Ref="D?"  Part="2" 
-AR Path="/5FA99DC3/5FAAA5B9" Ref="D2"  Part="2" 
-F 0 "D2" V 3954 3370 50  0000 L CNN
-F 1 "BAS70-04" V 4045 3370 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" V 4000 3300 50  0001 C CNN
-F 3 "~" V 4000 3300 50  0001 C CNN
-	2    4000 3300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4000 3050 4000 3150
 Connection ~ 4000 3150
@@ -496,19 +457,6 @@ F 1 "BAS70-04" V 4000 4300 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" V 4000 4250 50  0001 C CNN
 F 3 "~" V 4000 4250 50  0001 C CNN
 	1    4000 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L utsvt-chips:BAS70-04 D?
-U 2 1 5FAAA5CB
-P 4000 4600
-AR Path="/5FAAA5CB" Ref="D?"  Part="2" 
-AR Path="/5FA99DC3/5FAAA5CB" Ref="D3"  Part="2" 
-F 0 "D3" V 3954 4670 50  0000 L CNN
-F 1 "BAS70-04" V 4045 4670 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" V 4000 4600 50  0001 C CNN
-F 3 "~" V 4000 4600 50  0001 C CNN
-	2    4000 4600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -652,4 +600,48 @@ Text HLabel 2850 4450 0    50   Output ~ 0
 Brake_Pot
 Text HLabel 6200 4450 0    50   Output ~ 0
 Brake_Pot2
+$Comp
+L utsvt-chips:BAS70-04 D2
+U 2 1 5F7BB467
+P 4000 3300
+F 0 "D2" V 3954 3370 50  0000 L CNN
+F 1 "BAS70-04" V 4045 3370 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 4000 3300 50  0001 C CNN
+F 3 "~" V 4000 3300 50  0001 C CNN
+	2    4000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L utsvt-chips:BAS70-04 D3
+U 2 1 5F7BC260
+P 4000 4600
+F 0 "D3" V 3954 4670 50  0000 L CNN
+F 1 "BAS70-04" V 4045 4670 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 4000 4600 50  0001 C CNN
+F 3 "~" V 4000 4600 50  0001 C CNN
+	2    4000 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L utsvt-chips:BAS70-04 D4
+U 2 1 5F7BC9B9
+P 7350 3300
+F 0 "D4" V 7304 3370 50  0000 L CNN
+F 1 "BAS70-04" V 7395 3370 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 7350 3300 50  0001 C CNN
+F 3 "~" V 7350 3300 50  0001 C CNN
+	2    7350 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L utsvt-chips:BAS70-04 D5
+U 2 1 5F7BD2F1
+P 7350 4600
+F 0 "D5" V 7304 4670 50  0000 L CNN
+F 1 "BAS70-04" V 7395 4670 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" V 7350 4600 50  0001 C CNN
+F 3 "~" V 7350 4600 50  0001 C CNN
+	2    7350 4600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

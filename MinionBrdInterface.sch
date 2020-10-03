@@ -377,10 +377,6 @@ Wire Wire Line
 	9550 3450 9550 3400
 Wire Wire Line
 	10450 3450 10450 3400
-Wire Wire Line
-	10250 3550 10600 3550
-Wire Wire Line
-	10250 3650 10600 3650
 Text Label 10600 3650 2    50   ~ 0
 UART_Rx
 Text Label 10600 3550 2    50   ~ 0
@@ -461,21 +457,25 @@ Wire Wire Line
 Wire Wire Line
 	8350 3550 9750 3550
 Wire Wire Line
+	10250 3650 10600 3650
+Wire Wire Line
+	10250 3550 10600 3550
+Wire Wire Line
 	10250 3450 10450 3450
 Wire Wire Line
 	10250 3750 10450 3750
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J?
 U 1 1 5D76E59D
-P 10050 3650
+P 9950 3650
 AR Path="/5C4C7509/5D76E59D" Ref="J?"  Part="1" 
 AR Path="/5D766247/5D76E59D" Ref="J7"  Part="1" 
 AR Path="/5F7B30EA/5D76E59D" Ref="J5"  Part="1" 
-F 0 "J5" H 10050 3250 50  0000 L CNN
-F 1 "MinionConn" H 9900 3150 50  0000 L CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_2x6xP3.00mm_PolarizingPeg_Vertical" H 10050 3650 50  0001 C CNN
-F 3 "~" H 10050 3650 50  0001 C CNN
-	1    10050 3650
-	-1   0    0    -1  
+F 0 "J5" H 9950 3250 50  0000 L CNN
+F 1 "MinionConn" H 9800 3150 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_2x6xP3.00mm_PolarizingPeg_Vertical" H 9950 3650 50  0001 C CNN
+F 3 "~" H 9950 3650 50  0001 C CNN
+	1    9950 3650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

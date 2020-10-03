@@ -695,13 +695,13 @@ RIGHT_BLINK
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J24
 U 1 1 600A02F6
-P 12150 6150
-F 0 "J24" H 12300 5850 50  0000 L CNN
-F 1 "ExtraGPIO_Conn" H 12300 5750 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 12150 6150 50  0001 C CNN
-F 3 "~" H 12150 6150 50  0001 C CNN
-	1    12150 6150
-	1    0    0    -1  
+P 12250 6150
+F 0 "J24" H 12400 5850 50  0000 L CNN
+F 1 "ExtraGPIO_Conn" H 12400 5750 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 12250 6150 50  0001 C CNN
+F 3 "~" H 12250 6150 50  0001 C CNN
+	1    12250 6150
+	-1   0    0    -1  
 $EndComp
 $Sheet
 S 1550 5300 1150 400 
@@ -740,14 +740,14 @@ UART3_Rx
 Wire Wire Line
 	2700 4050 2950 4050
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x03 J?
 U 1 1 5FBDC250
 P 12150 6850
 AR Path="/5F6018FB/5FBDC250" Ref="J?"  Part="1" 
 AR Path="/5FBDC250" Ref="J25"  Part="1" 
 F 0 "J25" H 12300 6850 50  0000 C CNN
 F 1 "UART_TP" H 12400 6750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12150 6850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12150 6850 50  0001 C CNN
 F 3 "~" H 12150 6850 50  0001 C CNN
 	1    12150 6850
 	1    0    0    -1  
@@ -986,13 +986,7 @@ Wire Wire Line
 	11500 6250 11950 6250
 Wire Wire Line
 	11500 6150 11950 6150
-Text Label 11500 6350 0    50   ~ 0
-PB4
-Text Label 11500 6150 0    50   ~ 0
-PB6
-Text Label 11500 6250 0    50   ~ 0
-PB5
-Text Label 12900 6350 2    50   ~ 0
+Text Label 12900 6150 2    50   ~ 0
 PC13
 Wire Wire Line
 	11500 6050 11950 6050
@@ -1004,9 +998,6 @@ Wire Wire Line
 	12900 6150 12450 6150
 Text Label 12900 6250 2    50   ~ 0
 PC14
-Text Label 11500 6050 0    50   ~ 0
-PB7
-NoConn ~ 12450 6050
 Text Label 2950 8750 0    50   ~ 0
 UART3_Tx
 Wire Wire Line
@@ -1043,7 +1034,7 @@ F5 "CS" I R 2700 8200 50
 F6 "UART_Rx" O R 2700 8650 50 
 F7 "UART_Tx" I R 2700 8750 50 
 $EndSheet
-Text Label 12900 6150 2    50   ~ 0
+Text Label 12900 6350 2    50   ~ 0
 PC15
 Wire Wire Line
 	7600 4250 7600 4750
@@ -1090,4 +1081,42 @@ Text Label 9600 7450 2    50   ~ 0
 UART3_Tx
 Text Label 11500 6950 0    50   ~ 0
 UART2_Rx
+$Comp
+L power:GND #PWR0127
+U 1 1 5F80136C
+P 12500 6450
+F 0 "#PWR0127" H 12500 6200 50  0001 C CNN
+F 1 "GND" H 12505 6277 50  0000 C CNN
+F 2 "" H 12500 6450 50  0001 C CNN
+F 3 "" H 12500 6450 50  0001 C CNN
+	1    12500 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 6450 12500 6050
+Wire Wire Line
+	12500 6050 12450 6050
+$Comp
+L power:GND #PWR0128
+U 1 1 5F80BFC1
+P 11900 7050
+F 0 "#PWR0128" H 11900 6800 50  0001 C CNN
+F 1 "GND" H 11905 6877 50  0000 C CNN
+F 2 "" H 11900 7050 50  0001 C CNN
+F 3 "" H 11900 7050 50  0001 C CNN
+	1    11900 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 7050 11900 6750
+Wire Wire Line
+	11900 6750 11950 6750
+Text Label 11500 6350 0    50   ~ 0
+PB7
+Text Label 11500 6250 0    50   ~ 0
+PB6
+Text Label 11500 6150 0    50   ~ 0
+PB5
+Text Label 11500 6050 0    50   ~ 0
+PB4
 $EndSCHEMATC

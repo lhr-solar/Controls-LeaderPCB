@@ -1,4 +1,4 @@
-update=10/2/2020 11:51:47 PM
+update=10/3/2020 4:49:28 AM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Dash2.net
+LastNetListRead=Dashboard.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -47,10 +47,10 @@ ViaDrill2=0.4
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
-SilkLineWidth=0.12
-SilkTextSizeV=0.762
-SilkTextSizeH=0.762
-SilkTextSizeThickness=0.07619999999999999
+SilkLineWidth=0.25
+SilkTextSizeV=1
+SilkTextSizeH=1
+SilkTextSizeThickness=0.15
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -240,7 +240,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.127
+Clearance=0.2
 TrackWidth=0.25
 ViaDiameter=0.6
 ViaDrill=0.3
