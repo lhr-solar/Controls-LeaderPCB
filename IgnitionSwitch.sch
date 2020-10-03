@@ -13,33 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Switch:SW_Rotary2x6 SW?
-U 1 1 5F6BD6DD
-P 6450 3800
-AR Path="/5F6BD6DD" Ref="SW?"  Part="1" 
-AR Path="/5F6B59CE/5F6BD6DD" Ref="SW8"  Part="1" 
-F 0 "SW8" H 6500 2975 50  0000 C CNN
-F 1 "SW_Rotary2x6" H 6500 3066 50  0000 C CNN
-F 2 "UTSVT_Special:CK1035" H 6350 4400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/242/CK-681.pdf" H 6350 4400 50  0001 C CNN
-F 4 "10WA325 " H 6450 3800 50  0001 C CNN "Mouser Part Number"
-	1    6450 3800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5950 4000 5950 4100
-Wire Wire Line
-	5950 4100 5950 4200
-Connection ~ 5950 4100
-Connection ~ 5950 4200
-Wire Wire Line
-	5950 4200 5950 4300
-Connection ~ 5950 4300
-Wire Wire Line
-	5950 4300 5950 4400
 NoConn ~ 5950 3900
-Connection ~ 5950 4400
 NoConn ~ 5950 3200
 $Comp
 L Connector:TestPoint TP?
@@ -248,8 +222,6 @@ F 3 "" H 4200 4300 50  0001 C CNN
 $EndComp
 Text Notes 5100 2550 0    100  ~ 20
 Ignition Switch
-Wire Wire Line
-	5950 4400 5950 4500
 Text HLabel 4450 4700 2    50   Output ~ 0
 IG1
 Text HLabel 5400 4700 2    50   Output ~ 0
@@ -336,23 +308,6 @@ F 3 "~" H 6900 4750 50  0001 C CNN
 	1    6900 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 5F6BD6E9
-P 7200 3200
-AR Path="/5F6BD6E9" Ref="#PWR?"  Part="1" 
-AR Path="/5F6B59CE/5F6BD6E9" Ref="#PWR0143"  Part="1" 
-F 0 "#PWR0143" H 7200 3050 50  0001 C CNN
-F 1 "+12V" H 7215 3373 50  0000 C CNN
-F 2 "" H 7200 3200 50  0001 C CNN
-F 3 "" H 7200 3200 50  0001 C CNN
-	1    7200 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 3200 7200 3400
-Wire Wire Line
-	6850 3400 7200 3400
 Wire Wire Line
 	5850 4500 5950 4500
 Wire Wire Line
@@ -361,35 +316,20 @@ Connection ~ 5950 4500
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5F8C3B18
-P 7150 4100
+P 7550 3700
 AR Path="/5F8C3B18" Ref="J?"  Part="1" 
 AR Path="/5F6B59CE/5F8C3B18" Ref="J9"  Part="1" 
-F 0 "J9" H 7230 4092 50  0000 L CNN
-F 1 "BPS_PWR_IN" H 7230 4001 50  0000 L CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 7150 4100 50  0001 C CNN
-F 3 "~" H 7150 4100 50  0001 C CNN
-	1    7150 4100
+F 0 "J9" H 7630 3692 50  0000 L CNN
+F 1 "POW_2ND_CONN" H 7630 3601 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 7550 3700 50  0001 C CNN
+F 3 "~" H 7550 3700 50  0001 C CNN
+	1    7550 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 4100 6850 4100
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5F8C4E7D
-P 6850 4300
-AR Path="/5F8C4E7D" Ref="#PWR?"  Part="1" 
-AR Path="/5F6B59CE/5F8C4E7D" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 6850 4100 50  0001 C CNN
-F 1 "GNDPWR" H 6854 4146 50  0000 C CNN
-F 2 "" H 6850 4250 50  0001 C CNN
-F 3 "" H 6850 4250 50  0001 C CNN
-	1    6850 4300
-	1    0    0    -1  
-$EndComp
+	7350 3700 7250 3700
 Wire Wire Line
-	6850 4300 6850 4200
-Wire Wire Line
-	6850 4200 6950 4200
+	7250 3800 7350 3800
 Wire Wire Line
 	9850 4200 9100 4200
 Wire Wire Line
@@ -400,4 +340,58 @@ Wire Wire Line
 	9750 5050 9750 4300
 Wire Wire Line
 	9750 4300 9850 4300
+Wire Wire Line
+	5950 4400 5950 4500
+Connection ~ 5950 4400
+Connection ~ 5950 4300
+Wire Wire Line
+	5950 4300 5950 4400
+Wire Wire Line
+	5950 4200 5950 4300
+Connection ~ 5950 4200
+Connection ~ 5950 4100
+Wire Wire Line
+	5950 4100 5950 4200
+Wire Wire Line
+	5950 4000 5950 4100
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5F8C4E7D
+P 7250 3900
+AR Path="/5F8C4E7D" Ref="#PWR?"  Part="1" 
+AR Path="/5F6B59CE/5F8C4E7D" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 7250 3700 50  0001 C CNN
+F 1 "GNDPWR" H 7254 3746 50  0000 C CNN
+F 2 "" H 7250 3850 50  0001 C CNN
+F 3 "" H 7250 3850 50  0001 C CNN
+	1    7250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Rotary2x6 SW?
+U 1 1 5F6BD6DD
+P 6450 3800
+AR Path="/5F6BD6DD" Ref="SW?"  Part="1" 
+AR Path="/5F6B59CE/5F6BD6DD" Ref="SW8"  Part="1" 
+F 0 "SW8" H 6500 2975 50  0000 C CNN
+F 1 "SW_Rotary2x6" H 6500 3066 50  0000 C CNN
+F 2 "UTSVT_Special:CK1035" H 6350 4400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/242/CK-681.pdf" H 6350 4400 50  0001 C CNN
+F 4 "10WA325 " H 6450 3800 50  0001 C CNN "Mouser Part Number"
+	1    6450 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 3400 6950 3400
+Wire Wire Line
+	7250 3400 7250 3700
+Wire Wire Line
+	6850 4100 6950 4100
+Wire Wire Line
+	6950 4100 6950 3400
+Connection ~ 6950 3400
+Wire Wire Line
+	6950 3400 7250 3400
+Wire Wire Line
+	7250 3900 7250 3800
 $EndSCHEMATC
