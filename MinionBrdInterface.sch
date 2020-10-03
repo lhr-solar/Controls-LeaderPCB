@@ -211,20 +211,6 @@ Wire Wire Line
 	5400 3700 5300 3700
 Text Notes 2500 2650 0    50   ~ 0
 If the wires lengths are short and you want to save more power, change IBIAS\nresistor to be 2.8k. Look in LTC6820 datasheet for more information on\ncalculating these BIAS resistors.
-$Comp
-L Connector_Generic:Conn_01x12 J?
-U 1 1 5D76E59D
-P 9950 3650
-AR Path="/5C4C7509/5D76E59D" Ref="J?"  Part="1" 
-AR Path="/5D766247/5D76E59D" Ref="J7"  Part="1" 
-AR Path="/5F7B30EA/5D76E59D" Ref="J5"  Part="1" 
-F 0 "J5" H 10029 3642 50  0000 L CNN
-F 1 "MinionConn" H 10029 3551 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-1215_1x12_P3.00mm_Vertical" H 9950 3650 50  0001 C CNN
-F 3 "~" H 9950 3650 50  0001 C CNN
-	1    9950 3650
-	1    0    0    -1  
-$EndComp
 Text Label 7150 3550 2    50   ~ 0
 IP
 Text Label 7150 3750 2    50   ~ 0
@@ -366,82 +352,61 @@ NoConn ~ 7150 4150
 $Comp
 L power:+3.3V #PWR012
 U 1 1 5F8A5541
-P 9650 3100
-F 0 "#PWR012" H 9650 2950 50  0001 C CNN
-F 1 "+3.3V" H 9665 3273 50  0000 C CNN
-F 2 "" H 9650 3100 50  0001 C CNN
-F 3 "" H 9650 3100 50  0001 C CNN
-	1    9650 3100
+P 9550 3400
+F 0 "#PWR012" H 9550 3250 50  0001 C CNN
+F 1 "+3.3V" H 9565 3573 50  0000 C CNN
+F 2 "" H 9550 3400 50  0001 C CNN
+F 3 "" H 9550 3400 50  0001 C CNN
+	1    9550 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR010
 U 1 1 5F8A5C41
-P 9400 3100
-F 0 "#PWR010" H 9400 2950 50  0001 C CNN
-F 1 "+12V" H 9415 3273 50  0000 C CNN
-F 2 "" H 9400 3100 50  0001 C CNN
-F 3 "" H 9400 3100 50  0001 C CNN
-	1    9400 3100
-	1    0    0    -1  
+P 10450 3400
+F 0 "#PWR010" H 10450 3250 50  0001 C CNN
+F 1 "+12V" H 10465 3573 50  0000 C CNN
+F 2 "" H 10450 3400 50  0001 C CNN
+F 3 "" H 10450 3400 50  0001 C CNN
+	1    10450 3400
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 3150 9650 3150
+	9750 3450 9550 3450
 Wire Wire Line
-	9650 3150 9650 3100
+	9550 3450 9550 3400
 Wire Wire Line
-	9750 3250 9400 3250
+	10450 3450 10450 3400
 Wire Wire Line
-	9400 3250 9400 3100
+	10250 3550 10600 3550
 Wire Wire Line
-	9750 3350 9400 3350
-Wire Wire Line
-	9750 3450 9400 3450
-Text Label 9400 3450 0    50   ~ 0
+	10250 3650 10600 3650
+Text Label 10600 3650 2    50   ~ 0
 UART_Rx
-Text Label 9400 3350 0    50   ~ 0
+Text Label 10600 3550 2    50   ~ 0
 UART_Tx
 Wire Wire Line
-	8350 3550 9750 3550
+	9750 3750 9550 3750
 Wire Wire Line
-	8750 3650 9750 3650
-Wire Wire Line
-	9750 3850 9600 3850
-Wire Wire Line
-	9600 3850 9600 3900
+	9550 3750 9550 3800
 $Comp
 L power:GND #PWR011
 U 1 1 5F8B0452
-P 9600 3900
-F 0 "#PWR011" H 9600 3650 50  0001 C CNN
-F 1 "GND" H 9605 3727 50  0000 C CNN
-F 2 "" H 9600 3900 50  0001 C CNN
-F 3 "" H 9600 3900 50  0001 C CNN
-	1    9600 3900
+P 9550 3800
+F 0 "#PWR011" H 9550 3550 50  0001 C CNN
+F 1 "GND" H 9555 3627 50  0000 C CNN
+F 2 "" H 9550 3800 50  0001 C CNN
+F 3 "" H 9550 3800 50  0001 C CNN
+	1    9550 3800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDPWR #PWR09
-U 1 1 5F8B0739
-P 9350 3900
-F 0 "#PWR09" H 9350 3700 50  0001 C CNN
-F 1 "GNDPWR" H 9354 3746 50  0000 C CNN
-F 2 "" H 9350 3850 50  0001 C CNN
-F 3 "" H 9350 3850 50  0001 C CNN
-	1    9350 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 3900 9350 3750
-Wire Wire Line
-	9350 3750 9750 3750
 NoConn ~ 9750 3950
-NoConn ~ 9750 4050
-NoConn ~ 9750 4150
-NoConn ~ 9750 4250
-Text HLabel 9400 3450 0    50   Output ~ 0
+NoConn ~ 9750 3850
+NoConn ~ 10250 3850
+NoConn ~ 10250 3950
+Text HLabel 10600 3650 2    50   Output ~ 0
 UART_Rx
-Text HLabel 9400 3350 0    50   Input ~ 0
+Text HLabel 10600 3550 2    50   Input ~ 0
 UART_Tx
 Text Label 2850 3700 0    50   ~ 0
 MOSI
@@ -478,4 +443,39 @@ Text Label 4600 5550 0    50   ~ 0
 CLK
 Text Label 4600 5650 0    50   ~ 0
 CS
+$Comp
+L power:GNDPWR #PWR09
+U 1 1 5F8B0739
+P 10450 3800
+F 0 "#PWR09" H 10450 3600 50  0001 C CNN
+F 1 "GNDPWR" H 10454 3646 50  0000 C CNN
+F 2 "" H 10450 3750 50  0001 C CNN
+F 3 "" H 10450 3750 50  0001 C CNN
+	1    10450 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3750 10450 3800
+Wire Wire Line
+	8750 3650 9750 3650
+Wire Wire Line
+	8350 3550 9750 3550
+Wire Wire Line
+	10250 3450 10450 3450
+Wire Wire Line
+	10250 3750 10450 3750
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom J?
+U 1 1 5D76E59D
+P 10050 3650
+AR Path="/5C4C7509/5D76E59D" Ref="J?"  Part="1" 
+AR Path="/5D766247/5D76E59D" Ref="J7"  Part="1" 
+AR Path="/5F7B30EA/5D76E59D" Ref="J5"  Part="1" 
+F 0 "J5" H 10050 3250 50  0000 L CNN
+F 1 "MinionConn" H 9900 3150 50  0000 L CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_2x6xP3.00mm_PolarizingPeg_Vertical" H 10050 3650 50  0001 C CNN
+F 3 "~" H 10050 3650 50  0001 C CNN
+	1    10050 3650
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
