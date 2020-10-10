@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -259,6 +259,38 @@ $EndComp
 Text Notes 7600 2600 0    40   ~ 0
 CAN Bus\nProtection
 $Comp
+L Connector:TestPoint TP?
+U 1 1 5C2B43B6
+P 7300 3800
+AR Path="/5E5E1F90/5C2B43B6" Ref="TP?"  Part="1" 
+AR Path="/5E80FF20/5C2B43B6" Ref="TP?"  Part="1" 
+AR Path="/5EA71171/5C2B43B6" Ref="TP?"  Part="1" 
+AR Path="/5F479052/5C2B43B6" Ref="TP7"  Part="1" 
+AR Path="/5F547B94/5C2B43B6" Ref="TP9"  Part="1" 
+F 0 "TP9" H 7300 4100 50  0000 C BNN
+F 1 "CAN_H" H 7300 4050 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 7300 3800 50  0001 C CNN
+F 3 "" H 7300 3800 50  0001 C CNN
+	1    7300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C2B43BD
+P 7300 4000
+AR Path="/5E5E1F90/5C2B43BD" Ref="TP?"  Part="1" 
+AR Path="/5E80FF20/5C2B43BD" Ref="TP?"  Part="1" 
+AR Path="/5EA71171/5C2B43BD" Ref="TP?"  Part="1" 
+AR Path="/5F479052/5C2B43BD" Ref="TP8"  Part="1" 
+AR Path="/5F547B94/5C2B43BD" Ref="TP10"  Part="1" 
+F 0 "TP10" H 7250 4200 50  0000 L BNN
+F 1 "CAN_L" H 7200 4300 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 7300 4000 50  0001 C CNN
+F 3 "" H 7300 4000 50  0001 C CNN
+	1    7300 4000
+	-1   0    0    1   
+$EndComp
+$Comp
 L Device:R R?
 U 1 1 5C2B43C4
 P 5550 4150
@@ -356,6 +388,8 @@ Wire Wire Line
 	8450 2850 8700 2850
 Wire Wire Line
 	6050 3050 6150 3050
+Wire Wire Line
+	7300 3800 7300 3850
 Wire Wire Line
 	5700 4150 6150 4150
 Wire Wire Line
@@ -461,6 +495,18 @@ Wire Wire Line
 	6150 3050 6550 3050
 Wire Wire Line
 	6150 3350 6550 3350
+Connection ~ 7300 3850
+Wire Wire Line
+	7300 3850 7450 3850
+Wire Wire Line
+	5050 3850 7300 3850
+Wire Wire Line
+	5050 3950 7300 3950
+Wire Wire Line
+	7300 4000 7300 3950
+Connection ~ 7300 3950
+Wire Wire Line
+	7300 3950 7550 3950
 Connection ~ 5750 3350
 Text Label 5050 3850 0    50   ~ 0
 CAN_H
@@ -552,7 +598,7 @@ AR Path="/5F479052/5F15D99A" Ref="J20"  Part="1"
 AR Path="/5F547B94/5F15D99A" Ref="J22"  Part="1" 
 F 0 "J22" H 9180 3742 50  0000 L CNN
 F 1 "CAN_OUT" H 9180 3651 50  0000 L CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical" H 9100 3750 50  0001 C CNN
+F 2 "utsvt_conn:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical" H 9100 3750 50  0001 C CNN
 F 3 "~" H 9100 3750 50  0001 C CNN
 	1    9100 3750
 	1    0    0    -1  
@@ -569,7 +615,7 @@ AR Path="/5F547B94/5F175F7A" Ref="U17"  Part="1"
 AR Path="/5F175F7A" Ref="U17"  Part="1" 
 F 0 "U17" H 4350 4397 60  0000 C CNN
 F 1 "ADM3055E" H 4350 4291 60  0000 C CNN
-F 2 "UTSVT_ICs:SOIC-20W_7.5x15.4mm_Pitch1.27mm" H 4350 3700 60  0001 C CNN
+F 2 "utsvt_ics:SOIC-20W_7.5x15.4mm_Pitch1.27mm" H 4350 3700 60  0001 C CNN
 F 3 "" H 4350 3700 60  0001 C CNN
 	1    4350 3600
 	1    0    0    -1  
@@ -604,7 +650,7 @@ AR Path="/5F479052/5E667EFE" Ref="J19"  Part="1"
 AR Path="/5F547B94/5E667EFE" Ref="J21"  Part="1" 
 F 0 "J21" H 9179 3292 50  0000 L CNN
 F 1 "CAN_IN" H 9179 3201 50  0000 L CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical" H 9100 3300 50  0001 C CNN
+F 2 "utsvt_conn:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical" H 9100 3300 50  0001 C CNN
 F 3 "~" H 9100 3300 50  0001 C CNN
 	1    9100 3300
 	1    0    0    -1  
@@ -635,29 +681,4 @@ Wire Wire Line
 	8800 3200 8800 3650
 Wire Wire Line
 	8200 3250 8200 3950
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5FBD46EC
-P 9100 4500
-AR Path="/5F6018FB/5FBD46EC" Ref="J?"  Part="1" 
-AR Path="/5F547B94/5FBD46EC" Ref="J26"  Part="1" 
-F 0 "J26" H 9180 4492 50  0000 L CNN
-F 1 "CAN_TP" H 9180 4401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9100 4500 50  0001 C CNN
-F 3 "~" H 9100 4500 50  0001 C CNN
-	1    9100 4500
-	1    0    0    -1  
-$EndComp
-Text Label 8700 4500 2    50   ~ 0
-CAN_H
-Text Label 8700 4600 2    50   ~ 0
-CAN_L
-Wire Wire Line
-	8900 4500 8700 4500
-Wire Wire Line
-	8900 4600 8700 4600
-Wire Wire Line
-	5050 3850 7450 3850
-Wire Wire Line
-	5050 3950 7550 3950
 $EndSCHEMATC

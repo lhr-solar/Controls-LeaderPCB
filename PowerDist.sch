@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -81,7 +81,7 @@ U 1 1 5C37D606
 P 3250 3150
 F 0 "TP2" H 3250 3500 50  0000 L CNN
 F 1 "+12V_TP" H 3250 3400 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 3450 3150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3450 3150 50  0001 C CNN
 F 3 "~" H 3450 3150 50  0001 C CNN
 	1    3250 3150
 	1    0    0    -1  
@@ -94,7 +94,7 @@ U 1 1 5C37E6A3
 P 5450 3150
 F 0 "TP4" H 5508 3270 50  0000 L CNN
 F 1 "+5V_TP" H 5508 3179 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 5650 3150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5650 3150 50  0001 C CNN
 F 3 "~" H 5650 3150 50  0001 C CNN
 	1    5450 3150
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5C37F6B1
 P 5450 3700
 F 0 "TP5" H 5392 3727 50  0000 R CNN
 F 1 "GND_TP" H 5392 3818 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 5650 3700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5650 3700 50  0001 C CNN
 F 3 "~" H 5650 3700 50  0001 C CNN
 	1    5450 3700
 	-1   0    0    1   
@@ -164,8 +164,6 @@ F 3 "" H 6350 2900 50  0001 C CNN
 	1    6350 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6350 2900 6350 3000
 $Comp
 L power:GND #PWR081
 U 1 1 5C3F3B1F
@@ -291,7 +289,7 @@ U 1 1 5C708412
 P 8750 3150
 F 0 "TP6" H 8808 3270 50  0000 L CNN
 F 1 "+3.3V_TP" H 8800 3350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 8950 3150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 8950 3150 50  0001 C CNN
 F 3 "~" H 8950 3150 50  0001 C CNN
 	1    8750 3150
 	1    0    0    -1  
@@ -340,7 +338,7 @@ U 1 1 5C82CEA3
 P 3250 3650
 F 0 "TP3" H 3192 3677 50  0000 R CNN
 F 1 "GNDPWR_TP" H 3192 3768 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 3450 3650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3450 3650 50  0001 C CNN
 F 3 "~" H 3450 3650 50  0001 C CNN
 	1    3250 3650
 	-1   0    0    1   
@@ -369,19 +367,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 3200 3000 3350
 $Comp
-L power:PWR_FLAG #FLG04
-U 1 1 5F1E78A7
-P 7450 3200
-F 0 "#FLG04" H 7450 3275 50  0001 C CNN
-F 1 "PWR_FLAG" V 7450 3327 50  0000 L CNN
-F 2 "" H 7450 3200 50  0001 C CNN
-F 3 "~" H 7450 3200 50  0001 C CNN
-	1    7450 3200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7450 3200 7550 3200
-$Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5F1EAFA2
 P 3950 3700
@@ -392,22 +377,6 @@ F 3 "~" H 3950 3700 50  0001 C CNN
 	1    3950 3700
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG03
-U 1 1 5F1ED21F
-P 6450 3000
-F 0 "#FLG03" H 6450 3075 50  0001 C CNN
-F 1 "PWR_FLAG" V 6450 3128 50  0000 L CNN
-F 2 "" H 6450 3000 50  0001 C CNN
-F 3 "~" H 6450 3000 50  0001 C CNN
-	1    6450 3000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6450 3000 6350 3000
-Connection ~ 6350 3000
-Wire Wire Line
-	6350 3000 6350 3100
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5F1F32D3
@@ -451,4 +420,6 @@ Wire Wire Line
 	3950 3600 3950 3700
 Wire Wire Line
 	3950 3500 3950 3600
+Wire Wire Line
+	6350 2900 6350 3100
 $EndSCHEMATC
