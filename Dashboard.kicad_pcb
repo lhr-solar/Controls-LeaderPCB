@@ -7421,7 +7421,7 @@
     (arrow2b (pts (xy 207.5 42.4) (xy 206.373496 42.986421)))
   )
   (dimension 170.5 (width 0.15) (layer Cmts.User)
-    (gr_text "170.500 mm" (at 119.25 41.1) (layer Cmts.User) (tstamp 5FFBF6E7)
+    (gr_text "170.500 mm" (at 119.25 41.1) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 34 56.5) (xy 34 41.813579)))
