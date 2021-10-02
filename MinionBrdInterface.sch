@@ -285,7 +285,7 @@ Connectors
 Wire Wire Line
 	8350 3750 8750 3750
 $Comp
-L utsvt-bps:LTC6820 U?
+L Dashboard-rescue:LTC6820-utsvt-bps U?
 U 1 1 5F13EA7A
 P 3850 3500
 AR Path="/5F13EA7A" Ref="U?"  Part="1" 
@@ -473,10 +473,10 @@ Wire Wire Line
 Text HLabel 9000 3850 0    50   Input ~ 0
 BPS_PWR
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0130
 U 1 1 5FFC4650
 P 9550 3400
-F 0 "#PWR?" H 9550 3250 50  0001 C CNN
+F 0 "#PWR0130" H 9550 3250 50  0001 C CNN
 F 1 "+5V" H 9565 3573 50  0000 C CNN
 F 2 "" H 9550 3400 50  0001 C CNN
 F 3 "" H 9550 3400 50  0001 C CNN

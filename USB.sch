@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -28,11 +28,12 @@ F 4 "634-CP2102NA01GQFN24 " H 5500 3800 50  0001 C CNN "Mouser Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J?
+L Dashboard-rescue:USB_B_Micro-Connector J?
 U 1 1 5C4964BB
 P 3000 4300
 AR Path="/5E91171A/5C4964BB" Ref="J?"  Part="1" 
 AR Path="/5F7A9238/5C4964BB" Ref="J23"  Part="1" 
+AR Path="/5C4964BB" Ref="J23"  Part="1" 
 F 0 "J23" H 3000 4750 50  0000 C CNN
 F 1 "USB_B_Micro" H 3000 4650 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3150 4250 50  0001 C CNN

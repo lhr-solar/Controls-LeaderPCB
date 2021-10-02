@@ -494,10 +494,6 @@ Text Label 9600 6050 2    50   ~ 0
 SWDIO
 Text Label 9600 6150 2    50   ~ 0
 SWCLK
-Text Label 9600 6250 2    50   ~ 0
-JTDI
-Text Label 9600 6750 2    50   ~ 0
-JTDO
 Wire Wire Line
 	9000 6150 9600 6150
 Wire Wire Line
@@ -543,10 +539,6 @@ F 3 "" H 11900 4850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11900 4850 11900 5500
-Wire Wire Line
-	9000 6750 9600 6750
-Wire Wire Line
-	9000 6250 9600 6250
 Wire Wire Line
 	7000 6650 7600 6650
 Text Label 7000 6550 0    50   ~ 0
@@ -622,17 +614,9 @@ Connection ~ 8500 8150
 Wire Wire Line
 	8100 8150 8100 8200
 Connection ~ 8100 8150
-$Sheet
-S 1550 3900 1150 400 
-U 5F7A9238
-F0 "USB" 50
-F1 "USB.sch" 50
-F2 "UART_RX" I R 2700 4150 50 
-F3 "UART_TX" O R 2700 4050 50 
-$EndSheet
 Wire Wire Line
 	7000 6850 7600 6850
-Text Label 2950 4050 0    50   ~ 0
+Text Label 2950 4150 0    50   ~ 0
 UART2_Tx
 Wire Wire Line
 	9000 7450 9600 7450
@@ -837,7 +821,7 @@ Text Label 2950 3400 0    50   ~ 0
 BPS_PWR
 Wire Wire Line
 	2700 4150 2950 4150
-Text Label 2950 4150 0    50   ~ 0
+Text Label 2950 4050 0    50   ~ 0
 UART2_Rx
 Text Label 9600 5850 2    50   ~ 0
 CAN_Rx
@@ -851,10 +835,8 @@ Text Label 2950 4750 0    50   ~ 0
 CAN_Rx
 Text Label 2950 4850 0    50   ~ 0
 CAN_Tx
-Text Label 9600 7550 2    50   ~ 0
+Text Label 9600 5550 2    50   ~ 0
 MotorCAN_Rx
-Text Label 9600 7650 2    50   ~ 0
-MotorCAN_Tx
 Wire Wire Line
 	2700 5450 2950 5450
 Wire Wire Line
@@ -919,10 +901,6 @@ Wire Wire Line
 	11950 5200 11500 5200
 Wire Wire Line
 	11950 5300 11500 5300
-Wire Wire Line
-	9600 7550 9000 7550
-Wire Wire Line
-	9600 7650 9000 7650
 Wire Wire Line
 	7000 5150 7050 5150
 Wire Wire Line
@@ -1042,20 +1020,8 @@ Wire Wire Line
 NoConn ~ 9000 7750
 NoConn ~ 9000 7850
 NoConn ~ 7600 6750
-NoConn ~ 9000 5550
 NoConn ~ 9000 5650
 NoConn ~ 9000 6450
-$Comp
-L MCU_ST_STM32F4:STM32F413RHTx U7
-U 1 1 5F09EDEE
-P 8300 6250
-F 0 "U7" H 7400 4400 50  0000 C CNN
-F 1 "STM32F413RHTx" H 7400 4300 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 7700 4550 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282249.pdf" H 8300 6250 50  0001 C CNN
-	1    8300 6250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 5450 9000 5450
 Text Label 9600 5450 2    50   ~ 0
@@ -1124,4 +1090,32 @@ Text Label 2950 8600 0    50   ~ 0
 BPS_PWR
 Wire Wire Line
 	2950 8600 2700 8600
+Text Label 9600 6250 2    50   ~ 0
+MotorCAN_Tx
+Wire Wire Line
+	9000 5550 9600 5550
+$Comp
+L MCU_ST_STM32F4:STM32F413RHTx U7
+U 1 1 5F09EDEE
+P 8300 6250
+F 0 "U7" H 7400 4400 50  0000 C CNN
+F 1 "STM32F413RHTx" H 7400 4300 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 7700 4550 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282249.pdf" H 8300 6250 50  0001 C CNN
+	1    8300 6250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9000 7550
+NoConn ~ 9000 7650
+NoConn ~ 9000 6750
+Wire Wire Line
+	9000 6250 9600 6250
+$Sheet
+S 1550 3900 1150 400 
+U 5F7A9238
+F0 "USB" 50
+F1 "USB.sch" 50
+F2 "UART_RX" I R 2700 4150 50 
+F3 "UART_TX" O R 2700 4050 50 
+$EndSheet
 $EndSCHEMATC
