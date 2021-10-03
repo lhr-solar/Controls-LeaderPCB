@@ -498,52 +498,26 @@ Wire Wire Line
 	9000 6150 9600 6150
 Wire Wire Line
 	9000 6050 9600 6050
-$Comp
-L Connector_Generic:Conn_01x06 J8
-U 1 1 5F4102B2
-P 12150 5200
-F 0 "J8" H 12230 5192 50  0000 L CNN
-F 1 "JTAG" H 12230 5101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 12150 5200 50  0001 C CNN
-F 3 "~" H 12150 5200 50  0001 C CNN
-	1    12150 5200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	11950 5400 11500 5400
+	11950 5550 11550 5550
 Wire Wire Line
-	11500 5400 11500 5500
-Wire Wire Line
-	11950 5500 11900 5500
+	11550 5550 11550 5650
 $Comp
 L power:GND #PWR057
 U 1 1 5F4102BB
-P 11500 5500
-F 0 "#PWR057" H 11500 5250 50  0001 C CNN
-F 1 "GND" H 11505 5327 50  0000 C CNN
-F 2 "" H 11500 5500 50  0001 C CNN
-F 3 "" H 11500 5500 50  0001 C CNN
-	1    11500 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR058
-U 1 1 5F4102C1
-P 11900 4850
-F 0 "#PWR058" H 11900 4700 50  0001 C CNN
-F 1 "+3.3V" H 11915 5023 50  0000 C CNN
-F 2 "" H 11900 4850 50  0001 C CNN
-F 3 "" H 11900 4850 50  0001 C CNN
-	1    11900 4850
+P 11550 5650
+F 0 "#PWR057" H 11550 5400 50  0001 C CNN
+F 1 "GND" H 11555 5477 50  0000 C CNN
+F 2 "" H 11550 5650 50  0001 C CNN
+F 3 "" H 11550 5650 50  0001 C CNN
+	1    11550 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11900 4850 11900 5500
-Wire Wire Line
-	7000 6650 7600 6650
-Text Label 7000 6550 0    50   ~ 0
+	7000 6150 7600 6150
+Text Label 7000 7550 0    50   ~ 0
 M_CNCTR
-Text Label 7000 7350 0    50   ~ 0
+Text Label 7000 6350 0    50   ~ 0
 Accel_Pot
 Wire Wire Line
 	9000 4750 9600 4750
@@ -624,7 +598,7 @@ Wire Wire Line
 	7600 7050 7000 7050
 Text Label 7000 7050 0    50   ~ 0
 BK_LIGHT
-Text Label 7000 7450 0    50   ~ 0
+Text Label 7000 6450 0    50   ~ 0
 Brake_Pot
 Text Label 7000 6950 0    50   ~ 0
 Headlight_ON
@@ -660,18 +634,18 @@ Wire Wire Line
 Wire Wire Line
 	9750 2900 9750 2800
 Connection ~ 9150 2900
-Text Label 7000 7550 0    50   ~ 0
+Text Label 7000 6550 0    50   ~ 0
 Accel_Pot2
-Text Label 7000 6150 0    50   ~ 0
+Text Label 7000 6650 0    50   ~ 0
 Brake_Pot2
 Wire Wire Line
-	7000 6150 7600 6150
+	7000 6650 7600 6650
 Wire Wire Line
-	7000 7550 7600 7550
+	7000 6550 7600 6550
 Wire Wire Line
-	7000 7350 7600 7350
+	7000 6350 7600 6350
 Wire Wire Line
-	7000 7450 7600 7450
+	7000 6450 7600 6450
 Text Label 7000 7250 0    50   ~ 0
 LEFT_BLINK
 Text Label 7000 7150 0    50   ~ 0
@@ -885,22 +859,14 @@ Wire Wire Line
 	9600 4950 9000 4950
 Wire Wire Line
 	9600 5050 9000 5050
-Text Label 11500 5000 0    50   ~ 0
+Text Label 11550 5450 0    50   ~ 0
 SWDIO
-Text Label 11500 5300 0    50   ~ 0
+Text Label 11550 5350 0    50   ~ 0
 SWCLK
-Text Label 11500 5100 0    50   ~ 0
-JTDI
-Text Label 11500 5200 0    50   ~ 0
-JTDO
 Wire Wire Line
-	11950 5000 11500 5000
+	11950 5450 11550 5450
 Wire Wire Line
-	11950 5100 11500 5100
-Wire Wire Line
-	11950 5200 11500 5200
-Wire Wire Line
-	11950 5300 11500 5300
+	11950 5350 11550 5350
 Wire Wire Line
 	7000 5150 7050 5150
 Wire Wire Line
@@ -936,16 +902,16 @@ Wire Wire Line
 Wire Wire Line
 	2700 7200 2950 7200
 Wire Wire Line
-	7600 6550 7000 6550
-Text Label 7000 6650 0    50   ~ 0
+	7600 7550 7000 7550
+Text Label 7000 6150 0    50   ~ 0
 M_PRCHG
 Wire Wire Line
-	7000 6450 7600 6450
-Text Label 7000 6450 0    50   ~ 0
+	7000 7450 7600 7450
+Text Label 7000 7450 0    50   ~ 0
 A_CNCTR
 Wire Wire Line
-	7600 6350 7000 6350
-Text Label 7000 6350 0    50   ~ 0
+	7600 7350 7000 7350
+Text Label 7000 7350 0    50   ~ 0
 A_PRCHG
 Text Label 9600 7150 2    50   ~ 0
 PB7
@@ -1118,4 +1084,30 @@ F1 "USB.sch" 50
 F2 "UART_RX" I R 2700 4150 50 
 F3 "UART_TX" O R 2700 4050 50 
 $EndSheet
+$Comp
+L power:+3.3V #PWR058
+U 1 1 5F4102C1
+P 11550 5150
+F 0 "#PWR058" H 11550 5000 50  0001 C CNN
+F 1 "+3.3V" H 11565 5323 50  0000 C CNN
+F 2 "" H 11550 5150 50  0001 C CNN
+F 3 "" H 11550 5150 50  0001 C CNN
+	1    11550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5F4102B2
+P 12150 5350
+F 0 "J8" H 12230 5342 50  0000 L CNN
+F 1 "SWD" H 12230 5251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12150 5350 50  0001 C CNN
+F 3 "~" H 12150 5350 50  0001 C CNN
+	1    12150 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 5250 11550 5250
+Wire Wire Line
+	11550 5250 11550 5150
 $EndSCHEMATC
