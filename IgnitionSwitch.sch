@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -375,7 +375,7 @@ AR Path="/5F6BD6DD" Ref="SW?"  Part="1"
 AR Path="/5F6B59CE/5F6BD6DD" Ref="SW8"  Part="1" 
 F 0 "SW8" H 6500 2975 50  0000 C CNN
 F 1 "SW_Rotary2x6" H 6500 3066 50  0000 C CNN
-F 2 "UTSVT_Special:CK1035" H 6350 4400 50  0001 C CNN
+F 2 "UTSVT_Special:CK1035_resized" H 6350 4400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/242/CK-681.pdf" H 6350 4400 50  0001 C CNN
 F 4 "10WA325 " H 6450 3800 50  0001 C CNN "Mouser Part Number"
 	1    6450 3800

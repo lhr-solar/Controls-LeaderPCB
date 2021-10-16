@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -93,13 +93,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5F8A4005
-P 3550 2300
-F 0 "J1" H 3442 1975 50  0000 C CNN
-F 1 "Left_Signal" H 3442 2066 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3550 2300 50  0001 C CNN
-F 3 "~" H 3550 2300 50  0001 C CNN
-	1    3550 2300
-	-1   0    0    -1  
+P 3550 2400
+F 0 "J1" H 3442 2075 50  0000 C CNN
+F 1 "Left_Signal" H 3442 2166 50  0000 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3550 2400 50  0001 C CNN
+F 3 "~" H 3550 2400 50  0001 C CNN
+	1    3550 2400
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3750 2300 3900 2300
@@ -225,13 +225,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5F8A404F
-P 3550 3250
-F 0 "J2" H 3442 2925 50  0000 C CNN
-F 1 "Right_Signal" H 3442 3016 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3550 3250 50  0001 C CNN
-F 3 "~" H 3550 3250 50  0001 C CNN
-	1    3550 3250
-	-1   0    0    -1  
+P 3550 3350
+F 0 "J2" H 3442 3025 50  0000 C CNN
+F 1 "Right_Signal" H 3442 3116 50  0000 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3550 3350 50  0001 C CNN
+F 3 "~" H 3550 3350 50  0001 C CNN
+	1    3550 3350
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3750 3250 3900 3250
@@ -357,13 +357,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5F8A4098
-P 3550 4200
-F 0 "J3" H 3442 3875 50  0000 C CNN
-F 1 "Brake Light" H 3442 3966 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3550 4200 50  0001 C CNN
-F 3 "~" H 3550 4200 50  0001 C CNN
-	1    3550 4200
-	-1   0    0    -1  
+P 3550 4300
+F 0 "J3" H 3442 3975 50  0000 C CNN
+F 1 "Brake Light" H 3442 4066 50  0000 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3550 4300 50  0001 C CNN
+F 3 "~" H 3550 4300 50  0001 C CNN
+	1    3550 4300
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3750 4200 3900 4200
@@ -489,13 +489,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5F8A40E1
-P 3550 5150
-F 0 "J4" H 3442 4825 50  0000 C CNN
-F 1 "Headlight" H 3442 4916 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3550 5150 50  0001 C CNN
-F 3 "~" H 3550 5150 50  0001 C CNN
-	1    3550 5150
-	-1   0    0    -1  
+P 3550 5250
+F 0 "J4" H 3442 4925 50  0000 C CNN
+F 1 "Headlight" H 3442 5016 50  0000 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 3550 5250 50  0001 C CNN
+F 3 "~" H 3550 5250 50  0001 C CNN
+	1    3550 5250
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3750 5150 3900 5150
