@@ -717,7 +717,7 @@ Wire Wire Line
 Wire Wire Line
 	11950 6950 11500 6950
 $Comp
-L utsvt-misc:Logo_Placeholder LOGO2
+L Dashboard-rescue:Logo_Placeholder-utsvt-misc LOGO2
 U 1 1 5F7C8578
 P 12000 9500
 F 0 "LOGO2" H 12000 9650 50  0001 C CNN
@@ -728,7 +728,7 @@ F 3 "" H 12000 9575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-misc:Logo_Placeholder LOGO1
+L Dashboard-rescue:Logo_Placeholder-utsvt-misc LOGO1
 U 1 1 5F7C966B
 P 12000 9200
 F 0 "LOGO1" H 12000 9350 50  0001 C CNN

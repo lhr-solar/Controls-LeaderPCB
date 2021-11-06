@@ -558,7 +558,7 @@ F 3 "~" H 9100 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-chips:ADM3055E U?
+L Dashboard-rescue:ADM3055E-utsvt-chips U?
 U 1 1 5F175F7A
 P 4350 3600
 AR Path="/5E5E1F90/5F175F7A" Ref="U?"  Part="1" 
@@ -575,7 +575,7 @@ F 3 "" H 4350 3700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-chips:CDSOT23-T24CAN U?
+L Dashboard-rescue:CDSOT23-T24CAN-utsvt-chips U?
 U 1 1 5F177CC0
 P 8100 2850
 AR Path="/5E5E1F90/5F177CC0" Ref="U?"  Part="1" 

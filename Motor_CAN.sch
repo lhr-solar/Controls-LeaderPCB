@@ -570,7 +570,7 @@ F 3 "~" H 9050 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-chips:ADM3055E U?
+L Dashboard-rescue:ADM3055E-utsvt-chips U?
 U 1 1 5F63A68F
 P 4300 3750
 AR Path="/5E5E1F90/5F63A68F" Ref="U?"  Part="1" 
@@ -588,7 +588,7 @@ F 3 "" H 4300 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-chips:CDSOT23-T24CAN U?
+L Dashboard-rescue:CDSOT23-T24CAN-utsvt-chips U?
 U 1 1 5F63A696
 P 8050 3000
 AR Path="/5E5E1F90/5F63A696" Ref="U?"  Part="1" 
@@ -613,7 +613,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 3300 8650 3900
 $Comp
-L utsvt-connectors:MotorCANConnector J20
+L Dashboard-rescue:MotorCANConnector-utsvt-connectors J20
 U 1 1 5F63ED37
 P 9200 5150
 F 0 "J20" H 8770 5696 50  0000 R CNN

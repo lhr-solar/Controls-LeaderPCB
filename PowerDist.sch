@@ -300,7 +300,7 @@ Connection ~ 8750 3200
 Wire Wire Line
 	8750 3200 8550 3200
 $Comp
-L utsvt-power-regulators:RI3-1205S U12
+L Dashboard-rescue:RI3-1205S-utsvt-power-regulators U12
 U 1 1 5C38C4FE
 P 4500 3200
 F 0 "U12" H 4500 3365 50  0000 C CNN
