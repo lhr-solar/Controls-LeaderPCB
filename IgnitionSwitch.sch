@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -70,7 +70,7 @@ Wire Wire Line
 	5850 3700 5850 3600
 Connection ~ 5850 3500
 Wire Wire Line
-	5850 3500 4950 3500
+	5850 3500 5500 3500
 Wire Wire Line
 	5950 3600 5850 3600
 Connection ~ 5850 3600
@@ -79,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3400 4050 3600
 Wire Wire Line
-	4050 3400 5950 3400
+	4050 3400 4240 3400
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5F6BD736
@@ -394,4 +394,36 @@ Wire Wire Line
 	6950 3400 7250 3400
 Wire Wire Line
 	7250 3900 7250 3800
+$Comp
+L Device:R_US R?
+U 1 1 6190FB56
+P 5350 3500
+AR Path="/6190FB56" Ref="R?"  Part="1" 
+AR Path="/5F6B59CE/6190FB56" Ref="R6"  Part="1" 
+F 0 "R6" H 5418 3546 50  0000 L CNN
+F 1 "510" H 5418 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5390 3490 50  0001 C CNN
+F 3 "~" H 5350 3500 50  0001 C CNN
+F 4 "71-CRCW08054K99FKEAC " H 5350 3500 50  0001 C CNN "Mouser Part Number"
+	1    5350 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 3500 4950 3500
+$Comp
+L Device:R_US R?
+U 1 1 61912237
+P 4390 3400
+AR Path="/61912237" Ref="R?"  Part="1" 
+AR Path="/5F6B59CE/61912237" Ref="R5"  Part="1" 
+F 0 "R5" H 4458 3446 50  0000 L CNN
+F 1 "510" H 4458 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4430 3390 50  0001 C CNN
+F 3 "~" H 4390 3400 50  0001 C CNN
+F 4 "71-CRCW08054K99FKEAC " H 4390 3400 50  0001 C CNN "Mouser Part Number"
+	1    4390 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4540 3400 5950 3400
 $EndSCHEMATC
