@@ -437,15 +437,9 @@ F 3 "~" H 3610 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2960 6300 3210 6300
-Wire Wire Line
 	2960 5850 2960 5900
 Wire Wire Line
-	2960 5900 3210 5900
-Connection ~ 2960 5900
-Wire Wire Line
 	3610 5950 3610 5900
-Connection ~ 3210 5900
 Wire Wire Line
 	3610 6250 3610 6300
 Wire Wire Line
@@ -460,19 +454,6 @@ GND1
 Wire Wire Line
 	5510 6300 5410 6300
 Connection ~ 5410 6300
-$Comp
-L Connector:TestPoint TP11
-U 1 1 61920B1C
-P 3210 5850
-F 0 "TP11" H 3210 6200 50  0000 L CNN
-F 1 "+12V_TP" H 3210 6100 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3410 5850 50  0001 C CNN
-F 3 "~" H 3410 5850 50  0001 C CNN
-	1    3210 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3210 5850 3210 5900
 Wire Wire Line
 	5410 5850 5410 5900
 $Comp
@@ -530,36 +511,15 @@ Wire Wire Line
 Connection ~ 5410 5900
 Wire Wire Line
 	5410 5900 5510 5900
-$Comp
-L Connector:TestPoint TP12
-U 1 1 61920B4F
-P 3210 6350
-F 0 "TP12" H 3152 6377 50  0000 R CNN
-F 1 "GNDPWR_TP" H 3152 6468 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3410 6350 50  0001 C CNN
-F 3 "~" H 3410 6350 50  0001 C CNN
-	1    3210 6350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3210 6350 3210 6300
-Wire Wire Line
-	2860 5900 2960 5900
 Text Notes 4630 5210 0    50   ~ 0
 Local (Leader Board) GND\n(Internal)
 Text Notes 3880 5210 0    50   ~ 0
 Power GND\n(External)
 Wire Notes Line
 	4460 4700 4460 6950
-Wire Wire Line
-	3210 5900 3610 5900
 Connection ~ 3610 5900
 Wire Wire Line
 	3610 5900 3910 5900
-Wire Wire Line
-	3210 6300 3610 6300
-Connection ~ 3210 6300
-Connection ~ 3610 6300
 Wire Wire Line
 	3610 6300 3910 6300
 Wire Wire Line
@@ -568,17 +528,6 @@ Wire Wire Line
 	3910 6200 3910 6300
 Text Notes 3560 7230 0    50   ~ 0
 Isolated DC-DC Converter +12V power\nto an isolated +12V for car can. The input gnd (Power GND) is\ndifferent from the output gnd (Local GND)
-$Comp
-L power:GND #PWR06
-U 1 1 61927CE8
-P 6300 6460
-F 0 "#PWR06" H 6300 6210 50  0001 C CNN
-F 1 "GND" H 6305 6287 50  0000 C CNN
-F 2 "" H 6300 6460 50  0001 C CNN
-F 3 "" H 6300 6460 50  0001 C CNN
-	1    6300 6460
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:LED_ALT D8
 U 1 1 61927CF0
@@ -604,22 +553,7 @@ F 3 "~" H 6300 5910 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 6460 6300 6410
-Wire Wire Line
 	6300 6110 6300 6060
-Wire Wire Line
-	6300 5560 6300 5760
-$Comp
-L power:+12V #PWR05
-U 1 1 6192AEC7
-P 6300 5560
-F 0 "#PWR05" H 6300 5410 50  0001 C CNN
-F 1 "+12V" H 6315 5733 50  0000 C CNN
-F 2 "" H 6300 5560 50  0001 C CNN
-F 3 "" H 6300 5560 50  0001 C CNN
-	1    6300 5560
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5010 6300 5110 6300
 Connection ~ 3930 3440
@@ -637,9 +571,11 @@ F 3 "~" H 3930 3540 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND1 #PWR013
+L Dashboard-rescue:GND1-power #PWR013
 U 1 1 619CE9D7
 P 5110 6400
+AR Path="/619CE9D7" Ref="#PWR013"  Part="1" 
+AR Path="/5F19A9C5/619CE9D7" Ref="#PWR013"  Part="1" 
 F 0 "#PWR013" H 5110 6150 50  0001 C CNN
 F 1 "GND1" H 5115 6227 50  0000 C CNN
 F 2 "" H 5110 6400 50  0001 C CNN
@@ -671,4 +607,37 @@ F 3 "" H 5110 5850 50  0001 C CNN
 	1    5110 5850
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+12VA #PWR0132
+U 1 1 61943538
+P 6300 5550
+F 0 "#PWR0132" H 6300 5400 50  0001 C CNN
+F 1 "+12VA" H 6315 5723 50  0000 C CNN
+F 2 "" H 6300 5550 50  0001 C CNN
+F 3 "" H 6300 5550 50  0001 C CNN
+	1    6300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Dashboard-rescue:GND1-power #PWR?
+U 1 1 61949364
+P 6300 6500
+AR Path="/61949364" Ref="#PWR?"  Part="1" 
+AR Path="/5F19A9C5/61949364" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 6300 6250 50  0001 C CNN
+F 1 "GND1" H 6305 6327 50  0000 C CNN
+F 2 "" H 6300 6500 50  0001 C CNN
+F 3 "" H 6300 6500 50  0001 C CNN
+	1    6300 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 6410 6300 6500
+Wire Wire Line
+	6300 5550 6300 5760
+Connection ~ 3610 6300
+Wire Wire Line
+	2960 6300 3610 6300
+Wire Wire Line
+	2960 5900 3610 5900
 $EndSCHEMATC
