@@ -13,160 +13,189 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 5700 3660 0    50   Input ~ 0
-MOSI
-Text HLabel 5700 3760 0    50   Output ~ 0
-MISO
-Text HLabel 5700 3860 0    50   Input ~ 0
+Text HLabel 5350 3950 2    50   Input ~ 0
 CLK
-Text HLabel 5700 3960 0    50   Input ~ 0
+Text HLabel 5350 4050 2    50   Input ~ 0
 CS
-Wire Wire Line
-	5700 3660 6150 3660
-Wire Wire Line
-	5700 3860 6150 3860
-Wire Wire Line
-	5700 3960 6150 3960
-Wire Wire Line
-	5700 3760 6150 3760
-Text Notes 6080 3110 0    100  ~ 20
+Text Notes 4280 3260 0    100  ~ 20
 Connectors
-$Comp
-L power:+12V #PWR010
-U 1 1 5F8A5C41
-P 6850 3510
-F 0 "#PWR010" H 6850 3360 50  0001 C CNN
-F 1 "+12V" H 6865 3683 50  0000 C CNN
-F 2 "" H 6850 3510 50  0001 C CNN
-F 3 "" H 6850 3510 50  0001 C CNN
-	1    6850 3510
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 3560 5950 3560
-Wire Wire Line
-	5950 3560 5950 3510
-Wire Wire Line
-	6850 3560 6850 3510
-Text Label 7000 3760 2    50   ~ 0
+Text Label 5300 3850 2    50   ~ 0
 UART_Rx
-Text Label 7000 3660 2    50   ~ 0
+Text Label 5300 3750 2    50   ~ 0
 UART_Tx
-$Comp
-L power:GND #PWR011
-U 1 1 5F8B0452
-P 5960 4210
-F 0 "#PWR011" H 5960 3960 50  0001 C CNN
-F 1 "GND" H 5965 4037 50  0000 C CNN
-F 2 "" H 5960 4210 50  0001 C CNN
-F 3 "" H 5960 4210 50  0001 C CNN
-	1    5960 4210
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6650 4060
-Text HLabel 7000 3760 2    50   Output ~ 0
+Text HLabel 5350 3850 2    50   Output ~ 0
 UART_Rx
-Text HLabel 7000 3660 2    50   Input ~ 0
+Text HLabel 5350 3750 2    50   Input ~ 0
 UART_Tx
-Text Label 5700 3660 0    50   ~ 0
-MOSI
-Text Label 5700 3760 0    50   ~ 0
-MISO
-Text Label 5700 3860 0    50   ~ 0
+Text Label 5150 3950 0    50   ~ 0
 CLK
-Text Label 5700 3960 0    50   ~ 0
+Text Label 5150 4050 0    50   ~ 0
 CS
 $Comp
-L Connector_Generic:Conn_01x04 J6
-U 1 1 5F76763B
-P 5270 4790
-F 0 "J6" H 5350 4782 50  0000 L CNN
-F 1 "SPI" H 5350 4691 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5270 4790 50  0001 C CNN
-F 3 "~" H 5270 4790 50  0001 C CNN
-	1    5270 4790
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4620 4690 5070 4690
-Wire Wire Line
-	4620 4890 5070 4890
-Wire Wire Line
-	4620 4990 5070 4990
-Wire Wire Line
-	4620 4790 5070 4790
-Text Label 4620 4690 0    50   ~ 0
-MOSI
-Text Label 4620 4790 0    50   ~ 0
-MISO
-Text Label 4620 4890 0    50   ~ 0
-CLK
-Text Label 4620 4990 0    50   ~ 0
-CS
-$Comp
-L power:GNDPWR #PWR09
-U 1 1 5F8B0739
-P 6850 4060
-F 0 "#PWR09" H 6850 3860 50  0001 C CNN
-F 1 "GNDPWR" H 6854 3906 50  0000 C CNN
-F 2 "" H 6850 4010 50  0001 C CNN
-F 3 "" H 6850 4010 50  0001 C CNN
-	1    6850 4060
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 3860 6850 4060
-Wire Wire Line
-	6650 3760 7000 3760
-Wire Wire Line
-	6650 3660 7000 3660
-Wire Wire Line
-	6650 3560 6850 3560
-Wire Wire Line
-	6650 3860 6850 3860
-$Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J?
+L Connector_Generic:Conn_02x05_Top_Bottom J?
 U 1 1 5D76E59D
-P 6350 3760
+P 4650 3950
 AR Path="/5C4C7509/5D76E59D" Ref="J?"  Part="1" 
 AR Path="/5D766247/5D76E59D" Ref="J7"  Part="1" 
 AR Path="/5F7B30EA/5D76E59D" Ref="J5"  Part="1" 
-F 0 "J5" H 6350 3360 50  0000 L CNN
-F 1 "MinionConn" H 6200 3260 50  0000 L CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_2x6xP3.00mm_PolarizingPeg_Vertical" H 6350 3760 50  0001 C CNN
-F 3 "~" H 6350 3760 50  0001 C CNN
-	1    6350 3760
+F 0 "J5" H 4650 3550 50  0000 L CNN
+F 1 "MinionConn" H 4500 3450 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-1012_2x05_P3.00mm_Vertical" H 4650 3950 50  0001 C CNN
+F 3 "~" H 4650 3950 50  0001 C CNN
+	1    4650 3950
 	1    0    0    -1  
 $EndComp
-Text Label 6660 3960 0    50   ~ 0
-BPS_PWR
-Text HLabel 6990 3960 2    50   Input ~ 0
-BPS_PWR
+Text Label 2420 4040 0    50   ~ 0
+CS
+Text Label 2420 3940 0    50   ~ 0
+CLK
+Text Label 2420 3840 0    50   ~ 0
+MISO
+Text Label 2420 3740 0    50   ~ 0
+MOSI
+Wire Wire Line
+	2420 3840 2870 3840
+Wire Wire Line
+	2420 4040 2870 4040
+Wire Wire Line
+	2420 3940 2870 3940
+Wire Wire Line
+	2420 3740 2870 3740
 $Comp
-L power:+5V #PWR0130
-U 1 1 5FFC4650
-P 5950 3510
-F 0 "#PWR0130" H 5950 3360 50  0001 C CNN
-F 1 "+5V" H 5965 3683 50  0000 C CNN
-F 2 "" H 5950 3510 50  0001 C CNN
-F 3 "" H 5950 3510 50  0001 C CNN
-	1    5950 3510
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5F76763B
+P 3070 3840
+F 0 "J6" H 3150 3832 50  0000 L CNN
+F 1 "SPI" H 3150 3741 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3070 3840 50  0001 C CNN
+F 3 "~" H 3070 3840 50  0001 C CNN
+	1    3070 3840
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6990 3960 6650 3960
+	4950 3750 5350 3750
 Wire Wire Line
-	6150 4060 5960 4060
+	4950 3850 5350 3850
+$Comp
+L power:+5V #PWR05
+U 1 1 61990398
+P 4350 3650
+F 0 "#PWR05" H 4350 3500 50  0001 C CNN
+F 1 "+5V" H 4365 3823 50  0000 C CNN
+F 2 "" H 4350 3650 50  0001 C CNN
+F 3 "" H 4350 3650 50  0001 C CNN
+	1    4350 3650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5960 4060 5960 4210
-Text Notes 7400 2200 0    100  ~ 20
-ISOLATED
-Text Notes 2950 2950 0    50   ~ 10
-4-wire SPI to 2-wire Isolated SPI Converter ICs
-Text Notes 3400 3200 0    50   ~ 0
-Minion Brd
-Text Notes 3450 2250 0    100  ~ 20
-Isolated SPI
-Text Notes 2500 2650 0    50   ~ 0
-If the wires lengths are short and you want to save more power, change IBIAS\nresistor to be 2.8k. Look in LTC6820 datasheet for more information on\ncalculating these BIAS resistors.
+	4950 3950 5350 3950
+Wire Wire Line
+	4950 4050 5350 4050
+Text HLabel 4050 4150 0    50   Input ~ 0
+BPS_PWR
+Text Label 4450 4150 2    50   ~ 0
+BPS_PWR
+Wire Wire Line
+	4450 4150 4050 4150
+$Comp
+L power:GND #PWR06
+U 1 1 61996053
+P 4350 4400
+F 0 "#PWR06" H 4350 4150 50  0001 C CNN
+F 1 "GND" H 4355 4227 50  0000 C CNN
+F 2 "" H 4350 4400 50  0001 C CNN
+F 3 "" H 4350 4400 50  0001 C CNN
+	1    4350 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4050 4050 4050
+Wire Wire Line
+	4050 3950 4450 3950
+Text Label 4100 4050 0    50   ~ 0
+MISO
+Text Label 4100 3950 0    50   ~ 0
+MOSI
+Text HLabel 4050 4050 0    50   Output ~ 0
+MISO
+Text HLabel 4050 3950 0    50   Input ~ 0
+MOSI
+Wire Wire Line
+	4450 3750 4350 3750
+Wire Wire Line
+	4350 3750 4350 3650
+Wire Wire Line
+	4450 3850 4350 3850
+Wire Wire Line
+	4350 3850 4350 4400
+NoConn ~ 4950 4150
+$Comp
+L Connector_Generic:Conn_01x02 J30
+U 1 1 619C621B
+P 8850 3950
+F 0 "J30" H 8930 3942 50  0000 L CNN
+F 1 "Backup Camera" H 8930 3851 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 8850 3950 50  0001 C CNN
+F 3 "~" H 8850 3950 50  0001 C CNN
+	1    8850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 619C69CD
+P 8200 3950
+F 0 "SW1" H 8200 4235 50  0000 C CNN
+F 1 "BACKUP_SW" H 8200 4144 50  0000 C CNN
+F 2 "UTSVT_Special:2M1-SP1-T1-B1-M2QE" H 8200 3950 50  0001 C CNN
+F 3 "~" H 8200 3950 50  0001 C CNN
+	1    8200 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR015
+U 1 1 619C96B4
+P 8550 4150
+F 0 "#PWR015" H 8550 3950 50  0001 C CNN
+F 1 "GNDPWR" H 8554 3996 50  0000 C CNN
+F 2 "" H 8550 4100 50  0001 C CNN
+F 3 "" H 8550 4100 50  0001 C CNN
+	1    8550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4050 8550 4050
+Wire Wire Line
+	8550 4050 8550 4150
+Wire Wire Line
+	7700 4050 7700 4250
+$Comp
+L power:GNDPWR #PWR011
+U 1 1 619C6227
+P 7700 4250
+F 0 "#PWR011" H 7700 4050 50  0001 C CNN
+F 1 "GNDPWR" H 7704 4096 50  0000 C CNN
+F 2 "" H 7700 4200 50  0001 C CNN
+F 3 "" H 7700 4200 50  0001 C CNN
+	1    7700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR010
+U 1 1 619C6221
+P 7700 3700
+F 0 "#PWR010" H 7700 3550 50  0001 C CNN
+F 1 "+12V" H 7715 3873 50  0000 C CNN
+F 2 "" H 7700 3700 50  0001 C CNN
+F 3 "" H 7700 3700 50  0001 C CNN
+	1    7700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3950 8400 3950
+Wire Wire Line
+	7700 3850 8000 3850
+Wire Wire Line
+	7700 3700 7700 3850
+Wire Wire Line
+	8000 4050 7700 4050
 $EndSCHEMATC
