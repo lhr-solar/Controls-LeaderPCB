@@ -3051,7 +3051,7 @@
     (pin "2" (uuid 062f8c7a-6893-4742-9611-39d86dfd5137))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 308.61 173.99 0)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 308.61 173.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fbdc250)
     (property "Reference" "J25" (id 0) (at 312.42 173.99 0))
@@ -3715,12 +3715,6 @@
     (path "/00000000-0000-0000-0000-000061936106"
       (reference "#PWR0131") (unit 1) (value "+12VA") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-000061943538"
-      (reference "#PWR0132") (unit 1) (value "+12VA") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-000061949364"
-      (reference "#PWR0133") (unit 1) (value "GND1") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005f6b59ce/00000000-0000-0000-0000-00005f6bd736"
       (reference "#PWR0145") (unit 1) (value "GNDPWR") (footprint "")
     )
@@ -3777,6 +3771,12 @@
     )
     (path "/00000000-0000-0000-0000-00005fb694f4/00000000-0000-0000-0000-00005fb79a00"
       (reference "#PWR0163") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f19a9c5/57b2e01f-5d69-450b-a10f-6e8055addcb8"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f19a9c5/7f58410c-277e-4ae3-a796-f4c066856f26"
+      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f895a26/00000000-0000-0000-0000-00005f8a3fed"
       (reference "C1") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -3867,9 +3867,6 @@
     )
     (path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63a5c8"
       (reference "C30") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-000061920b01"
-      (reference "C31") (unit 1) (value "10u") (footprint "UTSVT_Passive:C_2220_5750Metric")
     )
     (path "/00000000-0000-0000-0000-00005f895a26/00000000-0000-0000-0000-0000619eaa6f"
       (reference "C32") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -3982,35 +3979,20 @@
     (path "/00000000-0000-0000-0000-00005f6b59ce/00000000-0000-0000-0000-00005f8c3b18"
       (reference "J9") (unit 1) (value "POW_2ND_CONN") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005fa99dc3/00000000-0000-0000-0000-00005faaa539"
-      (reference "J10") (unit 1) (value "AccelConn") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical")
+    (path "/00000000-0000-0000-0000-00005fa99dc3/72e50a3a-0295-4af4-a78e-cfb223b48a16"
+      (reference "J10") (unit 1) (value "Conn_02x03_Top_Bottom") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005fa99dc3/00000000-0000-0000-0000-00005faaa557"
-      (reference "J11") (unit 1) (value "BrakeConn") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical")
+    (path "/00000000-0000-0000-0000-00005fa99dc3/8ca5ce09-96de-4a74-b562-ec0571e50cf8"
+      (reference "J11") (unit 1) (value "Conn_02x03_Top_Bottom") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005fa99dc3/00000000-0000-0000-0000-00005faaa4d7"
-      (reference "J12") (unit 1) (value "AccelConn2") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical")
+    (path "/00000000-0000-0000-0000-00005fb694f4/99c93431-f446-46fc-84ee-d3f6ca772eda"
+      (reference "J12") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005fa99dc3/00000000-0000-0000-0000-00005faaa505"
-      (reference "J13") (unit 1) (value "BrakeConn2") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005fb694f4/00000000-0000-0000-0000-00005fb799a3"
-      (reference "J14") (unit 1) (value "Motor-P") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005fb694f4/00000000-0000-0000-0000-00005fb799c6"
-      (reference "J15") (unit 1) (value "Motor-C") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005fb694f4/00000000-0000-0000-0000-00005fb799ec"
-      (reference "J16") (unit 1) (value "Array-C") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005fb694f4/00000000-0000-0000-0000-00005fb7997f"
-      (reference "J17") (unit 1) (value "Array-P") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical")
+    (path "/00000000-0000-0000-0000-00005fb694f4/19507d94-0f5b-483f-b801-b32484ebc487"
+      (reference "J13") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-00005f1149c6"
       (reference "J18") (unit 1) (value "PowerConn") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63a689"
-      (reference "J19") (unit 1) (value "CAN_OUT") (footprint "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63ed37"
       (reference "J20") (unit 1) (value "MotorCANConnector") (footprint "UTSVT_Connectors:TE_4-2172079-2")
@@ -4050,6 +4032,12 @@
     )
     (path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005c2b4308"
       (reference "JP2") (unit 1) (value "Termination Resistors") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005f19a9c5/14efd476-f191-40a3-9edb-66971abe625a"
+      (reference "JP3") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005f19a9c5/af7e7f7e-2d1c-45b1-9a02-5960e4481fd1"
+      (reference "JP4") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f895a26/00000000-0000-0000-0000-00005f8a3fde"
       (reference "L1") (unit 1) (value "22u") (footprint "Inductor_SMD:L_0805_2012Metric")
@@ -4193,10 +4181,10 @@
       (reference "R38") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005f7b30ea/00000000-0000-0000-0000-0000619c69cd"
-      (reference "SW1") (unit 1) (value "BACKUP_SW") (footprint "UTSVT_Special:2M1-SP1-T1-B1-M2QE")
+      (reference "SW1") (unit 1) (value "BACKUP_SW") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f6b59ce/00000000-0000-0000-0000-00005f6bd6dd"
-      (reference "SW8") (unit 1) (value "SW_Rotary2x6") (footprint "UTSVT_Special:CK1035_resized")
+      (reference "SW8") (unit 1) (value "SW_Rotary2x6") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-1412_2x07_P3.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f275fef"
       (reference "SW10") (unit 1) (value "RESET") (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P")
@@ -4281,9 +4269,6 @@
     )
     (path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63a696"
       (reference "U15") (unit 1) (value "CDSOT23-T24CAN") (footprint "Package_TO_SOT_SMD:SOT-23W")
-    )
-    (path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-000061920b3d"
-      (reference "U16") (unit 1) (value "RI3-1212S") (footprint "UTSVT_ICs:RI3_DC_Converter")
     )
     (path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005f175f7a"
       (reference "U17") (unit 1) (value "ADM3055E") (footprint "UTSVT_ICs:SOIC-20W_7.5x15.4mm_Pitch1.27mm")

@@ -686,7 +686,7 @@
     (uuid dfe0615d-48dd-4d5e-ae77-f5a2410688c9)
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x05_Top_Bottom") (at 118.11 100.33 0)
+  (symbol (lib_id "Connector_Generic:Conn_02x05_Top_Bottom") (at 118.11 100.33 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d76e59d)
     (property "Reference" "J5" (id 0) (at 118.11 110.49 0)
@@ -822,7 +822,7 @@
     (uuid 00000000-0000-0000-0000-0000619c69cd)
     (property "Reference" "SW1" (id 0) (at 208.28 93.091 0))
     (property "Value" "BACKUP_SW" (id 1) (at 208.28 95.4024 0))
-    (property "Footprint" "UTSVT_Special:2M1-SP1-T1-B1-M2QE" (id 2) (at 208.28 100.33 0)
+    (property "Footprint" "" (id 2) (at 208.28 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 208.28 100.33 0)

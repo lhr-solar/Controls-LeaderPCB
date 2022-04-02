@@ -45,10 +45,16 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -100,7 +106,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.19999999999999998,
         "min_copper_edge_clearance": 0.024999999999999998,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -435,6 +441,47 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "66218487-e316-4467-9eba-79d4626ab24e",
+      ""
+    ],
+    [
+      "00000000-0000-0000-0000-00005f19a9c5",
+      "PowerDist"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f895a26",
+      "ExteriorLights"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f6b59ce",
+      "IgnitionSwitch"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f7a9238",
+      "USB"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f547b94",
+      "Car_CAN"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f6018fb",
+      "Motor_CAN"
+    ],
+    [
+      "00000000-0000-0000-0000-00005fa99dc3",
+      "Potentiometers"
+    ],
+    [
+      "00000000-0000-0000-0000-00005fb694f4",
+      "PwrStateIndicators"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f7b30ea",
+      "MinionBrdInterface"
+    ]
+  ],
   "text_variables": {}
 }
