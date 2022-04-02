@@ -1571,7 +1571,7 @@
     (property "Reference" "J20" (id 0) (at 244.602 116.9416 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "" (id 1) (at 244.602 119.253 0)
+    (property "Value" "MotorCANConnector" (id 1) (at 244.602 119.253 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "UTSVT_Connectors:TE_4-2172079-2" (id 2) (at 233.68 130.81 0)
