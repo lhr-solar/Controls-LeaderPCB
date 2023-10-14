@@ -342,6 +342,10 @@
     [
       "52d17704-1dcb-4587-b732-713a215b01d3",
       "Potentiometers"
+    ],
+    [
+      "fd5723b9-3644-4daa-af29-4c44667f673c",
+      "Driver Fans"
     ]
   ],
   "text_variables": {}
