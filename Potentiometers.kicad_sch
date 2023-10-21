@@ -757,9 +757,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 5510c829-8a49-4ec3-ab8d-e928eef06675))
-    (pin "3" (uuid bc2c1428-d47c-4089-bdcb-09d62eebb7c8))
+    (pin "3" (uuid f82f1c6d-3536-496f-a3e7-4143bcfccc45))
     (pin "1" (uuid c59881c4-2bd4-4be7-8dae-10f8368e10eb))
-    (pin "3" (uuid f82f1c6d-3536-496f-a3e7-4143bcfccc43))
+    (pin "3" (uuid f82f1c6d-3536-496f-a3e7-4143bcfccc45))
     (instances
       (project "Dashboard"
         (path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
@@ -1121,9 +1121,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 83388c74-5f06-4153-ad3b-c9f47fee16fa))
-    (pin "3" (uuid 5adb0db0-b93c-4770-a13c-8fca7bccb646))
+    (pin "3" (uuid 5adb0db0-b93c-4770-a13c-8fca7bccb649))
     (pin "1" (uuid 2ac11b7c-f97c-4c10-b13a-1985ade83825))
-    (pin "3" (uuid 5adb0db0-b93c-4770-a13c-8fca7bccb646))
+    (pin "3" (uuid 5adb0db0-b93c-4770-a13c-8fca7bccb649))
     (instances
       (project "Dashboard"
         (path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
@@ -1193,10 +1193,10 @@
     (property "P/N" "NSVR0320MW2T1G" (at 107.95 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5510c829-8a49-4ec3-ab8d-e928eef06675))
-    (pin "3" (uuid bc2c1428-d47c-4089-bdcb-09d62eebb7c7))
+    (pin "2" (uuid 5510c829-8a49-4ec3-ab8d-e928eef06676))
+    (pin "3" (uuid bc2c1428-d47c-4089-bdcb-09d62eebb7cb))
     (pin "1" (uuid d73e8bf8-ae5b-4c08-8df0-2f91dd38fffb))
-    (pin "3" (uuid bc2c1428-d47c-4089-bdcb-09d62eebb7c7))
+    (pin "3" (uuid bc2c1428-d47c-4089-bdcb-09d62eebb7cb))
     (instances
       (project "Dashboard"
         (path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
@@ -1233,9 +1233,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid f7837e90-c82f-4809-a979-a7c1ba8a00cf))
-    (pin "3" (uuid df5d0a3b-96a9-4b59-842b-033c21905829))
+    (pin "3" (uuid df5d0a3b-96a9-4b59-842b-033c2190582c))
     (pin "1" (uuid 93c3af21-b55d-48d7-8765-064dd08a2bab))
-    (pin "3" (uuid df5d0a3b-96a9-4b59-842b-033c21905829))
+    (pin "3" (uuid df5d0a3b-96a9-4b59-842b-033c2190582c))
     (instances
       (project "Dashboard"
         (path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
@@ -1272,9 +1272,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 0928ece9-7d64-4062-b2b9-ac97c9aa7cfb))
-    (pin "3" (uuid aeb823b0-b0fc-450a-bf08-7a77a629a7cb))
+    (pin "3" (uuid aeb823b0-b0fc-450a-bf08-7a77a629a7ce))
     (pin "1" (uuid f1b1c833-6823-43af-b40b-5bbeb1279d5f))
-    (pin "3" (uuid aeb823b0-b0fc-450a-bf08-7a77a629a7cb))
+    (pin "3" (uuid aeb823b0-b0fc-450a-bf08-7a77a629a7ce))
     (instances
       (project "Dashboard"
         (path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
@@ -1469,9 +1469,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 83d65d68-419e-4e84-b167-53f9a5c46095))
-    (pin "3" (uuid ba580899-af4c-46cf-a90b-76c6cbb423fc))
-    (pin "1" (uuid 93c3af21-b55d-48d7-8765-064dd08a2bab))
-    (pin "3" (uuid df5d0a3b-96a9-4b59-842b-033c2190582a))
+    (pin "3" (uuid df5d0a3b-96a9-4b59-842b-033c2190582e))
+    (pin "1" (uuid 93c3af21-b55d-48d7-8765-064dd08a2bac))
+    (pin "3" (uuid df5d0a3b-96a9-4b59-842b-033c2190582e))
     (instances
       (project "Dashboard"
         (path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
