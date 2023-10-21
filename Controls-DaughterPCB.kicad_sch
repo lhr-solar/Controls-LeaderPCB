@@ -1799,7 +1799,7 @@
     (property "Reference" "HZD_SW1" (at 176.53 103.505 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SPST" (at 176.53 106.045 0)
+    (property "Value" "HAZARD_SW" (at 176.53 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" (at 176.53 110.49 0)
@@ -1821,7 +1821,7 @@
       )
       (project "Controls-DaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
-          (reference "HZD_SW2") (unit 1)
+          (reference "HZD1") (unit 1)
         )
       )
     )
@@ -2121,7 +2121,7 @@
       )
       (project "Controls-DaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
-          (reference "Turn_Signal_SW2") (unit 1)
+          (reference "TURN_SIG1") (unit 1)
         )
       )
     )
@@ -2564,10 +2564,10 @@
   (symbol (lib_id "Connector_Generic:Conn_02x10_Odd_Even") (at 205.105 46.355 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b85af5f5-15a8-4c21-83ad-3759db816508)
-    (property "Reference" "SOM3" (at 206.375 27.305 0)
+    (property "Reference" "SOM1" (at 206.375 27.305 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SOM_CONN1" (at 206.375 29.845 0)
+    (property "Value" "SOM_CONN" (at 206.375 29.845 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "UTSVT_Connectors:Molex_52465-2070" (at 205.105 46.355 0)
@@ -2614,7 +2614,7 @@
     (instances
       (project "Controls-DaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
-          (reference "SOM3") (unit 1)
+          (reference "SOM1") (unit 1)
         )
       )
     )
@@ -2623,10 +2623,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 254 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7fa6d0a-cee6-4115-97cb-40fc5c61b1f2)
-    (property "Reference" "DISP1" (at 246.38 83.82 0)
+    (property "Reference" "DISP1" (at 245.11 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Display_Conn" (at 246.38 85.725 0)
+    (property "Value" "DISPLAY_CONN" (at 245.11 85.725 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical" (at 254 86.36 0)
@@ -2681,10 +2681,10 @@
   (symbol (lib_id "Connector_Generic:Conn_02x10_Odd_Even") (at 250.825 46.355 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid caf618e8-6685-44af-aed8-a2455c263a70)
-    (property "Reference" "SOM4" (at 252.095 27.305 0)
+    (property "Reference" "SOM2" (at 252.095 27.305 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SOM_CONN1" (at 252.095 29.845 0)
+    (property "Value" "SOM_CONN" (at 252.095 29.845 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "UTSVT_Connectors:Molex_52465-2070" (at 250.825 46.355 0)
@@ -2731,7 +2731,7 @@
     (instances
       (project "Controls-DaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
-          (reference "SOM4") (unit 1)
+          (reference "SOM2") (unit 1)
         )
       )
     )
@@ -2775,7 +2775,7 @@
     (property "Reference" "TP9" (at 154.305 77.6986 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LIGHTSCLK" (at 155.575 80.01 0)
+    (property "Value" "LIGHTSCLK" (at 154.305 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 153.035 80.645 0)

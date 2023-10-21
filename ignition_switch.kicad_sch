@@ -1275,7 +1275,7 @@
     (property "Reference" "J9" (at 179.832 84.0232 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "POW_2ND_CONN" (at 179.832 86.3346 0)
+    (property "Value" "IGNITION_PWR_CONN" (at 179.832 86.3346 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" (at 177.8 83.82 0)
@@ -1294,7 +1294,7 @@
       )
       (project "Controls-DaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/0d7b9330-5178-458e-b803-9c8d464fd559"
-          (reference "J4") (unit 1)
+          (reference "IG_PWR1") (unit 1)
         )
       )
     )

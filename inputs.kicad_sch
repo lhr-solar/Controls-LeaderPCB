@@ -816,10 +816,10 @@
   (symbol (lib_id "Switch:SW_Push") (at 93.345 103.505 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2452127c-b59a-4190-ab5f-42e8dbe05d06)
-    (property "Reference" "REGENSW1" (at 97.155 102.235 90)
+    (property "Reference" "REGENSW1" (at 97.79 102.235 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "REGEN" (at 97.155 104.775 90)
+    (property "Value" "REGEN_BTN" (at 97.79 104.775 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" (at 98.425 103.505 0)
@@ -844,7 +844,7 @@
       )
       (project "Controls-DaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/baa2171f-2fe6-4866-b55f-9d97b4b1290e"
-          (reference "REGEN_BTN1") (unit 1)
+          (reference "REGEN1") (unit 1)
         )
       )
     )
@@ -921,7 +921,7 @@
     (property "Reference" "REGENSW1" (at 146.05 104.775 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "CRUISE_ENABLE" (at 146.05 107.315 90)
+    (property "Value" "CRUISE_ENABLE_BTN" (at 146.05 107.315 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" (at 147.32 106.045 0)
@@ -946,7 +946,7 @@
       )
       (project "Controls-DaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/baa2171f-2fe6-4866-b55f-9d97b4b1290e"
-          (reference "CRUZ_EN_BTN1") (unit 1)
+          (reference "CRUZ_EN1") (unit 1)
         )
       )
     )
@@ -1082,10 +1082,10 @@
   (symbol (lib_id "Switch:SW_Push") (at 47.625 101.6 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e5b935b-03a6-4b0c-bc77-daf2bfd83644)
-    (property "Reference" "CRUZ_SET_SW1" (at 51.435 100.33 90)
+    (property "Reference" "CRUZ_SET_SW1" (at 52.07 100.33 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "CRUISE_SET" (at 51.435 102.87 90)
+    (property "Value" "CRUISE_SET_BTN" (at 52.07 102.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" (at 52.705 101.6 0)
@@ -1110,7 +1110,7 @@
       )
       (project "Controls-DaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/baa2171f-2fe6-4866-b55f-9d97b4b1290e"
-          (reference "CRUZ_SET_BTN1") (unit 1)
+          (reference "CRUZ_SET1") (unit 1)
         )
       )
     )
@@ -1122,7 +1122,7 @@
     (property "Reference" "F/R_SW1" (at 191.135 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "F/R_SW" (at 191.135 130.81 0)
+    (property "Value" "FORWARD_REVERSE_SW" (at 191.135 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical" (at 175.26 118.11 0)
@@ -1149,7 +1149,7 @@
       )
       (project "Controls-DaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/baa2171f-2fe6-4866-b55f-9d97b4b1290e"
-          (reference "F/R_SW1") (unit 1)
+          (reference "FR1") (unit 1)
         )
       )
     )

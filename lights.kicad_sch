@@ -1163,10 +1163,6 @@
     (uuid ff9bfa09-49e6-41ae-99da-49a1c9c69406)
   )
 
-  (text "get rid of MOSFET?\n" (at 254 39.37 0)
-    (effects (font (size 1.5 1.5) (thickness 0.3) bold italic) (justify left bottom))
-    (uuid 0328eba8-e99b-4111-b24e-d39745183661)
-  )
   (text "Assuming that all external \nlights have I-Lim Res" (at 106.045 46.355 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c73aef47-51ee-484b-ba7a-d5ffb820a110)
