@@ -1632,7 +1632,7 @@
     (effects (font (size 5 5) (thickness 0.7) bold) (justify left bottom))
     (uuid 3e808660-58a3-43a3-a3b7-e418ed7fabf1)
   )
-  (text "controls head lights, break lights, internal & external blinkers, driver fans, ignition, forward, neutral, reverse, cruise control, and regen from inputs on the car.\n12V is isolated from 3V3 and 5V using optocouplers. CMOS 555 timer used for blinkers."
+  (text "Controls head lights, break lights, internal & external blinkers, driver fans, ignition, forward, neutral, reverse, cruise control, and regen from inputs on the car.\n12V is isolated from 3V3 and 5V using optocouplers. CMOS 555 timer used for blinkers. See ReadME for more details."
     (at 16.51 137.16 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 412a4226-d564-4051-93fb-42b61792464b)
