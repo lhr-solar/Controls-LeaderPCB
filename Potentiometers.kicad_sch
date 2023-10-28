@@ -690,7 +690,7 @@
     (pin "1" (uuid 4b62dc00-b196-43c0-b930-70003cf213fa))
     (pin "2" (uuid 7d771c28-62c1-42f9-9b14-0c53f90d567f))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "D2") (unit 1)
         )
@@ -724,7 +724,7 @@
           (reference "R13") (unit 1)
         )
       )
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "R5") (unit 1)
         )
@@ -758,7 +758,7 @@
           (reference "C16") (unit 1)
         )
       )
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "C3") (unit 1)
         )
@@ -783,7 +783,7 @@
     )
     (pin "1" (uuid 3b3f4d6d-aa53-459a-8bdd-707d885265d8))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "#PWR051") (unit 1)
         )
@@ -816,7 +816,7 @@
     (pin "2" (uuid 877db9dd-eb08-4532-9f7a-0011881f1563))
     (pin "3" (uuid e5ab00c8-773a-4870-8e53-046539b56100))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "POT1") (unit 1)
         )
@@ -849,7 +849,7 @@
     (pin "2" (uuid 00a38cd8-8c07-40a1-b15b-22ede25cea1d))
     (pin "3" (uuid 531cb6fc-6120-4261-bd1b-2f31c374befe))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "POT2") (unit 1)
         )
@@ -881,7 +881,7 @@
     (pin "1" (uuid f1988035-80d0-4721-8a18-2a681fc174e1))
     (pin "2" (uuid e9167fa4-20f1-4380-bfee-51c25db30a28))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "D3") (unit 1)
         )
@@ -914,7 +914,7 @@
     (pin "2" (uuid 9dcabd51-7207-46f0-b52b-1c8a2af4c27f))
     (pin "3" (uuid 73598cbb-de12-4595-a571-6a2c41ced4bc))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "POT3") (unit 1)
         )
@@ -939,7 +939,7 @@
     )
     (pin "1" (uuid 46ddd092-4ceb-40d8-8118-75704c770288))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "#PWR041") (unit 1)
         )
@@ -971,7 +971,7 @@
     (pin "1" (uuid dfdd63a3-9ad4-4d10-a780-8008d88f8284))
     (pin "2" (uuid 74924d9f-d8e8-4024-98a0-c7c8720f72a0))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "D8") (unit 1)
         )
@@ -1003,7 +1003,7 @@
     (pin "1" (uuid d8aedba8-c5e1-4902-a906-c38ee2ad73b1))
     (pin "2" (uuid 5c4a2175-3130-4ac1-9443-7c4337f99889))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "D5") (unit 1)
         )
@@ -1037,7 +1037,7 @@
           (reference "R16") (unit 1)
         )
       )
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "R13") (unit 1)
         )
@@ -1062,7 +1062,7 @@
     )
     (pin "1" (uuid ef9630aa-f3f2-4d3d-96d9-83f1ca6166a3))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "#PWR047") (unit 1)
         )
@@ -1096,7 +1096,7 @@
           (reference "R15") (unit 1)
         )
       )
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "R9") (unit 1)
         )
@@ -1130,7 +1130,7 @@
           (reference "R14") (unit 1)
         )
       )
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "R1") (unit 1)
         )
@@ -1164,7 +1164,7 @@
           (reference "C17") (unit 1)
         )
       )
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "C2") (unit 1)
         )
@@ -1189,7 +1189,7 @@
     )
     (pin "1" (uuid 90dd8371-3d00-4267-84d6-def6030b3276))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "#PWR040") (unit 1)
         )
@@ -1221,7 +1221,7 @@
     (pin "1" (uuid 7a1dbbff-9184-46d8-a2e7-b2d6df5dedc4))
     (pin "2" (uuid 1048b977-c2f4-40c9-9740-c35c4a11d01b))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "D1") (unit 1)
         )
@@ -1255,7 +1255,7 @@
           (reference "R14") (unit 1)
         )
       )
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "R7") (unit 1)
         )
@@ -1289,7 +1289,7 @@
           (reference "R15") (unit 1)
         )
       )
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "R2") (unit 1)
         )
@@ -1323,7 +1323,7 @@
           (reference "C16") (unit 1)
         )
       )
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "C1") (unit 1)
         )
@@ -1348,7 +1348,7 @@
     )
     (pin "1" (uuid e2488441-fd49-45fe-92ed-dd45aa6a5139))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "#PWR042") (unit 1)
         )
@@ -1380,7 +1380,7 @@
     (pin "1" (uuid 7c635e0e-82fc-4187-881e-b24284d5231d))
     (pin "2" (uuid a95e18dc-0a9f-4cdf-a665-c156a5cd37f9))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "D4") (unit 1)
         )
@@ -1405,7 +1405,7 @@
     )
     (pin "1" (uuid 2bf38c9b-650c-4469-9b2c-76921cc8edbd))
     (instances
-      (project "Controls-DaughterPCB"
+      (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
           (reference "#PWR014") (unit 1)
         )
