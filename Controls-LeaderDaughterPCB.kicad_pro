@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Controls-DaughterPCB.kicad_pro",
+    "filename": "Controls-LeaderDaughterPCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -482,7 +482,7 @@
     ],
     [
       "0d7b9330-5178-458e-b803-9c8d464fd559",
-      "Ignition Switch"
+      "Ignition Signals"
     ],
     [
       "52d17704-1dcb-4587-b732-713a215b01d3",

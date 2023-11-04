@@ -665,7 +665,7 @@
   (symbol (lib_id "Isolator:EL817") (at 136.525 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bcf544a-1c2b-4cc7-bc38-1e2411b319d5)
-    (property "Reference" "U11" (at 136.525 99.06 0)
+    (property "Reference" "U6" (at 136.525 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EL3H7" (at 136.525 101.6 0)
@@ -689,14 +689,14 @@
     (pin "4" (uuid 45c6bc7d-af22-45aa-9760-1a6415c72159))
     (instances
       (project "Controls-LeaderDaughterPCB"
-        (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/0d7b9330-5178-458e-b803-9c8d464fd559"
-          (reference "U11") (unit 1)
-        )
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/f7827f80-0f50-4e4f-b2cd-ff48878538ae"
           (reference "U6") (unit 1)
         )
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/fd5723b9-3644-4daa-af29-4c44667f673c"
           (reference "U7") (unit 1)
+        )
+        (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/0d7b9330-5178-458e-b803-9c8d464fd559"
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -762,7 +762,7 @@
   (symbol (lib_id "Isolator:EL817") (at 136.525 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26604b34-454a-4a72-8edb-bf4d8e1cf1d0)
-    (property "Reference" "U9" (at 136.525 66.675 0)
+    (property "Reference" "U6" (at 136.525 66.675 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EL3H7" (at 136.525 69.215 0)
@@ -786,14 +786,14 @@
     (pin "4" (uuid 7cd3abdc-a900-4ee6-b3b1-621384b1e56a))
     (instances
       (project "Controls-LeaderDaughterPCB"
-        (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/0d7b9330-5178-458e-b803-9c8d464fd559"
-          (reference "U9") (unit 1)
-        )
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/f7827f80-0f50-4e4f-b2cd-ff48878538ae"
           (reference "U6") (unit 1)
         )
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/fd5723b9-3644-4daa-af29-4c44667f673c"
           (reference "U7") (unit 1)
+        )
+        (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/0d7b9330-5178-458e-b803-9c8d464fd559"
+          (reference "U9") (unit 1)
         )
       )
     )
