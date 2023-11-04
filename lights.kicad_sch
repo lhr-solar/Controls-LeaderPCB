@@ -1069,10 +1069,6 @@
     (uuid ffca3c5a-400e-4b1f-8a14-ebd52d804dcc)
   )
 
-  (text "Assuming that all external \nlights have I-Lim Res" (at 106.045 46.355 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c73aef47-51ee-484b-ba7a-d5ffb820a110)
-  )
   (text "Lights" (at 105.41 36.195 0)
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid ec8f5431-fd6c-4c05-9e31-789891921bef)
