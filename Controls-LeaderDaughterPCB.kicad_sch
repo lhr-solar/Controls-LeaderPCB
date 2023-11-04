@@ -1684,7 +1684,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4945016a-112b-4d3c-81d1-d4536d9edea8)
   )
-  (label "IG2" (at 57.15 60.96 180) (fields_autoplaced)
+  (label "DRIVER_IG" (at 57.15 60.96 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 55daa784-6d6b-455d-9068-ed5a98518715)
   )
@@ -1700,7 +1700,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 875eb3f6-785a-4b79-ad32-6977f542731d)
   )
-  (label "IG2" (at 215.9 46.355 0) (fields_autoplaced)
+  (label "DRIVER_IG" (at 215.9 46.355 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8edebf38-acfd-4e2b-a68c-77d45c7f0112)
   )
@@ -1712,11 +1712,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 945c4b33-9b8e-4279-a53a-7ce0c81e80a5)
   )
-  (label "IG1" (at 215.9 43.815 0) (fields_autoplaced)
+  (label "BPS_IG" (at 215.9 43.815 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9f134b5e-e426-4154-994b-9bb18df404e4)
   )
-  (label "IG1" (at 57.15 58.42 180) (fields_autoplaced)
+  (label "BPS_IG" (at 57.15 58.42 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9fbfc773-a6c8-4925-bbae-da4bd4549b21)
   )
@@ -1819,8 +1819,8 @@
     (property "P/N" "43650-0215" (at 176.53 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53664cfe-dc2d-4af9-911e-74a74a14e389))
-    (pin "2" (uuid b05ff367-07ee-4c7f-ae54-92e58535329a))
+    (pin "1" (uuid 7a774931-7211-4394-87ce-f5f16df364e4))
+    (pin "2" (uuid c9409da6-853d-42e1-b017-63bc9980d220))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -1879,7 +1879,7 @@
     (property "Datasheet" "~" (at 217.805 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9f284a73-75e4-4911-ad47-e35ad4021f6e))
+    (pin "1" (uuid 88eff26c-43fc-4e6c-97e5-01464ad62676))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -1940,8 +1940,8 @@
     (property "P/N" "GRM21BR61A476ME15L" (at 147.955 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bc2169c7-f891-4378-9e93-79bc5a36e938))
-    (pin "2" (uuid c0ed7085-be0a-4dde-9273-85e94dcc4e31))
+    (pin "1" (uuid 8b7eb259-16d2-4df8-beea-05ccf95a739b))
+    (pin "2" (uuid ab774cc1-07de-42ff-83a9-0d9cac8335a4))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
@@ -1972,8 +1972,8 @@
     (property "Mouser Part Number" "80-C0805C105K5P" (at 92.71 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4dc84dab-09c9-4343-848a-c976c7e60f3d))
-    (pin "2" (uuid 680b6fdb-c25d-4840-a05d-7798aca52d9d))
+    (pin "1" (uuid 46f535d1-7abc-4d20-8c85-ee4090e2e384))
+    (pin "2" (uuid 4a03f8f3-a4f4-41e4-8395-da213fc59e2d))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -2028,7 +2028,7 @@
     (property "Datasheet" "~" (at 217.805 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 13c4cd2d-4158-4d0f-a540-80c1406a32d2))
+    (pin "1" (uuid f9247504-bac5-44a2-ba34-186592cb49ee))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -2086,8 +2086,8 @@
     (property "PN" "BAV16W-7-F" (at 187.96 106.045 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6d0cfdcb-d32c-4b35-8a81-7abf7f136645))
-    (pin "2" (uuid 24404b66-9732-437a-a677-d4f789113bff))
+    (pin "1" (uuid df2e3993-56e0-4bd2-b90d-8966b267af9a))
+    (pin "2" (uuid 271b24d8-ea7e-4e01-9e32-57b98f3dea90))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
@@ -2118,9 +2118,9 @@
     (property "P/N" "43650-0315" (at 175.26 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a950f1c6-dfc9-495c-8dd1-258696aa70d6))
-    (pin "2" (uuid 1c9366a8-111f-453c-a884-76d6e5ff8493))
-    (pin "3" (uuid b016e365-a5d0-4f0d-b730-bbeddd22bb84))
+    (pin "1" (uuid 7df874ab-7d24-4175-b349-571bf136f810))
+    (pin "2" (uuid 5d34b09c-6490-490d-91dd-2cceee62b9a9))
+    (pin "3" (uuid 38bb1d0a-ea84-4c7b-89ac-42505bf603bd))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -2225,7 +2225,7 @@
     (property "Datasheet" "" (at 122.555 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c118bedc-4504-406f-8c93-f5b2ba9789fe))
+    (pin "1" (uuid fe6fee51-b6dc-4e7d-8709-32bbc38dc617))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
@@ -2281,8 +2281,8 @@
     (property "P/N" "RP0805BRD0720KL" (at 147.955 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7765688-da06-48da-98ad-04939f8b1364))
-    (pin "2" (uuid e38b595f-66d2-480e-859c-fa771d2d22b7))
+    (pin "1" (uuid afa4b297-9167-4491-922c-64be07d6798b))
+    (pin "2" (uuid 917d8fe4-4f6b-48b1-b62c-7d3151d8df3b))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
@@ -2388,8 +2388,8 @@
     (property "Mouser Part Number" "80-C0805C104M5R" (at 101.6 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 097fff6c-00af-4af2-8de9-5a0a02f271a9))
-    (pin "2" (uuid 359374c0-9c0e-4c29-8567-be0bb85b7248))
+    (pin "1" (uuid 00814393-9267-4195-8014-3ba73840bad3))
+    (pin "2" (uuid 7b469a58-387d-4b12-9afa-a290ab360119))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -2454,8 +2454,8 @@
     (property "P/N" "C0805C103J5RACTU" (at 106.68 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b80b1d7f-9442-48f0-8aab-f118ff3d8636))
-    (pin "2" (uuid e46551ec-9fc9-4a63-969b-19cb8c0766ed))
+    (pin "1" (uuid a238bab3-138e-48a8-a834-9238bcfbf58a))
+    (pin "2" (uuid 68a8f5db-561d-4f1f-b2d5-9bd753c3601c))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
@@ -2559,7 +2559,7 @@
     (property "Datasheet" "" (at 122.555 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cbf01fc7-2fac-4731-be2d-1d9e21fd01b6))
+    (pin "1" (uuid 3e2e4daf-d3c6-4b58-9701-1f06c950f7cc))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
@@ -2760,14 +2760,14 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc555.pdf" (at 144.145 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c9d5063f-6d78-46f0-a4a5-1bbf08bfa901))
-    (pin "8" (uuid 92e764d6-9867-4e1e-a55e-7b29500d1280))
-    (pin "2" (uuid 22aacb76-401b-4c37-987b-14d9c1cc1913))
-    (pin "3" (uuid 7ebddc2f-db0e-4b72-853f-456d980f27c0))
-    (pin "4" (uuid ba774707-bc4a-42d9-8913-617ed645bbdd))
-    (pin "5" (uuid 3f61279b-9393-4f91-9657-2f528eb81048))
-    (pin "6" (uuid cc2bee8e-283c-4132-8d96-c8ed4cc7c340))
-    (pin "7" (uuid 8d52f1b7-c61c-4265-a2d0-040a0a69a96e))
+    (pin "1" (uuid ca964ed6-dd63-4043-8b23-92f1ce776288))
+    (pin "8" (uuid e217e3ee-31eb-479d-8c81-fa4675a03a4f))
+    (pin "2" (uuid 707bf019-d5f1-4af5-8f9a-80dc8a1e230b))
+    (pin "3" (uuid e19ad020-3668-4588-85b0-29a0a71f671a))
+    (pin "4" (uuid 131a817e-e6ab-4fbb-ba3f-1efe4db427ce))
+    (pin "5" (uuid dae52e53-b3e0-4d49-8c80-2b973c250915))
+    (pin "6" (uuid f9eec5c2-1a3e-4b9d-8808-8ba2061f2b89))
+    (pin "7" (uuid d580fb80-516d-4a96-b416-f43dec763699))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
@@ -2792,7 +2792,7 @@
     (property "Datasheet" "~" (at 153.035 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0f71e65-4dc9-4e80-8a10-5ec448428518))
+    (pin "1" (uuid 53ab0b62-c76a-4986-8cd0-6aefdf7d7fbc))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -2874,8 +2874,8 @@
     (property "PN" "BAV16W-7-F" (at 187.96 114.935 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9064bcb-4ff1-4fe9-92de-db2667ee8a81))
-    (pin "2" (uuid 364698eb-401a-4a5a-98ea-2f173ff5c0f5))
+    (pin "1" (uuid e01474cd-edcf-4a71-bdf4-f5ad5de4fba6))
+    (pin "2" (uuid 1ceb1f05-7296-4150-915b-97d598b54db5))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/52d17704-1dcb-4587-b732-713a215b01d3"
@@ -2938,8 +2938,8 @@
     (property "P/N" "CRCW08051K00FKEAC" (at 147.955 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9f4c6cd1-14d6-43a1-8525-c023ea3b5070))
-    (pin "2" (uuid 4e12bb54-df0c-446f-b2a1-dde706bedfc0))
+    (pin "1" (uuid e8c07e65-cae4-400d-9e04-e967766a44db))
+    (pin "2" (uuid 89817406-1377-4398-a7c4-ac637900743e))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
@@ -2984,13 +2984,13 @@
     (property "Sheetfile" "ignition_switch.kicad_sch" (at 21.59 62.8146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "IG1" output (at 44.45 58.42 0)
+    (pin "BPS_IG" output (at 44.45 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2a42da82-dc60-4165-b525-d40a4b377003)
+      (uuid 13a7ce13-7a4f-4ad3-a61e-3fd6ec9e950d)
     )
-    (pin "IG2" output (at 44.45 60.96 0)
+    (pin "DRIVER_IG" output (at 44.45 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 69515e96-5e85-4c49-b267-1864cd06f63d)
+      (uuid 2a1b003d-b54f-4306-94a2-8eab4200c1e7)
     )
     (instances
       (project "Controls-LeaderDaughterPCB"
