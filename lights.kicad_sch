@@ -5,6 +5,41 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at 0 6.858 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1130,6 +1165,39 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 152.4 62.865 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 77ff6802-3c5e-47d7-bcdc-d2f94fdf2848)
+    (property "Reference" "TP7" (at 153.035 57.785 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "RIGHT_BLINK_TP" (at 158.75 55.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 157.48 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 157.48 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8f8f9b9e-1b34-4731-8290-c0ef95a4cb9e))
+    (instances
+      (project "Controls-LightingPCB"
+        (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
+          (reference "TP7") (unit 1)
+        )
+      )
+      (project "Controls-LeaderDaughterPCB"
+        (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
+          (reference "TP6") (unit 1)
+        )
+        (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/f7827f80-0f50-4e4f-b2cd-ff48878538ae"
+          (reference "TP4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 192.405 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c0db7b7-f59f-4d89-9872-d18f0d67fd58)
@@ -1190,6 +1258,39 @@
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/f7827f80-0f50-4e4f-b2cd-ff48878538ae"
           (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 163.83 91.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 84f5060a-71dc-4ba0-83da-2d57b1322b7d)
+    (property "Reference" "TP4" (at 164.465 86.36 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LEFT_BLINK_TP" (at 169.545 84.455 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 168.91 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 168.91 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 42a3c84d-3af4-4d79-bf9d-ee12698b20f5))
+    (instances
+      (project "Controls-LightingPCB"
+        (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "Controls-LeaderDaughterPCB"
+        (path "/c7871779-04fe-4705-8150-20a4dd0ef44f"
+          (reference "TP7") (unit 1)
+        )
+        (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/f7827f80-0f50-4e4f-b2cd-ff48878538ae"
+          (reference "TP5") (unit 1)
         )
       )
     )
