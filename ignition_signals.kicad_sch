@@ -701,8 +701,8 @@
     (property "PN" "RCS0805270RFKEA" (at 120.015 100.965 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee6fcc41-a2de-49fc-8409-eb573efeda0c))
-    (pin "2" (uuid 5094b7b8-a693-4957-8248-fbca69cdc0be))
+    (pin "1" (uuid 8683e10c-8566-4f1e-8528-bfe8bdfcf72a))
+    (pin "2" (uuid 8eb99eb7-2d78-4cb0-b4c5-b9b4c9e68efd))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/0d7b9330-5178-458e-b803-9c8d464fd559"
@@ -991,8 +991,8 @@
     (property "PN" "RCS0805270RFKEA" (at 120.015 74.295 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 98578ce6-e404-4ea0-8b7d-7b64d6aee1cd))
-    (pin "2" (uuid 1f1da366-2ef3-4eac-a1bc-bf3801f49fbf))
+    (pin "1" (uuid b5d33bd2-e169-40e4-90f2-c7f5117ed0c1))
+    (pin "2" (uuid dfeb4394-e960-46a7-8ddc-c5a50d1cb4a8))
     (instances
       (project "Controls-LeaderDaughterPCB"
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/0d7b9330-5178-458e-b803-9c8d464fd559"

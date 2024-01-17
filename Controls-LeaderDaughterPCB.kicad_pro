@@ -487,6 +487,10 @@
     [
       "fd5723b9-3644-4daa-af29-4c44667f673c",
       "Driver Fans"
+    ],
+    [
+      "2112f985-b932-45cd-8ebe-65af3370f212",
+      "GPIO Extender"
     ]
   ],
   "text_variables": {}
