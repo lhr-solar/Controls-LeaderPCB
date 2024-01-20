@@ -658,8 +658,18 @@
     (uuid ff9bfa09-49e6-41ae-99da-49a1c9c69406)
   )
 
+  (rectangle (start 12.065 181.61) (end 176.53 198.12)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 568a1335-f54d-414b-92bb-574cfb08951a)
+  )
+
+  (text "Notes" (at 12.065 180.34 0)
+    (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
+    (uuid 1386f195-854e-4e8c-976e-a9deb36c747c)
+  )
   (text "*** Calculate and change current limiting resistor values for lights ***"
-    (at 88.265 50.8 0)
+    (at 12.7 184.785 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4d4f2d88-7478-458a-b0bb-16e024368918)
   )

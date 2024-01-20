@@ -569,9 +569,24 @@
     (uuid fab6267c-c079-4da4-9363-2d1a2c70e155)
   )
 
+  (rectangle (start 12.065 181.61) (end 176.53 198.12)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 93731947-6142-4fb9-84f5-79bbc0c977f5)
+  )
+
+  (text "540 Ohm Resistors: R = (Vs - Vf) / I = (12V - 1.2V) / 0.02A"
+    (at 12.7 184.785 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 27b9bc38-de1d-478d-aefb-b9683bfeebd3)
+  )
   (text "Ignition Switch" (at 115.57 54.61 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 3c09e3af-df14-4246-b7d8-a6533b291f80)
+  )
+  (text "Notes" (at 12.065 180.34 0)
+    (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
+    (uuid dea32b6a-a887-403c-8ce4-77514e3a7896)
   )
 
   (hierarchical_label "DRIVER_IG" (shape output) (at 151.765 104.775 0) (fields_autoplaced)

@@ -1197,17 +1197,32 @@
     (uuid fd7cd5ed-6703-4203-a4d2-582991774f71)
   )
 
-  (text "1: left blink\n3: right blink" (at 52.07 106.68 0)
+  (rectangle (start 12.065 181.61) (end 176.53 198.12)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 877fa359-bb19-49af-8b12-2cd75b816266)
+  )
+
+  (text "1: left blink\n3: right blink" (at 52.07 144.145 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 31a84db8-eae1-481b-9007-ac302df57140)
   )
-  (text "1: reverse\n3: forward" (at 54.61 95.25 0)
+  (text "1: reverse\n3: forward" (at 54.61 118.745 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 47e144d8-5b04-4cb2-93c8-253d252950a1)
+  )
+  (text "Notes" (at 12.065 180.34 0)
+    (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
+    (uuid 6c275f78-cd65-4666-b0d3-7f070901aed4)
   )
   (text "GPIO Extender" (at 127.635 38.1 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 9762b0f0-c223-4787-ae7e-d6c2af20ebeb)
+  )
+  (text "Debouncing added to cruise enable, cruise set, regen, and forward/reverse switches to ensure signal is only set once. Not necessary for turn signals and hazards."
+    (at 12.7 184.15 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c7aa99f2-89cf-428b-96d3-722a21f38f91)
   )
 
   (hierarchical_label "DRIVER_IG" (shape input) (at 222.885 93.98 0) (fields_autoplaced)
@@ -1222,7 +1237,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 11e6665b-abed-413f-90d7-bd18e377b5cd)
   )
-  (hierarchical_label "BREAKLIGHT" (shape output) (at 222.885 83.82 0) (fields_autoplaced)
+  (hierarchical_label "BRAKELIGHT" (shape output) (at 222.885 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 61074029-4743-437d-8a1d-cf61e9c1f405)
   )
@@ -1324,8 +1339,8 @@
     (property "Mouser PN" "538-43650-0215" (at 73.66 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3005c614-5a42-49f1-86a8-4406ef753b87))
-    (pin "2" (uuid 94ffb287-87f6-4067-9de0-9724b8a7f9f1))
+    (pin "1" (uuid 8dc252aa-cf8e-40b8-a263-8b218191b840))
+    (pin "2" (uuid 114be51e-8835-4c60-a5aa-826746cfcf13))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -1340,7 +1355,7 @@
           (reference "REGENSW2") (unit 1)
         )
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/2112f985-b932-45cd-8ebe-65af3370f212"
-          (reference "REGENSW2") (unit 1)
+          (reference "REGEN_SW1") (unit 1)
         )
       )
     )
@@ -1757,8 +1772,8 @@
     (property "Mouser PN" "538-43650-0215" (at 73.66 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a94e44f-616f-48cf-88bf-fc895aab9b9e))
-    (pin "2" (uuid b50a9436-9728-4544-9b6f-6ee43d11a365))
+    (pin "1" (uuid a6450b51-81d4-487a-9c9d-39b71bf72bb3))
+    (pin "2" (uuid c870cd2d-42be-4093-a732-262cb9b70382))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -1782,7 +1797,7 @@
   (symbol (lib_id "Switch:SW_SPDT_MSM") (at 73.66 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c2df820-585a-42db-8d42-0f05be2a03d3)
-    (property "Reference" "Turn_Signal_SW1" (at 71.12 113.03 0)
+    (property "Reference" "Turn_Signal_SW1" (at 73.66 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FORWARD_REVERSE_SW" (at 77.47 111.125 0)
@@ -1800,9 +1815,9 @@
     (property "Mouser PN" "538-43650-0315" (at 73.66 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c33887b7-2830-4c7a-a44e-68d23ede6916))
-    (pin "2" (uuid e036913c-cf41-4371-9d9e-8d99eb436332))
-    (pin "3" (uuid 8cfc4698-f246-4ec9-be13-d6acafc46d46))
+    (pin "1" (uuid e282a1ca-f9be-4386-9035-6d6df1091480))
+    (pin "2" (uuid 68b924d5-bff1-4192-b048-0a491b193c61))
+    (pin "3" (uuid ebddb5bc-f036-4a85-89fb-027a39665973))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -1814,7 +1829,7 @@
           (reference "F/R_SW1") (unit 1)
         )
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/2112f985-b932-45cd-8ebe-65af3370f212"
-          (reference "Turn_Signal_SW1") (unit 1)
+          (reference "FOR_REV_SW1") (unit 1)
         )
       )
     )
@@ -2150,7 +2165,7 @@
     (property "Reference" "Turn_Signal_SW1" (at 71.755 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TURN_SIGNAL_SW" (at 74.295 136.525 0)
+    (property "Value" "TURN_SIGNAL_SW" (at 74.93 136.525 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical" (at 74.295 142.24 0)
@@ -2165,9 +2180,9 @@
     (property "Mouser PN" "538-43650-0315" (at 74.295 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6af6d66b-3b5e-487c-a7c6-f7b3497d8542))
-    (pin "2" (uuid 5d77afb8-d1c8-4ab1-8faf-fd838520ecb1))
-    (pin "3" (uuid 0efc50c2-dd5d-47d5-8a10-c03cbe9ec6a9))
+    (pin "1" (uuid e7b7cf0b-7792-4e27-bfb4-eb9bb4dadc66))
+    (pin "2" (uuid 401449d8-41cc-419b-92cb-f2fb27141157))
+    (pin "3" (uuid 2b442c98-7430-4138-8e1c-bac3586bc60a))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -2179,7 +2194,7 @@
           (reference "TURN_SIG1") (unit 1)
         )
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/2112f985-b932-45cd-8ebe-65af3370f212"
-          (reference "Turn_Signal_SW2") (unit 1)
+          (reference "TURN_SW1") (unit 1)
         )
       )
     )
@@ -2376,8 +2391,8 @@
     (property "Mouser PN" "538-43650-0215" (at 73.66 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a47a0d85-1f8c-41c1-ad7a-22eb41ff646b))
-    (pin "2" (uuid d5c9d1df-ef55-4551-84bc-84e8ffda0393))
+    (pin "1" (uuid cd2c3cc6-e89b-43b6-927b-08ea9d5b352e))
+    (pin "2" (uuid b22b398f-3b14-4d20-8342-52ad70a57ac4))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
@@ -2392,7 +2407,7 @@
           (reference "REGENSW1") (unit 1)
         )
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/2112f985-b932-45cd-8ebe-65af3370f212"
-          (reference "REGENSW1") (unit 1)
+          (reference "CRUZ_EN_SW1") (unit 1)
         )
       )
     )
@@ -2469,10 +2484,10 @@
   (symbol (lib_id "Switch:SW_SPST") (at 74.295 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcb5d999-7e5d-4c43-90fc-c02d039d273f)
-    (property "Reference" "HZD_SW1" (at 68.58 156.21 0)
+    (property "Reference" "HZD_SW1" (at 70.485 158.115 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "HAZARD_SW" (at 71.755 158.115 0)
+    (property "Value" "HAZARD_SW" (at 71.755 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" (at 74.295 161.29 0)
@@ -2487,8 +2502,8 @@
     (property "Mouser PN" "538-43650-0215" (at 74.295 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1cde671f-5710-49fa-9f70-4a998c75383a))
-    (pin "2" (uuid 318b8700-5482-4e01-b433-f1f030678604))
+    (pin "1" (uuid 7536256e-d10a-4511-af17-81b6416ff75d))
+    (pin "2" (uuid f0b49acb-58f2-48f2-99f8-01e604fc4a32))
     (instances
       (project "Controls-LightingPCB"
         (path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"

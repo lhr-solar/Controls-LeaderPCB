@@ -686,9 +686,29 @@
     (uuid ff5749a4-7079-4f90-b722-71c7c56ca685)
   )
 
+  (rectangle (start 12.065 181.61) (end 176.53 198.12)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid df693d51-f685-4908-b745-6f003a9f7b90)
+  )
+
+  (text "5.1k Resistors: Used to pull up/down the pot signal. In case of disconnect or other unforseen issues, accelerator and fans will default to LOW and \nBrake will default to HIGH"
+    (at 12.7 189.23 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 411338a5-8228-433c-8405-272fd2fcf442)
+  )
+  (text "Notes" (at 12.065 180.34 0)
+    (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
+    (uuid 5f30d939-cde1-4834-b20f-c0cfbde5842d)
+  )
   (text "Potentiometers" (at 138.43 58.42 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 89be72c1-1007-4c5a-ad09-4b73c0cb967d)
+  )
+  (text "*** Calculate and confirm/change 10k resistor values ***"
+    (at 12.7 184.785 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b7484fa7-1fc1-4bc2-8218-7bbc38d879d1)
   )
 
   (hierarchical_label "ACCEL_POT" (shape output) (at 78.74 81.28 180) (fields_autoplaced)

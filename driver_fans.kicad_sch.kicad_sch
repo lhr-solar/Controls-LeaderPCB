@@ -578,9 +578,24 @@
     (uuid ef14a38f-bc56-47fa-b8ae-98298e43b1d6)
   )
 
+  (rectangle (start 12.065 181.61) (end 176.53 198.12)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 259b0667-411f-4fd8-bbe8-b0a6b8037305)
+  )
+
+  (text "Used two MOSFETs to ensure each could handle the current draw of the fans"
+    (at 12.7 184.785 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 024b89cf-7d8c-443e-8aa3-78a33442430a)
+  )
   (text "Driver Fans" (at 129.54 67.31 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 24ec5011-d8f0-416f-8c21-704adf7e666c)
+  )
+  (text "Notes" (at 12.065 180.34 0)
+    (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
+    (uuid b1e14991-6499-454b-af02-a19af191d6d4)
   )
 
   (hierarchical_label "FAN_SIG_3V3" (shape input) (at 114.935 95.885 180) (fields_autoplaced)
