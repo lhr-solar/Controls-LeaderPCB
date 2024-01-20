@@ -593,6 +593,11 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 24ec5011-d8f0-416f-8c21-704adf7e666c)
   )
+  (text "Flyback diodes protect against inductive spikes from the fans."
+    (at 12.7 187.325 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a5395df2-fe02-43ed-9673-883084425d05)
+  )
   (text "Notes" (at 12.065 180.34 0)
     (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
     (uuid b1e14991-6499-454b-af02-a19af191d6d4)

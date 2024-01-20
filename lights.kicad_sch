@@ -971,7 +971,7 @@
     (property "Reference" "R11" (at 100.33 128.27 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5.1k" (at 98.425 128.27 90)
+    (property "Value" "100k" (at 98.425 128.27 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 96.901 126.619 90)
