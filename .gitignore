@@ -5,4 +5,5 @@
 *.swp
 *-save.*
 *.kicad_prl
+*.lck
 *-backups
