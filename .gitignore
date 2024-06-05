@@ -8,6 +8,10 @@
 *.kicad_pcb-bak
 *sch-bak
 *.lck
+*.swp
+*-save.*
+*.kicad_prl
+*-backups
 *~
 _autosave-*
 *.tmp
