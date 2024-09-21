@@ -870,6 +870,10 @@
     (effects (font (size 1.27 1.27) (color 255 4 0 1)) (justify left bottom))
     (uuid c90b0fc9-8c6a-4cf1-a089-3b11ba927a27)
   )
+  (text "No change required\n" (at 15.24 21.59 0)
+    (effects (font (face "KiCad Font") (size 5 5) (thickness 1) bold (color 255 2 13 1)) (justify left bottom))
+    (uuid fccf7ddc-ba6c-452d-bdd0-8ccd68cb5c30)
+  )
 
   (hierarchical_label "UART_RX" (shape input) (at 166.37 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
