@@ -2608,6 +2608,17 @@
 		)
 		(uuid "5290e0d7-1f24-4c0b-91ff-28c5a304ab9a")
 	)
+	(text "Need 1x3 rotary"
+		(exclude_from_sim no)
+		(at 176.022 82.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 7 1)
+			)
+		)
+		(uuid "ecfb0bc3-84e2-476e-abc7-bf7081a11f58")
+	)
 	(label "IG2"
 		(at 137.16 119.38 180)
 		(fields_autoplaced yes)
