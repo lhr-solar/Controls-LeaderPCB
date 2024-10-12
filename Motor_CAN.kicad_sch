@@ -3135,7 +3135,7 @@
 		)
 		(uuid "01106a52-6b7d-40fd-b165-c927be1f6a1d")
 	)
-	(hierarchical_label "+12VA"
+	(hierarchical_label "+12V"
 		(shape input)
 		(at 226.06 113.03 180)
 		(fields_autoplaced yes)
@@ -3147,7 +3147,7 @@
 		)
 		(uuid "18eef4d3-c3b1-4511-89f0-f3ca5fbf521d")
 	)
-	(hierarchical_label "GND1"
+	(hierarchical_label "GNDPWR"
 		(shape input)
 		(at 226.06 115.57 180)
 		(fields_autoplaced yes)
