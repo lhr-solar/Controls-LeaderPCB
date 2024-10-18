@@ -651,8 +651,16 @@
       "PwrStateIndicators"
     ],
     [
+      "c2b44a2f-ee1f-4a43-89f7-eda540df1696",
+      "Lights"
+    ],
+    [
       "00000000-0000-0000-0000-00005f7b30ea",
       "MinionBrdInterface"
+    ],
+    [
+      "8e26c761-210b-4742-b543-7477f8bf4a96",
+      "Lights Drivers"
     ]
   ],
   "text_variables": {}
