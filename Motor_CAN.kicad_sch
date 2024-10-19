@@ -1145,6 +1145,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Jumper_NC_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2087,7 +2220,17 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 110.49) (xy 226.06 110.49)
+			(xy 228.6 115.57) (xy 245.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165508d1-1a6c-4fd7-863a-eed16a886c76")
+	)
+	(wire
+		(pts
+			(xy 219.71 110.49) (xy 245.11 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2350,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 125.73) (xy 226.06 125.73)
+			(xy 219.71 125.73) (xy 245.11 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2327,6 +2470,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 109.22) (xy 228.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c089ee-fd94-41e6-909a-91d3aa6c288b")
+	)
+	(wire
+		(pts
 			(xy 187.96 74.93) (xy 187.96 101.6)
 		)
 		(stroke
@@ -2337,7 +2490,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 118.11) (xy 226.06 118.11)
+			(xy 217.17 118.11) (xy 245.11 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2627,6 +2780,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 101.6) (xy 228.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0db78fd-6036-43c6-88a8-44eb62d2cadf")
+	)
+	(wire
+		(pts
 			(xy 53.34 85.09) (xy 62.23 85.09)
 		)
 		(stroke
@@ -2807,6 +2970,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 129.54) (xy 228.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf82276-321b-45bb-b52c-08cbb6b8913f")
+	)
+	(wire
+		(pts
 			(xy 195.58 74.93) (xy 187.96 74.93)
 		)
 		(stroke
@@ -2847,6 +3020,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 113.03) (xy 245.11 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25b2c3f-b6bf-48c4-bb94-dd62021cdd9d")
+	)
+	(wire
+		(pts
 			(xy 219.71 110.49) (xy 219.71 125.73)
 		)
 		(stroke
@@ -2867,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 120.65) (xy 226.06 120.65)
+			(xy 214.63 120.65) (xy 245.11 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3035,6 +3218,17 @@
 		)
 		(uuid "c7506c34-aa8c-4c95-b7bf-7ad6aa5123c4")
 	)
+	(text "Fuse for protecting motor controller\n"
+		(exclude_from_sim no)
+		(at 249.682 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 2 1)
+			)
+		)
+		(uuid "faded02c-85ea-402a-8b17-5c6a7543370e")
+	)
 	(text "CAN Bus\nProtection"
 		(exclude_from_sim no)
 		(at 191.77 69.85 0)
@@ -3137,7 +3331,7 @@
 	)
 	(hierarchical_label "+12V"
 		(shape input)
-		(at 226.06 113.03 180)
+		(at 228.6 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3149,13 +3343,13 @@
 	)
 	(hierarchical_label "GNDPWR"
 		(shape input)
-		(at 226.06 115.57 180)
+		(at 228.6 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "22591446-6d82-47ac-b525-9e9deb496c8c")
 	)
@@ -4699,7 +4893,7 @@
 	)
 	(symbol
 		(lib_id "Dashboard:MotorCANConnector-utsvt-connectors")
-		(at 233.68 130.81 0)
+		(at 252.73 130.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4708,7 +4902,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f63ed37")
 		(property "Reference" "J20"
-			(at 244.602 116.9416 0)
+			(at 263.652 116.9416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4911,7 @@
 			)
 		)
 		(property "Value" "MotorCANConnector"
-			(at 244.602 119.253 0)
+			(at 263.652 119.253 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4920,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Connectors:TE_4-2172079-2"
-			(at 233.68 130.81 0)
+			(at 252.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 130.81 0)
+			(at 252.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4938,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 130.81 0)
+			(at 252.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4947,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/4-2172079-2/A120861-ND/5118755"
-			(at 233.68 130.81 0)
+			(at 252.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,6 +5046,76 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f6018fb"
 					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 228.6 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a958ee-7637-4f33-b1bd-76d0a672a211")
+		(property "Reference" "F1"
+			(at 231.14 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 231.14 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.822 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 228.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83b6ced6-cba5-43d5-a0f6-4e2c3dad7197")
+		)
+		(pin "1"
+			(uuid "dd48946f-42ea-4eb8-8f62-db6c9335860a")
+		)
+		(instances
+			(project ""
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f6018fb"
+					(reference "F1")
 					(unit 1)
 				)
 			)
