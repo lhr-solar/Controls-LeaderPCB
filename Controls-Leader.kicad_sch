@@ -6855,7 +6855,7 @@
 		)
 		(uuid "2102c637-9f11-48f1-aae6-b4139dc22be2")
 	)
-	(label "Regen"
+	(label "Bps_Hazard"
 		(at 74.93 204.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7669,7 +7669,7 @@
 		)
 		(uuid "c5c240e3-84a3-4dee-a77b-ffe4b1e7729e")
 	)
-	(label "Regen"
+	(label "Bps_Hazard"
 		(at 243.84 130.81 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7768,7 +7768,7 @@
 		)
 		(uuid "dd323887-dbc0-4381-ad42-cf0ee8ed76ea")
 	)
-	(label "Foward"
+	(label "Forward"
 		(at 243.84 133.35 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13727,16 +13727,6 @@
 			)
 			(uuid "5291b61b-1320-4c0d-9f17-0ebdd8d93f4f")
 		)
-		(pin "Regen" output
-			(at 68.58 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "83292e18-bd97-453e-8e32-4ee2f6dd2bf3")
-		)
 		(pin "IGN_2(Motor)" output
 			(at 68.58 194.31 0)
 			(effects
@@ -13786,6 +13776,16 @@
 				(justify right)
 			)
 			(uuid "b2048bd3-2b75-4c2c-905f-0ceddd312daa")
+		)
+		(pin "Bps_Hazard" input
+			(at 68.58 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "773e903f-d3bc-4c2c-a568-8765f92f510f")
 		)
 		(instances
 			(project "Controls-Leader"
