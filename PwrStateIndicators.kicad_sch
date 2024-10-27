@@ -418,7 +418,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4"
+			(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -679,9 +679,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -729,7 +729,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -755,8 +755,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1330,7 +1330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -1341,7 +1341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
 			(at 189.23 119.38 0)
 			(effects
 				(font
@@ -1351,7 +1351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
 			(at 189.23 119.38 0)
 			(effects
 				(font
@@ -1433,7 +1433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -1510,7 +1510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 125.73 0)
 			(effects
 				(font
@@ -1556,7 +1556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 104.14 125.73 0)
 			(effects
 				(font
@@ -1567,7 +1567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
 			(at 109.22 120.65 0)
 			(effects
 				(font
@@ -1577,7 +1577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
 			(at 109.22 120.65 0)
 			(effects
 				(font
@@ -1659,7 +1659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 95.25 118.11 0)
 			(effects
 				(font
@@ -1736,7 +1736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 99.06 127 0)
 			(effects
 				(font
@@ -1782,7 +1782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 105.41 100.33 0)
 			(effects
 				(font
@@ -1793,7 +1793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
 			(at 110.49 95.25 0)
 			(effects
 				(font
@@ -1803,7 +1803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
 			(at 110.49 95.25 0)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 96.52 92.71 0)
 			(effects
 				(font
@@ -1962,7 +1962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -2008,7 +2008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 184.15 100.33 0)
 			(effects
 				(font
@@ -2019,7 +2019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
 			(at 189.23 95.25 0)
 			(effects
 				(font
@@ -2029,7 +2029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
 			(at 189.23 95.25 0)
 			(effects
 				(font
@@ -2111,7 +2111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 175.26 92.71 0)
 			(effects
 				(font
@@ -2188,7 +2188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 101.6 0)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 209.55 106.68 0)
 			(effects
 				(font
@@ -2331,7 +2331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 130.81 106.68 0)
 			(effects
 				(font
