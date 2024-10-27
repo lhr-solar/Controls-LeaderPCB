@@ -5242,7 +5242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_2x6xP3.00mm_PolarizingPeg_Vertical"
 			(at 99.06 67.31 0)
 			(effects
 				(font
