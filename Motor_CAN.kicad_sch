@@ -5361,7 +5361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 226.822 105.41 90)
 			(effects
 				(font
@@ -5370,7 +5370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_437_datasheet.pdf.pdf"
 			(at 228.6 105.41 0)
 			(effects
 				(font

@@ -4339,6 +4339,10 @@
 		(uuid "2dd5fc4c-744e-4a87-bbb5-f55431823379")
 	)
 	(no_connect
+		(at 292.1 161.29)
+		(uuid "6a3103d9-b461-4158-a5da-4566226382bc")
+	)
+	(no_connect
 		(at 328.93 95.25)
 		(uuid "fa418701-d8d1-4373-82b5-77cf5b314d9e")
 	)
@@ -4701,6 +4705,16 @@
 			(type default)
 		)
 		(uuid "235067e2-1686-40fe-a9a0-61704311b2b1")
+	)
+	(wire
+		(pts
+			(xy 68.58 237.49) (xy 74.93 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239892c4-4a59-47ac-beb3-32c4fc1614be")
 	)
 	(wire
 		(pts
@@ -6847,7 +6861,7 @@
 		)
 		(uuid "199124ca-dd64-45cf-a063-97cc545cbea7")
 	)
-	(label "PB7"
+	(label "TimerCLK"
 		(at 243.84 179.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7033,17 +7047,6 @@
 			(justify left bottom)
 		)
 		(uuid "4086cbd7-6ba7-4e63-8da9-17e60627ee17")
-	)
-	(label "PB7"
-		(at 292.1 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4346fe55-f906-453a-b81a-1c013104a598")
 	)
 	(label "PC4"
 		(at 177.8 151.13 0)
@@ -7803,6 +7806,17 @@
 			(justify left bottom)
 		)
 		(uuid "df2a6036-7274-4398-9365-148b6ddab90d")
+	)
+	(label "TimerCLK"
+		(at 74.93 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfa416aa-f803-4924-961d-4bb0037c484a")
 	)
 	(label "UART3_Tx"
 		(at 326.39 90.17 180)
@@ -14021,6 +14035,16 @@
 				(justify right)
 			)
 			(uuid "8be534fb-243a-4c56-8823-4b4ad8e9a7ef")
+		)
+		(pin "Timer_CLK" input
+			(at 68.58 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3cc64f93-c070-4871-a2d1-dc0795a97514")
 		)
 		(instances
 			(project "Controls-Leader"
