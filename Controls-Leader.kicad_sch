@@ -5860,7 +5860,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 166.37) (xy 177.8 166.37)
+			(xy 193.04 166.37) (xy 172.72 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5900,7 +5900,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 168.91) (xy 193.04 168.91)
+			(xy 172.72 168.91) (xy 193.04 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6609,7 +6609,7 @@
 		)
 		(uuid "0dd873a2-26c5-4421-8f42-a3e35a0d830e")
 	)
-	(label "Motor_PRCHG_Bypass"
+	(label "PD2"
 		(at 177.8 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7083,7 +7083,7 @@
 		(uuid "81a31d6c-ebeb-43b9-917e-7deae3547f37")
 	)
 	(label "Array_PRCHG_Bypass"
-		(at 177.8 166.37 0)
+		(at 172.72 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7302,8 +7302,8 @@
 		)
 		(uuid "a418483c-eae6-4143-96a1-bee922abc7b3")
 	)
-	(label "PC11"
-		(at 177.8 168.91 0)
+	(label "Motor_PRCHG_Bypass"
+		(at 172.72 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7445,7 +7445,7 @@
 		)
 		(uuid "c2dd13db-24b6-40f1-b75b-b9ab893d92ea")
 	)
-	(label "PC11"
+	(label "PD2"
 		(at 292.1 158.75 0)
 		(fields_autoplaced yes)
 		(effects
