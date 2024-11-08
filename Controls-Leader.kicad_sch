@@ -3775,126 +3775,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -4568,16 +4448,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 35.56) (xy 80.01 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18d11f32-e1a6-4f29-8e3c-0bfeb07299bd")
-	)
-	(wire
-		(pts
 			(xy 228.6 173.99) (xy 243.84 173.99)
 		)
 		(stroke
@@ -5178,16 +5048,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.132) (xy 77.216 40.132)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f60168-cced-43c9-aaa5-41a1a8a2f631")
-	)
-	(wire
-		(pts
 			(xy 193.04 71.12) (xy 193.04 73.66)
 		)
 		(stroke
@@ -5305,16 +5165,6 @@
 			(type default)
 		)
 		(uuid "6add405d-dd0c-4301-8fa8-356b9654d336")
-	)
-	(wire
-		(pts
-			(xy 73.66 33.02) (xy 73.66 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afc19cf-38b4-47a3-bc2b-445b18724310")
 	)
 	(wire
 		(pts
@@ -5525,16 +5375,6 @@
 			(type default)
 		)
 		(uuid "83184391-76ed-44f0-8cd0-01f89f157bdb")
-	)
-	(wire
-		(pts
-			(xy 68.58 33.02) (xy 73.66 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d296ba-3d39-4264-ad19-947f90c54396")
 	)
 	(polyline
 		(pts
@@ -5865,16 +5705,6 @@
 			(type default)
 		)
 		(uuid "a8fb8ee0-623f-4870-a716-ecc88f37ef9a")
-	)
-	(wire
-		(pts
-			(xy 80.01 35.56) (xy 80.01 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a90361cd-254c-4d27-ae1f-9a6c85bafe28")
 	)
 	(wire
 		(pts
@@ -6215,16 +6045,6 @@
 			(type default)
 		)
 		(uuid "d66d3c12-11ce-4566-9a45-962e329503d8")
-	)
-	(wire
-		(pts
-			(xy 77.216 45.212) (xy 77.216 40.132)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d68dca9b-48b3-498b-9b5f-3b3838250f82")
 	)
 	(wire
 		(pts
@@ -6671,17 +6491,6 @@
 		)
 		(uuid "a5cfa492-4cee-472c-8999-3a88f5876979")
 	)
-	(text "Removed CAN Tx/Rx testpoints since we want H/L, \nand both CAN ports appear to already have them"
-		(exclude_from_sim no)
-		(at 341.376 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 151 28 1)
-			)
-		)
-		(uuid "b732cc82-00c0-4446-a3fa-261106eb4abc")
-	)
 	(text "Logo Placeholders"
 		(exclude_from_sim no)
 		(at 302.26 226.06 0)
@@ -6706,7 +6515,7 @@
 		)
 		(uuid "d38aa458-d7c4-47af-ba08-2b6be506a3fd")
 	)
-	(text "What are capacitors for QUESTION?\n\nAct as noise filters for 3.3V\nPlace as close to 3.3V pins as possible\n\n"
+	(text "Capacitors act as noise filters for 3.3V\nPlace as close to 3.3V pins as possible\n\n"
 		(exclude_from_sim no)
 		(at 195.58 57.15 0)
 		(effects
@@ -6718,7 +6527,7 @@
 		)
 		(uuid "e58e87bb-611b-4e2c-b8a5-47e480d0d2c7")
 	)
-	(text "For the boad itself"
+	(text "For the board itself"
 		(exclude_from_sim no)
 		(at 332.74 226.06 0)
 		(effects
@@ -8538,138 +8347,6 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f253dd0")
-		(property "Reference" "#PWR072"
-			(at 73.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 73.279 26.0858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11da0e88-45ea-45cc-b26f-a827450f1dd3")
-		)
-		(instances
-			(project "Controls-Leader"
-				(path "/66218487-e316-4467-9eba-79d4626ab24e"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 80.01 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f254920")
-		(property "Reference" "#PWR069"
-			(at 80.01 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 79.629 26.0858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 80.01 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56b54526-4277-43ff-ba29-8170f3403dd4")
-		)
-		(instances
-			(project "Controls-Leader"
-				(path "/66218487-e316-4467-9eba-79d4626ab24e"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -10940,71 +10617,6 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.216 45.212 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000619ad7c1")
-		(property "Reference" "#PWR014"
-			(at 77.216 51.562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.343 49.6062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.216 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.216 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.216 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89c9d6df-afc0-441c-aa60-2a598d5b243b")
-		)
-		(instances
-			(project "Controls-Leader"
-				(path "/66218487-e316-4467-9eba-79d4626ab24e"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13450,36 +13062,6 @@
 				(justify left top)
 			)
 		)
-		(pin "GND" output
-			(at 68.58 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0ceb97d6-1b0f-4b71-921e-b0955c30c998")
-		)
-		(pin "+5V" output
-			(at 68.58 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1241b7f2-e266-4f5c-8a97-9f0f9d0eef37")
-		)
-		(pin "+3.3V" input
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7d0dab95-9e7a-486e-a1d7-fc48860fd57d")
-		)
 		(instances
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
@@ -13674,7 +13256,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-00005f7b30ea")
-		(property "Sheetname" "MinionBrdInterface"
+		(property "Sheetname" "DashAndDisplay"
 			(at 39.37 179.6284 0)
 			(effects
 				(font

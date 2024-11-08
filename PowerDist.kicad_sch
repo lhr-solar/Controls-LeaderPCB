@@ -2283,12 +2283,6 @@
 		(uuid "6efd84fb-f8e4-4d61-a4b1-d58dd77d0c16")
 	)
 	(junction
-		(at 222.25 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7943ed8c-e760-4ace-9c5f-baf5589fae39")
-	)
-	(junction
 		(at 55.88 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2299,12 +2293,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a5677b9-e9c5-4758-b1ce-be947261ff68")
-	)
-	(junction
-		(at 137.16 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90fd611c-300b-48cf-a7c4-0d604953cd00")
 	)
 	(junction
 		(at 129.54 87.63)
@@ -2337,26 +2325,10 @@
 		(uuid "f44e49b1-1d38-428f-9359-28543e91bdb3")
 	)
 	(junction
-		(at 137.16 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7070c76-b83b-43a9-a243-491723819616")
-	)
-	(junction
 		(at 217.17 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb9a832c-737d-49fb-bbb4-29a0ba3e8178")
-	)
-	(wire
-		(pts
-			(xy 227.33 81.28) (xy 222.25 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01024d27-e392-4482-9e67-565b0c294fe8")
 	)
 	(wire
 		(pts
@@ -2597,16 +2569,6 @@
 			(type default)
 		)
 		(uuid "4b471778-f61d-4b9d-a507-3d4f82ec4b7c")
-	)
-	(wire
-		(pts
-			(xy 137.16 77.47) (xy 139.7 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d967454-338c-4b89-8534-9457e15bf2f2")
 	)
 	(wire
 		(pts
@@ -2950,16 +2912,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 87.63) (xy 137.16 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd7a1e0-5bed-4583-a94e-5ccec9e4eb74")
-	)
-	(wire
-		(pts
 			(xy 161.29 73.66) (xy 161.29 78.74)
 		)
 		(stroke
@@ -3158,42 +3110,6 @@
 			)
 		)
 		(uuid "f1e82809-fff6-426d-a364-9e4757520f98")
-	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 227.33 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54093c93-5e7e-4c8d-8d94-40c077747c12")
-	)
-	(hierarchical_label "GND"
-		(shape output)
-		(at 139.7 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8274862-c966-456a-98d5-9c42f72963c1")
-	)
-	(hierarchical_label "+5V"
-		(shape output)
-		(at 139.7 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5eb7390-4215-4bb5-bc53-f82f663cc9a5")
 	)
 	(symbol
 		(lib_id "power:+12V")
