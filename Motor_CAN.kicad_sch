@@ -3403,6 +3403,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 201.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 201.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "667bbbd7-9f7c-4bb1-b088-a9dd85c1e9b1")
 		)
@@ -3462,6 +3480,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 204.47 86.36 0)
 			(effects
 				(font
@@ -3548,6 +3584,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff5cc64e-8d01-4a32-bf22-dd77f3b61831")
 		)
@@ -3618,6 +3672,24 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0805C104K3R "
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 62.23 88.9 0)
 			(effects
 				(font
@@ -3704,6 +3776,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7441dc99-943a-4dad-884f-f78f21b79690")
 		)
@@ -3774,6 +3864,24 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0805X103K1R3316 "
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -3860,6 +3968,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9786dde-d1bc-4c6d-a530-1d95659a7654")
 		)
@@ -3930,6 +4056,24 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0805C224J1RECTU "
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -4016,6 +4160,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa44f1da-9851-45e8-b619-92173876c607")
 		)
@@ -4086,6 +4248,24 @@
 			)
 		)
 		(property "Mouser Part Number" "963-BK2125LM182-T "
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 149.86 88.9 0)
 			(effects
 				(font
@@ -4172,6 +4352,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e087ab54-18e1-4cef-ba4d-95c3cbaa2f95")
 		)
@@ -4242,6 +4440,24 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0805X103K1R3316 "
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -4450,6 +4666,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08050000Z0EAC "
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 139.7 109.22 0)
 			(effects
 				(font
@@ -4720,6 +4954,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ebd4c25-8b2f-4822-98cf-912029d4ecf6")
 		)
@@ -4850,6 +5102,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6022a8a5-f4c6-440e-a7c2-158148de9d5a")
 		)
@@ -4914,6 +5184,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 179.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 179.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 179.07 143.51 0)
 			(effects
 				(font
@@ -5048,6 +5336,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 231.14 115.57 0)
 			(effects
 				(font
@@ -5195,6 +5501,24 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 220.98 127 0)
 			(effects
 				(font

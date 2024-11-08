@@ -3205,6 +3205,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 241.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 241.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e2e984e-864e-4abf-b269-5442c09c9240")
 		)
@@ -3284,6 +3302,24 @@
 			)
 		)
 		(property "Mouser Part Number" "638-EL3H7DTAVG "
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 167.64 127 0)
 			(effects
 				(font
@@ -3379,6 +3415,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51d5db96-c74b-4e47-9d7b-4659119883fb")
 		)
@@ -3464,6 +3518,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e595d2bc-9dca-470e-9cb9-058aec999ca8")
 		)
@@ -3535,6 +3607,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 78.74 152.4 0)
 			(effects
 				(font
@@ -3888,6 +3978,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7f94e64-e68a-4460-bccc-269e05874574")
 		)
@@ -3965,6 +4073,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+			(at 234.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 234.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 234.95 86.36 0)
 			(effects
 				(font
@@ -4120,6 +4246,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d104166d-2575-44e6-b855-281646843789")
 		)
@@ -4262,6 +4406,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 212.09 50.8 0)
 			(effects
 				(font
@@ -4480,6 +4642,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15924b64-6ac1-4b61-a8fb-e612bde59d78")
 		)
@@ -4558,6 +4738,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eace63d9-e6eb-4c69-885d-955f722edb16")
 		)
@@ -4628,6 +4826,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 133.35 116.84 0)
 			(effects
 				(font
@@ -4970,6 +5186,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4805c307-babe-4653-aede-420217c8f73e")
 		)
@@ -5047,6 +5281,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+			(at 165.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 165.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 165.1 152.4 0)
 			(effects
 				(font
@@ -5201,6 +5453,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 250.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 250.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "273b4411-81ce-46db-9d98-92d929e9246e")
 		)
@@ -5261,6 +5531,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 99.06 67.31 0)
 			(effects
 				(font
@@ -5443,6 +5731,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c3cca9b-eade-4500-9d6e-5f1e62b803f0")
 		)
@@ -5586,6 +5892,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d08ea8e-4a52-493c-8e51-eece29bf036d")
 		)
@@ -5659,6 +5983,24 @@
 			)
 		)
 		(property "Mouser Part Number" "638-EL3H7DTAVG "
+			(at 81.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 81.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 81.28 127 0)
 			(effects
 				(font
@@ -6078,6 +6420,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 254 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 254 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4dd22673-d27e-4bf9-9787-5375229f3dac")
 		)
@@ -6289,6 +6649,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bca2377-4853-493d-909e-482fc98609f4")
 		)
@@ -6359,6 +6737,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 219.71 116.84 0)
 			(effects
 				(font
@@ -6777,6 +7173,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dbebaed-c0e0-4566-8744-7972d1ed82c8")
 		)
@@ -6856,6 +7270,24 @@
 			)
 		)
 		(property "Mouser Part Number" "638-EL3H7DTAVG "
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 195.58 60.96 0)
 			(effects
 				(font
@@ -6948,6 +7380,24 @@
 				(hide yes)
 			)
 		)
+		(property "Id" ""
+			(at 261.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 261.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41069ebb-78b3-4270-a7b3-34f889ad68f5")
 		)
@@ -7019,6 +7469,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
 			(at 190.5 85.09 0)
 			(effects
 				(font
