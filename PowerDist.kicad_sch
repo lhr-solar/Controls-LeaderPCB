@@ -3752,6 +3752,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c880b21d-ef40-43e9-9345-7b01e0840896")
 		)
@@ -3831,6 +3840,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW08051K50JNEB"
 			(at 161.29 82.55 0)
 			(effects
 				(font
@@ -4054,6 +4072,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "863-NCP1117ST33T3G"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "675fcafb-51b2-4268-8b6a-29701da61073")
 		)
@@ -4144,6 +4171,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "963-TMK212BBJ106MGHT"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98422f61-91df-4f37-b5ee-9ada79e9ff45")
 		)
@@ -4223,6 +4259,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 217.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-TMK212BBJ106MGHT"
 			(at 217.17 86.36 0)
 			(effects
 				(font
@@ -4636,6 +4681,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 59.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "271ad4ad-0409-4faf-88ba-14499b4d5096")
 		)
@@ -4715,6 +4769,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 59.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "Inventory"
 			(at 59.69 151.13 0)
 			(effects
 				(font
@@ -4804,6 +4867,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-BUK9M23-80EX"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -4911,6 +4983,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "863-NSVR0320MW2T1G"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0921f34e-b8b8-420b-9fa6-7754e60ebbb0")
 		)
@@ -4980,7 +5061,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C105K3PACTU"
+		(property "P/N" ""
 			(at 85.09 82.55 0)
 			(effects
 				(font
@@ -4999,6 +5080,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-TMK212BBJ106MGHT"
 			(at 85.09 82.55 0)
 			(effects
 				(font

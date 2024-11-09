@@ -5069,6 +5069,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "771-BUK9M23-80EX"
+			(at 232.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73a35837-f919-4d5c-949f-853e0df4568d")
 		)
@@ -5275,7 +5284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 200.914 73.914 90)
 			(effects
 				(font
@@ -5312,6 +5321,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805510RFKEAC"
 			(at 200.66 74.93 0)
 			(effects
 				(font
@@ -6143,6 +6161,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -7114,6 +7141,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "771-BUK9M23-80EX"
+			(at 232.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "23ef75c2-c828-40e1-b1c3-fe17756e11cc")
 		)
@@ -7197,6 +7233,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 226.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
 			(at 226.06 45.72 0)
 			(effects
 				(font
@@ -7702,7 +7747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 200.914 33.274 90)
 			(effects
 				(font
@@ -7739,6 +7784,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 200.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805510RFKEAC"
 			(at 200.66 34.29 0)
 			(effects
 				(font

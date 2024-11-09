@@ -1582,6 +1582,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "924f9675-458f-4bb0-a3ce-0ae5b5c216e6")
 		)
@@ -1825,6 +1834,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 168.91 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
 			(at 168.91 138.43 0)
 			(effects
 				(font

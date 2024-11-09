@@ -1725,6 +1725,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CDSOT23-T24CAN"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f01efdb1-881c-40a2-bc25-404d9fd4e172")
 		)
@@ -1810,6 +1819,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CDSOT23-T24CAN"
 			(at 101.6 116.84 0)
 			(effects
 				(font
@@ -2457,6 +2475,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CDSOT23-T24CAN"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c086c03-7ffa-4849-8580-cc21edb72e59")
 		)
@@ -2542,6 +2569,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CDSOT23-T24CAN"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -2717,7 +2753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
+		(property "Mouser Part Number" ""
 			(at 92.71 104.14 0)
 			(effects
 				(font
@@ -2736,6 +2772,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 92.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "Inventory"
 			(at 92.71 104.14 0)
 			(effects
 				(font
@@ -2811,7 +2856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
+		(property "Mouser Part Number" ""
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -2830,6 +2875,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "Inventory"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -2881,7 +2935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 126.746 125.984 90)
 			(effects
 				(font
@@ -2900,6 +2954,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
 			(at 125.73 125.73 0)
 			(effects
 				(font

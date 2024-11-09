@@ -8079,6 +8079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "511-STM32F413RHT6"
+			(at 210.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e2f8cc0-9336-4d0f-9f6b-0bae21b15e61")
 		)
@@ -8831,6 +8840,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM219R6YA475KA3D"
+			(at 181.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7935e154-48cd-4f8f-975c-c74cbf2c0016")
 		)
@@ -8975,6 +8993,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "ABM3-8.000MHZ-D2Y-T"
 			(at 180.34 129.54 0)
 			(effects
 				(font
@@ -9754,7 +9781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C475K3RAUTO "
+		(property "Mouser Part Number" "81-GRM219R6YA475KA3D"
 			(at 217.17 67.31 0)
 			(effects
 				(font
@@ -11047,6 +11074,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 91.44 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa81f573-276c-4981-992e-42c3c4b1b709")
 		)
@@ -11381,7 +11417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "698"
 			(at 93.218 258.953 0)
 			(effects
 				(font
@@ -11427,6 +11463,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 91.44 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
 			(at 91.44 257.81 0)
 			(effects
 				(font
@@ -11598,7 +11643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "698"
 			(at 199.898 258.953 0)
 			(effects
 				(font
@@ -11644,6 +11689,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 198.12 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
 			(at 198.12 257.81 0)
 			(effects
 				(font
@@ -12059,6 +12113,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 76.2 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89a4f185-4d4a-4402-bc84-82d079a37537")
 		)
@@ -12156,6 +12219,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 182.88 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
 			(at 182.88 266.7 0)
 			(effects
 				(font
@@ -12262,7 +12334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "698"
 			(at 156.718 258.953 0)
 			(effects
 				(font
@@ -12308,6 +12380,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 154.94 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
 			(at 154.94 257.81 0)
 			(effects
 				(font
@@ -12486,6 +12567,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 198.12 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11dbe860-0955-438e-a834-8df0f430a0a2")
 		)
@@ -12607,7 +12697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "698"
 			(at 141.478 258.953 0)
 			(effects
 				(font
@@ -12653,6 +12743,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 139.7 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
 			(at 139.7 257.81 0)
 			(effects
 				(font
@@ -12759,7 +12858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "698"
 			(at 127.508 258.953 0)
 			(effects
 				(font
@@ -12805,6 +12904,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 125.73 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
 			(at 125.73 257.81 0)
 			(effects
 				(font
@@ -12918,6 +13026,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 109.22 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95a8f921-be77-4b2a-adf4-1bdcaef5ded6")
 		)
@@ -13015,6 +13132,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 139.7 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
 			(at 139.7 266.7 0)
 			(effects
 				(font
@@ -13346,6 +13472,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 154.94 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c4b873f-b20d-49a5-9a14-ec1b0a98d4af")
 		)
@@ -13379,7 +13514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "698"
 			(at 77.978 258.953 0)
 			(effects
 				(font
@@ -13433,6 +13568,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+			(at 76.2 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc6680bf-f996-4e36-940c-1b867f2c78e5")
 		)
@@ -13466,7 +13610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "698"
 			(at 184.658 258.953 0)
 			(effects
 				(font
@@ -13520,6 +13664,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+			(at 182.88 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "840cab72-4cbd-4fb1-9fcf-4a48fb7d7668")
 		)
@@ -13553,7 +13706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "700"
+		(property "Value" "698"
 			(at 110.998 258.953 0)
 			(effects
 				(font
@@ -13599,6 +13752,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 109.22 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
 			(at 109.22 257.81 0)
 			(effects
 				(font
@@ -13704,6 +13866,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 125.73 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
 			(at 125.73 266.7 0)
 			(effects
 				(font
