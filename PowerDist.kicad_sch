@@ -2951,28 +2951,6 @@
 		)
 		(uuid "fead07ab-5a70-40db-ada8-c72dcc827bfc")
 	)
-	(text "Power GND\n(External)"
-		(exclude_from_sim no)
-		(at 98.552 132.334 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d617fad-47fe-4db9-836a-4bceb9c31c3b")
-	)
-	(text "Local (Leader Board) GND\n(Internal)"
-		(exclude_from_sim no)
-		(at 117.602 132.334 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e36ce87-4661-4b8f-956a-16dc559e1b50")
-	)
 	(text "Isolated DC-DC Converter to step down +12V power\nto an isolated +5V. The input gnd (Power GND) is\ndifferent from the output gnd (Local GND)"
 		(exclude_from_sim no)
 		(at 91.44 116.84 0)
@@ -2984,7 +2962,7 @@
 		)
 		(uuid "39845449-7a31-4262-86b1-e7af14a6659f")
 	)
-	(text "Maybe add Zeiner diode to other end as well,\n(maybe capacitor as well?)"
+	(text "TODO: Maybe add Zeiner diode to other end as well,\n(maybe capacitor as well?)"
 		(exclude_from_sim no)
 		(at 119.38 68.58 0)
 		(effects
@@ -3030,17 +3008,6 @@
 		)
 		(uuid "70038552-023e-479b-9e90-189149de4e87")
 	)
-	(text "Isolated DC-DC Converter +12V power\nto an isolated +12V for car can. The input gnd (Power GND) is\ndifferent from the output gnd (Local GND)"
-		(exclude_from_sim no)
-		(at 90.424 183.642 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8765371a-21c2-4fe3-a3af-88f5eb1f02a0")
-	)
 	(text "+5V is already isolated so no need to isolate +3.3V"
 		(exclude_from_sim no)
 		(at 180.34 101.6 0)
@@ -3078,7 +3045,7 @@
 	)
 	(text "TVS Diode protects from voltage spikes\nCapacitor prevens voltage sagging\n"
 		(exclude_from_sim no)
-		(at 57.658 58.674 0)
+		(at 56.388 69.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3087,17 +3054,6 @@
 			(justify left bottom)
 		)
 		(uuid "b67e25fa-d0cf-4b74-af0e-fc3d012b3b57")
-	)
-	(text "Originally, GNDPWR and 12V was shorted to 12VA and GND1\n\nSince they are the same, this shorting was removed and 12V and GNDPWR\nwill be used in place of GND1 and 12VA\n"
-		(exclude_from_sim no)
-		(at 116.586 155.448 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 16 12 1)
-			)
-		)
-		(uuid "d4ca5d44-10b2-410e-986c-bef295dd6421")
 	)
 	(text "Capacitors filter AC"
 		(exclude_from_sim no)
@@ -3113,7 +3069,7 @@
 	)
 	(text "Reverse Polarity Protection\nIf connected properly, Vgs = 12, nmos turns on, life is good\nIf connected wrong, Vgs = -12, nmos turns off, no bueno"
 		(exclude_from_sim no)
-		(at 46.99 112.014 0)
+		(at 85.852 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4713,7 +4669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "5.1k"
 			(at 61.468 152.273 0)
 			(effects
 				(font

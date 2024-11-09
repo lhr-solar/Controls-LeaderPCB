@@ -5,6 +5,145 @@
 	(uuid "42012069-f136-4cdf-8386-a5e648d61587")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -922,6 +1061,12 @@
 		(uuid "77121855-7958-40c5-81ca-b386a811e84c")
 	)
 	(junction
+		(at 125.73 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "875a691c-c8e5-4616-9d43-f11a9e1938dd")
+	)
+	(junction
 		(at 83.82 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -952,6 +1097,12 @@
 		(uuid "e0660a46-ff2a-4b28-b311-cf71bc999b82")
 	)
 	(junction
+		(at 125.73 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8a89adc-28fa-400d-8af4-ea2a935fd91b")
+	)
+	(junction
 		(at 101.6 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -976,6 +1127,16 @@
 			(type default)
 		)
 		(uuid "0c345fc5-964b-48c0-9452-55507c868edc")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 125.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d01cc9a-ce6e-4950-840c-a98f368def28")
 	)
 	(wire
 		(pts
@@ -1049,6 +1210,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 113.03) (xy 139.7 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3810c6d8-d397-4c8f-ac01-8fc4fe851959")
+	)
+	(wire
+		(pts
+			(xy 114.3 115.57) (xy 121.92 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0645ba-bed5-4cbe-b5a8-d0a02f7adabd")
+	)
+	(wire
+		(pts
 			(xy 114.3 71.12) (xy 114.3 77.47)
 		)
 		(stroke
@@ -1069,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 139.7 113.03)
+			(xy 114.3 113.03) (xy 125.73 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1106,16 +1287,6 @@
 			(type default)
 		)
 		(uuid "481354ed-51b9-4db2-9835-781681979b4b")
-	)
-	(wire
-		(pts
-			(xy 114.3 115.57) (xy 139.7 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "544c9ad7-a0b6-4f88-9dcd-908e3e2acf79")
 	)
 	(wire
 		(pts
@@ -1229,6 +1400,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 129.54) (xy 125.73 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996941a4-2f1b-4445-abac-53e71a4c6d49")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 135.89 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9faab06a-04c7-431f-af39-72a944393c97")
+	)
+	(wire
+		(pts
 			(xy 114.3 82.55) (xy 139.7 82.55)
 		)
 		(stroke
@@ -1236,6 +1427,16 @@
 			(type default)
 		)
 		(uuid "a8cdda0e-7b06-4b92-8078-341b4e32614a")
+	)
+	(wire
+		(pts
+			(xy 121.92 115.57) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc543cd-4d99-431c-8932-9075fb4d371c")
 	)
 	(wire
 		(pts
@@ -1339,6 +1540,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 115.57) (xy 135.89 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9de7553-1868-47ea-a2da-55435debaa4e")
+	)
+	(wire
+		(pts
 			(xy 114.3 90.17) (xy 114.3 87.63)
 		)
 		(stroke
@@ -1346,6 +1557,27 @@
 			(type default)
 		)
 		(uuid "fad358eb-4b7a-4138-896b-0d1749221b0d")
+	)
+	(wire
+		(pts
+			(xy 135.89 129.54) (xy 125.73 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdcb066-51c2-4ae6-b31a-f88af9589ddd")
+	)
+	(text "When Jumper is closed, we can connect limit switch to pins 1 and 2 of connector\nWhen Jumper is open, we can connect potentiometer\n"
+		(exclude_from_sim no)
+		(at 143.51 134.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 5 21 1)
+			)
+		)
+		(uuid "0bafc2e1-c1bc-48b3-b87c-5fb697ea7d2b")
 	)
 	(text "Potentiometers"
 		(exclude_from_sim no)
@@ -2616,6 +2848,146 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 125.73 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06f94556-858a-48ee-a48a-5cfda0445de2")
+		(property "Reference" "R26"
+			(at 128.27 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.746 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0146d119-7dd9-4649-b506-7e68f9778532")
+		)
+		(pin "1"
+			(uuid "357643c1-7578-4d8a-a7da-bdc63c0be060")
+		)
+		(instances
+			(project ""
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 130.81 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d8e3b71-0344-40f8-999d-1d49f3f412ef")
+		(property "Reference" "J12"
+			(at 133.35 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 133.35 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73e37d3b-307b-4bbc-9cf5-8992415f2619")
+		)
+		(pin "2"
+			(uuid "c7023f9b-6c96-49d9-9164-3f3e7ace6b40")
+		)
+		(instances
+			(project ""
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
+					(reference "J12")
 					(unit 1)
 				)
 			)
