@@ -976,7 +976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 139.7 115.57 0)
 			(effects
 				(font
@@ -1077,7 +1077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805105RFKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGufwlC1LWQIEg%3D"
 			(at 125.73 113.03 0)
 			(effects
 				(font
@@ -1238,7 +1238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 140.97 90.17 0)
 			(effects
 				(font
@@ -1339,7 +1339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805105RFKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGufwlC1LWQIEg%3D"
 			(at 127 87.63 0)
 			(effects
 				(font
@@ -1519,6 +1519,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "43650-0215"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5d64570-4660-4dfd-918a-edc60f858cfc")
 		)
@@ -1581,6 +1590,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215"
 			(at 161.29 115.57 0)
 			(effects
 				(font

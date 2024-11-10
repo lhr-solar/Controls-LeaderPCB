@@ -3681,7 +3681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 215.9 77.47 0)
 			(effects
 				(font
@@ -3786,7 +3786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 167.64 127 0)
 			(effects
 				(font
@@ -3891,7 +3891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 124.46 127 0)
 			(effects
 				(font
@@ -3995,7 +3995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K99FKEAC?qs=E3Y5ESvWgWNlvFwCRtwMfw%3D%3D"
 			(at 36.83 152.4 0)
 			(effects
 				(font
@@ -4092,7 +4092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K99FKEAC?qs=E3Y5ESvWgWNlvFwCRtwMfw%3D%3D"
 			(at 78.74 152.4 0)
 			(effects
 				(font
@@ -4320,7 +4320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 215.9 36.83 0)
 			(effects
 				(font
@@ -4623,7 +4623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 252.73 127 0)
 			(effects
 				(font
@@ -4794,7 +4794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 39.37 127 0)
 			(effects
 				(font
@@ -5069,7 +5069,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-BUK9M23-80EX"
+		(property "Mouser Part Number" ""
+			(at 232.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "  IRLML0030TRPBF"
 			(at 232.41 41.91 0)
 			(effects
 				(font
@@ -5198,7 +5207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW08052K00FKEC?qs=t8V6zXf%2FKwZmLP5kGUKwKw%3D%3D"
 			(at 176.53 116.84 0)
 			(effects
 				(font
@@ -5216,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+		(property "Mouser Part Number" "71-CRCW08052K00FKEC"
 			(at 176.53 116.84 0)
 			(effects
 				(font
@@ -5293,7 +5302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW0805510RFKEAC?qs=E3Y5ESvWgWP%252BBvcXzqF1aQ%3D%3D"
 			(at 200.66 74.93 0)
 			(effects
 				(font
@@ -5455,7 +5464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW08052K00FKEC?qs=t8V6zXf%2FKwZmLP5kGUKwKw%3D%3D"
 			(at 90.17 116.84 0)
 			(effects
 				(font
@@ -5473,7 +5482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+		(property "Mouser Part Number" "71-CRCW08052K00FKEC"
 			(at 90.17 116.84 0)
 			(effects
 				(font
@@ -5551,7 +5560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW08052K00FKEC?qs=t8V6zXf%2FKwZmLP5kGUKwKw%3D%3D"
 			(at 133.35 116.84 0)
 			(effects
 				(font
@@ -5569,7 +5578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+		(property "Mouser Part Number" "71-CRCW08052K00FKEC"
 			(at 133.35 116.84 0)
 			(effects
 				(font
@@ -5939,7 +5948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K99FKEAC?qs=E3Y5ESvWgWNlvFwCRtwMfw%3D%3D"
 			(at 165.1 152.4 0)
 			(effects
 				(font
@@ -6036,7 +6045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K99FKEAC?qs=E3Y5ESvWgWNlvFwCRtwMfw%3D%3D"
 			(at 250.19 152.4 0)
 			(effects
 				(font
@@ -6133,7 +6142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=E3Y5ESvWgWORJvbAiaO1ug%3D%3D"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -6411,7 +6420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K99FKEAC?qs=E3Y5ESvWgWNlvFwCRtwMfw%3D%3D"
 			(at 208.28 152.4 0)
 			(effects
 				(font
@@ -6572,7 +6581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW08052K00FKEC?qs=t8V6zXf%2FKwZmLP5kGUKwKw%3D%3D"
 			(at 48.26 116.84 0)
 			(effects
 				(font
@@ -6590,7 +6599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+		(property "Mouser Part Number" "71-CRCW08052K00FKEC"
 			(at 48.26 116.84 0)
 			(effects
 				(font
@@ -6670,7 +6679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 81.28 127 0)
 			(effects
 				(font
@@ -7141,7 +7150,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-BUK9M23-80EX"
+		(property "Mouser Part Number" ""
+			(at 232.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "  IRLML0030TRPBF"
 			(at 232.41 82.55 0)
 			(effects
 				(font
@@ -7205,7 +7223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=E3Y5ESvWgWORJvbAiaO1ug%3D%3D"
 			(at 226.06 45.72 0)
 			(effects
 				(font
@@ -7302,7 +7320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K99FKEAC?qs=E3Y5ESvWgWNlvFwCRtwMfw%3D%3D"
 			(at 121.92 152.4 0)
 			(effects
 				(font
@@ -7398,7 +7416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW08052K00FKEC?qs=t8V6zXf%2FKwZmLP5kGUKwKw%3D%3D"
 			(at 219.71 116.84 0)
 			(effects
 				(font
@@ -7416,7 +7434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+		(property "Mouser Part Number" "71-CRCW08052K00FKEC"
 			(at 219.71 116.84 0)
 			(effects
 				(font
@@ -7756,7 +7774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW0805510RFKEAC?qs=E3Y5ESvWgWP%252BBvcXzqF1aQ%3D%3D"
 			(at 200.66 34.29 0)
 			(effects
 				(font
@@ -7920,7 +7938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2584"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Everlight/EL3H7DTA-VG?qs=8PzhAHr7IdO5ivSzPAFioA%3D%3D&utm_id=21629221803&gad_source=1&gclid=Cj0KCQiArby5BhCDARIsAIJvjIRxO0jcjcKfnV1hER0ZGDMF9W_FecGmdKXwVqQCsmJYIZvEtRfuUkAaAnFwEALw_wcB"
 			(at 210.82 127 0)
 			(effects
 				(font
@@ -8023,7 +8041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW08052K00FKEC?qs=t8V6zXf%2FKwZmLP5kGUKwKw%3D%3D"
 			(at 261.62 116.84 0)
 			(effects
 				(font
@@ -8041,7 +8059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
+		(property "Mouser Part Number" "71-CRCW08052K00FKEC"
 			(at 261.62 116.84 0)
 			(effects
 				(font

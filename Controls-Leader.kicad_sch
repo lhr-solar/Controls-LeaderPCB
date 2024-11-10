@@ -8388,7 +8388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=E3Y5ESvWgWORadmUijPtxQ%3D%3D"
 			(at 173.99 114.3 0)
 			(effects
 				(font
@@ -8549,7 +8549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Omron-Electronics/B3SL-1002P?qs=h8kCHL4kpM7r31L1Z%2F%2FPBA%3D%3D&srsltid=AfmBOoqvnlLm4d6j_9UScyYaFdA6exiWHwrXO8PNd4a5HEouRWEwRn-u"
 			(at 153.67 110.49 0)
 			(effects
 				(font
@@ -8710,7 +8710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 167.64 109.22 0)
 			(effects
 				(font
@@ -8728,7 +8728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 167.64 109.22 0)
 			(effects
 				(font
@@ -8804,7 +8804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM219R6YA475KA73D?qs=eeBpzGFlv%252B%252Bho6epIC%2FPCA%3D%3D&srsltid=AfmBOor8KpuDmhbErgZyZAx51mjKq7YIEoZ5aJP4Jbdc10duuv9ImkWI"
 			(at 181.61 184.15 0)
 			(effects
 				(font
@@ -9059,7 +9059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C120K5HACTU?qs=W0yvOO0ixfGH1U1FMTp%2FYw%3D%3D&srsltid=AfmBOopk7J7s_aekY7Ow_i_XB0RBPUFpH4WlJIO-G5MdWjSQ5G2q3HI1"
 			(at 171.45 125.73 0)
 			(effects
 				(font
@@ -9153,7 +9153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C120K5HACTU?qs=W0yvOO0ixfGH1U1FMTp%2FYw%3D%3D&srsltid=AfmBOopk7J7s_aekY7Ow_i_XB0RBPUFpH4WlJIO-G5MdWjSQ5G2q3HI1"
 			(at 171.45 133.35 0)
 			(effects
 				(font
@@ -9667,7 +9667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 170.18 67.31 0)
 			(effects
 				(font
@@ -9685,7 +9685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 170.18 67.31 0)
 			(effects
 				(font
@@ -9763,7 +9763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM219R6YA475KA73D?qs=eeBpzGFlv%252B%252Bho6epIC%2FPCA%3D%3D&srsltid=AfmBOor8KpuDmhbErgZyZAx51mjKq7YIEoZ5aJP4Jbdc10duuv9ImkWI"
 			(at 217.17 67.31 0)
 			(effects
 				(font
@@ -9859,7 +9859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 232.41 67.31 0)
 			(effects
 				(font
@@ -9877,7 +9877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 232.41 67.31 0)
 			(effects
 				(font
@@ -10377,7 +10377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 181.61 67.31 0)
 			(effects
 				(font
@@ -10395,7 +10395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 181.61 67.31 0)
 			(effects
 				(font
@@ -10473,7 +10473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 193.04 67.31 0)
 			(effects
 				(font
@@ -10491,7 +10491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 193.04 67.31 0)
 			(effects
 				(font
@@ -10569,7 +10569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -10587,7 +10587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -10924,7 +10924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Kemet-C0805C105J3RECAUTO/C1513495"
 			(at 247.65 67.31 0)
 			(effects
 				(font
@@ -10942,7 +10942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" ""
 			(at 247.65 67.31 0)
 			(effects
 				(font
@@ -10961,6 +10961,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105J3RECAUTO"
 			(at 247.65 67.31 0)
 			(effects
 				(font
@@ -11020,7 +11029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 91.44 266.7 0)
 			(effects
 				(font
@@ -11435,7 +11444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
 			(at 91.44 257.81 0)
 			(effects
 				(font
@@ -11471,7 +11480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
 			(at 91.44 257.81 0)
 			(effects
 				(font
@@ -11661,7 +11670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
 			(at 198.12 257.81 0)
 			(effects
 				(font
@@ -11697,7 +11706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
 			(at 198.12 257.81 0)
 			(effects
 				(font
@@ -12059,7 +12068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 76.2 266.7 0)
 			(effects
 				(font
@@ -12173,7 +12182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 182.88 266.7 0)
 			(effects
 				(font
@@ -12352,7 +12361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
 			(at 154.94 257.81 0)
 			(effects
 				(font
@@ -12388,7 +12397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
 			(at 154.94 257.81 0)
 			(effects
 				(font
@@ -12513,7 +12522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 198.12 266.7 0)
 			(effects
 				(font
@@ -12715,7 +12724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
 			(at 139.7 257.81 0)
 			(effects
 				(font
@@ -12751,7 +12760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
 			(at 139.7 257.81 0)
 			(effects
 				(font
@@ -12876,7 +12885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
 			(at 125.73 257.81 0)
 			(effects
 				(font
@@ -12912,7 +12921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
 			(at 125.73 257.81 0)
 			(effects
 				(font
@@ -12972,7 +12981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 109.22 266.7 0)
 			(effects
 				(font
@@ -13086,7 +13095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 139.7 266.7 0)
 			(effects
 				(font
@@ -13367,6 +13376,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "43650-0215"
+			(at 308.61 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9295ae3-2931-4f92-97ee-b6ddcb79d425")
 		)
@@ -13418,7 +13436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 154.94 266.7 0)
 			(effects
 				(font
@@ -13532,7 +13550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
 			(at 76.2 257.81 0)
 			(effects
 				(font
@@ -13568,7 +13586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
 			(at 76.2 257.81 0)
 			(effects
 				(font
@@ -13628,7 +13646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
 			(at 182.88 257.81 0)
 			(effects
 				(font
@@ -13664,7 +13682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
 			(at 182.88 257.81 0)
 			(effects
 				(font
@@ -13724,7 +13742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
 			(at 109.22 257.81 0)
 			(effects
 				(font
@@ -13760,7 +13778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW1210698RFKEA"
+		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
 			(at 109.22 257.81 0)
 			(effects
 				(font
@@ -13820,7 +13838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 125.73 266.7 0)
 			(effects
 				(font

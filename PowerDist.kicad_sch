@@ -3410,7 +3410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.mouser.com/datasheet/2/468/RI3-1711119.pdf"
 			(at 113.03 77.47 0)
 			(effects
 				(font
@@ -3438,6 +3438,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "919-RI3-1205S"
 			(at 113.03 77.47 0)
 			(effects
 				(font
@@ -3698,7 +3707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 161.29 91.44 0)
 			(effects
 				(font
@@ -3812,7 +3821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K50JNEB?qs=1CkV0QOCgMrzFJsYQ4Ra6w%3D%3D"
 			(at 161.29 82.55 0)
 			(effects
 				(font
@@ -4135,7 +4144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/TMK212BBJ106MGHT?qs=sBf%2Fb4nBSlfab8x4Ir6OCA%3D%3D&srsltid=AfmBOoryff5Ub5fZJJeEGNmqKnKu_K1PXKxJXyecjVGIa794GPQPVrnJ"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -4231,7 +4240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/TMK212BBJ106MGHT?qs=sBf%2Fb4nBSlfab8x4Ir6OCA%3D%3D&srsltid=AfmBOoryff5Ub5fZJJeEGNmqKnKu_K1PXKxJXyecjVGIa794GPQPVrnJ"
 			(at 217.17 86.36 0)
 			(effects
 				(font
@@ -4627,7 +4636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
 			(at 59.69 160.02 0)
 			(effects
 				(font
@@ -4875,7 +4884,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-BUK9M23-80EX"
+		(property "Mouser Part Number" ""
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "  IRLML0030TRPBF"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -5043,7 +5061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0805C105K3PACTU"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/TMK212BBJ106MGHT?qs=sBf%2Fb4nBSlfab8x4Ir6OCA%3D%3D&srsltid=AfmBOoryff5Ub5fZJJeEGNmqKnKu_K1PXKxJXyecjVGIa794GPQPVrnJ"
 			(at 85.09 82.55 0)
 			(effects
 				(font

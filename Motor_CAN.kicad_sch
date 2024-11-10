@@ -3376,7 +3376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/71-CRCW0805120RFKEA"
 			(at 201.93 93.98 0)
 			(effects
 				(font
@@ -3394,7 +3394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080559R0FKEA"
+		(property "Mouser Part Number" "CRCW0805120RFKEA"
 			(at 201.93 93.98 0)
 			(effects
 				(font
@@ -3557,7 +3557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/TMK212BBJ106MGHT?qs=sGAEpiMZZMsh%252B1woXyUXj6Ion9DcW8uk%2FCsbgn7gICc%3D"
 			(at 53.34 88.9 0)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C106K8RAUTO "
+		(property "Mouser Part Number" "963-TMK212BBJ106MGHT"
 			(at 53.34 88.9 0)
 			(effects
 				(font
@@ -3653,7 +3653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 62.23 88.9 0)
 			(effects
 				(font
@@ -3671,7 +3671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 62.23 88.9 0)
 			(effects
 				(font
@@ -3749,7 +3749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -3767,7 +3767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C103J5RACTU?qs=Onq5MIl0ZjiJ615hCkQQ7A%3D%3D"
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805X103K1R3316 "
+		(property "Mouser Part Number" "C0805C103J5RACTU"
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -3941,7 +3941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/TMK212BBJ106MGHT?qs=sGAEpiMZZMsh%252B1woXyUXj6Ion9DcW8uk%2FCsbgn7gICc%3D"
 			(at 154.94 85.09 0)
 			(effects
 				(font
@@ -3959,7 +3959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C106K8RAUTO "
+		(property "Mouser Part Number" "963-TMK212BBJ106MGHT"
 			(at 154.94 85.09 0)
 			(effects
 				(font
@@ -4037,7 +4037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C224J1RECTU?qs=55YtniHzbhA8coEmCgZh4A%3D%3D&srsltid=AfmBOope8E98p1TAxytK4MEkGo55JjU107N1pzX-xa8_vzbWYaq6BWq_"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -4055,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C224J1RECTU "
+		(property "Mouser Part Number" "80-C0805C224J1RECTU"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -4133,7 +4133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/BK2125LM182-T?qs=I6KAKw0tg2wTd%252Bj343lu1Q%3D%3D&srsltid=AfmBOorkhsm8Uk29brVkfBS5oJy8t8TPSw1gIhtEERu0OY8r33ydtYfJ"
 			(at 149.86 81.28 0)
 			(effects
 				(font
@@ -4229,7 +4229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/BK2125LM182-T?qs=I6KAKw0tg2wTd%252Bj343lu1Q%3D%3D&srsltid=AfmBOorkhsm8Uk29brVkfBS5oJy8t8TPSw1gIhtEERu0OY8r33ydtYfJ"
 			(at 149.86 88.9 0)
 			(effects
 				(font
@@ -4325,7 +4325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D"
 			(at 165.1 85.09 0)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805C104K3R "
+		(property "Mouser Part Number" "80-C0805C104M5R"
 			(at 165.1 85.09 0)
 			(effects
 				(font
@@ -4421,7 +4421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KEMET/C0805C103J5RACTU?qs=Onq5MIl0ZjiJ615hCkQQ7A%3D%3D"
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -4439,7 +4439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0805X103K1R3316 "
+		(property "Mouser Part Number" "C0805C103J5RACTU"
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -4647,7 +4647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW08050000Z0EAC?qs=E3Y5ESvWgWMnvHb9ZvShmA%3D%3D"
 			(at 139.7 109.22 0)
 			(effects
 				(font
@@ -4964,6 +4964,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ADM3055E"
 			(at 109.22 95.25 0)
 			(effects
 				(font
