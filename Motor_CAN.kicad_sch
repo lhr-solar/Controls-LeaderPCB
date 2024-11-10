@@ -4123,7 +4123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2kH"
+		(property "Value" "https://www.mouser.com/ProductDetail/963-BK2125LM182-T"
 			(at 146.05 78.74 90)
 			(effects
 				(font
@@ -4159,7 +4159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "963-BK2125LM182-T "
+		(property "Mouser Part Number" "BKH1005LM182-T "
 			(at 149.86 81.28 0)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2kH"
+		(property "Value" "https://www.mouser.com/ProductDetail/963-BK2125LM182-T"
 			(at 146.05 91.44 90)
 			(effects
 				(font
@@ -4255,7 +4255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "963-BK2125LM182-T "
+		(property "Mouser Part Number" "BKH1005LM182-T "
 			(at 149.86 88.9 0)
 			(effects
 				(font
