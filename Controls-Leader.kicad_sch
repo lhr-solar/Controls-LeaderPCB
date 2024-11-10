@@ -829,6 +829,377 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x05_Odd_Even"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x05_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Dashboard-rescue:Logo_Placeholder-utsvt-misc"
 			(pin_names
 				(offset 1.016)
@@ -4260,16 +4631,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 118.11) (xy 74.93 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0554bea0-89b2-4e25-9ea3-4c73921c94cb")
-	)
-	(wire
-		(pts
 			(xy 232.41 73.66) (xy 232.41 71.12)
 		)
 		(stroke
@@ -4550,7 +4911,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 109.22) (xy 74.93 109.22)
+			(xy 68.58 110.49) (xy 74.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5400,7 +5761,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 115.57) (xy 74.93 115.57)
+			(xy 68.58 116.84) (xy 74.93 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5927,16 +6288,6 @@
 			(type default)
 		)
 		(uuid "cccbe0e0-b1e6-434d-993d-49a64e1bd4ce")
-	)
-	(wire
-		(pts
-			(xy 68.58 111.76) (xy 74.93 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd1cff81-9d8a-4511-96d6-4ddb79484001")
 	)
 	(wire
 		(pts
@@ -6529,6 +6880,17 @@
 		)
 		(uuid "096f468b-3af6-4af6-ab4a-8d2c7c45c44b")
 	)
+	(label "PC3"
+		(at 177.8 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c54f673-55fc-458d-8edd-aeacf80ce98e")
+	)
 	(label "Array_PRCHG_Bypass"
 		(at 139.7 248.92 90)
 		(fields_autoplaced yes)
@@ -6562,7 +6924,7 @@
 		)
 		(uuid "10d8ad0e-6a08-4053-92aa-23a15910fd21")
 	)
-	(label "PC6"
+	(label "PC4"
 		(at 265.43 195.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6640,7 +7002,7 @@
 		(uuid "272c2a78-b5f5-4b61-aed3-ec69e0e92729")
 	)
 	(label "Brake_Pot"
-		(at 74.93 115.57 0)
+		(at 74.93 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6804,7 +7166,7 @@
 		)
 		(uuid "46db62d7-2f11-4439-bf6e-88cdf1a043b3")
 	)
-	(label "PC7"
+	(label "PC6"
 		(at 265.43 198.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7002,6 +7364,17 @@
 		)
 		(uuid "80095e91-6317-4cfb-9aea-884c9a1accc5")
 	)
+	(label "PC8"
+		(at 278.13 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8170d065-22d1-4318-862b-e8f201ee3321")
+	)
 	(label "Accel_Pot"
 		(at 344.17 87.63 0)
 		(fields_autoplaced yes)
@@ -7047,7 +7420,7 @@
 		(uuid "8c6c7af2-a83f-4d8b-b857-f9c372f6f5da")
 	)
 	(label "Accel_Pot"
-		(at 74.93 109.22 0)
+		(at 74.93 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7156,17 +7529,6 @@
 		)
 		(uuid "9cb8bb6a-e2d6-4f47-861a-7e439c851e2a")
 	)
-	(label "Brake_Pot2"
-		(at 74.93 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9da1ace0-4181-4f12-80f8-16786a9e5c07")
-	)
 	(label "SWCLK"
 		(at 243.84 153.67 180)
 		(fields_autoplaced yes)
@@ -7266,17 +7628,6 @@
 		)
 		(uuid "a90afd04-9543-4515-8550-2454ad76b3f6")
 	)
-	(label "Brake_Pot2"
-		(at 177.8 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa047297-22f8-4de0-a969-0b3451b8e164")
-	)
 	(label "PA9"
 		(at 243.84 140.97 180)
 		(fields_autoplaced yes)
@@ -7309,17 +7660,6 @@
 			(justify right bottom)
 		)
 		(uuid "ad4d05f5-6957-42f8-b65c-c657b9a26485")
-	)
-	(label "Accel_Pot2"
-		(at 74.93 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af186015-d283-4209-aade-a247e5de01df")
 	)
 	(label "Motor_Controller_Fault"
 		(at 154.94 248.92 0)
@@ -7364,6 +7704,17 @@
 			(justify right bottom)
 		)
 		(uuid "be41ac9e-b8ba-4089-983b-b84269707f1c")
+	)
+	(label "PC2"
+		(at 177.8 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be58c0d5-57c9-4074-a4f5-783c2ba1b107")
 	)
 	(label "MotorCAN_Rx"
 		(at 243.84 138.43 180)
@@ -7431,7 +7782,7 @@
 		)
 		(uuid "ceb12634-32ca-4cbf-9ff5-5e8b53ab18ad")
 	)
-	(label "PC4"
+	(label "PC3"
 		(at 265.43 193.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7607,17 +7958,6 @@
 		)
 		(uuid "e70d061b-28f0-4421-ad15-0598604086e8")
 	)
-	(label "Accel_Pot2"
-		(at 177.8 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e79c8e11-ed47-4701-ae80-a54cdb6682a5")
-	)
 	(label "UART3_Rx"
 		(at 74.93 172.72 0)
 		(fields_autoplaced yes)
@@ -7639,6 +7979,17 @@
 			(justify left bottom)
 		)
 		(uuid "e96e1dd1-24c6-4f2d-beaf-97160b8ad958")
+	)
+	(label "PC2"
+		(at 265.43 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9bbe160-55ea-4487-b754-dd5c3dcf35b4")
 	)
 	(label "PB2"
 		(at 292.1 153.67 0)
@@ -7673,7 +8024,7 @@
 		)
 		(uuid "f40094c5-302c-4226-b193-0ee577e4f051")
 	)
-	(label "PC8"
+	(label "PC7"
 		(at 265.43 200.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11796,7 +12147,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 273.05 195.58 0)
 		(mirror y)
 		(unit 1)
@@ -11841,7 +12192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 273.05 195.58 0)
 			(effects
 				(font
@@ -11891,6 +12242,12 @@
 		)
 		(pin "8"
 			(uuid "c3cc0dcd-59f3-415e-89af-f9a869feacb8")
+		)
+		(pin "9"
+			(uuid "fb7d4b9f-3b75-4315-a870-2e6a94d870bc")
+		)
+		(pin "10"
+			(uuid "6bc820bf-4f33-444e-bf3b-b539019cafdb")
 		)
 		(instances
 			(project "Controls-Leader"
@@ -14317,7 +14674,7 @@
 			)
 		)
 		(pin "Accel_Pot" output
-			(at 68.58 109.22 0)
+			(at 68.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14326,18 +14683,8 @@
 			)
 			(uuid "3c22d605-7855-4cc6-8ad2-906cadbd02dc")
 		)
-		(pin "Accel_Pot2" output
-			(at 68.58 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bd085057-7c0e-463a-982b-968a2dc1f0f8")
-		)
 		(pin "Brake_Pot" output
-			(at 68.58 115.57 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14345,16 +14692,6 @@
 				(justify right)
 			)
 			(uuid "c66a19ed-90c0-4502-ae75-6a4c4ab9f297")
-		)
-		(pin "Brake_Pot2" output
-			(at 68.58 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8eb98c56-17e4-4de6-a3e3-06dcfa392040")
 		)
 		(instances
 			(project "Controls-Leader"

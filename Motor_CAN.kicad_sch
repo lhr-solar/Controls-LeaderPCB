@@ -2216,8 +2216,16 @@
 		(uuid "4fe15866-5386-4410-a27b-4fc15182a4f3")
 	)
 	(no_connect
+		(at 233.68 120.65)
+		(uuid "5b9509e4-8381-473d-a69c-06d446722981")
+	)
+	(no_connect
 		(at 91.44 105.41)
 		(uuid "a6d1221a-1077-412d-8a73-7025f9b4ca20")
+	)
+	(no_connect
+		(at 233.68 107.95)
+		(uuid "d6efbec3-37d1-4e35-b8cd-2044bdb0576b")
 	)
 	(wire
 		(pts
