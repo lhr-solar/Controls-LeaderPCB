@@ -4586,8 +4586,8 @@
 		(uuid "eaa0d51a-ee4e-4d3a-a801-bddb7027e94c")
 	)
 	(no_connect
-		(at 328.93 95.25)
-		(uuid "fa418701-d8d1-4373-82b5-77cf5b314d9e")
+		(at 283.21 195.58)
+		(uuid "05cddaef-72aa-45db-bef1-aea9fd12edc4")
 	)
 	(wire
 		(pts
@@ -5028,6 +5028,16 @@
 			(type default)
 		)
 		(uuid "2ba45fa5-d95c-4af1-bd90-7a30e6535e37")
+	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 74.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be88030-263a-4a61-81d4-6dba555a900e")
 	)
 	(wire
 		(pts
@@ -6814,17 +6824,6 @@
 		)
 		(uuid "02f8904b-a7b2-49dd-b392-764e7e29fb51")
 	)
-	(label "PC9"
-		(at 283.21 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "050d470d-31c5-42cc-a259-962750c10e82")
-	)
 	(label "Right_Ind"
 		(at 74.93 154.94 0)
 		(fields_autoplaced yes)
@@ -7044,17 +7043,6 @@
 			(justify left bottom)
 		)
 		(uuid "355ced6c-c08a-4586-9a09-7a9c624536f6")
-	)
-	(label "PC9"
-		(at 177.8 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36af90df-021e-47fc-a7d5-7f2d85fbd832")
 	)
 	(label "BPS_Fault"
 		(at 243.84 194.31 180)
@@ -7287,6 +7275,17 @@
 		)
 		(uuid "6cd6fe9f-7484-449f-b0e6-fe1c68f49218")
 	)
+	(label "Brake_SW"
+		(at 177.8 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d033631-c0f8-49b2-ad31-89d151fcc8a3")
+	)
 	(label "SWDIO"
 		(at 293.37 138.43 0)
 		(fields_autoplaced yes)
@@ -7396,6 +7395,17 @@
 			(justify left bottom)
 		)
 		(uuid "86230b05-24fc-45a5-a73f-1869020bf296")
+	)
+	(label "Brake_SW"
+		(at 328.93 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88306404-80a2-493b-a1dc-65c015d1fbdc")
 	)
 	(label "PC15"
 		(at 177.8 179.07 0)
@@ -7649,6 +7659,17 @@
 			(justify right bottom)
 		)
 		(uuid "ac8e171f-fd85-42a1-a5bb-9b7bb2c6a196")
+	)
+	(label "Brake_SW"
+		(at 74.93 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ace29c67-f7f7-4de6-bd09-86ab13882746")
 	)
 	(label "PC13"
 		(at 327.66 156.21 180)
@@ -14692,6 +14713,16 @@
 				(justify right)
 			)
 			(uuid "c66a19ed-90c0-4502-ae75-6a4c4ab9f297")
+		)
+		(pin "Brake_Switch" output
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0036c96e-8ec3-46f2-8291-9ff6fb04b28b")
 		)
 		(instances
 			(project "Controls-Leader"
