@@ -1055,16 +1055,16 @@
 		(uuid "4a56ac62-5ec2-46fc-a86c-9adf2d8fead1")
 	)
 	(junction
+		(at 106.68 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e9f404c-9430-409b-8312-4480a67964b5")
+	)
+	(junction
 		(at 114.3 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77121855-7958-40c5-81ca-b386a811e84c")
-	)
-	(junction
-		(at 125.73 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "875a691c-c8e5-4616-9d43-f11a9e1938dd")
 	)
 	(junction
 		(at 83.82 113.03)
@@ -1085,6 +1085,18 @@
 		(uuid "9519abc3-2cc3-40c0-960c-a38f2117f194")
 	)
 	(junction
+		(at 100.33 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fbff9c0-be16-4d73-9dd6-0da17c1090da")
+	)
+	(junction
+		(at 114.3 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2fb3d8e-6c0a-43e1-93c3-3df64356ce6c")
+	)
+	(junction
 		(at 101.6 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1095,12 +1107,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0660a46-ff2a-4b28-b311-cf71bc999b82")
-	)
-	(junction
-		(at 125.73 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8a89adc-28fa-400d-8af4-ea2a935fd91b")
 	)
 	(junction
 		(at 101.6 104.14)
@@ -1130,13 +1136,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 113.03) (xy 125.73 119.38)
+			(xy 124.46 140.97) (xy 114.3 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d01cc9a-ce6e-4950-840c-a98f368def28")
+		(uuid "0e509495-7971-4ea8-bd53-ddfce8312d0e")
 	)
 	(wire
 		(pts
@@ -1180,6 +1186,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 137.16) (xy 114.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a23b2fc-7de8-4efb-9278-0cc8b55ec7c8")
+	)
+	(wire
+		(pts
 			(xy 101.6 80.01) (xy 106.68 80.01)
 		)
 		(stroke
@@ -1200,6 +1216,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 140.97) (xy 100.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333970a8-8846-4867-84af-9e5f00902418")
+	)
+	(wire
+		(pts
+			(xy 110.49 140.97) (xy 114.3 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a57d0a-b7eb-4cf5-92a9-d6b011c01b99")
+	)
+	(wire
+		(pts
 			(xy 114.3 82.55) (xy 114.3 87.63)
 		)
 		(stroke
@@ -1210,17 +1246,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 113.03) (xy 139.7 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3810c6d8-d397-4c8f-ac01-8fc4fe851959")
-	)
-	(wire
-		(pts
-			(xy 114.3 115.57) (xy 121.92 115.57)
+			(xy 114.3 115.57) (xy 139.7 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 125.73 113.03)
+			(xy 114.3 113.03) (xy 139.7 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1340,6 +1366,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 151.13) (xy 100.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d9eba6-eb28-4a51-8d42-c3dc6581bf6d")
+	)
+	(wire
+		(pts
 			(xy 114.3 115.57) (xy 114.3 120.65)
 		)
 		(stroke
@@ -1367,6 +1403,16 @@
 			(type default)
 		)
 		(uuid "7a332b0c-4cba-438b-85c1-9efe2690fb62")
+	)
+	(wire
+		(pts
+			(xy 106.68 152.4) (xy 114.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8003ba7d-41c7-45f2-9974-b22244e4c1dc")
 	)
 	(wire
 		(pts
@@ -1400,23 +1446,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 129.54) (xy 125.73 129.54)
+			(xy 102.87 140.97) (xy 100.33 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "996941a4-2f1b-4445-abac-53e71a4c6d49")
-	)
-	(wire
-		(pts
-			(xy 139.7 115.57) (xy 135.89 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9faab06a-04c7-431f-af39-72a944393c97")
+		(uuid "a442e4da-b333-431e-8496-3bdb61249664")
 	)
 	(wire
 		(pts
@@ -1427,16 +1463,6 @@
 			(type default)
 		)
 		(uuid "a8cdda0e-7b06-4b92-8078-341b4e32614a")
-	)
-	(wire
-		(pts
-			(xy 121.92 115.57) (xy 121.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abc543cd-4d99-431c-8932-9075fb4d371c")
 	)
 	(wire
 		(pts
@@ -1477,6 +1503,46 @@
 			(type default)
 		)
 		(uuid "b2cac11a-5f3b-43d7-88e5-8d0241ac6453")
+	)
+	(wire
+		(pts
+			(xy 114.3 138.43) (xy 124.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a02444-dfce-4cc7-be9a-2a30c7f6f9b1")
+	)
+	(wire
+		(pts
+			(xy 114.3 140.97) (xy 114.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2f0a69-05c9-48ed-b024-c3d7fe20d36c")
+	)
+	(wire
+		(pts
+			(xy 100.33 152.4) (xy 106.68 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd684ae6-73ea-44d2-8438-c281171609a0")
+	)
+	(wire
+		(pts
+			(xy 114.3 152.4) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9565ae5-83b4-44b4-b6d1-e3c60dee09f4")
 	)
 	(wire
 		(pts
@@ -1530,6 +1596,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 140.97) (xy 100.33 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e607c81f-bf71-4def-8705-1b96299d48bf")
+	)
+	(wire
+		(pts
 			(xy 101.6 77.47) (xy 101.6 80.01)
 		)
 		(stroke
@@ -1540,16 +1616,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 115.57) (xy 135.89 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9de7553-1868-47ea-a2da-55435debaa4e")
-	)
-	(wire
-		(pts
 			(xy 114.3 90.17) (xy 114.3 87.63)
 		)
 		(stroke
@@ -1557,27 +1623,6 @@
 			(type default)
 		)
 		(uuid "fad358eb-4b7a-4138-896b-0d1749221b0d")
-	)
-	(wire
-		(pts
-			(xy 135.89 129.54) (xy 125.73 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbdcb066-51c2-4ae6-b31a-f88af9589ddd")
-	)
-	(text "When Jumper is closed, we can connect limit switch to pins 1 and 2 of connector\nWhen Jumper is open, we can connect potentiometer\n"
-		(exclude_from_sim no)
-		(at 143.51 134.366 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 5 21 1)
-			)
-		)
-		(uuid "0bafc2e1-c1bc-48b3-b87c-5fb697ea7d2b")
 	)
 	(text "Potentiometers"
 		(exclude_from_sim no)
@@ -1640,6 +1685,18 @@
 			(justify right)
 		)
 		(uuid "807db03e-eb6e-4455-9049-0461408189fa")
+	)
+	(hierarchical_label "Brake_Switch"
+		(shape output)
+		(at 85.09 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "905e5779-5e20-4177-8c8a-ffb6ca82c90d")
 	)
 	(hierarchical_label "Brake_Pot"
 		(shape output)
@@ -2908,17 +2965,149 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 125.73 125.73 0)
+		(lib_id "power:+3.3V")
+		(at 114.3 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "06f94556-858a-48ee-a48a-5cfda0445de2")
-		(property "Reference" "R26"
-			(at 128.27 124.4599 0)
+		(uuid "2f70da5f-7e28-4579-974e-0a0e7afab9e4")
+		(property "Reference" "#PWR031"
+			(at 114.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccc22ddf-776b-4918-8854-f0589994f267")
+		)
+		(instances
+			(project ""
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 106.68 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db22245-b737-4f46-95ed-24b1da03fe70")
+		(property "Reference" "#PWR032"
+			(at 106.68 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 106.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b580c831-0824-4d88-a893-bc4aed8d8ef1")
+		)
+		(instances
+			(project ""
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b5432a0-6b2b-45f7-ab52-4bc84bc77942")
+		(property "Reference" "C1"
+			(at 104.14 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,8 +3115,87 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 128.27 126.9999 0)
+		(property "Value" "1uF"
+			(at 104.14 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 101.2952 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105J3RECAUTO"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe9abf2-9bb6-4290-a210-6c930aa2b958")
+		)
+		(pin "2"
+			(uuid "edef03ec-0c73-4c6f-bf4c-7d17b67e94e7")
+		)
+		(instances
+			(project ""
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62b3e555-9f94-43dd-a0ff-185b715df04e")
+		(property "Reference" "R26"
+			(at 116.84 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 116.84 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +3204,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 126.746 125.984 90)
+			(at 115.316 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,8 +3212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D"
-			(at 125.73 125.73 0)
+		(property "Datasheet" "~"
+			(at 114.3 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3222,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 125.73 125.73 0)
+			(at 114.3 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,20 +3230,20 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
-			(at 125.73 125.73 0)
+		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
+			(at 114.3 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0146d119-7dd9-4649-b506-7e68f9778532")
 		)
 		(pin "1"
-			(uuid "357643c1-7578-4d8a-a7da-bdc63c0be060")
+			(uuid "83a9b348-3e5d-4762-aef3-e9a14c9fe491")
+		)
+		(pin "2"
+			(uuid "2afe959e-9d00-40be-a8de-2b3d2652d2f6")
 		)
 		(instances
 			(project ""
@@ -2988,16 +3256,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 130.81 119.38 0)
+		(at 129.54 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8d8e3b71-0344-40f8-999d-1d49f3f412ef")
+		(uuid "7bf04d6e-41f5-4ca7-b872-0bffe167844c")
 		(property "Reference" "J12"
-			(at 133.35 119.3799 0)
+			(at 132.08 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3274,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 133.35 121.9199 0)
+			(at 132.08 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,8 +3282,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 130.81 119.38 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 129.54 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 119.38 0)
+			(at 129.54 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3301,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 130.81 119.38 0)
+			(at 129.54 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,10 +3310,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "73e37d3b-307b-4bbc-9cf5-8992415f2619")
+			(uuid "c95227d4-5b41-4b90-93de-d2bed85b918d")
 		)
 		(pin "2"
-			(uuid "c7023f9b-6c96-49d9-9164-3f3e7ace6b40")
+			(uuid "bb8271d6-9ef1-4a2f-bbb5-d09fd414eb0c")
 		)
 		(instances
 			(project ""
@@ -3142,6 +3410,83 @@
 			(project ""
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 106.68 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db48557e-593e-4fbc-99e4-915e3ec6b7e6")
+		(property "Reference" "R27"
+			(at 106.68 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 106.68 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 106.934 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 106.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
+			(at 106.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "945a5eea-73d9-4c68-9ad0-030a3caf6343")
+		)
+		(pin "2"
+			(uuid "122dff27-ef6b-4442-aa31-8abcadd15436")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fa99dc3"
+					(reference "R27")
 					(unit 1)
 				)
 			)
