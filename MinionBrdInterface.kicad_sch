@@ -3670,7 +3670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 210.82 82.55 0)
 			(effects
 				(font
@@ -3775,7 +3775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 162.56 121.92 0)
 			(effects
 				(font
@@ -3880,7 +3880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -4309,7 +4309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 210.82 41.91 0)
 			(effects
 				(font
@@ -4612,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 247.65 121.92 0)
 			(effects
 				(font
@@ -4783,7 +4783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 34.29 121.92 0)
 			(effects
 				(font
@@ -6668,7 +6668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 76.2 121.92 0)
 			(effects
 				(font
@@ -7927,7 +7927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 205.74 121.92 0)
 			(effects
 				(font
