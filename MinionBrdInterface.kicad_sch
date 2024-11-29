@@ -5836,7 +5836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Display"
 			(at 68.58 68.5799 0)
 			(effects
 				(font
@@ -6220,7 +6220,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Top_Bottom"
+		(property "Value" "Dashboard"
 			(at 100.33 58.42 0)
 			(effects
 				(font

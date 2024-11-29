@@ -4589,6 +4589,10 @@
 		(at 283.21 195.58)
 		(uuid "05cddaef-72aa-45db-bef1-aea9fd12edc4")
 	)
+	(no_connect
+		(at 341.63 95.25)
+		(uuid "eb795b01-3a56-4a41-b308-5ba609aa74ce")
+	)
 	(wire
 		(pts
 			(xy 228.6 128.27) (xy 243.84 128.27)
@@ -11108,7 +11112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ExtraGPIO_Conn"
+		(property "Value" "ExtraGPIO_Conn2"
 			(at 307.34 166.37 0)
 			(effects
 				(font
@@ -11497,7 +11501,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Odd_Even"
+		(property "Value" "UART3_BRK_ACC_TP"
 			(at 335.28 83.82 0)
 			(effects
 				(font
@@ -11505,7 +11509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_2x4xP3.00mm_PolarizingPeg_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 334.01 90.17 0)
 			(effects
 				(font
@@ -11578,72 +11582,6 @@
 			(project ""
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 341.63 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09a7264f-a997-4250-b653-b1500a2b2a09")
-		(property "Reference" "#PWR01"
-			(at 341.63 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 341.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 341.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a73cf401-162a-44d6-90ac-c7fe2b1c3d72")
-		)
-		(instances
-			(project ""
-				(path "/66218487-e316-4467-9eba-79d4626ab24e"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -12186,7 +12124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ExtraGPIO_Conn"
+		(property "Value" "ExtraGPIO_Conn1"
 			(at 269.24 205.74 0)
 			(effects
 				(font
@@ -13692,7 +13630,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4249d51-2963-44ed-993d-ab2c74034c86")
 		(property "Reference" "J1"
-			(at 311.15 187.96 0)
+			(at 311.15 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13700,8 +13638,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 311.15 190.5 0)
+		(property "Value" "ADC1_Conn"
+			(at 311.15 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)

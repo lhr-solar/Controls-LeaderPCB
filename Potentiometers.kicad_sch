@@ -1997,7 +1997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 114.427 94.5642 0)
 			(effects
 				(font
@@ -2223,7 +2223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 114.427 127.5842 0)
 			(effects
 				(font
@@ -3049,7 +3049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 106.68 157.48 0)
 			(effects
 				(font
@@ -3273,7 +3273,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "Brake_Sw"
 			(at 132.08 140.9699 0)
 			(effects
 				(font
@@ -3343,7 +3343,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Brake_Pot"
 			(at 147.32 114.2999 0)
 			(effects
 				(font
@@ -3511,7 +3511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Accel_Pot"
 			(at 147.32 81.2799 0)
 			(effects
 				(font

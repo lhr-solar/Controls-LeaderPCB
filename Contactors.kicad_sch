@@ -1483,7 +1483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "M_PRCHG_BYPASS"
 			(at 163.83 91.4399 0)
 			(effects
 				(font
@@ -1562,7 +1562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "A_PRCHG_BYPASS"
 			(at 163.83 118.1099 0)
 			(effects
 				(font
