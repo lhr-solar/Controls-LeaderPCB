@@ -4901,6 +4901,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 271.78) (xy 217.17 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1429bc67-22a4-4229-ad4b-3d975ee4564c")
+	)
+	(wire
+		(pts
 			(xy 154.94 271.78) (xy 154.94 270.51)
 		)
 		(stroke
@@ -5771,6 +5781,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 262.89) (xy 217.17 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7692f804-a557-47cb-8734-bc287dbdad67")
+	)
+	(wire
+		(pts
 			(xy 166.37 125.73) (xy 166.37 133.35)
 		)
 		(stroke
@@ -6108,6 +6128,16 @@
 			(type default)
 		)
 		(uuid "992a2b00-5e28-4edd-88b5-994891512d8d")
+	)
+	(wire
+		(pts
+			(xy 217.17 248.92) (xy 217.17 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99adc97c-5c27-4d3f-955c-ad8e19fdcb81")
 	)
 	(polyline
 		(pts
@@ -7665,7 +7695,7 @@
 		)
 		(uuid "2b64d2cb-d62a-4762-97ea-f1b0d4293c4f")
 	)
-	(label "PC8"
+	(label "Cruise_Ind"
 		(at 177.8 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8159,6 +8189,17 @@
 			(justify left bottom)
 		)
 		(uuid "8ed79aef-bb1a-4798-9e1f-109b92638e35")
+	)
+	(label "Cruise_Ind"
+		(at 217.17 248.92 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91daa110-179c-408f-b3bd-b3283d916294")
 	)
 	(label "PC10"
 		(at 172.72 166.37 0)
@@ -12630,6 +12671,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 217.17 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45e133af-1a29-4a3e-a6fb-c03d91c13a87")
+		(property "Reference" "R30"
+			(at 218.948 256.6416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "698"
+			(at 218.948 258.953 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 215.392 257.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+			(at 217.17 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 217.17 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 217.17 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+			(at 217.17 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58cd02a6-9429-40c9-bc20-02fa0369622b")
+		)
+		(pin "2"
+			(uuid "361d3940-da40-4cfa-b0f9-db89afdd72cb")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 273.05 195.58 0)
 		(mirror y)
@@ -12955,6 +13092,71 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "641d3255-2a6e-4a46-9aeb-feec956ae609")
+		(property "Reference" "#PWR037"
+			(at 217.17 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.297 276.1742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92eccab2-feb9-40be-8565-f7eba9660fb6")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14166,6 +14368,120 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ALT")
+		(at 217.17 266.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8bd5330-b568-425b-b079-83b464ff0011")
+		(property "Reference" "D1"
+			(at 220.1672 265.7348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Cruise Ind"
+			(at 220.1672 268.0462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 217.17 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D&srsltid=AfmBOooAHKD1ehETHFyXma0dZSsRO3OtCs7cgmDquFx90LgeUyiA_vS_"
+			(at 217.17 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 217.17 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK"
+			(at 217.17 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 217.17 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 217.17 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 217.17 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd78009f-9450-480d-80d3-f675b56aa830")
+		)
+		(pin "2"
+			(uuid "2e071a58-672e-4ea7-974d-da027ac7017f")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e"
+					(reference "D1")
 					(unit 1)
 				)
 			)
