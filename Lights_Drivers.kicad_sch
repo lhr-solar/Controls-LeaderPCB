@@ -3096,12 +3096,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 223.52 46.99 0)
+		(property "Value" "Lights_12V"
+			(at 226.06 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3419,12 +3420,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 88.9 93.98 0)
+		(property "Value" "Lights_12V"
+			(at 91.44 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3648,12 +3650,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 224.79 90.17 0)
+		(property "Value" "Lights_12V"
+			(at 227.33 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
