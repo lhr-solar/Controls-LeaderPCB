@@ -53804,7 +53804,7 @@
 		(uuid "24d7112d-639c-41d8-a371-d66b24aac30d")
 		(at 124.32 130.81 180)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "e7371c76-9680-4473-9366-e0416df2070a")
@@ -53817,7 +53817,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "8e808e01-0bdd-4ab8-bbe2-068dcbe2c543")
@@ -53830,7 +53830,7 @@
 			)
 		)
 		(property "Footprint" "Graphics:Krishdiscord"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "41103dfe-8edb-421e-bb4e-afd66444fa2c")
@@ -53843,7 +53843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0b0b5e12-8da8-4cf5-acf6-9ceb6a80b6c9")
@@ -53856,7 +53856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ab2f689a-ec4a-49be-be17-4163afa9a126")
@@ -74620,72 +74620,6 @@
 				(thickness 0.125)
 			)
 		)
-	)
-	(dimension
-		(type aligned)
-		(layer "B.Cu")
-		(uuid "6b4801a7-9927-4fa0-8fe1-ba5e4cad6c5a")
-		(pts
-			(xy 126.35 148.7) (xy 127.749 51.51)
-		)
-		(height -36.252303)
-		(gr_text "97.2001 mm"
-			(at 89.001138 99.557314 89.17531372)
-			(layer "B.Cu")
-			(uuid "6b4801a7-9927-4fa0-8fe1-ba5e4cad6c5a")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "B.Cu")
-		(uuid "f894e559-107e-483e-aa36-7f01be244d22")
-		(pts
-			(xy 111.93 114.3) (xy 191.325 115.2625)
-		)
-		(height 47.625993)
-		(gr_text "79.4008 mm"
-			(at 151.071996 160.603876 359.3054413)
-			(layer "B.Cu")
-			(uuid "f894e559-107e-483e-aa36-7f01be244d22")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 170.835 133.935)
