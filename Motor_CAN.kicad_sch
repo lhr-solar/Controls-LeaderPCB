@@ -2054,10 +2054,22 @@
 		(uuid "06fb8a5e-69f3-44ca-bc88-4da9a1408625")
 	)
 	(junction
+		(at 228.6 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd9933f-bd02-433b-b25d-01b395dcae17")
+	)
+	(junction
 		(at 90.17 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1533b475-c834-40d3-ae2c-55eb46ae810f")
+	)
+	(junction
+		(at 231.14 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea2b724-c1f6-4457-89c0-84397342f477")
 	)
 	(junction
 		(at 165.1 88.9)
@@ -2226,6 +2238,16 @@
 	(no_connect
 		(at 233.68 107.95)
 		(uuid "d6efbec3-37d1-4e35-b8cd-2044bdb0576b")
+	)
+	(wire
+		(pts
+			(xy 228.6 101.6) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024003c0-f067-4f17-ab78-e76a0adbbd64")
 	)
 	(wire
 		(pts
@@ -2526,6 +2548,16 @@
 			(type default)
 		)
 		(uuid "50d092a1-cb48-4b36-9419-53ddb3f8fa14")
+	)
+	(wire
+		(pts
+			(xy 248.92 104.14) (xy 248.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e91c29-0a02-4814-8c6d-11b7056faaa0")
 	)
 	(wire
 		(pts
@@ -2959,6 +2991,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 104.14) (xy 248.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c115d620-f5b8-4f3c-859d-6596d807fd0b")
+	)
+	(wire
+		(pts
 			(xy 62.23 82.55) (xy 91.44 82.55)
 		)
 		(stroke
@@ -3156,6 +3198,16 @@
 			(type default)
 		)
 		(uuid "eef9a49b-90d1-4463-b2c5-af035d3ae9d7")
+	)
+	(wire
+		(pts
+			(xy 251.46 101.6) (xy 251.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8591330-a7ca-4b05-b479-49b2b2031630")
 	)
 	(wire
 		(pts
@@ -5302,6 +5354,76 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f6018fb"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 251.46 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3083bd16-25c9-4dcd-aa37-bb8bade4dfd0")
+		(property "Reference" "J16"
+			(at 254 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_CAN_DB9"
+			(at 254 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b53d0c1-ac75-4f88-b1b9-83605efd0587")
+		)
+		(pin "1"
+			(uuid "905d035e-668f-48ef-8aa7-adc8a918e6d3")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f6018fb"
+					(reference "J16")
 					(unit 1)
 				)
 			)

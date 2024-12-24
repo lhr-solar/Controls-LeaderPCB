@@ -4761,16 +4761,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 184.15) (xy 250.19 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06cea44f-4da2-47e2-8117-76d507e221e2")
-	)
-	(wire
-		(pts
 			(xy 228.6 148.59) (xy 243.84 148.59)
 		)
 		(stroke
@@ -5018,6 +5008,16 @@
 			(type default)
 		)
 		(uuid "20901d7e-a300-4069-8967-a6a7e97a68bc")
+	)
+	(wire
+		(pts
+			(xy 260.35 190.5) (xy 265.43 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f125ab-c3b9-47f4-b43e-ed38f912b221")
 	)
 	(wire
 		(pts
@@ -5881,6 +5881,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 193.04) (xy 283.21 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c3c6f1-896c-47ef-804f-b148e023d60e")
+	)
+	(wire
+		(pts
 			(xy 193.04 105.41) (xy 193.04 118.11)
 		)
 		(stroke
@@ -5918,6 +5928,16 @@
 			(type default)
 		)
 		(uuid "866f1e9e-00b6-41a1-8a26-aa0431a142af")
+	)
+	(wire
+		(pts
+			(xy 260.35 193.04) (xy 265.43 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ded62d-5f36-44f0-a1a8-b11bb55056aa")
 	)
 	(wire
 		(pts
@@ -5988,6 +6008,16 @@
 			(type default)
 		)
 		(uuid "901440f4-e2a6-4447-83cc-f58a2b26f5c4")
+	)
+	(wire
+		(pts
+			(xy 260.35 198.12) (xy 265.43 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c2318d-d74e-414f-804f-b8b104e0b7f6")
 	)
 	(wire
 		(pts
@@ -6251,6 +6281,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 200.66) (xy 265.43 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9920611-2e91-4571-b055-352f2aeeedb7")
+	)
+	(wire
+		(pts
 			(xy 177.8 135.89) (xy 193.04 135.89)
 		)
 		(stroke
@@ -6371,6 +6411,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 195.58) (xy 265.43 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beaf7308-f58f-4549-ae75-0006241ef6a3")
+	)
+	(wire
+		(pts
 			(xy 247.65 60.96) (xy 247.65 63.5)
 		)
 		(stroke
@@ -6488,6 +6538,16 @@
 			(type default)
 		)
 		(uuid "cd5e758d-cb66-484a-ae8b-21f53ceee49e")
+	)
+	(wire
+		(pts
+			(xy 228.6 184.15) (xy 243.84 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced4e287-de5a-46aa-aa70-12336b211598")
 	)
 	(wire
 		(pts
@@ -7188,7 +7248,7 @@
 	)
 	(text "SET"
 		(exclude_from_sim no)
-		(at 252.476 183.896 0)
+		(at 246.126 183.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7608,13 +7668,13 @@
 		(uuid "1c1fc425-5499-4358-9244-7384e1163c4c")
 	)
 	(label "PC10"
-		(at 265.43 200.66 180)
+		(at 260.35 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1f5a850c-6725-4901-9bb0-72fa01cf9b5b")
 	)
@@ -7850,13 +7910,13 @@
 		(uuid "477d25cb-4ff0-4f15-936f-6f50ec149e1d")
 	)
 	(label "PC9"
-		(at 278.13 193.04 0)
+		(at 283.21 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4b13c329-9dab-45d6-b1b6-adaf25fee74d")
 	)
@@ -8059,24 +8119,24 @@
 		(uuid "730e98f9-6b7e-46d2-afe1-e838154a03ae")
 	)
 	(label "PA10"
-		(at 265.43 195.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74d73ea2-f86e-488a-8828-88ec2b936f38")
-	)
-	(label "PA9"
-		(at 283.21 195.58 0)
+		(at 260.35 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "74d73ea2-f86e-488a-8828-88ec2b936f38")
+	)
+	(label "PA9"
+		(at 283.21 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "7a8102c9-5a09-4b02-9891-2d64ded5fa96")
 	)
@@ -8092,26 +8152,15 @@
 		(uuid "7f10ee4d-7b93-4c2f-8e57-b5c1a44cb173")
 	)
 	(label "PA15"
-		(at 265.43 198.12 180)
+		(at 260.35 198.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "81360180-6f8e-4599-96e6-a8bf843e9b11")
-	)
-	(label "PC8"
-		(at 265.43 190.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8170d065-22d1-4318-862b-e8f201ee3321")
 	)
 	(label "PB9"
 		(at 292.1 156.21 0)
@@ -8156,6 +8205,17 @@
 			(justify left bottom)
 		)
 		(uuid "8c6c7af2-a83f-4d8b-b857-f9c372f6f5da")
+	)
+	(label "PC8"
+		(at 260.35 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c8663a8-2735-46a0-81eb-2d0f2ad2c9f1")
 	)
 	(label "Accel_Pot"
 		(at 74.93 114.3 0)
@@ -8378,13 +8438,13 @@
 		(uuid "ace29c67-f7f7-4de6-bd09-86ab13882746")
 	)
 	(label "PC11"
-		(at 283.21 200.66 0)
+		(at 283.21 200.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ae3a5c80-6427-410f-a789-8399cdc35f82")
 	)
@@ -8619,17 +8679,6 @@
 		)
 		(uuid "e39bc42f-5e97-4cc8-9be9-454bf8648ca1")
 	)
-	(label "UART3_Rx"
-		(at 300.99 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e4a7c8ed-145a-46bf-b5fa-6b5fbd0f1e36")
-	)
 	(label "PA15"
 		(at 243.84 156.21 180)
 		(fields_autoplaced yes)
@@ -8686,7 +8735,7 @@
 		(uuid "edf2156e-0307-4f09-abe2-80064b389c50")
 	)
 	(label "PB9"
-		(at 250.19 184.15 180)
+		(at 243.84 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8719,13 +8768,13 @@
 		(uuid "f23ac723-a36d-491d-9473-7ec0ffed332d")
 	)
 	(label "PA8"
-		(at 265.43 193.04 180)
+		(at 260.35 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f330d4a5-925b-4068-95c2-3975a909dfad")
 	)
