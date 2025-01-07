@@ -9756,7 +9756,7 @@
 		(uuid "356b26a4-f3ac-4227-857b-c325a8660de1")
 		(at 170.41 54.33)
 		(property "Reference" "J21"
-			(at 0.31 3.79 360)
+			(at 0.31 3.79 0)
 			(layer "F.SilkS")
 			(uuid "a30fc6b3-04a7-4a9a-89d0-101a29ecb841")
 			(effects
@@ -9767,7 +9767,7 @@
 			)
 		)
 		(property "Value" "CAN_IN"
-			(at 4.5 4.000001 360)
+			(at 4.5 4.000001 0)
 			(layer "F.Fab")
 			(uuid "d3e5c007-7366-4839-b7ff-2e62f9f29166")
 			(effects
@@ -9778,7 +9778,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef04b8a3-0ca9-45d3-8a66-8b7c839e2ca6")
@@ -9790,7 +9790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e70cd7e-d235-422a-ad82-b283fc675f96")
@@ -9802,7 +9802,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cfd49a18-886c-43d9-ab39-37cd2360d5b7")
@@ -23577,7 +23577,7 @@
 		(descr "Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0624), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Micro-Fit_3.0 vertical")
 		(property "Reference" "J5"
-			(at -2.77 5.97 360)
+			(at -2.77 5.97 0)
 			(layer "F.SilkS")
 			(uuid "b1a9b4c3-8c69-4056-ae9c-545e867d16a2")
 			(effects
@@ -23588,7 +23588,7 @@
 			)
 		)
 		(property "Value" "M_CAN_IN"
-			(at 3 7.51 360)
+			(at 3 7.51 0)
 			(layer "F.Fab")
 			(uuid "fecdfd3e-4b6d-4cda-90f1-56199f0bdc2a")
 			(effects
@@ -23959,7 +23959,7 @@
 			(uuid "93e7c343-15a1-4466-bf0d-c831ef4507cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3 4.2 360)
+			(at 3 4.2 0)
 			(layer "F.Fab")
 			(uuid "5089b2d4-f1a2-4e5c-af62-ce68ed44aa90")
 			(effects
@@ -29857,7 +29857,7 @@
 		(uuid "898bb415-7b14-43c6-ab07-6d57e4469341")
 		(at 151.47 54.31)
 		(property "Reference" "J22"
-			(at 1.2 3.81 360)
+			(at 1.2 3.81 0)
 			(layer "F.SilkS")
 			(uuid "db7ff299-aad6-4862-b83d-da1b1949e540")
 			(effects
@@ -29868,7 +29868,7 @@
 			)
 		)
 		(property "Value" "CAN_OUT"
-			(at 4.5 4.000001 360)
+			(at 4.5 4.000001 0)
 			(layer "F.Fab")
 			(uuid "9722a687-582f-4675-bc51-fc3a2936dd59")
 			(effects
@@ -29879,7 +29879,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49df3174-f34d-4e72-9c92-e2cf39b49c52")
@@ -29891,7 +29891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "440f39d0-5714-4324-97fc-ae0a544ab1f8")
@@ -29903,7 +29903,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c77b206b-1eed-4ebe-bf1c-96341ebca267")
@@ -35940,7 +35940,7 @@
 		(descr "SSOP, 4 Pin (https://www.vishay.com/docs/83465/vos618a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SSOP SO")
 		(property "Reference" "U28"
-			(at 0.01 1.807 270)
+			(at 0.01 1.807 -90)
 			(layer "F.SilkS")
 			(uuid "d48ed50e-a137-4ed8-87dd-72278c57f4b2")
 			(effects
@@ -50966,7 +50966,7 @@
 		(descr "SSOP, 4 Pin (https://www.vishay.com/docs/83465/vos618a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SSOP SO")
 		(property "Reference" "U4"
-			(at 0.05 -1.94 270)
+			(at 0.05 -1.94 -90)
 			(layer "F.SilkS")
 			(uuid "4ec6a978-7860-4b22-b469-973380cbe839")
 			(effects
@@ -80781,12 +80781,12 @@
 		(uuid "52845c38-b2e3-410d-a3ee-1b816a950462")
 	)
 	(segment
-		(start 170.41 65.19)
-		(end 170.41 54.33)
-		(width 0.25)
+		(start 170.41 54.33)
+		(end 170.05 54.69)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 46)
-		(uuid "53cdaec2-f606-4cec-87b7-b6d598b460b3")
+		(uuid "5d1c8b7f-a872-4f10-ba8e-f4442a50b38e")
 	)
 	(segment
 		(start 182.444 65.984002)
@@ -80805,12 +80805,12 @@
 		(uuid "6514ddc3-0b36-4d33-a456-5bcf48cc74a0")
 	)
 	(segment
-		(start 170.05 65.55)
-		(end 170.41 65.19)
-		(width 0.25)
+		(start 170.05 54.69)
+		(end 170.05 65.55)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 46)
-		(uuid "a18fc942-6526-42af-a103-b93b5d2fcb99")
+		(uuid "8edad0fd-b322-48a0-bb25-711409ea7658")
 	)
 	(segment
 		(start 176.348 65.984002)
