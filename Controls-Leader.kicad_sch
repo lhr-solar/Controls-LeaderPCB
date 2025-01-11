@@ -6970,7 +6970,7 @@
 		(uuid "10d8ad0e-6a08-4053-92aa-23a15910fd21")
 	)
 	(label "ExtraADC1"
-		(at 328.93 173.99 0)
+		(at 328.93 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7289,7 +7289,7 @@
 		(uuid "4b13c329-9dab-45d6-b1b6-adaf25fee74d")
 	)
 	(label "ExtraADC2"
-		(at 328.93 176.53 0)
+		(at 328.93 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
