@@ -3073,7 +3073,7 @@
 		)
 		(uuid "d64d27b6-5434-4487-a03f-636a2ae380d4")
 	)
-	(text "Optoisolator has abs max If of 60mA. This 2k r should give a current of ~6mA. Is that ok? Should it be different?"
+	(text "Optoisolator has abs max If of 60mA. This 2k r should give a current of ~6mA."
 		(exclude_from_sim no)
 		(at 150.368 104.902 0)
 		(effects

@@ -5546,8 +5546,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 227.076 136.144 0)
+		(property "Value" "GNDPWR"
+			(at 231.14 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
