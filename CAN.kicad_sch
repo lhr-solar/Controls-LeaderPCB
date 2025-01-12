@@ -2626,16 +2626,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 220.98 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d054a8d-7435-41ed-8832-6067aada259a")
-	)
-	(wire
-		(pts
 			(xy 156.21 105.41) (xy 156.21 90.17)
 		)
 		(stroke
@@ -3116,16 +3106,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 124.46) (xy 220.98 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff163833-80b9-4bc7-baa1-aa11870ad397")
-	)
-	(wire
-		(pts
 			(xy 208.28 100.33) (xy 218.44 100.33)
 		)
 		(stroke
@@ -3249,17 +3229,6 @@
 		)
 		(uuid "5968c877-7376-4e25-b8db-5e755d570d06")
 	)
-	(label "CAN_L"
-		(at 220.98 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "62ab9051-fded-466c-9df1-9b40d76dc590")
-	)
 	(label "RSlope"
 		(at 128.27 105.41 0)
 		(fields_autoplaced yes)
@@ -3270,17 +3239,6 @@
 			(justify left bottom)
 		)
 		(uuid "ed6caead-58a0-4a37-97cf-621d3ffb0ca4")
-	)
-	(label "CAN_H"
-		(at 220.98 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f17daa22-500e-4b54-81a7-f5c3878a87d9")
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
@@ -5292,93 +5250,6 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f547b94"
 					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 231.14 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005fbd46ec")
-		(property "Reference" "J26"
-			(at 233.172 124.6632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN_TP"
-			(at 233.172 126.9746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 231.14 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 231.14 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 231.14 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vds" ""
-			(at 231.14 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a6126fb-d434-42a7-be17-e21a7c366d7a")
-		)
-		(pin "2"
-			(uuid "78f13025-5d1b-47ec-846d-eaeb79fab060")
-		)
-		(instances
-			(project "Controls-Leader"
-				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f547b94"
-					(reference "J26")
 					(unit 1)
 				)
 			)
