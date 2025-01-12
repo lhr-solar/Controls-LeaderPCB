@@ -5044,7 +5044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3055E-3057E.pdf"
 			(at 110.49 88.9 0)
 			(effects
 				(font
