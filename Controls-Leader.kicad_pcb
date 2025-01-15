@@ -8533,7 +8533,7 @@
 			)
 		)
 		(property "Value" "698"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "8dfda157-b443-4d7c-a3d0-d678c8c6caff")
 			(effects
@@ -8727,7 +8727,7 @@
 			(uuid "62614283-ea3d-4dba-a51d-78bbdb4c69fb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b2da85aa-4fe1-4250-b071-4273c2dd4f10")
 			(effects
@@ -16176,7 +16176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=E3Y5ESvWgWORadmUijPtxQ%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24853,7 +24853,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=E3Y5ESvWgWORadmUijPtxQ%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25864,7 +25864,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.9k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "f7f3d66c-b4a6-4660-9c01-de93deb4c5a6")
@@ -25888,7 +25888,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=E3Y5ESvWgWORadmUijPtxQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08054K99FKEAC?qs=E3Y5ESvWgWNlvFwCRtwMfw%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45712,7 +45712,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "100k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "287c8d38-cb47-4ec6-b68f-6bc94f57273a")
@@ -45736,7 +45736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=E3Y5ESvWgWORJvbAiaO1ug%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
