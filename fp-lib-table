@@ -9,4 +9,5 @@
   (lib (name "chips")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/chips.3dshapes")(options "")(descr ""))
   (lib (name "connectors")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes")(options "")(descr ""))
   (lib (name "misc")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/misc.3dshapes")(options "")(descr ""))
+  (lib (name "Graphics")(type "KiCad")(uri "${KIPRJMOD}/Graphics.pretty")(options "")(descr ""))
 )
