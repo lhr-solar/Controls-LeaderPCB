@@ -246,144 +246,6 @@
 				)
 			)
 		)
-		(symbol "Dashboard-rescue:RI3-1205S-utsvt-power-regulators"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RI3-1205S-utsvt-power-regulators"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "UTSVT_ICs:RI3_DC_Converter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RI3-1205S-utsvt-power-regulators_0_1"
-				(rectangle
-					(start -7.62 0)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "RI3-1205S-utsvt-power-regulators_1_1"
-				(pin input line
-					(at -11.43 -7.62 0)
-					(length 3.81)
-					(name "-Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -11.43 -2.54 0)
-					(length 3.81)
-					(name "+Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 11.43 -7.62 180)
-					(length 3.81)
-					(name "-Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 11.43 -2.54 180)
-					(length 3.81)
-					(name "+Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -788,7 +650,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED_ALT"
+		(symbol "Device:LED_Filled"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -803,7 +665,7 @@
 					)
 				)
 			)
-			(property "Value" "Device_LED_ALT"
+			(property "Value" "LED_Filled"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -820,7 +682,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -829,7 +691,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Light emitting diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -847,13 +718,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_ALT_0_1"
+			(symbol "LED_Filled_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -877,7 +748,7 @@
 						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -909,7 +780,7 @@
 					)
 				)
 			)
-			(symbol "LED_ALT_1_1"
+			(symbol "LED_Filled_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2377,6 +2248,144 @@
 				)
 			)
 		)
+		(symbol "utsvt-power-regulators:RI3-1205S"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RI3-1205S"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "UTSVT_ICs:RI3_DC_Converter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RI3-1205S_0_1"
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RI3-1205S_1_1"
+				(pin input line
+					(at -11.43 -7.62 0)
+					(length 3.81)
+					(name "-Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -2.54 0)
+					(length 3.81)
+					(name "+Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -7.62 180)
+					(length 3.81)
+					(name "-Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -2.54 180)
+					(length 3.81)
+					(name "+Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 85.09 87.63)
@@ -2832,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 141.986) (xy 59.69 147.32)
+			(xy 59.69 142.24) (xy 59.69 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3555,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Dashboard-rescue:RI3-1205S-utsvt-power-regulators")
+		(lib_id "utsvt-power-regulators:RI3-1205S")
 		(at 113.03 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3841,7 +3850,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 161.29 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4770,7 +4779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 59.69 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5431,7 +5440,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 59.69 141.986 0)
+		(at 59.69 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5439,7 +5448,7 @@
 		(dnp no)
 		(uuid "57b2e01f-5d69-450b-a10f-6e8055addcb8")
 		(property "Reference" "#PWR0112"
-			(at 59.69 145.796 0)
+			(at 59.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +5457,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 60.071 137.5918 0)
+			(at 60.071 137.8458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 141.986 0)
+			(at 59.69 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 141.986 0)
+			(at 59.69 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 59.69 141.986 0)
+			(at 59.69 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

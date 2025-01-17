@@ -1061,107 +1061,6 @@
 				)
 			)
 		)
-		(symbol "Dashboard-rescue:Logo_Placeholder-utsvt-misc"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LOGO"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Logo_Placeholder-utsvt-misc"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Logo_Placeholder-utsvt-misc_0_1"
-				(arc
-					(start -1.905 0)
-					(mid 0 -1.8967)
-					(end 1.905 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy -0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.8448)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1601,7 +1500,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED_ALT"
+		(symbol "Device:LED_Filled"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1616,7 +1515,7 @@
 					)
 				)
 			)
-			(property "Value" "Device_LED_ALT"
+			(property "Value" "LED_Filled"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1633,7 +1532,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1642,7 +1541,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Light emitting diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1660,13 +1568,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_ALT_0_1"
+			(symbol "LED_Filled_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1690,7 +1598,7 @@
 						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1722,7 +1630,7 @@
 					)
 				)
 			)
-			(symbol "LED_ALT_1_1"
+			(symbol "LED_Filled_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -4411,6 +4319,116 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+		)
+		(symbol "utsvt-misc:Logo_Placeholder"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Logo_Placeholder"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Graph footprint placeholder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "graphic, symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_Placeholder_0_1"
+				(arc
+					(start -1.905 0)
+					(mid 0 -1.905)
+					(end 1.905 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8448)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -10531,7 +10549,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Dashboard-rescue:Logo_Placeholder-utsvt-misc")
+		(lib_id "utsvt-misc:Logo_Placeholder")
 		(at 304.8 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10612,7 +10630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Dashboard-rescue:Logo_Placeholder-utsvt-misc")
+		(lib_id "utsvt-misc:Logo_Placeholder")
 		(at 304.8 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11304,7 +11322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 91.44 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12500,7 +12518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 125.73 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12679,7 +12697,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 76.2 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12873,7 +12891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 198.12 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13278,7 +13296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 213.36 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13825,7 +13843,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 232.41 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14004,7 +14022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 109.22 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14118,7 +14136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 154.94 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14297,7 +14315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 170.18 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14860,7 +14878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ALT")
+		(lib_id "Device:LED_Filled")
 		(at 140.97 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)

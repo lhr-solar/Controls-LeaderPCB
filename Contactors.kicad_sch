@@ -1132,39 +1132,6 @@
 		)
 		(uuid "f0ac7d1d-aede-498d-a212-8c1d98347b4f")
 	)
-	(label "A_PRCHG_BYPASS"
-		(at 105.41 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83226cf4-4bcb-4755-8744-16fd92f3a724")
-	)
-	(label "M_PRCHG_BYPASS"
-		(at 105.41 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b129856-cc2d-4792-b90f-5af9599716ce")
-	)
-	(label "M_CNTCTR"
-		(at 105.41 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b816a3c8-fb45-4989-9d2f-ae3a9c665f5e")
-	)
 	(hierarchical_label "Array_Precharge_Bypass"
 		(shape input)
 		(at 105.41 138.43 180)
