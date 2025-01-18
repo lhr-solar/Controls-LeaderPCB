@@ -8245,6 +8245,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 334.01 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
@@ -8318,6 +8327,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 334.01 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 334.01 237.49 0)
 			(effects
 				(font
@@ -8407,6 +8425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 334.01 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
@@ -8480,6 +8507,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 353.06 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 353.06 232.41 0)
 			(effects
 				(font
@@ -8569,6 +8605,15 @@
 			)
 		)
 		(property "Mouser Part Number" "511-STM32F413RHT6"
+			(at 210.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 210.82 158.75 0)
 			(effects
 				(font
@@ -8922,6 +8967,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e04b2931-c280-4b2b-8853-63ec69c4dad6")
 		)
@@ -9075,6 +9129,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 153.67 110.49 0)
 			(effects
 				(font
@@ -9244,6 +9307,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "058cabb9-3e14-4d6f-8e30-6f2c358ee947")
 		)
@@ -9330,6 +9402,15 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM219R6YA475KA3D"
+			(at 181.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 181.61 184.15 0)
 			(effects
 				(font
@@ -9499,6 +9580,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5b0a551-631c-4914-8d58-f0c217ff309b")
 		)
@@ -9593,6 +9683,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 171.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a845065c-d714-4eb5-9ad6-a69539569a52")
 		)
@@ -9679,6 +9778,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 171.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 171.45 133.35 0)
 			(effects
 				(font
@@ -9831,6 +9939,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 308.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 308.61 135.89 0)
 			(effects
 				(font
@@ -10201,6 +10318,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "845bafd1-b3c7-48ef-ac13-2e096330a6ad")
 		)
@@ -10297,6 +10423,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5901570-3f53-4ad1-a020-ffa108f19012")
 		)
@@ -10385,6 +10520,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 232.41 67.31 0)
 			(effects
 				(font
@@ -10610,6 +10754,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 304.8 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
@@ -10683,6 +10836,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 304.8 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 304.8 233.68 0)
 			(effects
 				(font
@@ -10846,6 +11008,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d64d346-5d40-4b9e-ab09-243a05c7f6b9")
 		)
@@ -10934,6 +11105,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 193.04 67.31 0)
 			(effects
 				(font
@@ -11038,6 +11218,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 204.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9b437f4-5bc5-47f9-8796-75229c1e92f3")
 		)
@@ -11115,6 +11304,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 308.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 308.61 173.99 0)
 			(effects
 				(font
@@ -11296,6 +11494,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7a002c1-723f-4ecc-a037-8766b2bcc9bd")
 		)
@@ -11402,6 +11609,15 @@
 			)
 		)
 		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 91.44 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 91.44 266.7 0)
 			(effects
 				(font
@@ -11592,7 +11808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 91.44 257.81 0)
 			(effects
 				(font
@@ -11628,7 +11844,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 91.44 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 91.44 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 91.44 257.81 0)
 			(effects
 				(font
@@ -11818,7 +12052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 213.36 257.81 0)
 			(effects
 				(font
@@ -11854,7 +12088,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 213.36 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 213.36 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 213.36 257.81 0)
 			(effects
 				(font
@@ -11979,7 +12231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 232.41 257.81 0)
 			(effects
 				(font
@@ -12015,7 +12267,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 232.41 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 232.41 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 232.41 257.81 0)
 			(effects
 				(font
@@ -12104,6 +12374,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 273.05 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 273.05 195.58 0)
 			(effects
 				(font
@@ -12284,6 +12563,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 345.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 345.44 173.99 0)
 			(effects
 				(font
@@ -12606,6 +12894,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 125.73 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "267bff0d-9adf-4516-a056-5c035c238272")
 		)
@@ -12785,6 +13082,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 76.2 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89a4f185-4d4a-4402-bc84-82d079a37537")
 		)
@@ -12845,6 +13151,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 334.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 334.01 107.95 0)
 			(effects
 				(font
@@ -12979,6 +13294,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 198.12 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87c4a16f-97d6-4397-b063-d9915aafe7b4")
 		)
@@ -13095,7 +13419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 170.18 257.81 0)
 			(effects
 				(font
@@ -13131,7 +13455,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 170.18 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 170.18 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 170.18 257.81 0)
 			(effects
 				(font
@@ -13384,6 +13726,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 213.36 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11dbe860-0955-438e-a834-8df0f430a0a2")
 		)
@@ -13469,6 +13820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 308.61 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aea73a1c-0306-4592-bdcf-25dfb671f20c")
 		)
@@ -13523,7 +13883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 154.94 257.81 0)
 			(effects
 				(font
@@ -13559,7 +13919,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 154.94 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 154.94 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 154.94 257.81 0)
 			(effects
 				(font
@@ -13645,6 +14023,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 341.63 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 341.63 203.2 0)
 			(effects
 				(font
@@ -13772,7 +14159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 140.97 257.81 0)
 			(effects
 				(font
@@ -13808,7 +14195,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 140.97 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 140.97 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 140.97 257.81 0)
 			(effects
 				(font
@@ -13923,6 +14328,15 @@
 			)
 		)
 		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 232.41 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 232.41 266.7 0)
 			(effects
 				(font
@@ -14110,6 +14524,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 109.22 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95a8f921-be77-4b2a-adf4-1bdcaef5ded6")
 		)
@@ -14216,6 +14639,15 @@
 			)
 		)
 		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 154.94 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 154.94 266.7 0)
 			(effects
 				(font
@@ -14403,6 +14835,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 170.18 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c4b873f-b20d-49a5-9a14-ec1b0a98d4af")
 		)
@@ -14454,7 +14895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 125.73 257.81 0)
 			(effects
 				(font
@@ -14490,7 +14931,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 125.73 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 125.73 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 125.73 257.81 0)
 			(effects
 				(font
@@ -14615,7 +15074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 76.2 257.81 0)
 			(effects
 				(font
@@ -14651,7 +15110,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 76.2 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 76.2 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 76.2 257.81 0)
 			(effects
 				(font
@@ -14711,7 +15188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 198.12 257.81 0)
 			(effects
 				(font
@@ -14747,7 +15224,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 198.12 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 198.12 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 198.12 257.81 0)
 			(effects
 				(font
@@ -14807,7 +15302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 109.22 257.81 0)
 			(effects
 				(font
@@ -14843,7 +15338,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
+			(at 109.22 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 109.22 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
 			(at 109.22 257.81 0)
 			(effects
 				(font
@@ -14958,6 +15471,15 @@
 			)
 		)
 		(property "Mouser Part Number" "604-APTD2012LCGCK"
+			(at 140.97 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 140.97 266.7 0)
 			(effects
 				(font

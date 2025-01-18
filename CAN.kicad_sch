@@ -3430,6 +3430,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b10e48d-8580-43a9-a5f9-b54aaf535342")
 		)
@@ -3507,6 +3516,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 205.74 82.55 0)
 			(effects
 				(font
@@ -3611,6 +3629,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "052bc44c-1db0-4b07-a4bd-0708f44790ba")
 		)
@@ -3699,6 +3726,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 63.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 63.5 85.09 0)
 			(effects
 				(font
@@ -3803,6 +3839,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a567dc00-8b2a-4c79-87e3-9ce3dc2e620f")
 		)
@@ -3891,6 +3936,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 83.82 85.09 0)
 			(effects
 				(font
@@ -3995,6 +4049,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbe6ab44-e17e-47c0-a0b6-9ff6e440eee0")
 		)
@@ -4091,6 +4154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52b64398-ed80-4c43-a916-8352080e48e8")
 		)
@@ -4124,7 +4196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "https://www.mouser.com/ProductDetail/963-BK2125LM182-T"
+		(property "Value" "1.8k"
 			(at 147.32 74.93 90)
 			(effects
 				(font
@@ -4143,7 +4215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/BK2125LM182-T?qs=I6KAKw0tg2wTd%252Bj343lu1Q%3D%3D&srsltid=AfmBOorkhsm8Uk29brVkfBS5oJy8t8TPSw1gIhtEERu0OY8r33ydtYfJ"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792090?qs=5twSNpOB8IB2sNFtiBxEew%3D%3D"
 			(at 151.13 77.47 0)
 			(effects
 				(font
@@ -4161,7 +4233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "BKH1005LM182-T "
+		(property "Mouser Part Number" "710-742792090"
 			(at 151.13 77.47 0)
 			(effects
 				(font
@@ -4180,6 +4252,24 @@
 			)
 		)
 		(property "Vds" ""
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " 742792090"
 			(at 151.13 77.47 0)
 			(effects
 				(font
@@ -4221,7 +4311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "https://www.mouser.com/ProductDetail/963-BK2125LM182-T"
+		(property "Value" "1.8k"
 			(at 147.32 87.63 90)
 			(effects
 				(font
@@ -4240,7 +4330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/BK2125LM182-T?qs=I6KAKw0tg2wTd%252Bj343lu1Q%3D%3D&srsltid=AfmBOorkhsm8Uk29brVkfBS5oJy8t8TPSw1gIhtEERu0OY8r33ydtYfJ"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792090?qs=5twSNpOB8IB2sNFtiBxEew%3D%3D"
 			(at 151.13 85.09 0)
 			(effects
 				(font
@@ -4258,7 +4348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "BKH1005LM182-T "
+		(property "Mouser Part Number" "710-742792090"
 			(at 151.13 85.09 0)
 			(effects
 				(font
@@ -4277,6 +4367,24 @@
 			)
 		)
 		(property "Vds" ""
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " 742792090"
 			(at 151.13 85.09 0)
 			(effects
 				(font
@@ -4381,6 +4489,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f360c641-16f5-4c3e-946c-73ea2b27f305")
 		)
@@ -4469,6 +4586,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 173.99 81.28 0)
 			(effects
 				(font
@@ -4703,6 +4829,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85d20062-e0a6-42d0-8014-302ba7451a02")
 		)
@@ -4920,6 +5055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 231.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9dcc330-3f7f-4b4a-96b5-0c3a46b987c1")
 		)
@@ -5005,6 +5149,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 231.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 231.14 95.25 0)
 			(effects
 				(font
@@ -5113,6 +5266,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1a6795c-d991-404e-b44f-c232534ba52d")
 		)
@@ -5207,7 +5369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 205.74 72.39 0)
 			(effects
 				(font
@@ -5216,7 +5378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CDSOT23-T24CAN?qs=Z7P4xsdcg2LuAOb%2FzQ7xoQ%3D%3D&srsltid=AfmBOoo-PAeiWAfgofEpaXl2YTbs5tzVBFt4xpFaZPxBSWl1qHW5CPZ0"
 			(at 205.74 72.39 0)
 			(effects
 				(font
@@ -5253,6 +5415,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 205.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 205.74 72.39 0)
 			(effects
 				(font
@@ -5326,6 +5497,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 231.14 104.14 0)
 			(effects
 				(font

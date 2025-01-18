@@ -2844,7 +2844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
+		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
 			(at 110.49 80.01 0)
 			(effects
 				(font
@@ -3041,7 +3041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
 			(at 93.98 83.82 0)
 			(effects
 				(font

@@ -3588,7 +3588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.mouser.com/datasheet/2/468/RI3-1711119.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/468/RI3-1711119.pdf"
 			(at 113.03 77.47 0)
 			(effects
 				(font

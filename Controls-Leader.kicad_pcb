@@ -371,6 +371,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c8f6d58-cb6f-4058-be20-f7a07fe5bac2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005fa99dc3/f5dc3179-ed8e-4e44-b237-71260f9c543e")
 		(sheetname "Potentiometers")
@@ -849,6 +862,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a64298ed-282a-4f79-ad39-97afe28e1b61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/dde46d50-a797-4eea-b981-cfb0e465529b")
 		(sheetname "Root")
@@ -1123,6 +1149,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b3a146-15f4-42da-a08c-c6ea9f0cf2a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-000061927cf6")
 		(sheetname "PowerDist")
@@ -1368,6 +1407,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "23ed101c-1fb9-424a-ab0e-261cb855bbfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "251ad849-03df-4d79-baf4-0f14881ff79f")
 			(effects
 				(font
 					(size 1 1)
@@ -1627,6 +1679,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a88986cb-6aa2-47a3-8e2f-68f10ddda0d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f50d910")
 		(sheetname "Root")
@@ -1836,6 +1901,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26feab29-868b-4b36-a564-fd972b327cfc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2289,6 +2367,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77069ecb-0c68-4e94-9c5f-6bf9a790d38e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/00000000-0000-0000-0000-00005fb694f4/5f110009-65db-495f-9fbc-7353ac91b0de")
 		(sheetname "Contactors")
@@ -2641,6 +2732,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ab69d28-f367-42a9-a0f7-2a6d9bd0cfc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005fa99dc3/00000000-0000-0000-0000-00005faaa56d")
 		(sheetname "Potentiometers")
@@ -2886,6 +2990,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "61659d0e-06f9-401c-85f5-3e62d7f4d0b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc89b0a7-8c6d-4ca2-bece-5da7747b84f9")
 			(effects
 				(font
 					(size 1 1)
@@ -3158,6 +3275,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c3bd6e0-a20f-4aa1-8b2d-e766195b4ee7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00006066ccf4")
 		(sheetname "Root")
@@ -3403,6 +3533,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e55c663-7ebb-450a-88cd-856a99d9336e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9fb4807-9b11-463c-9065-46aef283fcee")
 			(effects
 				(font
 					(size 1 1)
@@ -3662,6 +3805,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2035cbdd-b239-4d98-8a4e-57005801740a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7a9238/00000000-0000-0000-0000-00005c497db9")
 		(sheetname "USB")
@@ -3904,6 +4060,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "949c8939-62ea-45c3-a9f3-90c6ad7edcf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ed6af44-0871-410a-99e8-54ddca58c754")
 			(effects
 				(font
 					(size 1 1)
@@ -4260,6 +4429,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43d02d93-9131-4c89-9ac7-a60ee74edf92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/329c752c-bef1-413d-846f-00c03acd5f6c")
 		(sheetname "DashAndDisplay")
@@ -4547,7 +4729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4599,12 +4781,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05dff1b3-e6b3-427c-a3a9-583c38d7261b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91afdce8-2eb8-49b5-ad7b-8e943334dc65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "031ad667-7591-434c-8356-fdef9ad070c2")
 			(effects
 				(font
 					(size 1 1)
@@ -4844,6 +5052,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a2719fa2-c364-4459-9daa-7c90680cf075")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "222e1e69-68ed-455e-ad85-798790c947c3")
 			(effects
 				(font
 					(size 1 1)
@@ -5287,6 +5508,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21cac54a-6e8a-4e44-b62d-e52afdfd7427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-00005c7029c7")
 		(sheetname "PowerDist")
@@ -5519,6 +5753,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb389d56-f524-4b36-9209-f8272bb26bc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b6c33c4-9290-4400-8540-fca58fa49f89")
 			(effects
 				(font
 					(size 1 1)
@@ -5856,6 +6103,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51fafe85-fc10-49d7-918c-3eb3fa3c1bea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8e26c761-210b-4742-b543-7477f8bf4a96/69dc1f9b-84c7-4698-9c48-e62353a47d21")
 		(sheetname "Lights Drivers")
@@ -6149,6 +6409,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b3983a7-520f-4727-b4a3-b2642d0b980a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005c2b4308")
 		(sheetname "Car_CAN")
@@ -6390,7 +6663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6442,12 +6715,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7a9ef6b0-043e-430e-8369-d0bb626d8188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d7cadfa-ce8a-452b-9aeb-8178a7e4b0a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dacafe46-c85b-46db-bd13-39a8437908bf")
 			(effects
 				(font
 					(size 1 1)
@@ -6707,6 +7006,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ae12e3e-5a66-4a28-ac7c-f11e8fb52c2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8e26c761-210b-4742-b543-7477f8bf4a96/0ddfef39-b043-49f9-b09b-e50084da455b")
 		(sheetname "Lights Drivers")
@@ -6952,6 +7264,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d338f97b-7d58-4a19-a5fc-ad1f87ebac3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7992bdc5-fd8b-4fde-b9a5-6905580bb1c5")
 			(effects
 				(font
 					(size 1 1)
@@ -7211,6 +7536,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "528448e9-91ee-4a33-87e4-e4b4e9c7a442")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/76cbacc8-e942-45be-98a4-c4e9343dde03")
 		(sheetname "DashAndDisplay")
@@ -7364,9 +7702,9 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L8"
-			(at 2.3505 0.064 180)
+			(at 0 -1.55 90)
 			(layer "F.SilkS")
-			(uuid "9f322916-0e5e-4729-b1a9-ab783641059c")
+			(uuid "c0a5b7b1-dc72-4869-b0c5-6fef6296698d")
 			(effects
 				(font
 					(size 1 1)
@@ -7374,11 +7712,10 @@
 				)
 			)
 		)
-		(property "Value" "https://www.mouser.com/ProductDetail/963-BK2125LM182-T"
-			(at 0 1.550001 90)
+		(property "Value" "1.8k"
+			(at 0 1.55 90)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c935da3-64ea-4f4d-9ea8-866f5789effa")
+			(uuid "66dae261-79ed-4930-8999-41b77ad40d60")
 			(effects
 				(font
 					(size 1 1)
@@ -7391,7 +7728,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1542a85-e3c1-4a70-9470-fe61df77da4f")
+			(uuid "93b9aa13-df2c-4cb8-8710-c025aca575dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,12 +7736,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/BK2125LM182-T?qs=I6KAKw0tg2wTd%252Bj343lu1Q%3D%3D&srsltid=AfmBOorkhsm8Uk29brVkfBS5oJy8t8TPSw1gIhtEERu0OY8r33ydtYfJ"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792090?qs=5twSNpOB8IB2sNFtiBxEew%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed64a951-42b3-4b90-a09f-3bb38364a72b")
+			(uuid "7d528c8d-02b2-4386-a0d3-0d22a0b4988d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +7754,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1644155c-6b45-4fe5-bec4-d921dcb0a0f7")
+			(uuid "7af3787d-ec3e-4130-a85c-32777de90982")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,12 +7762,12 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "BKH1005LM182-T "
+		(property "Mouser Part Number" "710-742792090"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "610e8e3b-1a36-4649-bb16-6f380be13b92")
+			(uuid "d7c88a8b-990d-438b-8a2d-1ade79d43c73")
 			(effects
 				(font
 					(size 1 1)
@@ -7443,7 +7780,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b59b2618-d0af-4ed3-aef2-fdf80ddd5b5a")
+			(uuid "56beb1cd-b299-4e61-bd2d-78a5e51e83d5")
 			(effects
 				(font
 					(size 1 1)
@@ -7456,7 +7793,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24cbba1d-5186-4e2f-be94-a3d6d9f6d527")
+			(uuid "c5ac258c-20e7-42c1-8cc2-663484b2159c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a11bdd0b-ad6b-4103-9ba7-09536e61f87b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" " 742792090"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97b49bcc-f371-47cf-bc12-ff21170a6c11")
 			(effects
 				(font
 					(size 1 1)
@@ -7477,7 +7840,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "61c7faea-0414-4cd1-ba28-e2f14ec8b80e")
+			(uuid "b1165428-1cfe-4c8b-bacf-e2e8d4a9880b")
 		)
 		(fp_line
 			(start -0.399622 0.56)
@@ -7487,7 +7850,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d528e33e-ec24-4c45-b2de-a3158b361dc9")
+			(uuid "dcfe430c-75f4-4004-865d-fe1b3b1e200f")
 		)
 		(fp_line
 			(start 1.75 -0.85)
@@ -7497,7 +7860,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a988ce4c-45c7-4301-90fa-ebf52784505c")
+			(uuid "3827ce57-90fd-4bcd-8216-bb199a13f23d")
 		)
 		(fp_line
 			(start -1.75 -0.85)
@@ -7507,7 +7870,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "88e0f53b-0ebb-407c-a93e-4b49bb59fa7e")
+			(uuid "eb7434bb-8435-4be9-a828-03544ad3cdcb")
 		)
 		(fp_line
 			(start 1.75 0.85)
@@ -7517,7 +7880,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9de0d956-932a-4b9a-a11b-353a13bc6fcf")
+			(uuid "df224278-5b9b-4ca8-b90b-0de10457069d")
 		)
 		(fp_line
 			(start -1.75 0.85)
@@ -7527,7 +7890,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b7ab31f1-b90c-47cb-aca0-1c66aebb49a6")
+			(uuid "67118a91-d4ff-4c6f-901b-974d44d2b5dc")
 		)
 		(fp_line
 			(start 1 -0.45)
@@ -7537,7 +7900,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "84dea8cd-f45d-45d9-822e-13d88fc6e5ba")
+			(uuid "dadca4be-2bd4-4380-aab3-103a9d4826b4")
 		)
 		(fp_line
 			(start -1 -0.45)
@@ -7547,7 +7910,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "04210b51-094d-401a-a2b9-ff0dc15077f4")
+			(uuid "cbbcc3a6-0d19-4474-8901-79b3358bf89d")
 		)
 		(fp_line
 			(start 1 0.45)
@@ -7557,7 +7920,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "25e57ce1-7cfd-4ce5-82fc-95aea8efd313")
+			(uuid "a20dbf9d-6e00-476b-baad-13087a8221d7")
 		)
 		(fp_line
 			(start -1 0.45)
@@ -7567,12 +7930,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "78a6f943-9c8d-475b-bb89-a822fde13785")
+			(uuid "8cc15294-d285-4d75-a955-9dadb4413359")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "f1c77af2-c32a-46d0-a206-a3c7c884f6b7")
+			(uuid "3ceb9660-3693-4b54-8bc5-5d0fa40dcb23")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7587,7 +7950,7 @@
 			(roundrect_rratio 0.25)
 			(net 45 "Net-(J21-Pin_2)")
 			(pintype "passive")
-			(uuid "dab2199d-c8bb-4d28-91d1-e220ac0cd8a0")
+			(uuid "780095d5-d067-4e4b-8c71-b208efbe24e1")
 		)
 		(pad "2" smd roundrect
 			(at 1.0625 0 90)
@@ -7596,7 +7959,7 @@
 			(roundrect_rratio 0.25)
 			(net 24 "Net-(C37-Pad2)")
 			(pintype "passive")
-			(uuid "d3d3c44d-a063-4dc5-a2f1-98dbd69fcffe")
+			(uuid "78668d0b-aebd-449e-b192-8a8995894106")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.wrl"
 			(offset
@@ -7651,7 +8014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7703,12 +8066,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78b931e1-af51-48be-9fe9-00d9c2bc816f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aea6177-9e6e-4c05-b07c-bace5048ec75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e5d3101-a35d-4a6d-986f-b225310f562d")
 			(effects
 				(font
 					(size 1 1)
@@ -7948,6 +8337,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ca178a7-38e6-48ab-9241-d1342ad2e22e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "157cb9a4-ba77-4b2a-9d96-8978cc22e158")
 			(effects
 				(font
 					(size 1 1)
@@ -8269,6 +8671,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb106ce4-89da-47b6-8bd3-18cabbd55173")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/9a6c5730-013e-4286-b46e-043a77fce241")
 		(sheetname "DashAndDisplay")
@@ -8556,7 +8971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8608,12 +9023,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa843d68-49b6-4d72-a973-1728ebaf9877")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2323f27-ff17-42db-b922-aecb9097e077")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7971e4ed-95b3-4172-b17c-46c616e14c61")
 			(effects
 				(font
 					(size 1 1)
@@ -8873,6 +9314,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0dc9e9c-6a43-4a80-b48e-5ab107fcb4d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63a590")
 		(sheetname "Motor_CAN")
@@ -9118,6 +9572,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b81fc88-820f-404e-aae8-86f931869026")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05901fbb-0d9f-48f6-82f6-6dc9f1cc2e7d")
 			(effects
 				(font
 					(size 1 1)
@@ -9377,6 +9844,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ea47cf2-a221-422b-bd41-5828df994d74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f931833")
 		(sheetname "Root")
@@ -9619,6 +10099,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe05d299-437d-4b74-902d-5124b81ec833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe025703-e884-423e-aded-48eb32e6fd93")
 			(effects
 				(font
 					(size 1 1)
@@ -9913,7 +10406,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9965,12 +10458,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa250ed1-7b23-4476-9860-ed40651fc89b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e547923-86d6-49d2-bd82-ed54fa0c1b51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "099ba2ae-f3cf-4aa5-9c5a-81d6d4ddce91")
 			(effects
 				(font
 					(size 1 1)
@@ -10230,6 +10749,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20045b0e-bbac-4a92-87a0-54147520af6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f3a2b93")
 		(sheetname "Root")
@@ -10457,6 +10989,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7208340a-ca9d-4148-be18-05037e88a8fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e746fa64-e935-4665-bde7-1884bc886e53")
 			(effects
 				(font
 					(size 1 1)
@@ -10818,6 +11363,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34aa1949-a5ad-49f1-9830-fa67039c3d2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/52ccb42e-430f-4a54-878b-6314a87c74a4")
 		(sheetname "DashAndDisplay")
@@ -11099,6 +11657,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f4d73a1-74a0-46d0-b59d-0ab7d9d31fb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6202bf55-3806-4fdd-ad38-6f916ee3af1b")
 			(effects
 				(font
 					(size 1 1)
@@ -11418,6 +11989,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "277aadff-14a3-46cd-b8b0-47ae00047275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94614b9d-30f1-41be-961e-73cf45213db4")
 			(effects
 				(font
 					(size 1 1)
@@ -11752,6 +12336,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f63bc71-2761-4e14-9e02-4da08b586574")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8fadbf00-35ee-41c1-b7d8-818a158067a4")
 		(sheetname "Lights")
@@ -11963,6 +12560,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9b5180d-f5b9-48a5-a9f1-ec1c9c3e54e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "499a1a8e-03cc-4824-9eb8-db2b76fa44ed")
 			(effects
 				(font
 					(size 1 1)
@@ -12222,6 +12832,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f72cd69b-a922-42f0-9046-52ca58baaee6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f3a2b9a")
 		(sheetname "Root")
@@ -12461,6 +13084,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b5fab75-2ff0-4e56-a832-d0378a9a3047")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005e5dc2a4")
 		(sheetname "Root")
@@ -12548,7 +13184,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12600,12 +13236,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdb70626-4e6b-4d9a-8ed3-4a2498f97a19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f96931d-83ee-4fe8-a7df-94dbfbd481a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d42a364a-937c-4e0f-b432-d3d1a4dd3e4e")
 			(effects
 				(font
 					(size 1 1)
@@ -12845,6 +13507,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df955620-1d44-4286-92e8-a6dda934856b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "888e26d4-d229-4168-8e5e-2c1f25bc6ca0")
 			(effects
 				(font
 					(size 1 1)
@@ -13180,6 +13855,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26dddb7b-1b0a-4ab0-900f-53b58ef96d80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8e26c761-210b-4742-b543-7477f8bf4a96/ba0f1782-4826-4169-8fd8-3a7fdb70a3a6")
 		(sheetname "Lights Drivers")
@@ -13425,6 +14113,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be83c6f9-b5d5-415d-95db-6291321482c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c5785d6-db5b-4719-8e16-aefa1f084b04")
 			(effects
 				(font
 					(size 1 1)
@@ -13684,6 +14385,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e669ea5c-8e32-46cd-9b84-79a349bc49cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f275ffe")
 		(sheetname "Root")
@@ -13936,6 +14650,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "850ad0d2-7e8e-411b-8526-5bec3afda1cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/c3877801-dc7c-4c6a-9efb-40e84a753426")
 		(sheetname "Lights")
@@ -14181,6 +14908,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e57e9c24-0684-40be-b564-c4edb1532c8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce58ab97-e538-438a-9098-1595127c6d3b")
 			(effects
 				(font
 					(size 1 1)
@@ -14481,6 +15221,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "785287b3-0d1c-4137-93ae-15f2635e9b38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cffc0bde-247f-441e-9a4c-db145d77dea9")
 			(effects
 				(font
 					(size 1 1)
@@ -14840,6 +15593,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7382842d-92a8-4ac9-98db-38d6ee48fac3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/5fc35099-ea24-4086-8d1a-95e3daadfd59")
 		(sheetname "DashAndDisplay")
@@ -15082,6 +15848,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "907d2d65-2512-414f-b64f-cac97a93b1a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "573acb13-c3da-4c85-88d7-345d56ae6ceb")
 			(effects
 				(font
 					(size 1 1)
@@ -15441,6 +16220,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9f4a70e-8dc5-4e3b-8ab6-4a3f7dbc45ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005c2b432e")
 		(sheetname "Car_CAN")
@@ -15604,7 +16396,7 @@
 				)
 			)
 		)
-		(property "Value" "SP0503BAHT"
+		(property "Value" "SP0503BAHTG"
 			(at 1.85 2.45 0)
 			(layer "F.Fab")
 			(uuid "0afa7740-43f5-4d5c-8576-621b13573b56")
@@ -15628,7 +16420,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Littelfuse/SP0503BAHTG?qs=uD%2FdkN7XIa0NTYXwHdELYA%3D%3D&srsltid=AfmBOopyYQ_2MkOf0VCWprrp-t78c1kQpFsdZaEYeSodgq0yTlD7vDtl"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15989,6 +16781,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1923579-8348-43e4-9ec0-0dec036a297c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/f8d61134-cb61-4a76-b482-c176257a136b")
 		(sheetname "DashAndDisplay")
@@ -16208,6 +17013,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4829efac-25a2-4d31-8681-8721eee3a8ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5805e96f-d00f-4102-ab81-a43159f35b78")
 			(effects
 				(font
 					(size 1 1)
@@ -16493,6 +17311,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "334cf48a-41e5-4743-9383-3a1a5c26d303")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-000061927cf0")
 		(sheetname "PowerDist")
@@ -16767,6 +17598,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8b2a870-1059-4ab0-9761-0708468092e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-00005c58d993")
 		(sheetname "PowerDist")
@@ -17019,6 +17863,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7384fa0e-f0aa-475a-b4f3-f8520aa47248")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f59b5c9")
 		(sheetname "Root")
@@ -17251,6 +18108,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "171344c4-20d3-49bf-a0ca-9f14fbb628bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29b07f9c-63c4-4ab0-a9da-2d777fb7b9b9")
 			(effects
 				(font
 					(size 1 1)
@@ -17564,6 +18434,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ab0cf4e-ba74-406f-88fa-3aa10a536764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63a5ac")
 		(sheetname "Motor_CAN")
@@ -17717,9 +18600,9 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L6"
-			(at -0.0075 -1.344 90)
+			(at 0 -1.55 90)
 			(layer "F.SilkS")
-			(uuid "21c94134-e6c9-418f-a3f9-c2649994fd26")
+			(uuid "090fb614-1032-47e7-a000-7ce26800e960")
 			(effects
 				(font
 					(size 1 1)
@@ -17727,11 +18610,10 @@
 				)
 			)
 		)
-		(property "Value" "https://www.mouser.com/ProductDetail/963-BK2125LM182-T"
-			(at 53.131 -0.725 90)
+		(property "Value" "1.8k"
+			(at 0 1.55 90)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "da59eb2f-7876-48af-9c98-a8adbc6f687f")
+			(uuid "69221c31-f590-4a46-9550-9a335121cdf4")
 			(effects
 				(font
 					(size 1 1)
@@ -17744,7 +18626,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79bd848f-9f28-4a3f-938a-3136f4759df3")
+			(uuid "2b72cd96-ca04-4d7a-970a-b0a80ab44602")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17752,12 +18634,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/BK2125LM182-T?qs=I6KAKw0tg2wTd%252Bj343lu1Q%3D%3D&srsltid=AfmBOorkhsm8Uk29brVkfBS5oJy8t8TPSw1gIhtEERu0OY8r33ydtYfJ"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792090?qs=5twSNpOB8IB2sNFtiBxEew%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25fcc675-3c96-4908-91f9-0f158128791d")
+			(uuid "5004ec92-6926-4ab8-a7bf-74b23eeedb50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17770,7 +18652,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e494c479-595b-4033-b37e-a4b5a8fc4ccf")
+			(uuid "ddc0fd67-a4cb-4214-add2-b65107f936bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17778,12 +18660,12 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "BKH1005LM182-T "
+		(property "Mouser Part Number" "710-742792090"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e421bd8-148d-4892-a1d0-d3cb8d89b298")
+			(uuid "8649d650-01cd-45f9-8ba7-8deba931dcd7")
 			(effects
 				(font
 					(size 1 1)
@@ -17796,7 +18678,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9c75191-903f-4378-bd8d-dafca9b57f74")
+			(uuid "73ff1710-d094-4f07-bcaa-cbe19c11b0a9")
 			(effects
 				(font
 					(size 1 1)
@@ -17809,7 +18691,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a5b14eb-b12f-4f2e-a5a3-f4118b43f0ec")
+			(uuid "67d05c6d-5eee-47d3-af4a-34cf7b35f418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b90683e-46a6-4768-8258-6109ca66179b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" " 742792090"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fd9e76b-2c70-45a1-8585-d8b2920ad3ed")
 			(effects
 				(font
 					(size 1 1)
@@ -17830,7 +18738,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1e42b1d0-298c-4e4e-82e0-271247121d4b")
+			(uuid "e068e705-a863-4d4a-bc8c-47fbc959327e")
 		)
 		(fp_line
 			(start -0.399622 0.56)
@@ -17840,7 +18748,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6902585e-e76a-48ee-94a5-55f5af548a6f")
+			(uuid "fe1430ea-41bb-4d71-b99e-4a58d8bbf6af")
 		)
 		(fp_line
 			(start 1.75 -0.85)
@@ -17850,7 +18758,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8e2bac98-9709-4a6d-9a84-65a8d97a127f")
+			(uuid "8ca390ec-8499-4d2c-81fe-46b3e140d48b")
 		)
 		(fp_line
 			(start -1.75 -0.85)
@@ -17860,7 +18768,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f44061ee-cf01-47f8-b6fa-7e6b6002fdcb")
+			(uuid "cc6ead6f-0975-4420-aec3-80cff3b17242")
 		)
 		(fp_line
 			(start 1.75 0.85)
@@ -17870,7 +18778,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0b09958f-fd4d-420d-92fe-864a01af6474")
+			(uuid "7a5ad267-3b86-4ec2-897d-9268074f1842")
 		)
 		(fp_line
 			(start -1.75 0.85)
@@ -17880,7 +18788,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9e65a94d-98e3-4f44-acfc-99ac3d0c98fd")
+			(uuid "f849ede9-dc97-4afb-af2e-14efceb3ea66")
 		)
 		(fp_line
 			(start 1 -0.45)
@@ -17890,7 +18798,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "67858e5a-5e29-401c-ae02-fd7bfdce3e1e")
+			(uuid "697dcbdc-1cf6-42dc-b62a-dd57f46dcbbd")
 		)
 		(fp_line
 			(start -1 -0.45)
@@ -17900,7 +18808,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3158c7db-da4c-4af3-ad51-e976dbc49362")
+			(uuid "30bfe573-3a9c-4bef-9d5c-252304407ae4")
 		)
 		(fp_line
 			(start 1 0.45)
@@ -17910,7 +18818,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3651e9f3-228e-4cd8-bbd6-850f986a3a2a")
+			(uuid "44f7fa34-9011-4a56-9a1f-b41fd2125a02")
 		)
 		(fp_line
 			(start -1 0.45)
@@ -17920,12 +18828,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "280bcd48-12de-4aa0-9acf-572a15522063")
+			(uuid "abf1eb16-05c6-4fad-92a2-43dcfa45d3fc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "54f06d82-d258-4726-aa54-aa12e28a5d3f")
+			(uuid "e8a7b133-5df6-411d-afe8-8f5d4a2fa874")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -17940,7 +18848,7 @@
 			(roundrect_rratio 0.25)
 			(net 31 "Net-(U15-GND)")
 			(pintype "passive")
-			(uuid "8da0f702-b24d-4a61-91e0-54c06443e020")
+			(uuid "ce734f2e-a960-4787-b3c9-36eba681e48b")
 		)
 		(pad "2" smd roundrect
 			(at 1.0625 0 90)
@@ -17949,7 +18857,7 @@
 			(roundrect_rratio 0.25)
 			(net 23 "Net-(C27-Pad2)")
 			(pintype "passive")
-			(uuid "0c6c2c74-f4ae-4f2e-a7f5-35f2236e50f1")
+			(uuid "a77b8d7f-11f9-4804-9784-c57a75799710")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.wrl"
 			(offset
@@ -18049,6 +18957,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ecd2585-1f73-4a10-875f-721b4aef928d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8950b35-c505-4acb-bf28-bf7428ee26af")
 			(effects
 				(font
 					(size 1 1)
@@ -18363,6 +19284,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8907a68-1f02-46d3-8f95-5ef652165d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9654b01c-4412-4fcb-a021-47cd61faa02b")
 			(effects
 				(font
 					(size 1 1)
@@ -18733,6 +19667,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65503f71-852d-4264-9266-a47d308be800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-00005c70247c")
 		(sheetname "PowerDist")
@@ -19062,6 +20009,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6649f6d7-e398-4890-90a2-5262d7a05c4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8e26c761-210b-4742-b543-7477f8bf4a96/19052078-a4de-4fa6-87e4-691de94d0e35")
 		(sheetname "Lights Drivers")
@@ -19361,6 +20321,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92a3d096-421b-49ce-a905-e2127cb5abca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "987384e5-70eb-408d-a9d0-41a76e0bc492")
 			(effects
 				(font
 					(size 1 1)
@@ -19898,6 +20871,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3909b303-5529-42b2-9e37-3679284b9840")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f7b81491-109b-40a7-b04e-0b5ee42a786c")
 		(sheetname "Root")
@@ -20198,6 +21184,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e01afb94-3bf2-4fdc-8e5b-96beeec3b554")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-00005c58d83e")
 		(sheetname "PowerDist")
@@ -20485,6 +21484,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0268e27b-bce7-448e-96a8-10d0efda4550")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005fa99dc3/00000000-0000-0000-0000-00005faaa5ec")
 		(sheetname "Potentiometers")
@@ -20737,6 +21749,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3abbc2e1-d686-4feb-8d91-b046e518bbcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63a597")
 		(sheetname "Motor_CAN")
@@ -20979,6 +22004,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac23205d-572a-4698-96d0-f877a4824f6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d67d7014-5817-48ac-82cf-c42c5ea3ab94")
 			(effects
 				(font
 					(size 1 1)
@@ -21338,6 +22376,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6bc4d9a-3785-43e1-b909-2d4ccb5cb807")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f59bc32")
 		(sheetname "Root")
@@ -21590,6 +22641,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7924ba00-47cf-4547-88ef-f6cfe4f3a250")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/00000000-0000-0000-0000-00005f6018fb/c4a958ee-7637-4f33-b1bd-76d0a672a211")
 		(sheetname "Motor_CAN")
@@ -21832,6 +22896,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9dd2d2a-7f5a-4cb8-b824-463e79c45786")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "925a77bd-5922-4153-bf89-036f6028e58e")
 			(effects
 				(font
 					(size 1 1)
@@ -22191,6 +23268,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b446209c-5a19-4d35-b52a-ca66c244dbae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005c2b434a")
 		(sheetname "Car_CAN")
@@ -22344,9 +23434,9 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L5"
-			(at -0.0075 -1.244 -90)
+			(at 0 -1.55 90)
 			(layer "F.SilkS")
-			(uuid "7496aa86-87a5-490b-a71d-7799a0303d05")
+			(uuid "561a41fe-5176-447b-8f47-eee0e7850e08")
 			(effects
 				(font
 					(size 1 1)
@@ -22354,11 +23444,10 @@
 				)
 			)
 		)
-		(property "Value" "https://www.mouser.com/ProductDetail/963-BK2125LM182-T"
-			(at 53.131 -0.725 90)
+		(property "Value" "1.8k"
+			(at 0 1.55 90)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ea880cc-36ba-4155-93bc-c3ff40943983")
+			(uuid "46c83624-85f2-4af9-adff-783f28f1d8bc")
 			(effects
 				(font
 					(size 1 1)
@@ -22371,7 +23460,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4819ec0d-3e4c-4f8d-88fd-2acac3664fa6")
+			(uuid "ab524912-96f8-44de-9414-aa2446d01b18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22379,12 +23468,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/BK2125LM182-T?qs=I6KAKw0tg2wTd%252Bj343lu1Q%3D%3D&srsltid=AfmBOorkhsm8Uk29brVkfBS5oJy8t8TPSw1gIhtEERu0OY8r33ydtYfJ"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792090?qs=5twSNpOB8IB2sNFtiBxEew%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba9bb44d-4693-4f66-8ffa-dc6a2bdb3b09")
+			(uuid "59ba88fe-acc8-4422-84a7-b4845a3a91d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22397,7 +23486,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4dd1f81e-b104-469e-8392-e7c512cde30c")
+			(uuid "978c6597-20cb-452f-ad61-6bc559a0fd3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22405,12 +23494,12 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "BKH1005LM182-T "
+		(property "Mouser Part Number" "710-742792090"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4a3cc39-c141-4f9f-af19-83a16e34721e")
+			(uuid "1458675c-3b7e-48fd-beab-6ebafe42c6e9")
 			(effects
 				(font
 					(size 1 1)
@@ -22423,7 +23512,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4dc39ddd-c0be-436c-ab03-36387abde0dd")
+			(uuid "1f849b5b-f789-42d8-b03e-2ebead97a7ba")
 			(effects
 				(font
 					(size 1 1)
@@ -22436,7 +23525,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84d09bb3-301c-45fe-b77a-3a79b9005b3e")
+			(uuid "7834cf60-29aa-4808-879c-2efedbc4d194")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86c9e68d-33e1-4b83-8c0d-e13342167c14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" " 742792090"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45e7e14b-a0e6-4a80-8590-511f9294ffbe")
 			(effects
 				(font
 					(size 1 1)
@@ -22457,7 +23572,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "404891ac-d2c0-4604-bf20-80caa7e3c01b")
+			(uuid "2339795f-e605-41a4-b753-77da80745cce")
 		)
 		(fp_line
 			(start -0.399622 0.56)
@@ -22467,7 +23582,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7d86021d-1550-4fd1-a754-2d7aa74cbd05")
+			(uuid "559dc130-5fc1-4b1d-ad4e-289ff4aaf384")
 		)
 		(fp_line
 			(start 1.75 -0.85)
@@ -22477,7 +23592,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8a3320f2-46ca-4250-91cb-56611ab49699")
+			(uuid "5682165b-b779-42fd-b299-1a077590ed12")
 		)
 		(fp_line
 			(start -1.75 -0.85)
@@ -22487,7 +23602,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cffe6324-434e-4138-9691-a5395af14ccb")
+			(uuid "b8253a79-fada-4a89-a1cf-33f1856803c6")
 		)
 		(fp_line
 			(start 1.75 0.85)
@@ -22497,7 +23612,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6306517c-7ad4-47f3-85c6-aed743fe9299")
+			(uuid "a7ee98aa-2807-4177-9f6d-9c91da6ea581")
 		)
 		(fp_line
 			(start -1.75 0.85)
@@ -22507,7 +23622,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "02d06e09-d84e-4776-b40e-59c57d515a41")
+			(uuid "d54a070b-faa0-4fd8-9e71-7424fc73031e")
 		)
 		(fp_line
 			(start 1 -0.45)
@@ -22517,7 +23632,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3a9e35de-bc1c-4775-b860-67221678035b")
+			(uuid "c6d6e075-4877-448e-ac1b-03f51a853831")
 		)
 		(fp_line
 			(start -1 -0.45)
@@ -22527,7 +23642,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8d09e265-dfbc-4e44-9f28-fc468736bd0b")
+			(uuid "2210239b-3728-41f1-9074-c1c6b74cd78d")
 		)
 		(fp_line
 			(start 1 0.45)
@@ -22537,7 +23652,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "73fcc139-bbfa-4f8e-b7d3-d2d9fd25da1e")
+			(uuid "d33c7f5e-7082-416c-85d7-95671c12103b")
 		)
 		(fp_line
 			(start -1 0.45)
@@ -22547,12 +23662,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c1143dca-aac3-45fa-9f1e-8e3f111e9063")
+			(uuid "198a74d5-efe5-4f76-bce6-58c46c3fe885")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "02717752-5655-477e-84bd-81e1a344ad49")
+			(uuid "f342ae16-bf66-41ae-9231-53e31b4ec94c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -22567,7 +23682,7 @@
 			(roundrect_rratio 0.25)
 			(net 21 "Net-(U14-V_ISO_In)")
 			(pintype "passive")
-			(uuid "bc7c87d3-204a-432f-b891-1bf8b18afa2a")
+			(uuid "a21e8e3b-15e2-400f-9c14-ff97e0d66d3f")
 		)
 		(pad "2" smd roundrect
 			(at 1.0625 0 90)
@@ -22576,7 +23691,7 @@
 			(roundrect_rratio 0.25)
 			(net 19 "Net-(U14-V_ISO_Out)")
 			(pintype "passive")
-			(uuid "9adcffe0-eb81-4a5a-9249-7b23c44c0a3e")
+			(uuid "8bf1291e-2b9a-4a51-ae85-777232928a72")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.wrl"
 			(offset
@@ -22689,6 +23804,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77ea2491-19ec-472b-934d-7f422a0d15b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41bfd93f-42d7-4ffe-8cb6-05fbcc12b9ad")
 			(effects
 				(font
 					(size 1 1)
@@ -22849,9 +23977,9 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L7"
-			(at 2.3505 0.064 180)
+			(at 0 -1.55 90)
 			(layer "F.SilkS")
-			(uuid "2fcd06d0-7334-45a0-9558-8ba4b2ee06ee")
+			(uuid "ca8fef74-1b1e-4e70-a0b7-1d1bd5c5e261")
 			(effects
 				(font
 					(size 1 1)
@@ -22859,11 +23987,10 @@
 				)
 			)
 		)
-		(property "Value" "https://www.mouser.com/ProductDetail/963-BK2125LM182-T"
-			(at 53.131 -15.7 90)
+		(property "Value" "1.8k"
+			(at 0 1.55 90)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "abc142c6-f779-46e3-afe6-c481337f144d")
+			(uuid "82fd8436-3563-4409-8c25-5dd1a54bacbe")
 			(effects
 				(font
 					(size 1 1)
@@ -22876,7 +24003,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d612cfe-4c3f-4c84-9d5a-f13c0f3706b1")
+			(uuid "6b41dd97-1b57-4d2a-88cf-2eee0dd15694")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22884,12 +24011,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/BK2125LM182-T?qs=I6KAKw0tg2wTd%252Bj343lu1Q%3D%3D&srsltid=AfmBOorkhsm8Uk29brVkfBS5oJy8t8TPSw1gIhtEERu0OY8r33ydtYfJ"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/742792090?qs=5twSNpOB8IB2sNFtiBxEew%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "016f3b75-1788-4138-a9c6-1abed8e437fe")
+			(uuid "966535f4-7df6-4543-83e7-3c484ede08fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22902,7 +24029,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee1905f4-6284-4149-af4d-134eb57157b3")
+			(uuid "fd5b33d5-b52c-495c-a5c8-7ab6d35089cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22910,12 +24037,12 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "BKH1005LM182-T "
+		(property "Mouser Part Number" "710-742792090"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "171c7d28-a255-4939-80a5-c45709a06aaa")
+			(uuid "7470e6b8-0a05-491e-a2de-5d07920560cc")
 			(effects
 				(font
 					(size 1 1)
@@ -22928,7 +24055,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "616f5c55-192d-4148-a7de-8d5beae1a68f")
+			(uuid "acff16d3-a4ad-422c-8843-241eae68815e")
 			(effects
 				(font
 					(size 1 1)
@@ -22941,7 +24068,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02b732bc-bdc9-4718-b897-480ad8d9bc04")
+			(uuid "94ca1cb6-2653-43f5-98fe-ed8712d501ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84bb55d0-ba46-40a0-a622-079ea846f51c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" " 742792090"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8e9f030-2402-4caa-9053-cd4f00b4e2a7")
 			(effects
 				(font
 					(size 1 1)
@@ -22962,7 +24115,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c1b11f25-3b1b-4584-9123-530e4f94c36f")
+			(uuid "7a7e9bcd-3ed5-4da2-b2a1-344f3b678f1e")
 		)
 		(fp_line
 			(start -0.399622 0.56)
@@ -22972,7 +24125,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4181539c-d2fc-4664-855e-a188f96ab642")
+			(uuid "259693c3-766e-4072-bec8-2504c3a643cf")
 		)
 		(fp_line
 			(start 1.75 -0.85)
@@ -22982,7 +24135,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c29f7d51-0949-41b4-9aee-8a45bccbf0a9")
+			(uuid "0c0acf54-bf76-42f6-b443-e3c2177a3453")
 		)
 		(fp_line
 			(start -1.75 -0.85)
@@ -22992,7 +24145,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d4c4acec-69cc-4ae5-96a0-c89801c54411")
+			(uuid "ba74bbbd-ec7a-45b1-984b-66dd2ccbd569")
 		)
 		(fp_line
 			(start 1.75 0.85)
@@ -23002,7 +24155,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f8a7cf2f-60a1-4abb-8066-7f5c42e16c0f")
+			(uuid "222fe232-6cab-4655-a240-f8abb55ce75b")
 		)
 		(fp_line
 			(start -1.75 0.85)
@@ -23012,7 +24165,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "092fccfa-802a-414a-83e7-3d45c4a763c7")
+			(uuid "7078b7f8-9c9e-491f-afc9-4cfc7e3a0d4d")
 		)
 		(fp_line
 			(start 1 -0.45)
@@ -23022,7 +24175,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4c4dc405-5118-47ba-bb5c-66b7f76b05e1")
+			(uuid "3edc891c-e049-4575-862c-48be6d9a2cc9")
 		)
 		(fp_line
 			(start -1 -0.45)
@@ -23032,7 +24185,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b3bd5be0-d5de-4111-b70a-b8e44f68b31b")
+			(uuid "b7533398-829e-47e3-96a3-583b129b7a8a")
 		)
 		(fp_line
 			(start 1 0.45)
@@ -23042,7 +24195,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "98aaf8b6-8725-41bf-8bf2-0f3c147f9ca6")
+			(uuid "4c91c308-2482-4b8a-bf3e-b90949827ef7")
 		)
 		(fp_line
 			(start -1 0.45)
@@ -23052,12 +24205,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c5d2117d-9e3f-4dd0-876e-88ea5cb6c81a")
+			(uuid "c4d614f3-8c9c-4231-bab2-a0e87fb9e926")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "1a19c365-ba5f-4319-8e67-a4cbcb5c5c13")
+			(uuid "54d1d471-6239-4b4b-9628-d628c7ccfdb9")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -23072,7 +24225,7 @@
 			(roundrect_rratio 0.25)
 			(net 46 "Net-(J21-Pin_1)")
 			(pintype "passive")
-			(uuid "f500ec5f-dec6-4611-b87d-9fdf44ff4ece")
+			(uuid "17d754fa-1087-4a7d-84d5-04d65e4cf43d")
 		)
 		(pad "2" smd roundrect
 			(at 1.0625 0 90)
@@ -23081,7 +24234,7 @@
 			(roundrect_rratio 0.25)
 			(net 32 "Net-(U17-V_ISO_Out)")
 			(pintype "passive")
-			(uuid "b4830f93-1512-4a26-848e-16a3c0811bff")
+			(uuid "99692bcd-7f9f-41d0-9722-d1232cd5292f")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.wrl"
 			(offset
@@ -23158,6 +24311,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed5cdbfb-59bd-49fe-878c-3ebd979bd5be")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23603,6 +24769,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc3edef9-fe28-4467-b156-64b2ad997d8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005fb694f4/1052fc53-ee02-4433-9421-9eb1c33cf1b9")
 		(sheetname "Contactors")
@@ -23861,6 +25040,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad2e1622-10a7-4538-8f02-21fecb9a9993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92941a72-ab59-4ded-89e9-ad4168bd854c")
 			(effects
 				(font
 					(size 1 1)
@@ -24154,6 +25346,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b5fab9d-4fca-420a-ab7b-1e394c71c919")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9484acbc-f986-444d-93f6-64c98c6c7601")
 			(effects
 				(font
 					(size 1 1)
@@ -24601,7 +25806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24653,12 +25858,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f16a07d6-bcd2-4c0c-94a2-902333e06fdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53d286f9-347f-4d83-adfb-5804d2d3cc63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2369e179-d6aa-4486-a470-21742516ee99")
 			(effects
 				(font
 					(size 1 1)
@@ -24892,6 +26123,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab564119-c7a9-4fb0-82b7-9122e74c52c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005fa99dc3/db48557e-593e-4fbc-99e4-915e3ec6b7e6")
 		(sheetname "Potentiometers")
@@ -25038,16 +26282,16 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23W"
+	(footprint "Package_TO_SOT_SMD:SOT-23-3"
 		(layer "F.Cu")
 		(uuid "6fb36b53-4ba4-4a1b-b41f-b5fba7afedfc")
 		(at 140.99 78.92 180)
-		(descr "SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3")
-		(tags "SOT-23W")
+		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U15"
-			(at -0.11 -2.78 0)
+			(at 0 -2.4 180)
 			(layer "F.SilkS")
-			(uuid "7fe68e74-acf2-4ba0-9e04-105d7378aaa0")
+			(uuid "907d8dfd-f2b3-4116-ad0f-37d2f00e5beb")
 			(effects
 				(font
 					(size 1 1)
@@ -25056,9 +26300,9 @@
 			)
 		)
 		(property "Value" "CDSOT23-T24CAN"
-			(at 0 2.5 0)
+			(at 0 2.4 180)
 			(layer "F.Fab")
-			(uuid "8bab2495-e663-4ec2-a9b6-de4c37ad84c1")
+			(uuid "d4cb73a1-81bd-4c48-b4b1-99b3860a98a8")
 			(effects
 				(font
 					(size 1 1)
@@ -25066,12 +26310,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ba9a490-b8a2-4542-a073-ecbb9aa0e8ed")
+			(uuid "8b14c207-f6c5-471a-8986-ca31418f8f83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25079,12 +26323,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CDSOT23-T24CAN?qs=Z7P4xsdcg2LuAOb%2FzQ7xoQ%3D%3D&srsltid=AfmBOoo-PAeiWAfgofEpaXl2YTbs5tzVBFt4xpFaZPxBSWl1qHW5CPZ0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12338c5e-1695-488d-8aa0-1441a7f86fc6")
+			(uuid "783e5114-ad3c-4d14-ac25-e41cf3440053")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25097,7 +26341,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a959caf6-1a2d-4341-8fc9-da338ddb19bf")
+			(uuid "7687d73f-ce09-4315-b277-43e29b39f869")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25110,7 +26354,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73514a46-304f-4f34-a292-f2527f4b6893")
+			(uuid "7f0075b5-8b08-4a98-ba7c-41824a5572c0")
 			(effects
 				(font
 					(size 1 1)
@@ -25123,7 +26367,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4cc7e63e-dc2e-4fb3-b54d-b6311ec64986")
+			(uuid "7987b7e0-b917-42a9-8053-67b45e75aef0")
 			(effects
 				(font
 					(size 1 1)
@@ -25136,7 +26380,20 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa9a5245-7316-4e22-98aa-8ba2b0eedc8c")
+			(uuid "7a74c8b1-9b34-4e26-ab42-3af11194d3f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "170a41ea-31f1-4c33-a183-6d47fe7c4dd1")
 			(effects
 				(font
 					(size 1 1)
@@ -25149,48 +26406,48 @@
 		(sheetfile "Motor_CAN.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 1.075 0.7)
-			(end 1.075 1.61)
+			(start 0 1.56)
+			(end 0.8 1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3738b884-347e-46ec-9f52-676a71f83aa5")
+			(uuid "7097185c-ae1e-4680-b41d-de3044c484b3")
 		)
 		(fp_line
-			(start 1.075 -1.61)
-			(end 1.075 -0.7)
+			(start 0 1.56)
+			(end -0.8 1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "90c7ef67-4956-4a14-a1d2-394e5d4b0045")
+			(uuid "e5506342-b418-46f2-ae5f-6e0fcbdf5fd8")
 		)
 		(fp_line
-			(start -0.525 -1.61)
-			(end 1.075 -1.61)
+			(start 0 -1.56)
+			(end 0.8 -1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "458a021e-1bad-4ab2-8bae-c5588fd83195")
+			(uuid "546fca06-f54f-4b5c-a832-ff0f812dfc5e")
 		)
 		(fp_line
-			(start -1.075 1.61)
-			(end 1.075 1.61)
+			(start 0 -1.56)
+			(end -0.8 -1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d7c9bf5d-4b69-4bd5-90e4-84addb4e5ea4")
+			(uuid "1b1da6f2-8d5d-47c5-88cb-4a4ecaed0502")
 		)
 		(fp_poly
 			(pts
-				(xy -1.025 -1.56) (xy -1.265 -1.89) (xy -0.785 -1.89) (xy -1.025 -1.56)
+				(xy -1.3 -1.51) (xy -1.54 -1.84) (xy -1.06 -1.84) (xy -1.3 -1.51)
 			)
 			(stroke
 				(width 0.12)
@@ -25198,140 +26455,140 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "a950264e-f4ab-492b-a486-8158266659b0")
+			(uuid "9329bc95-f96a-4388-9f0d-b77417572c1c")
 		)
 		(fp_line
-			(start 1.95 1.74)
-			(end -1.95 1.74)
+			(start 2.05 1.7)
+			(end 2.05 -1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9f48244d-3f47-47b2-9ded-4a7f50e65f21")
+			(uuid "022a9393-f670-4599-a628-adc57a0b4ed8")
 		)
 		(fp_line
-			(start 1.95 -1.74)
-			(end 1.95 1.74)
+			(start 2.05 -1.7)
+			(end -2.05 -1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "64cfda7f-954a-4502-87ee-779feeee7c65")
+			(uuid "0c579151-19a5-4ae9-ae57-6027966ac6bd")
 		)
 		(fp_line
-			(start -1.95 1.74)
-			(end -1.95 -1.74)
+			(start -2.05 1.7)
+			(end 2.05 1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "933f59fd-7098-4576-afdf-4f37c3ab0594")
+			(uuid "25f0e3bb-c7e5-4280-97fd-08253c5250e5")
 		)
 		(fp_line
-			(start -1.95 -1.74)
-			(end 1.95 -1.74)
+			(start -2.05 -1.7)
+			(end -2.05 1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3953c03f-62d6-480f-a4ff-bfd1f189511d")
+			(uuid "1bbf9c8e-b6b5-4f26-9277-ee8571aecf1a")
 		)
 		(fp_line
-			(start 0.955 -1.49)
-			(end 0.955 1.49)
+			(start 0.8 1.45)
+			(end -0.8 1.45)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "243ff808-7293-4e11-a5f0-8790a5670699")
+			(uuid "4a39cc9b-94a4-4aee-80a9-e4c36fbb64a9")
 		)
 		(fp_line
-			(start 0.045 -1.49)
-			(end 0.955 -1.49)
+			(start 0.8 -1.45)
+			(end 0.8 1.45)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1214d15f-4ed9-44ec-b68a-d993da3bbb57")
+			(uuid "a6c619c5-20de-4547-9e73-11037c06981c")
 		)
 		(fp_line
-			(start -0.955 1.49)
-			(end 0.955 1.49)
+			(start -0.4 -1.45)
+			(end 0.8 -1.45)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8bed4e92-8671-45e7-bc06-9d214b97cafc")
+			(uuid "8f8e0b52-4630-43ce-ae78-18a4b0c8ab10")
 		)
 		(fp_line
-			(start -0.955 -0.49)
-			(end 0.045 -1.49)
+			(start -0.8 1.45)
+			(end -0.8 -1.05)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "53cfd987-7bea-4c3b-88c6-1b4327678eab")
+			(uuid "924b0075-83e1-451e-ad7c-c7744612edf5")
 		)
 		(fp_line
-			(start -0.955 -0.49)
-			(end -0.955 1.49)
+			(start -0.8 -1.05)
+			(end -0.4 -1.45)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "38c89513-e8ac-4d6d-aedb-e397439d374d")
+			(uuid "230f42e4-e123-4db9-8548-a666e05c2fa9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "49f488d8-c80e-45a0-a177-ee146df258a5")
+			(uuid "8dbcb08f-9f5d-4db2-a9c5-f0b18cfe94f2")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.075)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.2 -0.95 180)
-			(size 1 0.7)
+			(at -1.1375 -0.95 180)
+			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 25 "/Motor_CAN/CAN_H")
 			(pinfunction "CAN_H")
 			(pintype "passive")
-			(uuid "832ecab0-bac0-462c-a39d-e847d7a4569f")
+			(uuid "6b3e3d3b-8e21-4580-9288-63204293e22c")
 		)
 		(pad "2" smd roundrect
-			(at -1.2 0.95 180)
-			(size 1 0.7)
+			(at -1.1375 0.95 180)
+			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 26 "/Motor_CAN/CAN_L")
 			(pinfunction "CAN_L")
 			(pintype "passive")
-			(uuid "1e2cb4fc-d737-437d-a755-ba8ddfdbc833")
+			(uuid "8857ebd5-c63d-4fbf-92c0-3cc15975969f")
 		)
 		(pad "3" smd roundrect
-			(at 1.2 0 180)
-			(size 1 0.7)
+			(at 1.1375 0 180)
+			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 31 "Net-(U15-GND)")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "2046e2ee-a6ee-45d4-82c3-816e099527da")
+			(uuid "33af8643-b249-493b-88c2-ad241ed14021")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23W.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25442,6 +26699,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "39feea79-9e74-40df-8dc6-c999639ee30a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9ffa705-bc10-4c3c-bdcc-bddb3e8a9d11")
 			(effects
 				(font
 					(size 1 1)
@@ -25701,6 +26971,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ddb7050-fe58-49fc-8705-7f4ac96270d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f93518e")
 		(sheetname "Root")
@@ -25914,7 +27197,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
+		(property "Mouser Part Number" "71-CRCW08054K99FKEAC "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26140,7 +27423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26192,12 +27475,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08419d21-c179-4768-811e-c1f81bc294b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d28591c-1618-4bee-b84e-f58680d02f78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb9d0b11-b048-49c8-ab78-5e7bb6cf4431")
 			(effects
 				(font
 					(size 1 1)
@@ -26444,6 +27753,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "737231e0-33fd-4535-adc8-2ad63c5532cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005e5dbf6a")
 		(sheetname "Root")
@@ -26602,6 +27924,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f28a64a7-66cc-494c-9d0c-9fcc5f5063f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "612404ac-d2e9-46a5-8cd4-7bb6e51b591f")
 			(effects
 				(font
 					(size 1 1)
@@ -27073,6 +28408,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ea5970c-6cf0-4abe-b8f6-dcab26617639")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005fb694f4/4f5f53d4-e6ca-4f86-9671-56d2019a30c8")
 		(sheetname "Contactors")
@@ -27523,6 +28871,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6332d56b-0ac2-48e9-b559-e5fb0cc10837")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005fbc3173")
 		(sheetname "Motor_CAN")
@@ -27806,6 +29167,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "228e9792-9c4b-4938-b4d1-bf581541883c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17d37de6-11b2-4481-aa45-85856c271233")
 			(effects
 				(font
 					(size 1 1)
@@ -28394,6 +29768,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1820f700-fbd1-41ce-ae65-a9b6c46fc3a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/00000000-0000-0000-0000-00005f3a2b86")
 		(sheetname "Root")
@@ -28511,8 +29898,8 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.85 0 90)
-			(size 1.7 2.4)
+			(at -2.05 0 90)
+			(size 1.9 2.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 13 "Net-(U7-PH1)")
 			(pinfunction "1")
@@ -28520,8 +29907,8 @@
 			(uuid "4c284ab7-dc88-4f68-bae4-12637844670b")
 		)
 		(pad "2" smd rect
-			(at 1.85 0 90)
-			(size 1.7 2.4)
+			(at 2.05 0 90)
+			(size 1.9 2.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 12 "Net-(U7-PH0)")
 			(pinfunction "2")
@@ -28603,6 +29990,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caa3fd75-d193-4faa-a87c-56d8a5971b7a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28944,6 +30344,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d51569bf-b62a-45ea-b219-cb2231604ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e76534e-6c6c-4ebb-93d2-b8ac94f28906")
 			(effects
 				(font
 					(size 1 1)
@@ -29427,6 +30840,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ee78495-1c27-41a7-8a71-f2aa9795ce6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D?SOD?323*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/2b7077cd-3ce6-4dcf-abb0-087e42085845")
 		(sheetname "PowerDist")
@@ -29751,6 +31177,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d14a5133-089a-4e7d-b3f9-8c85f2c99ace")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005fb694f4/00000000-0000-0000-0000-00005fb799d3")
 		(sheetname "Contactors")
@@ -29996,6 +31435,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7a0d32a9-7c2a-4e93-b315-29c661b1b22e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d893912-dd1c-4d19-a366-5e9bcd23602a")
 			(effects
 				(font
 					(size 1 1)
@@ -30281,6 +31733,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6f342c5-be27-4327-a900-8a1ae319476a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d46db8e3-c589-4295-8ff8-c7d54c36f4e0")
 		(sheetname "Root")
@@ -30545,6 +32010,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8552abd3-d513-4a7d-891c-ee49dfe49dce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "718bf842-fbf7-4c8b-9d6c-9cd5dbaea84d")
 			(effects
 				(font
 					(size 1 1)
@@ -30897,6 +32375,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bf0ccee-d010-4230-94fc-b2a9930a9484")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005f15d99a")
 		(sheetname "Car_CAN")
@@ -31218,6 +32709,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df865c50-737f-4cc4-916b-e9be46afb889")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0102d67-cab2-4d25-a31e-3e09dff8e31a")
 			(effects
 				(font
 					(size 1 1)
@@ -31677,6 +33181,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c73b9470-a919-4bc6-bd74-a5076df4fb61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-00005c702937")
 		(sheetname "PowerDist")
@@ -31948,6 +33465,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a550eef-10a8-4b63-ae37-540b688145f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d02b3932-0985-4e7c-9e6f-9cd16db72c02")
 			(effects
 				(font
 					(size 1 1)
@@ -32255,6 +33785,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0883bdd-329b-4abb-b553-5aa1164dd6d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/abb6ba09-5c4f-4a7f-b486-73694b8b02ad")
 		(sheetname "Root")
@@ -32519,6 +34062,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ef47db3-9867-423a-84e3-de7104d098c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9a7fd67-e3d3-4a78-993e-4667c3e4f33d")
 			(effects
 				(font
 					(size 1 1)
@@ -32878,6 +34434,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b04203ba-768d-4ca6-a6f8-9bcab1cda912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f7a9238/00000000-0000-0000-0000-00005c4a4791")
 		(sheetname "USB")
@@ -33123,6 +34692,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bb5fae5e-e64b-4027-9522-5b308216618c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5873e7d9-ce90-48cc-ace3-b7c1e04d9aed")
 			(effects
 				(font
 					(size 1 1)
@@ -33401,6 +34983,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87f5b59f-1d81-4f2e-9ec7-6715b9a3ec4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff9c0019-e6f4-47dd-8553-c571be27bea7")
 			(effects
 				(font
 					(size 1 1)
@@ -33695,6 +35290,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97cee68e-3b63-458b-8807-9e9e4fb712ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/3ab3c17f-8996-44b0-a0c0-920367b49c6e")
 		(sheetname "PowerDist")
@@ -33937,6 +35545,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ebf8d57c-2b7a-4655-a965-cfc9539259c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "913f3ffb-28da-4fb0-ae1f-cf986304c125")
 			(effects
 				(font
 					(size 1 1)
@@ -34270,6 +35891,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "752323e8-c2f9-4d71-945e-bc8b3a63ab87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005fa99dc3/5b5432a0-6b2b-45f7-ab52-4bc84bc77942")
 		(sheetname "Potentiometers")
@@ -34502,6 +36136,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "abc2727c-2a0e-48ff-b48e-c90003fd4d30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e6f7484-4b86-4ca7-b7cd-cc725dfe7908")
 			(effects
 				(font
 					(size 1 1)
@@ -34746,6 +36393,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aed6e2d6-8203-45a6-886a-b115d40d93a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac113608-686c-44ee-a532-ead8ae36499c")
 			(effects
 				(font
 					(size 1 1)
@@ -35027,6 +36687,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07a18bec-88f3-45d8-b143-95c7a09b0e87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/1b258838-7ab3-4801-aa50-0fdc993e82c3")
 		(sheetname "DashAndDisplay")
@@ -35269,6 +36942,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0dbaacaf-8cda-4b4c-9610-7b8515ec5c2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e058e7bf-6515-49ea-beed-bd66be7a767f")
 			(effects
 				(font
 					(size 1 1)
@@ -35628,6 +37314,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "250ad749-acb9-49df-a492-899d859f2700")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005c2b4301")
 		(sheetname "Car_CAN")
@@ -35873,6 +37572,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a74caf9-762c-46c8-bc48-8d69f6e9adde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13235b57-9f31-42a7-b307-b8e63e4ca7d3")
 			(effects
 				(font
 					(size 1 1)
@@ -36132,6 +37844,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab1f8180-e53e-43b8-aff7-5aa30f6913dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005c2b43c4")
 		(sheetname "Car_CAN")
@@ -36384,6 +38109,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f294d2b9-b694-46f6-99aa-077e4189f9b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005c2b431e")
 		(sheetname "Car_CAN")
@@ -36571,7 +38309,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36623,12 +38361,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "12fb48b3-82c2-4df3-ab43-4e2ecf4cd354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8e29ea8-2938-4004-ba36-39510d7d70e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f85fdd14-af75-4c9c-b2d3-b43e58072a2d")
 			(effects
 				(font
 					(size 1 1)
@@ -36868,6 +38632,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "801c2efa-2c85-4b2e-b824-49e1831a8b04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74887d8a-8268-4b59-8cc4-d4bbbbe19dcd")
 			(effects
 				(font
 					(size 1 1)
@@ -37338,6 +39115,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35129b06-27f2-4c1e-8c05-b20caa466c00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63a5c8")
 		(sheetname "Motor_CAN")
@@ -37590,6 +39380,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c9c2204-f0b6-4589-ac8e-02789f563d6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f275fdf")
 		(sheetname "Root")
@@ -37835,6 +39638,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f7f69c93-421c-49f6-879a-e72b908824e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dee872ca-8da1-4f8f-98c5-4f93806688f3")
 			(effects
 				(font
 					(size 1 1)
@@ -38120,6 +39936,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32059684-e73f-4c42-a118-93280fac443a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e6683ba2-c051-4c21-9531-ca26a66fd115")
 		(sheetname "Root")
@@ -38387,6 +40216,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ccdd60c9-0abf-4199-81bb-b76397216402")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a44d5eb6-6b3a-4160-b211-4b7bf122208e")
 			(effects
 				(font
 					(size 1 1)
@@ -38770,7 +40612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Silicon-Labs/CP2102N-A02-GQFN24?qs=u16ybLDytRYKabtL%2FE7DZA%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39430,6 +41272,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0298b7e1-1eae-444c-9925-572898b8348b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8e26c761-210b-4742-b543-7477f8bf4a96/8e3bb852-3a86-42a0-b416-a2273eeb19e5")
 		(sheetname "Lights Drivers")
@@ -39858,6 +41713,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d19bb525-1cb3-47e2-8d9b-87aeec30634b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005e5dc5eb")
 		(sheetname "Root")
@@ -40003,6 +41871,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "985abe32-9789-48a2-b114-752818baf101")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30b5a011-e00d-48a4-b200-5b6c46dc2e45")
 			(effects
 				(font
 					(size 1 1)
@@ -40438,6 +42319,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4dd462e-120a-4ca3-a0e2-d0f552331911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-00005c37e6a3")
 		(sheetname "PowerDist")
@@ -40649,6 +42543,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ac9c299-7333-410f-ba6f-26dc3fab4c0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b3889ea-5b53-4cfa-ba98-3cbf5b5f53fa")
 			(effects
 				(font
 					(size 1 1)
@@ -40934,6 +42841,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2adff0c-e0d3-46d5-a2f2-fc6504dc0a82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/730bea23-a148-44ea-85ce-6f2ebfa8d082")
 		(sheetname "Root")
@@ -41208,6 +43128,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea46e2e6-9340-4b8c-876e-8b06525e5af3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8e26c761-210b-4742-b543-7477f8bf4a96/6b6105e4-146d-478c-88b8-fc231d899fc6")
 		(sheetname "Lights Drivers")
@@ -41450,6 +43383,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ecc0a5c2-05e1-4b34-b25a-d25eb5025e27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1be8b971-cb6c-47e9-b3ac-c4cba74d59c8")
 			(effects
 				(font
 					(size 1 1)
@@ -41744,7 +43690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805698RFKEAC?qs=E3Y5ESvWgWNV21yqx%2F8%2FJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CR0805-FX-6980ELF?qs=Ek4EPvi0xiDAqxrhQxmv4g%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41796,12 +43742,38 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805698RFKEAC"
+		(property "Mouser Part Number" "652-CR0805FX-6980ELF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "12d154a2-89e6-472b-b0e1-50a4d9f4479e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74618cc3-da5f-49ed-8106-71b3ada44deb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "CR0805-FX-6980ELF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16623b9f-6f9a-483d-818f-a542473f0be2")
 			(effects
 				(font
 					(size 1 1)
@@ -42038,6 +44010,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9dba399c-2425-49d5-a3ad-dd11598f6209")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a218e3f-3c44-41a9-b3fe-618d1cd57a45")
 			(effects
 				(font
 					(size 1 1)
@@ -42319,6 +44304,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fbf40ce-d2e4-4113-91e5-71086e6045a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f33850b")
 		(sheetname "Root")
@@ -42564,6 +44562,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f4d4f7e6-c3fd-4ea1-92d9-59ebf2bb6f19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f46d9e7-e8b9-4e93-8114-483c8b78f271")
 			(effects
 				(font
 					(size 1 1)
@@ -42823,6 +44834,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f2d85cc-3c79-4c0b-bb5b-fb96b2f69a0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8e26c761-210b-4742-b543-7477f8bf4a96/66e1184f-aad0-4d2d-8af4-1acb7806c99c")
 		(sheetname "Lights Drivers")
@@ -43068,6 +45092,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aed0aade-b405-41bd-a473-0259cf863d96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27903ba3-cf26-433b-867e-61f4b378d290")
 			(effects
 				(font
 					(size 1 1)
@@ -43327,6 +45364,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26e97bfb-5b85-48cc-8bb6-74eb538251e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63a5a5")
 		(sheetname "Motor_CAN")
@@ -43566,6 +45616,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a99ca2b0-7969-4c66-8e1c-295c9f5bfa84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/00000000-0000-0000-0000-00005c708412")
 		(sheetname "PowerDist")
@@ -43745,7 +45808,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW0805100KFKEAC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44036,6 +46099,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15819793-ba57-44d0-bcff-308bea5d830d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/67322213-c5d4-4049-b0b4-50203c6e5c1e")
 		(sheetname "PowerDist")
@@ -44234,6 +46310,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1a1b4696-e0d8-4354-b123-cef96607b18a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bebcde3b-4b9a-48eb-a9a6-272ba26cc4b4")
 			(effects
 				(font
 					(size 1 1)
@@ -44452,6 +46541,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0e6671d-54ef-4ee9-91a5-e57c0f56fd62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a6b5f3-d694-472e-944d-704b3ef8e6c6")
 			(effects
 				(font
 					(size 1 1)
@@ -44711,6 +46813,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81893fa0-33fa-4477-a108-466865744c22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/e7a8f191-dca7-438e-bfb7-d07c6ac57ea8")
 		(sheetname "DashAndDisplay")
@@ -44956,6 +47071,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4e4165b5-2abe-4b22-a2d4-88003a399cd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b4d8dec-9329-4143-8654-6922c3911696")
 			(effects
 				(font
 					(size 1 1)
@@ -45215,6 +47343,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8a83cd1-408b-4149-941f-14cadab3f893")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8e26c761-210b-4742-b543-7477f8bf4a96/5ad122a1-688e-4fab-8ddf-00291eabea84")
 		(sheetname "Lights Drivers")
@@ -45434,6 +47575,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b94acd5-93eb-48cf-9f16-5f340c5f5ca6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd3c3adb-3280-49ed-9aaf-2c0c0ec12944")
 			(effects
 				(font
 					(size 1 1)
@@ -45902,6 +48056,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f025b13-1d79-4710-aafe-928fa532a8df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/00000000-0000-0000-0000-00005fb694f4/00000000-0000-0000-0000-00005fb7999d")
 		(sheetname "Contactors")
@@ -46254,6 +48421,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab48b326-84d3-4f7e-9f12-9a645411c148")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/aabc0319-4f55-401e-a890-4d450353b443")
 		(sheetname "DashAndDisplay")
@@ -46525,6 +48705,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "26f26777-184a-4d63-a02b-11afaa72a404")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5731d399-616d-43a8-a93d-5412c59e1ade")
 			(effects
 				(font
 					(size 1 1)
@@ -46806,6 +48999,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "962c2709-0471-4179-a256-dd6ff4fdaaee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/7c84f24e-7967-44b5-a654-929562b7ba6f")
 		(sheetname "DashAndDisplay")
@@ -47058,6 +49264,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c73ba8e7-a5f3-40f1-b565-55c168c2126d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/8e26c761-210b-4742-b543-7477f8bf4a96/967bf819-3763-490b-9e51-38ef00f93cd8")
 		(sheetname "Lights Drivers")
@@ -47303,6 +49522,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be745833-6f52-4290-9e43-12e7c8d114e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0ccc6f7-c05b-4954-9843-bbdb32c465f9")
 			(effects
 				(font
 					(size 1 1)
@@ -47568,6 +49800,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f0a551a-5c36-435d-a2e9-1a335e9bc913")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "554f9d0a-f02d-4cc7-9ee6-3f568587388f")
 			(effects
 				(font
 					(size 1 1)
@@ -47871,6 +50116,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd1d8031-4fdb-4130-8c4f-4075e9f3028c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46f88cef-dbfc-49fb-aafb-0fb4fe634633")
 			(effects
 				(font
 					(size 1 1)
@@ -48217,6 +50475,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acac4f2d-20bf-4564-92bd-0f1570a150da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c2b44a2f-ee1f-4a43-89f7-eda540df1696/e001a61f-c097-42ff-8390-9aa9aaf86254")
 		(sheetname "Lights")
@@ -48422,6 +50693,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68a8c333-5e0c-481f-8f31-b4deb18de0a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005e5dbb1e")
 		(sheetname "Root")
@@ -48549,6 +50833,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8ff067d-c87b-4ff8-b62c-650cbc79f235")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54b3f7ba-81a1-4609-889b-2f85aaa1f1d1")
 			(effects
 				(font
 					(size 1 1)
@@ -48879,6 +51176,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa09e792-b4f1-4663-b49d-49cba71017ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bc182e3-7e13-4144-988f-f427b1044c27")
 			(effects
 				(font
 					(size 1 1)
@@ -50039,6 +52349,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19aa2d39-ab88-4aa4-a06f-9fe769f56505")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/27be52a0-aebc-4e0e-844f-2b8ebc5dce7d")
 		(sheetname "DashAndDisplay")
@@ -50391,6 +52714,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c89b93a-a7db-460f-84d4-67e4649cd737")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005fa99dc3/00000000-0000-0000-0000-00005faaa5c5")
 		(sheetname "Potentiometers")
@@ -50651,6 +52987,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6388ee3b-dac7-4688-aa7d-f41dd93cd6f1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -51096,6 +53445,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "345e076f-ac92-4096-bc5a-3803a3bef82e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f6018fb/00000000-0000-0000-0000-00005f63a57c")
 		(sheetname "Motor_CAN")
@@ -51341,6 +53703,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "33c783e7-9e59-4f6f-9263-7dc0d01d122d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a601d607-1c30-4a0f-96f2-26cace973c85")
 			(effects
 				(font
 					(size 1 1)
@@ -51600,6 +53975,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13ea221f-af9e-4b47-95a2-746a313d7bf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/5a92b6f2-192e-4731-8452-1991097f6ebb")
 		(sheetname "DashAndDisplay")
@@ -51784,7 +54172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.mouser.com/datasheet/2/468/RI3-1711119.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/468/RI3-1711119.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52065,6 +54453,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c2f9e37-1796-4a67-8d73-939b23d33a6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005f547b94/00000000-0000-0000-0000-00005c2b4317")
 		(sheetname "Car_CAN")
@@ -52330,6 +54731,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0c3bab1-97be-4919-8956-d8325c818079")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-00005f19a9c5/129b4936-6077-47bd-88d4-10f75ec7f110")
 		(sheetname "PowerDist")
@@ -52530,16 +54944,16 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23W"
+	(footprint "Package_TO_SOT_SMD:SOT-23-3"
 		(layer "F.Cu")
 		(uuid "fa0f3ba7-be1a-47ed-9243-eddeb9f365d4")
 		(at 177.1 74.7 180)
-		(descr "SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3")
-		(tags "SOT-23W")
+		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U18"
-			(at -0.468 -2.764 0)
+			(at 0 -2.4 180)
 			(layer "F.SilkS")
-			(uuid "9a06b5e8-9053-4963-bb32-4e314d8502bb")
+			(uuid "9dc06fb3-3e7e-4716-9de6-97ab4f08bd47")
 			(effects
 				(font
 					(size 1 1)
@@ -52548,9 +54962,9 @@
 			)
 		)
 		(property "Value" "CDSOT23-T24CAN"
-			(at -1.195 4.21 0)
+			(at 0 2.4 180)
 			(layer "F.Fab")
-			(uuid "97430a8b-07d2-4987-a442-bb5e6be743f5")
+			(uuid "b1772b26-d602-4dd8-8e3c-121a34e013a4")
 			(effects
 				(font
 					(size 1 1)
@@ -52558,12 +54972,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b4b5f25-609b-461e-be9d-905346cfd838")
+			(uuid "2c94e042-c127-429f-8f00-b4dff38cb22e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52571,12 +54985,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/CDSOT23-T24CAN?qs=Z7P4xsdcg2LuAOb%2FzQ7xoQ%3D%3D&srsltid=AfmBOoo-PAeiWAfgofEpaXl2YTbs5tzVBFt4xpFaZPxBSWl1qHW5CPZ0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15d8e1bd-fd50-41b4-8c69-aa7aea86564f")
+			(uuid "56f6d27b-c50c-47b1-bf67-118131aeeaec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52589,7 +55003,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2523b4fe-cbf2-4370-9703-0c18c3d9a49b")
+			(uuid "f06a3c29-4e0c-4b5e-a8aa-87a234755ab2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52602,7 +55016,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8bd6823c-1128-46ba-9da8-018af8cf5df9")
+			(uuid "c4569f14-931d-468e-8589-27628e59b29c")
 			(effects
 				(font
 					(size 1 1)
@@ -52615,7 +55029,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38955ba6-2184-4031-ae46-5e68dada09e3")
+			(uuid "e9a7c9ec-d527-420a-9d65-cc34dd7113f9")
 			(effects
 				(font
 					(size 1 1)
@@ -52628,7 +55042,20 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fb82a60-c855-4197-97e9-3826a99a4622")
+			(uuid "fd097a3d-e510-4e55-ac3c-27e4944b4ae5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5af6f292-b77c-42ac-a07e-5e357f8054e7")
 			(effects
 				(font
 					(size 1 1)
@@ -52641,48 +55068,48 @@
 		(sheetfile "CAN.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 1.075 0.7)
-			(end 1.075 1.61)
+			(start 0 1.56)
+			(end 0.8 1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e31b40d1-2874-4e6c-a153-cee2406ad207")
+			(uuid "9b6b5e75-d536-45c2-a8c5-b0a7b11c1b30")
 		)
 		(fp_line
-			(start 1.075 -1.61)
-			(end 1.075 -0.7)
+			(start 0 1.56)
+			(end -0.8 1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "721be82c-3e3b-4218-b247-ef6cfccbd5a4")
+			(uuid "191077ce-46c1-4e4a-8b77-5ba80916087a")
 		)
 		(fp_line
-			(start -0.525 -1.61)
-			(end 1.075 -1.61)
+			(start 0 -1.56)
+			(end 0.8 -1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e7b0a46f-4b21-40f9-85ac-bacb3fcae8e2")
+			(uuid "261bcf0c-eaad-44f3-9f34-23c7650fd041")
 		)
 		(fp_line
-			(start -1.075 1.61)
-			(end 1.075 1.61)
+			(start 0 -1.56)
+			(end -0.8 -1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "70534af2-b655-40e5-92b9-5a7a2d2aaf10")
+			(uuid "720ed296-a1f7-4c8e-8e84-0f9ab1f0d087")
 		)
 		(fp_poly
 			(pts
-				(xy -1.025 -1.56) (xy -1.265 -1.89) (xy -0.785 -1.89) (xy -1.025 -1.56)
+				(xy -1.3 -1.51) (xy -1.54 -1.84) (xy -1.06 -1.84) (xy -1.3 -1.51)
 			)
 			(stroke
 				(width 0.12)
@@ -52690,140 +55117,140 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "f5102211-de4b-4467-a1e0-e2f9d6401305")
+			(uuid "a492a653-8fd5-4f24-b4cf-d3d415b76b3c")
 		)
 		(fp_line
-			(start 1.95 1.74)
-			(end -1.95 1.74)
+			(start 2.05 1.7)
+			(end 2.05 -1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "80e47d3a-bd58-410a-bb77-54991ad81c41")
+			(uuid "99814054-a47b-41bd-8a35-8689f30707ae")
 		)
 		(fp_line
-			(start 1.95 -1.74)
-			(end 1.95 1.74)
+			(start 2.05 -1.7)
+			(end -2.05 -1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "982de748-921f-4cf0-a0f5-d352e480f7e1")
+			(uuid "e034d282-14a2-4500-b68f-3efc57276e94")
 		)
 		(fp_line
-			(start -1.95 1.74)
-			(end -1.95 -1.74)
+			(start -2.05 1.7)
+			(end 2.05 1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "513334e2-bdf8-4406-94f8-0c5bc157551f")
+			(uuid "2f7d2d18-e32d-465b-9dcd-bc64bbef8f4a")
 		)
 		(fp_line
-			(start -1.95 -1.74)
-			(end 1.95 -1.74)
+			(start -2.05 -1.7)
+			(end -2.05 1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a4ed611c-e836-425e-8982-7dd1f8e5e106")
+			(uuid "afd02735-a6be-4ca6-9c20-a497cb6e3f51")
 		)
 		(fp_line
-			(start 0.955 -1.49)
-			(end 0.955 1.49)
+			(start 0.8 1.45)
+			(end -0.8 1.45)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8790d161-e3aa-40ba-a5ed-4980d1701b80")
+			(uuid "4c8e7b83-90b7-416b-b363-489557625832")
 		)
 		(fp_line
-			(start 0.045 -1.49)
-			(end 0.955 -1.49)
+			(start 0.8 -1.45)
+			(end 0.8 1.45)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d68d6998-2780-4d7a-97a7-d7e833536d22")
+			(uuid "dc913e99-3987-4818-874e-bc3141601c24")
 		)
 		(fp_line
-			(start -0.955 1.49)
-			(end 0.955 1.49)
+			(start -0.4 -1.45)
+			(end 0.8 -1.45)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fbc565a6-4347-4eb6-b728-a4dbb7bb8e4c")
+			(uuid "739cace0-dc55-4e5a-8332-4b0650ec49f8")
 		)
 		(fp_line
-			(start -0.955 -0.49)
-			(end 0.045 -1.49)
+			(start -0.8 1.45)
+			(end -0.8 -1.05)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fca78527-33b3-4441-b68c-56ee27420ee7")
+			(uuid "6c6190cc-8e76-4fd3-979c-1d964a4731d2")
 		)
 		(fp_line
-			(start -0.955 -0.49)
-			(end -0.955 1.49)
+			(start -0.8 -1.05)
+			(end -0.4 -1.45)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8ca6fe36-8441-438f-9d12-099531e56588")
+			(uuid "ec42b1d2-5088-4549-853f-40efc9b4f4c7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "6f45ce4c-9f6b-47c6-b928-d24d11120d77")
+			(uuid "6f384a82-17ed-4bd1-9cc6-064547c60b83")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.075)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.2 -0.95 180)
-			(size 1 0.7)
+			(at -1.1375 -0.95 180)
+			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 39 "/Car_CAN/CAN_H")
 			(pinfunction "CAN_H")
 			(pintype "passive")
-			(uuid "19fb52c8-a070-4b6f-948c-b8af9bf02e49")
+			(uuid "25a19fbd-7283-47dc-8c2d-dc5d8634aa10")
 		)
 		(pad "2" smd roundrect
-			(at -1.2 0.95 180)
-			(size 1 0.7)
+			(at -1.1375 0.95 180)
+			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 40 "/Car_CAN/CAN_L")
 			(pinfunction "CAN_L")
 			(pintype "passive")
-			(uuid "09381627-a1ba-43db-b7b4-80b357b0ec8b")
+			(uuid "26ec8e13-8497-401d-b132-b6c23747231b")
 		)
 		(pad "3" smd roundrect
-			(at 1.2 0 180)
-			(size 1 0.7)
+			(at 1.1375 0 180)
+			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 45 "Net-(J21-Pin_2)")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "e75b4f15-e92f-4798-9e6a-0b9435db4de8")
+			(uuid "edf96846-f5ad-4451-a1be-ece693da7329")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23W.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -52934,6 +55361,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c0dabfc-4f18-4fe8-b812-ea1eee765d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "106e98f9-6eb7-485c-8750-24612cb30cd1")
 			(effects
 				(font
 					(size 1 1)
@@ -53193,6 +55633,19 @@
 				)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d0ccefb-9648-4acf-a534-50d1159437d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005f7b30ea/bfe3fced-9583-4295-a212-a992a0890474")
 		(sheetname "DashAndDisplay")
@@ -53438,6 +55891,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b99e84ef-4be0-4f5c-afd9-6a19dcfc48b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6866f2c-ab6f-42cf-87fd-73a14abcc655")
 			(effects
 				(font
 					(size 1 1)
@@ -63628,6 +66094,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dbc6b37a-0b00-41c9-8cc9-11daab172289")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005f7c8578")
 		(sheetname "Root")
 		(sheetfile "Controls-Leader.kicad_sch")
@@ -63891,6 +66371,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e910838f-c2a1-4cef-865b-2bc956fc600c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b9843eca-e97b-4c20-ae0d-b45b6db4bbd6")
 			(effects
 				(font
 					(size 1 1)
