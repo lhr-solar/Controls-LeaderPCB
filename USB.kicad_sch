@@ -2303,13 +2303,13 @@
 		)
 		(uuid "c90b0fc9-8c6a-4cf1-a089-3b11ba927a27")
 	)
-	(text "No change required\n"
+	(text "No changes made\n"
 		(exclude_from_sim no)
-		(at 15.24 21.59 0)
+		(at 177.8 180.34 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 5 5)
+				(size 1.524 1.524)
 				(thickness 1)
 				(bold yes)
 				(color 255 2 13 1)

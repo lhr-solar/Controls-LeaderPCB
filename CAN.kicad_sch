@@ -3192,13 +3192,13 @@
 		)
 		(uuid "e5f06cd2-492e-41b2-8ded-13a3fa1042bb")
 	)
-	(text "No change required\n"
+	(text "Added J14 CAN_DB9"
 		(exclude_from_sim no)
-		(at 15.24 21.59 0)
+		(at 178.054 180.594 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 5 5)
+				(size 1.524 1.524)
 				(thickness 1)
 				(bold yes)
 				(color 255 2 13 1)
@@ -4131,6 +4131,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
@@ -4227,6 +4228,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"

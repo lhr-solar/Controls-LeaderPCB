@@ -1766,15 +1766,14 @@
 		)
 		(uuid "199ade13-7442-4da9-8eea-a8e7681e2aee")
 	)
-	(text "No change required\n"
+	(text "Added brake pot, updated accel pot resistor values"
 		(exclude_from_sim no)
-		(at 13.97 22.86 0)
+		(at 177.8 180.086 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
+				(size 1.524 1.524)
+				(thickness 0.1905)
 				(color 255 2 13 1)
 			)
 			(justify left bottom)

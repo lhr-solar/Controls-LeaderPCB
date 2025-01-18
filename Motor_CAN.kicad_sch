@@ -3286,24 +3286,9 @@
 		)
 		(uuid "a0affae9-b1e8-4941-9e7e-2ad29ff3f86b")
 	)
-	(text "No change required\n"
+	(text "Added fuse, J16 M_CAN_DB9"
 		(exclude_from_sim no)
-		(at 15.24 22.86 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-				(color 255 2 13 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7506c34-aa8c-4c95-b7bf-7ad6aa5123c4")
-	)
-	(text "Fuse for protecting motor controller\n"
-		(exclude_from_sim no)
-		(at 199.898 132.08 0)
+		(at 192.024 180.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)

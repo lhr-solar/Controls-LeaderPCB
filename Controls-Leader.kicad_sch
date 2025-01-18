@@ -5,11 +5,11 @@
 	(uuid "66218487-e316-4467-9eba-79d4626ab24e")
 	(paper "A3")
 	(title_block
-		(title "Dashboard")
-		(date "2020-06-06")
-		(rev "2.0")
-		(company "UTSVT")
-		(comment 1 "Author: Chase Block")
+		(title "Controls Leader")
+		(date "2025-01-18")
+		(rev "2.5")
+		(company "LHRS")
+		(comment 1 "Authors: Krish Parikh, Madeleine Lee")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -4668,16 +4668,6 @@
 		)
 		(uuid "0d186665-d5e1-40cf-9657-a266b56f4ea9")
 	)
-	(polyline
-		(pts
-			(xy 327.66 218.44) (xy 327.66 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dfdfa9f-1e3f-4e14-b64b-12bde76a80c7")
-	)
 	(wire
 		(pts
 			(xy 208.28 115.57) (xy 208.28 113.03)
@@ -4840,7 +4830,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 212.09) (xy 307.34 212.09)
+			(xy 336.55 205.74) (xy 325.12 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5100,7 +5090,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 209.55) (xy 307.34 209.55)
+			(xy 336.55 203.2) (xy 325.12 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5190,7 +5180,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 214.63) (xy 317.5 207.01)
+			(xy 335.28 208.28) (xy 335.28 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6020,7 +6010,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 207.01) (xy 318.77 207.01)
+			(xy 335.28 200.66) (xy 336.55 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7381,7 +7371,7 @@
 		(uuid "573baaca-a805-437b-b166-75d0f97cc03c")
 	)
 	(label "UART3_Rx"
-		(at 307.34 209.55 0)
+		(at 325.12 203.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8107,7 +8097,7 @@
 		(uuid "e7c9b496-d328-4ec2-94ce-55993f30c5b8")
 	)
 	(label "UART3_Tx"
-		(at 307.34 212.09 0)
+		(at 325.12 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12633,7 +12623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 317.5 214.63 0)
+		(at 335.28 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12641,7 +12631,7 @@
 		(dnp no)
 		(uuid "6a4e86e5-defe-45ca-ae09-6efa66bc8eca")
 		(property "Reference" "#PWR033"
-			(at 317.5 220.98 0)
+			(at 335.28 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12650,7 +12640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.627 219.0242 0)
+			(at 335.407 212.6742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12658,7 +12648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 317.5 214.63 0)
+			(at 335.28 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 214.63 0)
+			(at 335.28 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12676,7 +12666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 317.5 214.63 0)
+			(at 335.28 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13595,7 +13585,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 323.85 209.55 0)
+		(at 341.63 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13603,7 +13593,7 @@
 		(dnp no)
 		(uuid "b4358fea-5db2-401a-80a1-f61b497d16c9")
 		(property "Reference" "J13"
-			(at 327.66 209.55 0)
+			(at 345.44 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,7 +13601,7 @@
 			)
 		)
 		(property "Value" "UART_TP"
-			(at 330.2 212.09 0)
+			(at 347.98 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13619,7 +13609,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 323.85 209.55 0)
+			(at 341.63 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13628,7 +13618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 209.55 0)
+			(at 341.63 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,7 +13627,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 323.85 209.55 0)
+			(at 341.63 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13646,7 +13636,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 323.85 209.55 0)
+			(at 341.63 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +13645,7 @@
 			)
 		)
 		(property "Vds" ""
-			(at 323.85 209.55 0)
+			(at 341.63 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
