@@ -3727,6 +3727,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 215.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85a90110-c4b6-480c-bcb5-ba9e9ad4b50b")
 		)
@@ -3824,6 +3833,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "EL3H7DTAVG "
 			(at 167.64 127 0)
 			(effects
 				(font
@@ -3937,6 +3955,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51d5db96-c74b-4e47-9d7b-4659119883fb")
 		)
@@ -4040,6 +4067,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08054K99FKEAC "
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e595d2bc-9dca-470e-9cb9-058aec999ca8")
 		)
@@ -4129,6 +4165,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08054K99FKEAC "
 			(at 78.74 152.4 0)
 			(effects
 				(font
@@ -4358,6 +4403,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 215.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "EL3H7DTAVG "
 			(at 215.9 36.83 0)
 			(effects
 				(font
@@ -4669,6 +4723,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7f94e64-e68a-4460-bccc-269e05874574")
 		)
@@ -4832,6 +4895,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "EL3H7DTAVG "
 			(at 39.37 127 0)
 			(effects
 				(font
@@ -5252,6 +5324,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08052K00FKEC"
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15924b64-6ac1-4b61-a8fb-e612bde59d78")
 		)
@@ -5339,6 +5420,15 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0805510RFKEAC"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805510RFKEAC"
 			(at 200.66 74.93 0)
 			(effects
 				(font
@@ -5509,6 +5599,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08052K00FKEC"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eace63d9-e6eb-4c69-885d-955f722edb16")
 		)
@@ -5597,6 +5696,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08052K00FKEC"
 			(at 133.35 116.84 0)
 			(effects
 				(font
@@ -5890,6 +5998,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "436500244"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4805c307-babe-4653-aede-420217c8f73e")
 		)
@@ -5985,6 +6102,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 165.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08054K99FKEAC "
 			(at 165.1 152.4 0)
 			(effects
 				(font
@@ -6090,6 +6216,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08054K99FKEAC "
+			(at 250.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "273b4411-81ce-46db-9d98-92d929e9246e")
 		)
@@ -6187,6 +6322,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0805100KFKEAC"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e78d07cc-991c-454b-a135-953788eef28a")
 		)
@@ -6237,7 +6381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430451212"
 			(at 99.06 69.85 0)
 			(effects
 				(font
@@ -6265,6 +6409,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "430451212"
 			(at 99.06 69.85 0)
 			(effects
 				(font
@@ -6465,6 +6618,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08054K99FKEAC "
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c3cca9b-eade-4500-9d6e-5f1e62b803f0")
 		)
@@ -6626,6 +6788,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08052K00FKEC"
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d08ea8e-4a52-493c-8e51-eece29bf036d")
 		)
@@ -6717,6 +6888,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 81.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "EL3H7DTAVG "
 			(at 81.28 127 0)
 			(effects
 				(font
@@ -7268,6 +7448,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0805100KFKEAC"
+			(at 226.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "51abb3c7-ac5a-4135-850e-f5a83858ac46")
 		)
@@ -7365,6 +7554,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08054K99FKEAC "
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bca2377-4853-493d-909e-482fc98609f4")
 		)
@@ -7453,6 +7651,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08052K00FKEC"
 			(at 219.71 116.84 0)
 			(effects
 				(font
@@ -7819,6 +8026,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0805510RFKEAC"
+			(at 200.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d9e63ed-502f-4817-83da-2efc0e47d4e9")
 		)
@@ -7984,6 +8200,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dbebaed-c0e0-4566-8744-7972d1ed82c8")
 		)
@@ -8078,6 +8303,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 261.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08052K00FKEC"
 			(at 261.62 116.84 0)
 			(effects
 				(font

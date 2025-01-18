@@ -1902,6 +1902,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47ffa8d6-b4dd-4390-a922-dd185fbcb928")
 		)
@@ -1995,6 +2004,15 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0805510RFKEAC"
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805510RFKEAC"
 			(at 191.77 58.42 0)
 			(effects
 				(font
@@ -2278,6 +2296,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a42761c7-ee3d-4926-acb1-7cc2ae1bd78f")
 		)
@@ -2491,6 +2518,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0805510RFKEAC"
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a334daa2-775a-4d17-9ed6-546d6a2f3058")
 		)
@@ -2588,6 +2624,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0805100KFKEAC"
+			(at 82.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed5f8744-180e-4ecc-bc55-1504bda4c043")
 		)
@@ -2677,6 +2722,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "EL3H7DTAVG "
 			(at 207.01 60.96 0)
 			(effects
 				(font
@@ -2900,6 +2954,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0805100KFKEAC"
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2d0dc92f-d83c-4397-9c2a-29b41ebcb7bb")
 		)
@@ -3017,7 +3080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500215"
 			(at 234.95 101.6 0)
 			(effects
 				(font
@@ -3246,7 +3309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500215"
 			(at 233.68 58.42 0)
 			(effects
 				(font
@@ -3378,6 +3441,15 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0805510RFKEAC"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805510RFKEAC"
 			(at 53.34 105.41 0)
 			(effects
 				(font
@@ -3616,6 +3688,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0805100KFKEAC"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e836287e-5545-4c34-b35d-be1f735882b0")
 		)
@@ -3801,7 +3882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500215"
 			(at 99.06 105.41 0)
 			(effects
 				(font

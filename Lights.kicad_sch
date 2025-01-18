@@ -1247,6 +1247,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6dfe8a7e-4647-4e74-91c5-22e668005f19")
 		)
@@ -1497,6 +1506,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 171.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc2e95bb-900a-49c1-9540-17b9ee262ccd")
 		)
@@ -1592,6 +1610,15 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08052K00FKEC"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08052K00FKEC"
 			(at 167.64 97.79 0)
 			(effects
 				(font
@@ -1771,6 +1798,15 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW08052K00FKEC"
+			(at 168.91 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08052K00FKEC"
 			(at 168.91 138.43 0)
 			(effects
 				(font

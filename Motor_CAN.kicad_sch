@@ -3461,7 +3461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW0805120RFKEA"
+		(property "Mouser Part Number" ""
 			(at 201.93 93.98 0)
 			(effects
 				(font
@@ -3489,6 +3489,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 201.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805120RFKEA"
 			(at 201.93 93.98 0)
 			(effects
 				(font
@@ -3546,7 +3555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500215"
 			(at 204.47 86.36 0)
 			(effects
 				(font
@@ -3696,6 +3705,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TMK212BBJ106MGHT"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff5cc64e-8d01-4a32-bf22-dd77f3b61831")
 		)
@@ -3793,6 +3811,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5R"
 			(at 62.23 88.9 0)
 			(effects
 				(font
@@ -3906,6 +3933,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5R"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7441dc99-943a-4dad-884f-f78f21b79690")
 		)
@@ -3975,7 +4011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C0805C103J5RACTU"
+		(property "Mouser Part Number" ""
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -4003,6 +4039,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C103J5RACTU"
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -4116,6 +4161,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TMK212BBJ106MGHT"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9786dde-d1bc-4c6d-a530-1d95659a7654")
 		)
@@ -4213,6 +4267,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C224J1RECTU"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -4554,6 +4617,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5R"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e087ab54-18e1-4cef-ba4d-95c3cbaa2f95")
 		)
@@ -4623,7 +4695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C0805C103J5RACTU"
+		(property "Mouser Part Number" ""
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -4651,6 +4723,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C103J5RACTU"
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -4886,6 +4967,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08050000Z0EAC "
 			(at 139.7 109.22 0)
 			(effects
 				(font
@@ -5349,6 +5439,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CDSOT23-T24CAN "
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6022a8a5-f4c6-440e-a7c2-158148de9d5a")
 		)
@@ -5403,7 +5502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500215"
 			(at 179.07 143.51 0)
 			(effects
 				(font
@@ -5565,7 +5664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500215&pQuery="
 			(at 251.46 113.03 0)
 			(effects
 				(font
@@ -5584,6 +5683,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215"
 			(at 251.46 113.03 0)
 			(effects
 				(font
@@ -5643,7 +5751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43045-0626?qs=3DzawVMofg8wRl2LAQWBpw%3D%3D"
 			(at 231.14 115.57 0)
 			(effects
 				(font
@@ -5680,6 +5788,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "430450626"
 			(at 231.14 115.57 0)
 			(effects
 				(font
@@ -5863,6 +5980,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0440.375WR"
 			(at 220.98 127 0)
 			(effects
 				(font

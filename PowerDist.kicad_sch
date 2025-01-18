@@ -3633,6 +3633,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "RI3-1205S"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d13f3934-1f41-4c79-a2b7-9d658b091e7e")
 		)
@@ -4044,6 +4053,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08051K50JNEB"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a9e52cf-58fb-42f2-a6a3-f828c163d5cd")
 		)
@@ -4268,6 +4286,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "NCP1117ST33T3G"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "675fcafb-51b2-4268-8b6a-29701da61073")
 		)
@@ -4367,6 +4394,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TMK212BBJ106MGHT"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98422f61-91df-4f37-b5ee-9ada79e9ff45")
 		)
@@ -4455,6 +4491,15 @@
 			)
 		)
 		(property "Mouser Part Number" "963-TMK212BBJ106MGHT"
+			(at 217.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TMK212BBJ106MGHT"
 			(at 217.17 86.36 0)
 			(effects
 				(font
@@ -4727,7 +4772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500215"
 			(at 35.56 81.28 0)
 			(effects
 				(font
@@ -4755,6 +4800,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
 			(at 35.56 81.28 0)
 			(effects
 				(font
@@ -5244,7 +5298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "863-NSVR0320MW2T1G"
+		(property "Mouser Part Number" ""
 			(at 55.88 82.55 0)
 			(effects
 				(font
@@ -5322,7 +5376,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "TMK212BBJ106MGHT"
 			(at 85.09 82.55 0)
 			(effects
 				(font
@@ -5659,6 +5713,15 @@
 			)
 		)
 		(property "Mouser Part Number" "576-0440003.WR"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0440003.WR"
 			(at 92.71 147.32 0)
 			(effects
 				(font

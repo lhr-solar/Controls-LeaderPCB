@@ -1285,6 +1285,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 138.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0fcb2a5-ca3e-4605-952f-e282d45fd53b")
 		)
@@ -1377,6 +1386,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805105RFKEA "
 			(at 124.46 138.43 0)
 			(effects
 				(font
@@ -1547,6 +1565,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EL3H7DTAVG "
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6368a379-e7aa-4071-9902-593d46a8a8f0")
 		)
@@ -1639,6 +1666,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805105RFKEA "
 			(at 124.46 62.23 0)
 			(effects
 				(font
@@ -1806,6 +1842,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0805105RFKEA "
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bde930c-9b52-4ae6-b6e5-393b626f1e73")
 		)
@@ -1942,7 +1987,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "43650-0215"
+		(property "P/N" "436500244"
 			(at 158.75 106.68 0)
 			(effects
 				(font
@@ -2046,6 +2091,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "EL3H7DTAVG "
 			(at 138.43 104.14 0)
 			(effects
 				(font
@@ -2262,7 +2316,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "43650-0215"
+		(property "P/N" "436500244"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -2347,7 +2401,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "43650-0215"
+		(property "P/N" "436500244"
 			(at 160.02 143.51 0)
 			(effects
 				(font

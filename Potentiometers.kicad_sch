@@ -1919,6 +1919,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CDSOT23-T24CAN"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f01efdb1-881c-40a2-bc25-404d9fd4e172")
 		)
@@ -2013,6 +2022,15 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CDSOT23-T24CAN"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CDSOT23-T24CAN"
 			(at 101.6 116.84 0)
 			(effects
 				(font
@@ -2253,6 +2271,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5R"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eeb9bc5c-7c5e-4166-b626-d717035f0ba2")
 		)
@@ -2477,6 +2504,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW080510K0FKEAC "
+			(at 110.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12c0e6e7-255a-42c9-81ac-698c901d7eed")
 		)
@@ -2573,6 +2609,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5R"
+			(at 83.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bec93a40-ad33-4fa0-92fb-4ca10bab1930")
 		)
@@ -2661,6 +2706,15 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CDSOT23-T24CAN"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CDSOT23-T24CAN"
 			(at 101.6 74.93 0)
 			(effects
 				(font
@@ -2771,6 +2825,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CDSOT23-T24CAN"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1dce5647-a134-48e7-a9e5-ee9e0835d32d")
 		)
@@ -2863,6 +2926,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08054K99FKEAC "
 			(at 110.49 80.01 0)
 			(effects
 				(font
@@ -3068,7 +3140,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "Inventory"
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -3301,6 +3373,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW080510K0FKEAC "
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83a9b348-3e5d-4762-aef3-e9a14c9fe491")
 		)
@@ -3353,7 +3434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500215"
 			(at 129.54 138.43 0)
 			(effects
 				(font
@@ -3363,6 +3444,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
 			(at 129.54 138.43 0)
 			(effects
 				(font
@@ -3423,7 +3513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500315&pQuery="
 			(at 144.78 113.03 0)
 			(effects
 				(font
@@ -3451,6 +3541,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 144.78 113.03 0)
 			(effects
 				(font
@@ -3531,6 +3630,15 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
+			(at 106.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC "
 			(at 106.68 140.97 0)
 			(effects
 				(font
@@ -3657,7 +3765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500315&pQuery="
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -3685,6 +3793,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 144.78 80.01 0)
 			(effects
 				(font

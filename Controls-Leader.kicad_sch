@@ -8254,6 +8254,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "436500315"
+			(at 334.01 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
@@ -8336,6 +8345,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 334.01 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 334.01 237.49 0)
 			(effects
 				(font
@@ -8434,6 +8452,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "436500315"
+			(at 334.01 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e"
@@ -8516,6 +8543,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 353.06 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 353.06 232.41 0)
 			(effects
 				(font
@@ -8614,6 +8650,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 210.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "STM32F413RHT6"
 			(at 210.82 158.75 0)
 			(effects
 				(font
@@ -8976,6 +9021,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW080510K0FKEAC "
+			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e04b2931-c280-4b2b-8853-63ec69c4dad6")
 		)
@@ -9138,6 +9192,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "B3SL-1002P"
 			(at 153.67 110.49 0)
 			(effects
 				(font
@@ -9316,6 +9379,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5R"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "058cabb9-3e14-4d6f-8e30-6f2c358ee947")
 		)
@@ -9411,6 +9483,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 181.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "GRM219R6YA475KA3D"
 			(at 181.61 184.15 0)
 			(effects
 				(font
@@ -9571,7 +9652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "ABM3-8.000MHZ-D2Y-T"
+		(property "Mouser Part Number" ""
 			(at 180.34 129.54 0)
 			(effects
 				(font
@@ -9581,6 +9662,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ABM3-8.000MHZ-D2Y-T"
 			(at 180.34 129.54 0)
 			(effects
 				(font
@@ -9692,6 +9782,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C120K5HACTU"
+			(at 171.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a845065c-d714-4eb5-9ad6-a69539569a52")
 		)
@@ -9787,6 +9886,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 171.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C120K5HACTU"
 			(at 171.45 133.35 0)
 			(effects
 				(font
@@ -10327,6 +10435,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5R"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "845bafd1-b3c7-48ef-ac13-2e096330a6ad")
 		)
@@ -10432,6 +10549,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "GRM219R6YA475KA3D"
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5901570-3f53-4ad1-a020-ffa108f19012")
 		)
@@ -10529,6 +10655,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5R"
 			(at 232.41 67.31 0)
 			(effects
 				(font
@@ -11017,6 +11152,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5R"
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d64d346-5d40-4b9e-ab09-243a05c7f6b9")
 		)
@@ -11122,6 +11266,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5R"
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b48ad17-d5e3-484a-9396-a619a0d77d73")
 		)
@@ -11219,6 +11372,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 204.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5R"
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -12572,6 +12734,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 345.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 345.44 173.99 0)
 			(effects
 				(font
