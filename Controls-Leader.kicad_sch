@@ -8254,7 +8254,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "436500315"
+		(property "P/N" ""
 			(at 334.01 232.41 0)
 			(effects
 				(font
@@ -8353,7 +8353,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "436500315"
+		(property "P/N" ""
 			(at 334.01 237.49 0)
 			(effects
 				(font
@@ -8452,7 +8452,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "436500315"
+		(property "P/N" ""
 			(at 334.01 242.57 0)
 			(effects
 				(font
@@ -8551,7 +8551,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "436500315"
+		(property "P/N" ""
 			(at 353.06 232.41 0)
 			(effects
 				(font

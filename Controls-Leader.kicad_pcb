@@ -76820,6 +76820,18 @@
 			)
 		)
 	)
+	(gr_text "Controls Leader\nDaybreak Rework 2025\nKrish Parikh & Madeleine Lee"
+		(at 176.78 78.78 270)
+		(layer "F.SilkS")
+		(uuid "ec99a945-ae52-42b9-adfa-c3e0f3f68ee7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "ACC_POT"
 		(at 124.075 86.775 0)
 		(layer "F.SilkS")
