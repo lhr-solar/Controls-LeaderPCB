@@ -6848,19 +6848,6 @@
 		)
 		(uuid "fdc60c06-30fa-4dfb-96b4-809b755999e1")
 	)
-	(rectangle
-		(start 329.438 12.065)
-		(end 407.924 26.162)
-		(stroke
-			(width 0)
-			(type default)
-			(color 251 48 27 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 241c9e8d-af80-4817-ba87-17ef2f583442)
-	)
 	(text "VDDA"
 		(exclude_from_sim no)
 		(at 231.14 59.69 0)
@@ -6920,13 +6907,13 @@
 		)
 		(uuid "ca6e2466-a90a-4dab-be16-b070610e5087")
 	)
-	(text "Controls Leaderboard: Daybreak Rework 2025\nAn intermediate board between the 2022-2024 and 2024-2026 cars\nthat merges the Daybreak Controls Leaderboard and Lighting Board.\nCreated in conjunction with the new 2025 Controls Dashboard.\nSee sub-sheets for additional revisions since last version."
+	(text "Controls Leaderboard: Daybreak Rework 2025\n- An intermediate board between the 2022-2024 and 2024-2026 cars\n   that merges the Daybreak Controls Leaderboard and Lighting Board.\n- Created in conjunction with the new 2025 Controls Dashboard.\n- See sub-sheets for additional revisions since last version."
 		(exclude_from_sim no)
-		(at 332.232 18.542 0)
+		(at 300.736 257.81 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-				(color 205 56 62 1)
+				(size 1.016 1.016)
+				(color 255 69 46 1)
 			)
 			(justify left)
 		)

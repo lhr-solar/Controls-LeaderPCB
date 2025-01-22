@@ -2282,7 +2282,7 @@
 	)
 	(text "- Updated USB chip\n"
 		(exclude_from_sim no)
-		(at 178.054 169.926 0)
+		(at 178.054 180.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)

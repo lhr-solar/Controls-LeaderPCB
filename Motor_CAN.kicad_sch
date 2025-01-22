@@ -3288,7 +3288,7 @@
 	)
 	(text "- Changed motorcan connector from big round to molex\n- Added 375mA fuse\n- Added J16 M_CAN_DB9\n- Chose new ferrite beads"
 		(exclude_from_sim no)
-		(at 177.8 171.958 0)
+		(at 177.292 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)

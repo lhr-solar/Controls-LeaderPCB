@@ -3247,7 +3247,7 @@
 	)
 	(text "- Removed jumper and distinction between GNDPWR/GND1, +12V/+12VA\n- Added fuse for lights (+12V to Lights_12V) \n"
 		(exclude_from_sim no)
-		(at 177.8 172.72 0)
+		(at 177.8 179.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
