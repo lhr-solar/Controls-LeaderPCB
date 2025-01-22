@@ -1117,7 +1117,7 @@
 		)
 		(uuid "7112d2ae-7915-4f1a-aae6-e71244f669d8")
 	)
-	(text "Added Motor_Contactor"
+	(text "- Separated contactors to 1 per connector\n- Added sense pins\n- Removed array contactor"
 		(exclude_from_sim no)
 		(at 178.054 180.086 0)
 		(effects

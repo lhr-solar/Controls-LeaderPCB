@@ -3245,6 +3245,18 @@
 		)
 		(uuid "d5b98ef7-5ecd-4621-8fc9-25bd57e3b79b")
 	)
+	(text "- Removed jumper and distinction between GNDPWR/GND1, +12V/+12VA\n- Added fuse for lights (+12V to Lights_12V) \n"
+		(exclude_from_sim no)
+		(at 177.8 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 17 10 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d97d01da-97d1-4b60-a916-eedbe8435a34")
+	)
 	(text "Reverse Polarity Protection\nIf connected properly, Vgs = 12, nmos turns on, life is good\nIf connected wrong, Vgs = -12, nmos turns off, no bueno"
 		(exclude_from_sim no)
 		(at 85.852 99.314 0)

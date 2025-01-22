@@ -1766,7 +1766,7 @@
 		)
 		(uuid "199ade13-7442-4da9-8eea-a8e7681e2aee")
 	)
-	(text "Added brake pot, updated accel pot resistor values"
+	(text "- Updated accel pot values to increase ADC range\n- Added brake switch button circuit "
 		(exclude_from_sim no)
 		(at 177.8 180.086 0)
 		(effects

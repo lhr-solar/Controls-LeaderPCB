@@ -3192,15 +3192,14 @@
 		)
 		(uuid "e5f06cd2-492e-41b2-8ded-13a3fa1042bb")
 	)
-	(text "Added J14 CAN_DB9"
+	(text "- Added J14 CAN_DB9 for debugging\n- Removed testpoint\n- Chose new ferrite beads"
 		(exclude_from_sim no)
 		(at 178.054 180.594 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.524 1.524)
-				(thickness 1)
-				(bold yes)
+				(thickness 0.1905)
 				(color 255 2 13 1)
 			)
 			(justify left bottom)

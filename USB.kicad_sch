@@ -2280,6 +2280,18 @@
 		)
 		(uuid "e746ec00-0dfd-4bc7-b357-6b4860c148ef")
 	)
+	(text "- Updated USB chip\n"
+		(exclude_from_sim no)
+		(at 178.054 169.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 17 10 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "011cd432-e68b-4852-a340-8cddbe983e77")
+	)
 	(text "The microcontroller should have Rx connected to UART_TX\nand Tx connected to UART_RX"
 		(exclude_from_sim no)
 		(at 167.64 86.36 0)
@@ -2302,21 +2314,6 @@
 			(justify left bottom)
 		)
 		(uuid "c90b0fc9-8c6a-4cf1-a089-3b11ba927a27")
-	)
-	(text "No changes made\n"
-		(exclude_from_sim no)
-		(at 177.8 180.34 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.524 1.524)
-				(thickness 1)
-				(bold yes)
-				(color 255 2 13 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "fccf7ddc-ba6c-452d-bdd0-8ccd68cb5c30")
 	)
 	(hierarchical_label "UART_RX"
 		(shape input)

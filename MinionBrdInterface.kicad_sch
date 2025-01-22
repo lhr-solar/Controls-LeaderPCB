@@ -3038,6 +3038,20 @@
 		)
 		(uuid ada7016e-9c35-4b10-b893-cd6765945b0e)
 	)
+	(text "- Renamed pins\n- Exporting to and receiving from dashboard as 12V\n- Added heartbeat LED, BPS_Hazard since Controls is now handling BPS faults"
+		(exclude_from_sim no)
+		(at 178.054 180.594 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.524 1.524)
+				(thickness 0.1905)
+				(color 255 2 13 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "308c6db2-d6a3-490e-b5cc-3f5850d473c6")
+	)
 	(text "Connectors + Optoisolators\n"
 		(exclude_from_sim no)
 		(at 88.392 48.514 0)

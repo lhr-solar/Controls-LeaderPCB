@@ -3286,14 +3286,15 @@
 		)
 		(uuid "a0affae9-b1e8-4941-9e7e-2ad29ff3f86b")
 	)
-	(text "Added fuse, J16 M_CAN_DB9"
+	(text "- Changed motorcan connector from big round to molex\n- Added 375mA fuse\n- Added J16 M_CAN_DB9\n- Chose new ferrite beads"
 		(exclude_from_sim no)
-		(at 192.024 180.086 0)
+		(at 177.8 171.958 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 0 2 1)
 			)
+			(justify left)
 		)
 		(uuid "faded02c-85ea-402a-8b17-5c6a7543370e")
 	)

@@ -1037,41 +1037,19 @@
 		)
 		(uuid "fc29af9c-7607-4107-a5c0-22207685230f")
 	)
-	(rectangle
-		(start 203.835 23.749)
-		(end 278.13 44.45)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a3dae037-cb0e-4a1b-b6ab-1523cbf7167d)
-	)
-	(text "Version History"
+	(text "- Replaced lights drivers/circuits\n- Replaced 555 timer with blinking gpio \n   that passes through to drivers when dashboard Left/Right 3-pos switch is toggled\n- Intended to connect to breakout boards that split out the necessary number of lights"
 		(exclude_from_sim no)
-		(at 204.47 27.94 0)
+		(at 178.054 180.34 0)
 		(effects
 			(font
-				(size 2 2)
-				(thickness 1)
-				(bold yes)
+				(face "KiCad Font")
+				(size 1.524 1.524)
+				(thickness 0.1905)
+				(color 255 2 13 1)
 			)
 			(justify left bottom)
 		)
-		(uuid "ac6ae35f-fcb7-4f91-8f07-5576ce82257f")
-	)
-	(text "v1.0\n- Created Lighting Board with outputs to all external & internal lights\n- All buttons/switches on driver dashboard are debounced and sent to Control Leader Board\n\nv1.1\n- Added opto-isolators to external lights output\n- Change TVS diode to be SMD\n- Changed reverse polarity protection to MOSFET instead of diode\n\n"
-		(exclude_from_sim no)
-		(at 205.74 43.18 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd269cd7-0337-4e39-a8a1-93e49c570992")
+		(uuid "b3c454b1-cea5-4211-b82e-596cca86c089")
 	)
 	(label "RIGHT_BLINK"
 		(at 58.42 59.69 0)
