@@ -717,15 +717,15 @@
 			(pintype "passive")
 			(uuid "4f5a3247-79f9-4ab0-a7c1-3c05b48f4888")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500327.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -2253,26 +2253,15 @@
 			(pintype "passive")
 			(uuid "ad937309-d1e1-4ac0-896d-f301c1c5f8a9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500215.stp"
-			(offset
-				(xyz 1.5 2 10)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 90 0 180)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -11671,7 +11660,7 @@
 		(uuid "36e9cadb-cb2b-4073-a45f-7f999fd35bed")
 		(at 188.63 114.92 -90)
 		(property "Reference" "J18"
-			(at 8.45 -0.31 180)
+			(at 8.45 -0.31 360)
 			(layer "F.SilkS")
 			(uuid "94d9d656-b289-40c9-b60a-487d898dcce2")
 			(effects
@@ -11970,7 +11959,7 @@
 		)
 		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
 			(offset
-				(xyz 1.5 0 4)
+				(xyz 1.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12335,6 +12324,17 @@
 			(uuid "7f427e09-9a80-44fe-96ca-9ad6c47d9c84")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3SL-1002P.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/misc.3dshapes/B3SL-1002P.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19756,7 +19756,7 @@
 			(pintype "power_out")
 			(uuid "8cc1849f-245f-47bb-b82c-c71a60cf6bf4")
 		)
-		(model "${KIPRJMOD}/common/utsvt3d/chips.3dshapes/SOIC-20W.step"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/chips.3dshapes/ADM3055EBRIZ.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24949,15 +24949,15 @@
 			(pintype "passive")
 			(uuid "64f87b28-55b6-4b1b-9b42-846ade0b0716")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -26064,15 +26064,15 @@
 			(pintype "passive+no_connect")
 			(uuid "49125a59-596f-49f5-8243-1be1dc5afdcc")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/43045-0612.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3 -1.5 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -28690,6 +28690,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/USB_MicroB_Molex.stp"
+			(offset
+				(xyz 0 -1 1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
 		(layer "F.Cu")
@@ -29116,15 +29127,15 @@
 			(pintype "passive")
 			(uuid "0d1b5492-a80a-4a90-82b6-c249a4d6317b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/43650-0428.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -29989,18 +30000,7 @@
 			(pintype "passive")
 			(uuid "7ad39612-5bc9-47eb-bcbd-adba87e488db")
 		)
-		(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "common/utsvt3d/connectors.3dshapes/430451227.stp"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/430451227.stp"
 			(offset
 				(xyz 7.5 -1.5 5)
 			)
@@ -30008,7 +30008,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -30278,7 +30278,7 @@
 			(pintype "passive")
 			(uuid "1891595f-6f4e-4a40-97bd-544310966df8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_TXC_7A-2Pin_5x3.2mm.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/chips.3dshapes/CRYSTAL_TXC_7A_TXC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31059,15 +31059,15 @@
 			(pintype "passive")
 			(uuid "39806b99-c6df-4339-8bba-b1541cebb09b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/43650-0428.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -32612,7 +32612,7 @@
 			(pintype "power_out")
 			(uuid "bfcc0465-0611-417d-ba20-1b10ccb14b59")
 		)
-		(model "${KIPRJMOD}/common/utsvt3d/chips.3dshapes/SOIC-20W.step"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/chips.3dshapes/ADM3055EBRIZ.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33413,15 +33413,15 @@
 			(pintype "passive")
 			(uuid "d95db72c-9eb2-4c65-9124-b7880d9849ab")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500327.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -39373,15 +39373,15 @@
 			(pintype "passive")
 			(uuid "4493d8a7-345a-407c-a6b0-486365b70e9f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500428.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -40948,15 +40948,15 @@
 			(pintype "passive")
 			(uuid "0a9f4b36-ba57-4439-96b8-6a5ac02a7e36")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 -0.5 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -41997,15 +41997,15 @@
 			(pintype "passive")
 			(uuid "1b8e593e-5e60-4990-96de-9ae34a3cf887")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -42603,15 +42603,15 @@
 			(pintype "passive")
 			(uuid "ac3e6081-76f7-4dbb-80ae-029045aa11a6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -48368,15 +48368,15 @@
 			(pintype "passive")
 			(uuid "b59520d6-b6d6-49c0-a558-5a6fd4fba80e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/43650-0428.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -51532,15 +51532,15 @@
 			(pintype "passive")
 			(uuid "e8b01eff-1fc4-40c2-8ecf-037f395c6cdb")
 		)
-		(model "common/utsvt3d/connectors.3dshapes/436500327.stp"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500327.stp"
 			(offset
-				(xyz 3 0 5.5)
+				(xyz 3 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -53820,15 +53820,15 @@
 			(pintype "passive")
 			(uuid "9a92669c-b90e-4edc-a5f4-10013da03583")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -54870,6 +54870,17 @@
 		(model "${KIPRJMOD}/common/utsvt3d/chips.3dshapes/RI3.step"
 			(offset
 				(xyz 0 2.5 10.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 90)
+			)
+		)
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/chips.3dshapes/RI3.step"
+			(offset
+				(xyz 0 2.5 10)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -99359,13 +99370,6 @@
 	(group ""
 		(uuid "2d2354d5-bfb8-4db5-8dd7-0ebbae68254e")
 		(members "98eac19a-0a95-40d0-8e96-d7e9d6037c74" "a42f93d5-84c0-4533-8f82-ab0011f6aa84")
-	)
-	(group ""
-		(uuid "e555bd67-fbc9-4199-8dc6-fda8c4717a79")
-		(members "3082d53e-706f-4456-9f03-844090f5a3d7" "77fcb730-2b6f-4b4a-910b-c16a239a51cb"
-			"966b0043-c4e4-4522-ab5d-8b5b20580b7e" "c4d4b30a-9c1e-4db3-814d-8df454e5e588"
-			"eded306c-2bec-4c92-b2f8-591cf3b41fd1"
-		)
 	)
 	(group ""
 		(uuid "e98cb3b0-ad6d-4240-a007-fbc94dd9ddd7")
