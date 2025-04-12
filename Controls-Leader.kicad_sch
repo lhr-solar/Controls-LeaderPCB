@@ -6848,6 +6848,30 @@
 		)
 		(uuid "fdc60c06-30fa-4dfb-96b4-809b755999e1")
 	)
+	(text "Incorrectly \nUART2 on \nsilkscreen"
+		(exclude_from_sim no)
+		(at 244.856 123.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 38 15 1)
+			)
+			(justify left)
+		)
+		(uuid "06444572-c89e-4b08-a402-72b00bbcf4ec")
+	)
+	(text "Incorrectly GND on silkscreen"
+		(exclude_from_sim no)
+		(at 358.14 176.403 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 41 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0c5430f6-50bc-4145-ba2e-668ccee8b512")
+	)
 	(text "VDDA"
 		(exclude_from_sim no)
 		(at 231.14 59.69 0)
@@ -6884,6 +6908,30 @@
 		)
 		(uuid "790c61c2-2ccc-4f61-8ba1-66119cd16f64")
 	)
+	(text "Incorrectly PC3 on silkscreen"
+		(exclude_from_sim no)
+		(at 358.14 170.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 41 0 1)
+			)
+			(justify left)
+		)
+		(uuid "80b4c0ca-8b11-46b3-a188-8ed6ad94212f")
+	)
+	(text "Incorrectly PC2 on silkscreen"
+		(exclude_from_sim no)
+		(at 358.14 173.609 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 41 0 1)
+			)
+			(justify left)
+		)
+		(uuid "94af5230-d9d6-48ba-98a1-b7dfb1762f63")
+	)
 	(text "Debounce active low reset"
 		(exclude_from_sim no)
 		(at 157.48 104.14 0)
@@ -6895,6 +6943,18 @@
 			(justify left bottom)
 		)
 		(uuid "a52326ea-5fab-48be-be61-d5dd28157a32")
+	)
+	(text "Incorrectly \nUART4 on \nSilkscreen"
+		(exclude_from_sim no)
+		(at 244.602 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 12 14 1)
+			)
+			(justify left)
+		)
+		(uuid "aa417193-4676-4e9c-877c-3174f3eb926f")
 	)
 	(text "Logo Placeholders"
 		(exclude_from_sim no)
@@ -6918,6 +6978,18 @@
 			(justify left)
 		)
 		(uuid "d7a56cc4-370d-41b1-a50d-c10540c435ef")
+	)
+	(text "Incorrectly\nUART3 on\nsilkscreen"
+		(exclude_from_sim no)
+		(at 245.364 147.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 7 1)
+			)
+			(justify left)
+		)
+		(uuid "e342c22d-8b70-46b3-a9e9-db3cc196280e")
 	)
 	(text "Capacitors act as noise filters for 3.3V\nPlace as close to 3.3V pins as possible\n\n"
 		(exclude_from_sim no)
@@ -6964,7 +7036,7 @@
 		)
 		(uuid "053580b9-12fd-40be-ade6-cdab8468d076")
 	)
-	(label "UART4_Rx"
+	(label "UART5_Rx"
 		(at 292.1 200.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7085,7 +7157,7 @@
 		)
 		(uuid "1f5a850c-6725-4901-9bb0-72fa01cf9b5b")
 	)
-	(label "UART2_Rx"
+	(label "USART2_Rx"
 		(at 243.84 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7129,7 +7201,7 @@
 		)
 		(uuid "23e9ed43-4d40-4408-bc94-97c310c2cef1")
 	)
-	(label "UART3_Tx"
+	(label "UART4_Tx"
 		(at 243.84 148.59 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7239,7 +7311,7 @@
 		)
 		(uuid "3a1a39fc-8030-4c93-9d9c-d79ba6824099")
 	)
-	(label "UART2_Tx"
+	(label "USART2_Tx"
 		(at 243.84 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7294,7 +7366,7 @@
 		)
 		(uuid "44ffb0b8-3d6a-4d59-8527-392f64789376")
 	)
-	(label "UART2_Tx"
+	(label "USART2_Tx"
 		(at 292.1 173.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7305,7 +7377,7 @@
 		)
 		(uuid "46cbe85d-ff47-428e-b187-4ebd50a66e0c")
 	)
-	(label "UART4_Rx"
+	(label "UART5_Rx"
 		(at 243.84 189.23 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7382,7 +7454,7 @@
 		)
 		(uuid "573baaca-a805-437b-b166-75d0f97cc03c")
 	)
-	(label "UART3_Rx"
+	(label "UART4_Rx"
 		(at 325.12 203.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7393,7 +7465,7 @@
 		)
 		(uuid "5757cee1-f165-4dd7-ba50-e2a9f365d9d4")
 	)
-	(label "UART2_Tx"
+	(label "USART2_Tx"
 		(at 74.93 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7437,7 +7509,7 @@
 		)
 		(uuid "631c7be5-8dc2-4df4-ab73-737bb928e763")
 	)
-	(label "UART2_Rx"
+	(label "USART2_Rx"
 		(at 74.93 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7745,7 +7817,7 @@
 		)
 		(uuid "a2a9ad90-55c0-4170-aa82-dac3fa0b2aeb")
 	)
-	(label "UART2_Rx"
+	(label "USART2_Rx"
 		(at 292.1 176.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7767,7 +7839,7 @@
 		)
 		(uuid "a6a0d6f2-776f-4370-86e3-fce01652d342")
 	)
-	(label "UART3_Tx"
+	(label "UART4_Tx"
 		(at 74.93 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7866,7 +7938,7 @@
 		)
 		(uuid "b30be8b3-bf5b-4d67-9af1-e0fb324c4044")
 	)
-	(label "UART3_Rx"
+	(label "UART4_Rx"
 		(at 243.84 146.05 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7910,7 +7982,7 @@
 		)
 		(uuid "c401e9c6-1deb-4979-99be-7c801c952098")
 	)
-	(label "UART4_Tx"
+	(label "UART5_Tx"
 		(at 243.84 191.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8064,7 +8136,7 @@
 		)
 		(uuid "dfa416aa-f803-4924-961d-4bb0037c484a")
 	)
-	(label "UART4_Tx"
+	(label "UART5_Tx"
 		(at 292.1 198.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8097,7 +8169,7 @@
 		)
 		(uuid "e70d061b-28f0-4421-ad15-0598604086e8")
 	)
-	(label "UART3_Rx"
+	(label "UART4_Rx"
 		(at 74.93 172.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8108,7 +8180,7 @@
 		)
 		(uuid "e7c9b496-d328-4ec2-94ce-55993f30c5b8")
 	)
-	(label "UART3_Tx"
+	(label "UART4_Tx"
 		(at 325.12 205.74 0)
 		(fields_autoplaced yes)
 		(effects
