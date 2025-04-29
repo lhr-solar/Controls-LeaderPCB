@@ -46887,15 +46887,15 @@
 			(pintype "passive")
 			(uuid "0d0fb7ca-2f77-4c7e-a560-bbb079262e59")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/43045-0612.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3.175 -1.27 5.08)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -78119,7 +78119,7 @@
 			)
 		)
 	)
-	(gr_text "Controls Leader\nDaybreak Rework 2025\nKrish Parikh & Madeleine Lee"
+	(gr_text "Controls Leader\nDaybreak Rework 2025-Rev 2\nKrish Parikh & Madeleine Lee"
 		(at 176.78 78.78 270)
 		(layer "F.SilkS")
 		(uuid "ec99a945-ae52-42b9-adfa-c3e0f3f68ee7")
@@ -78322,7 +78322,7 @@
 			(xy 116.5 55.25) (xy 187.75 55.25)
 		)
 		(height -5.1)
-		(gr_text "71.2500 mm"
+		(gr_text "2.8051 in"
 			(at 152.125 49 0)
 			(layer "Dwgs.User")
 			(uuid "44de180b-8719-462c-a47e-3d881e4715ec")
@@ -78355,7 +78355,7 @@
 			(xy 184.77 148.75) (xy 184.77 51.25)
 		)
 		(height 12.68)
-		(gr_text "97.5000 mm"
+		(gr_text "3.8386 in"
 			(at 196.3 100 90)
 			(layer "Dwgs.User")
 			(uuid "b42d5ad7-e600-47ec-98c9-141080a18d75")
@@ -78388,7 +78388,7 @@
 			(xy 191.75 76.62) (xy 112.5 76.62)
 		)
 		(height 29.34)
-		(gr_text "79.2500 mm"
+		(gr_text "3.1201 in"
 			(at 152.125 46.13 0)
 			(layer "Dwgs.User")
 			(uuid "d6580aab-224e-4bef-86c6-ef52bcb53c1a")
@@ -78421,7 +78421,7 @@
 			(xy 187.75 55.25) (xy 187.75 144.75)
 		)
 		(height -7.14)
-		(gr_text "89.5000 mm"
+		(gr_text "3.5236 in"
 			(at 193.74 100 90)
 			(layer "Dwgs.User")
 			(uuid "fff7ee38-5560-4340-a663-9d7626e59a0c")
