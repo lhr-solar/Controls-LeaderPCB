@@ -7172,7 +7172,7 @@
 		)
 		(uuid "053580b9-12fd-40be-ade6-cdab8468d076")
 	)
-	(label "UART4_Rx"
+	(label "UART5_Rx"
 		(at 292.1 200.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7293,7 +7293,7 @@
 		)
 		(uuid "1f5a850c-6725-4901-9bb0-72fa01cf9b5b")
 	)
-	(label "UART2_Rx"
+	(label "USART2_Rx"
 		(at 243.84 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7348,7 +7348,7 @@
 		)
 		(uuid "2631f88f-5d3d-482a-be1a-9e33572bcaae")
 	)
-	(label "UART3_Tx"
+	(label "UART4_Tx"
 		(at 243.84 148.59 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7458,7 +7458,7 @@
 		)
 		(uuid "3a1a39fc-8030-4c93-9d9c-d79ba6824099")
 	)
-	(label "UART2_Tx"
+	(label "USART2_Tx"
 		(at 243.84 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7513,7 +7513,7 @@
 		)
 		(uuid "44ffb0b8-3d6a-4d59-8527-392f64789376")
 	)
-	(label "UART2_Tx"
+	(label "USART2_Tx"
 		(at 292.1 173.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7524,7 +7524,7 @@
 		)
 		(uuid "46cbe85d-ff47-428e-b187-4ebd50a66e0c")
 	)
-	(label "UART4_Rx"
+	(label "UART5_Rx"
 		(at 243.84 189.23 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7601,7 +7601,7 @@
 		)
 		(uuid "573baaca-a805-437b-b166-75d0f97cc03c")
 	)
-	(label "UART3_Rx"
+	(label "UART4_Rx"
 		(at 325.12 203.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7623,7 +7623,7 @@
 		)
 		(uuid "5e39f847-92af-4494-b690-a839a72c925f")
 	)
-	(label "UART2_Tx"
+	(label "USART2_Tx"
 		(at 74.93 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7667,7 +7667,7 @@
 		)
 		(uuid "631c7be5-8dc2-4df4-ab73-737bb928e763")
 	)
-	(label "UART2_Rx"
+	(label "USART2_Rx"
 		(at 74.93 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7975,7 +7975,7 @@
 		)
 		(uuid "a2a9ad90-55c0-4170-aa82-dac3fa0b2aeb")
 	)
-	(label "UART2_Rx"
+	(label "USART2_Rx"
 		(at 292.1 176.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7997,7 +7997,7 @@
 		)
 		(uuid "a6a0d6f2-776f-4370-86e3-fce01652d342")
 	)
-	(label "UART3_Tx"
+	(label "UART4_Tx"
 		(at 74.93 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8096,7 +8096,7 @@
 		)
 		(uuid "b30be8b3-bf5b-4d67-9af1-e0fb324c4044")
 	)
-	(label "UART3_Rx"
+	(label "UART4_Rx"
 		(at 243.84 146.05 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8140,7 +8140,7 @@
 		)
 		(uuid "c401e9c6-1deb-4979-99be-7c801c952098")
 	)
-	(label "UART4_Tx"
+	(label "UART5_Tx"
 		(at 243.84 191.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8294,7 +8294,7 @@
 		)
 		(uuid "dfa416aa-f803-4924-961d-4bb0037c484a")
 	)
-	(label "UART4_Tx"
+	(label "UART5_Tx"
 		(at 292.1 198.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8327,7 +8327,7 @@
 		)
 		(uuid "e70d061b-28f0-4421-ad15-0598604086e8")
 	)
-	(label "UART3_Rx"
+	(label "UART4_Rx"
 		(at 74.93 172.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8338,7 +8338,7 @@
 		)
 		(uuid "e7c9b496-d328-4ec2-94ce-55993f30c5b8")
 	)
-	(label "UART3_Tx"
+	(label "UART4_Tx"
 		(at 325.12 205.74 0)
 		(fields_autoplaced yes)
 		(effects
