@@ -677,6 +677,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -774,6 +894,24 @@
 			)
 		)
 	)
+	(junction
+		(at 144.78 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d6a89f5-5923-4390-a828-2cd6730bead5")
+	)
+	(junction
+		(at 146.05 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c04fd4ee-a158-42ee-aa86-b6db5a64c368")
+	)
+	(junction
+		(at 146.05 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea8ee39a-5a08-4b40-846f-ce8f15bf3ed5")
+	)
 	(wire
 		(pts
 			(xy 128.27 101.6) (xy 130.81 101.6)
@@ -786,17 +924,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 80.01) (xy 144.78 69.85)
+			(xy 184.15 120.65) (xy 184.15 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d49d96b-1049-424f-bed5-552933b2ea74")
+		(uuid "0992d6b2-3224-4904-86a8-e407bb3aa0fa")
 	)
 	(wire
 		(pts
-			(xy 144.78 109.22) (xy 153.67 109.22)
+			(xy 146.05 109.22) (xy 153.67 109.22)
 		)
 		(stroke
 			(width 0)
@@ -813,6 +951,16 @@
 			(type default)
 		)
 		(uuid "136af205-8d10-4456-bbb2-351c15fe16e2")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1776507c-a743-43ad-86b1-ec5da5d2a0b0")
 	)
 	(wire
 		(pts
@@ -906,6 +1054,46 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 86.36) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b805961-6d72-4c34-9772-6213920a5cc8")
+	)
+	(wire
+		(pts
+			(xy 146.05 123.19) (xy 146.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65227993-91f3-4c20-ae4a-a6363b3423a9")
+	)
+	(wire
+		(pts
+			(xy 144.78 69.85) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b7a4e3-3307-4ce4-9704-2325d0e9822a")
+	)
+	(wire
+		(pts
+			(xy 184.15 156.21) (xy 184.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f09272f-4f7d-4959-9133-9add3b18707d")
+	)
+	(wire
+		(pts
 			(xy 105.41 101.6) (xy 120.65 101.6)
 		)
 		(stroke
@@ -933,6 +1121,36 @@
 			(type default)
 		)
 		(uuid "808948a5-adcf-461e-9ec6-8d8fafc59f80")
+	)
+	(wire
+		(pts
+			(xy 184.15 110.49) (xy 184.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8788a6a0-1246-41dd-acc5-c9181e3323c6")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e4e1d4-cce2-4634-b2ad-9218d7253285")
+	)
+	(wire
+		(pts
+			(xy 146.05 158.75) (xy 184.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af85e4a-47a8-4c8a-957f-8922d1759b7a")
 	)
 	(wire
 		(pts
@@ -996,6 +1214,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 146.05) (xy 184.15 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70f6586-c66b-409a-938c-bcf113d0f40e")
+	)
+	(wire
+		(pts
 			(xy 149.86 72.39) (xy 153.67 72.39)
 		)
 		(stroke
@@ -1046,6 +1274,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 158.75) (xy 146.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e066e2-a353-43c0-a1bb-d43ed8f5ce4e")
+	)
+	(wire
+		(pts
 			(xy 151.13 148.59) (xy 154.94 148.59)
 		)
 		(stroke
@@ -1086,7 +1324,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 157.48) (xy 146.05 146.05)
+			(xy 146.05 163.83) (xy 146.05 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1096,7 +1334,27 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 119.38) (xy 144.78 109.22)
+			(xy 146.05 123.19) (xy 184.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5bbb24c-cbfb-4233-85bf-37c0aa015018")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa373aed-479e-4ccf-b373-6b0359e0efc8")
+	)
+	(wire
+		(pts
+			(xy 146.05 125.73) (xy 146.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1403,7 @@
 	)
 	(hierarchical_label "Motor_PBC_Sense"
 		(shape input)
-		(at 144.78 80.01 180)
+		(at 144.78 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1157,7 +1415,7 @@
 	)
 	(hierarchical_label "Motor_C_Sense"
 		(shape input)
-		(at 144.78 119.38 180)
+		(at 146.05 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1181,7 +1439,7 @@
 	)
 	(hierarchical_label "Array_PBC_Sense"
 		(shape input)
-		(at 146.05 157.48 180)
+		(at 146.05 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1933,6 +2191,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 182.88 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bfb41fb-f4ee-400e-9366-90f3cb20261c")
+		(property "Reference" "R42"
+			(at 177.673 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 179.9844 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 183.896 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805105RFKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGufwlC1LWQIEg%3D"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805105RFKEA "
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805105RFKEA "
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ce18a1c-f18d-4199-b748-d300f3928d31")
+		)
+		(pin "2"
+			(uuid "b0d379db-61ff-4985-9293-4413d76b4d5a")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 158.75 106.68 0)
 		(unit 1)
@@ -2012,6 +2373,71 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 184.15 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "588c9198-b9a1-4a0c-b0ce-239f8aa88e02")
+		(property "Reference" "#PWR0116"
+			(at 184.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 184.531 141.6558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e69db5e4-852a-43fb-be98-9f155f498c8f")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -2124,6 +2550,174 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 182.88 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "639e19f3-0979-4a9d-99a4-2ab68f0aae4a")
+		(property "Reference" "#PWR0115"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 183.261 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0011f25-9d33-4c25-9b44-c329a0871080")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 184.15 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72b48879-83d7-4b80-93ff-00844d0f37c7")
+		(property "Reference" "R43"
+			(at 178.943 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 181.2544 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 185.166 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805105RFKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGufwlC1LWQIEg%3D"
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805105RFKEA "
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805105RFKEA "
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1c5cc3e-4bdb-45a3-b9fc-d279587541d3")
+		)
+		(pin "2"
+			(uuid "20461519-1c34-42b8-a199-b4da9802e043")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2256,6 +2850,174 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 184.15 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99fcb2ca-0934-40e0-8aed-cc1086f8efd6")
+		(property "Reference" "R44"
+			(at 178.943 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 181.2544 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 185.166 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805105RFKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGufwlC1LWQIEg%3D"
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805105RFKEA "
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805105RFKEA "
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34ad4470-2a92-46fa-b0de-54f0ec85d7c9")
+		)
+		(pin "2"
+			(uuid "875f4487-9081-4399-bd50-c6228d204959")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 184.15 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2fc3275-c98a-4aac-9533-468074604b55")
+		(property "Reference" "#PWR0114"
+			(at 184.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 184.531 106.0958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f81b2d4b-a00d-464d-ae6a-ae5ad46fa4dc")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
