@@ -1590,7 +1590,7 @@
 				)
 			)
 		)
-		(property "Value" "105R"
+		(property "Value" "105"
 			(at 124.46 135.5344 90)
 			(effects
 				(font
@@ -1870,7 +1870,7 @@
 				)
 			)
 		)
-		(property "Value" "105R"
+		(property "Value" "105"
 			(at 124.46 59.3344 90)
 			(effects
 				(font
@@ -2038,7 +2038,7 @@
 				)
 			)
 		)
-		(property "Value" "105R"
+		(property "Value" "105"
 			(at 124.46 98.7044 90)
 			(effects
 				(font
@@ -2185,109 +2185,6 @@
 			(project ""
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 182.88 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bfb41fb-f4ee-400e-9366-90f3cb20261c")
-		(property "Reference" "R42"
-			(at 177.673 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 179.9844 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 183.896 82.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805105RFKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGufwlC1LWQIEg%3D"
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805105RFKEA "
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vds" ""
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW0805105RFKEA "
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ce18a1c-f18d-4199-b748-d300f3928d31")
-		)
-		(pin "2"
-			(uuid "b0d379db-61ff-4985-9293-4413d76b4d5a")
-		)
-		(instances
-			(project "Controls-Leader"
-				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2628,9 +2525,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "72b48879-83d7-4b80-93ff-00844d0f37c7")
+		(uuid "74a17383-fd2b-444c-a3bc-d1d770583146")
 		(property "Reference" "R43"
-			(at 178.943 116.84 90)
+			(at 181.61 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2535,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 181.2544 116.84 90)
+			(at 186.69 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805105RFKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGufwlC1LWQIEg%3D"
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=E3Y5ESvWgWORadmUijPtxQ%3D%3D"
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -2672,7 +2569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0805105RFKEA "
+		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -2699,7 +2596,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW0805105RFKEA "
+		(property "Digikey" ""
+			(at 184.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC "
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -2709,10 +2615,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1c5cc3e-4bdb-45a3-b9fc-d279587541d3")
+			(uuid "8ca5ca85-8aaa-4ea2-8ff8-6c07d37e320b")
 		)
 		(pin "2"
-			(uuid "20461519-1c34-42b8-a199-b4da9802e043")
+			(uuid "846fe538-90b6-4a93-99e7-240e78898a44")
 		)
 		(instances
 			(project "Controls-Leader"
@@ -2790,6 +2696,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 182.88 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e173603-00ff-4d2e-9777-9c237c3e1b82")
+		(property "Reference" "R42"
+			(at 180.34 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 185.42 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 183.896 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=E3Y5ESvWgWORadmUijPtxQ%3D%3D"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC "
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc8a71c5-46bf-4d0d-9122-360a9be490e0")
+		)
+		(pin "2"
+			(uuid "5df89f00-6cd1-4d9f-8955-5fbf2b0a54df")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 111.76 0)
 		(unit 1)
@@ -2850,109 +2868,6 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 184.15 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99fcb2ca-0934-40e0-8aed-cc1086f8efd6")
-		(property "Reference" "R44"
-			(at 178.943 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 181.2544 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 185.166 152.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805105RFKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGufwlC1LWQIEg%3D"
-			(at 184.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 184.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805105RFKEA "
-			(at 184.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Id" ""
-			(at 184.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vds" ""
-			(at 184.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW0805105RFKEA "
-			(at 184.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34ad4470-2a92-46fa-b0de-54f0ec85d7c9")
-		)
-		(pin "2"
-			(uuid "875f4487-9081-4399-bd50-c6228d204959")
-		)
-		(instances
-			(project "Controls-Leader"
-				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
-					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -3253,6 +3168,118 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 184.15 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa4c504b-0b9f-4bbc-9a17-b0c7d1e322f2")
+		(property "Reference" "R44"
+			(at 181.61 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 186.69 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 185.166 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=E3Y5ESvWgWORadmUijPtxQ%3D%3D"
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW080510K0FKEAC "
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC "
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beb67e20-ba6e-44f8-8dd5-223923f9df4c")
+		)
+		(pin "2"
+			(uuid "7bd11d3a-822b-4030-a753-095137538096")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005fb694f4"
+					(reference "R44")
 					(unit 1)
 				)
 			)
