@@ -3065,6 +3065,17 @@
 		)
 		(uuid "64d84e49-aaf5-4eba-8a78-1b20287a1fe2")
 	)
+	(text "Right_Ind and Left_Ind need to go to chip"
+		(exclude_from_sim no)
+		(at 149.352 62.992 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 53 39 1)
+			)
+		)
+		(uuid "84f6e244-7d50-465f-8c98-6e41a422cce7")
+	)
 	(text "Inputs from dashboard\n"
 		(exclude_from_sim no)
 		(at 33.02 108.712 0)

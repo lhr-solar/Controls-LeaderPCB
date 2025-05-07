@@ -4778,7 +4778,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 196.85) (xy 74.93 196.85)
+			(xy 68.58 199.39) (xy 74.93 199.39)
 		)
 		(stroke
 			(width 0)
@@ -5085,16 +5085,6 @@
 			(type default)
 		)
 		(uuid "235067e2-1686-40fe-a9a0-61704311b2b1")
-	)
-	(wire
-		(pts
-			(xy 68.58 210.82) (xy 74.93 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "239892c4-4a59-47ac-beb3-32c4fc1614be")
 	)
 	(wire
 		(pts
@@ -5778,7 +5768,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 207.01) (xy 74.93 207.01)
+			(xy 68.58 204.47) (xy 74.93 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7080,6 +7070,17 @@
 		)
 		(uuid "3249bd81-9fd4-4194-9b4f-2e333b2195b8")
 	)
+	(text "Need to update extra GPIO connectors since I removed stuff\n"
+		(exclude_from_sim no)
+		(at 279.654 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 14 125 1)
+			)
+		)
+		(uuid "4f87b03e-df7f-4dfe-927f-2407d483f9ba")
+	)
 	(text "PB0 and PB1 can be ADC\nPB12 and PB13 for UART Rx, Tx\n"
 		(exclude_from_sim no)
 		(at 321.31 196.85 0)
@@ -7127,6 +7128,17 @@
 		)
 		(uuid "d7a56cc4-370d-41b1-a50d-c10540c435ef")
 	)
+	(text "do i delete these and the corresponding contactors?"
+		(exclude_from_sim no)
+		(at 251.46 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 156 87 255 1)
+			)
+		)
+		(uuid "df2c2d64-8a6e-4f14-8544-69accb8a5d78")
+	)
 	(text "Capacitors act as noise filters for 3.3V\nPlace as close to 3.3V pins as possible\n\n"
 		(exclude_from_sim no)
 		(at 195.58 57.15 0)
@@ -7149,6 +7161,17 @@
 			(justify left bottom)
 		)
 		(uuid "e7d81bce-286e-41e4-9181-3511e9c0455e")
+	)
+	(label "Right_Blink"
+		(at 177.8 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02ba15f2-d252-4bcd-b40b-f97b81409718")
 	)
 	(label "PC13"
 		(at 177.8 173.99 0)
@@ -7491,17 +7514,6 @@
 		)
 		(uuid "4086cbd7-6ba7-4e63-8da9-17e60627ee17")
 	)
-	(label "PC9"
-		(at 177.8 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4292a654-a952-438e-b95e-fdc2d63bf9f9")
-	)
 	(label "IG2"
 		(at 74.93 167.64 0)
 		(fields_autoplaced yes)
@@ -7546,17 +7558,6 @@
 		)
 		(uuid "477d25cb-4ff0-4f15-936f-6f50ec149e1d")
 	)
-	(label "PC9"
-		(at 283.21 195.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b13c329-9dab-45d6-b1b6-adaf25fee74d")
-	)
 	(label "ExtraADC2"
 		(at 328.93 173.99 0)
 		(fields_autoplaced yes)
@@ -7579,7 +7580,7 @@
 		)
 		(uuid "4bdca1c5-3850-4c6c-9249-71018b9174fe")
 	)
-	(label "Right_Ind"
+	(label "Right_Blink"
 		(at 74.93 201.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7876,17 +7877,6 @@
 		)
 		(uuid "91daa110-179c-408f-b3bd-b3283d916294")
 	)
-	(label "PC10"
-		(at 177.8 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93e863b8-f4a6-404f-901b-f87209fa4f33")
-	)
 	(label "Motor_PRCHG_Bypass"
 		(at 74.93 137.16 0)
 		(fields_autoplaced yes)
@@ -7909,17 +7899,6 @@
 		)
 		(uuid "97c9a642-7dc9-47bb-b3e1-aa5d82a14828")
 	)
-	(label "PA8"
-		(at 243.84 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "980f3fe6-f696-4926-a006-625dad8d7525")
-	)
 	(label "Cruise_Set"
 		(at 74.93 160.02 0)
 		(fields_autoplaced yes)
@@ -7932,7 +7911,7 @@
 		(uuid "9a4ead8b-c772-4749-baff-42cbad3211a7")
 	)
 	(label "Brake_Light"
-		(at 74.93 196.85 0)
+		(at 74.93 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7942,8 +7921,8 @@
 		)
 		(uuid "9c7fbc33-80ab-4c0b-a2d2-96d73a6b09fa")
 	)
-	(label "Left_Ind"
-		(at 74.93 207.01 0)
+	(label "Left_Blink"
+		(at 74.93 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7985,6 +7964,17 @@
 			(justify left bottom)
 		)
 		(uuid "a3fab380-991d-404b-95d5-1c209b047b6e")
+	)
+	(label "Left_Blink"
+		(at 243.84 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a40ec62f-adba-4763-afeb-de7244dd7d19")
 	)
 	(label "Motor_PRCHG_Bypass"
 		(at 243.84 118.11 180)
@@ -8075,7 +8065,7 @@
 		(uuid "b25c5f01-0fd3-4c08-a4b6-d8025a71d252")
 	)
 	(label "Motor_Controller_Fault"
-		(at 170.18 248.92 0)
+		(at 170.18 248.92 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8139,6 +8129,17 @@
 			(justify left bottom)
 		)
 		(uuid "c401e9c6-1deb-4979-99be-7c801c952098")
+	)
+	(label "Left_Ind"
+		(at 177.8 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c59d71a0-33b6-486c-b82b-05df49ef4543")
 	)
 	(label "UART5_Tx"
 		(at 243.84 191.77 180)
@@ -8283,17 +8284,6 @@
 		)
 		(uuid "dd70858b-2f9a-4b3f-9af5-ead3a9ba57e9")
 	)
-	(label "TimerCLK"
-		(at 74.93 210.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dfa416aa-f803-4924-961d-4bb0037c484a")
-	)
 	(label "UART5_Tx"
 		(at 292.1 198.12 0)
 		(fields_autoplaced yes)
@@ -8304,17 +8294,6 @@
 			(justify left bottom)
 		)
 		(uuid "e39bc42f-5e97-4cc8-9be9-454bf8648ca1")
-	)
-	(label "PA15"
-		(at 243.84 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e5cd222e-b11a-48e0-a235-fd8333261857")
 	)
 	(label "PC14"
 		(at 177.8 176.53 0)
@@ -8382,16 +8361,16 @@
 		)
 		(uuid "eff6b023-642b-4037-aaa5-665f5dc2e46e")
 	)
-	(label "PA8"
-		(at 260.35 193.04 0)
+	(label "Right_Ind"
+		(at 243.84 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f330d4a5-925b-4068-95c2-3975a909dfad")
+		(uuid "f6c7b282-608c-469f-95a5-db02875614e7")
 	)
 	(label "Array_PRCHG_Bypass"
 		(at 74.93 132.08 0)
@@ -16564,7 +16543,7 @@
 			)
 		)
 		(pin "Brake" input
-			(at 68.58 196.85 0)
+			(at 68.58 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16573,7 +16552,17 @@
 			)
 			(uuid "20b7bbb4-59c4-4dec-b073-19482feb6cf3")
 		)
-		(pin "Right_Ind" input
+		(pin "Left_Blink" input
+			(at 68.58 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "453c6631-94e2-482a-82d6-be4a8f77ec1f")
+		)
+		(pin "Right_Blink" input
 			(at 68.58 201.93 0)
 			(effects
 				(font
@@ -16581,27 +16570,7 @@
 				)
 				(justify right)
 			)
-			(uuid "ec515000-939a-4892-a3a0-51072775b8d0")
-		)
-		(pin "Left_Ind" input
-			(at 68.58 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8be534fb-243a-4c56-8823-4b4ad8e9a7ef")
-		)
-		(pin "Timer_CLK" input
-			(at 68.58 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3cc64f93-c070-4871-a2d1-dc0795a97514")
+			(uuid "d91a3f35-84e4-4b18-ac99-040859be035f")
 		)
 		(instances
 			(project "Controls-Leader"
