@@ -3470,6 +3470,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" ""
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2ffe2d2-e413-4c8d-b54e-cad407324726")
 		)
@@ -3546,6 +3555,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" ""
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -3646,6 +3664,15 @@
 			)
 		)
 		(property "P/N" "RI3-1205S"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C7340248"
 			(at 113.03 77.47 0)
 			(effects
 				(font
@@ -3969,6 +3996,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C5366381"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c880b21d-ef40-43e9-9345-7b01e0840896")
 		)
@@ -4066,6 +4102,15 @@
 			)
 		)
 		(property "P/N" "CRCW08051K50JNEB"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C4310"
 			(at 161.29 82.55 0)
 			(effects
 				(font
@@ -4307,6 +4352,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C26537"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "675fcafb-51b2-4268-8b6a-29701da61073")
 		)
@@ -4415,6 +4469,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C15850"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98422f61-91df-4f37-b5ee-9ada79e9ff45")
 		)
@@ -4512,6 +4575,15 @@
 			)
 		)
 		(property "P/N" "TMK212BBJ106MGHT"
+			(at 217.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C15850"
 			(at 217.17 86.36 0)
 			(effects
 				(font
@@ -4737,6 +4809,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" ""
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa014d6e-f6aa-4fba-aacb-14cc26eb9152")
 		)
@@ -4821,6 +4902,15 @@
 			)
 		)
 		(property "P/N" "436500215"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" ""
 			(at 35.56 81.28 0)
 			(effects
 				(font
@@ -4943,6 +5033,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C5366381"
+			(at 59.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "271ad4ad-0409-4faf-88ba-14499b4d5096")
 		)
@@ -5031,6 +5130,15 @@
 			)
 		)
 		(property "P/N" "Inventory"
+			(at 59.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C27834"
 			(at 59.69 151.13 0)
 			(effects
 				(font
@@ -5138,6 +5246,15 @@
 			)
 		)
 		(property "P/N" "  IRLML0030TRPBF"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C5364304"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -5319,6 +5436,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C85198"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0921f34e-b8b8-420b-9fa6-7754e60ebbb0")
 		)
@@ -5416,6 +5542,15 @@
 			)
 		)
 		(property "Mouser Part Number" "963-TMK212BBJ106MGHT"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C15850"
 			(at 85.09 82.55 0)
 			(effects
 				(font
@@ -5641,6 +5776,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" ""
+			(at 53.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5311cd07-b6b5-474e-93b5-4e61f1404676")
 		)
@@ -5734,6 +5878,15 @@
 			)
 		)
 		(property "P/N" "0440003.WR"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C206970"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -5954,6 +6107,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" ""
 			(at 53.34 87.63 0)
 			(effects
 				(font

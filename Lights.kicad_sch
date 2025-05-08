@@ -1999,24 +1999,13 @@
 	)
 	(text "Lights Drivers"
 		(exclude_from_sim no)
-		(at 147.066 24.892 0)
+		(at 143.764 53.34 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
 		(uuid "833bcb09-52d4-4a14-bc9c-51fdff31bd09")
-	)
-	(text "Assuming that all external \nlights have I-Lim Res"
-		(exclude_from_sim no)
-		(at 137.795 -93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7af3906-bc20-4637-9c4c-6b1342738884")
 	)
 	(text "- Replaced lights drivers/circuits\n- Replaced 555 timer with blinking gpio \n   that passes through to drivers when dashboard Left/Right 3-pos switch is toggled\n- Intended to connect to breakout boards that split out the necessary number of lights"
 		(exclude_from_sim no)
@@ -2149,6 +2138,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" " C293740"
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0984292a-1b05-4b18-9294-4d5baadd8c47")
 		)
@@ -2247,6 +2245,15 @@
 			)
 		)
 		(property "P/N" "CRCW0805100KFKEAC"
+			(at 78.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C149504"
 			(at 78.74 107.95 0)
 			(effects
 				(font
@@ -2356,6 +2363,15 @@
 			)
 		)
 		(property "P/N" "  IRLML0030TRPBF"
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C5364304"
 			(at 233.68 80.01 0)
 			(effects
 				(font
@@ -2529,6 +2545,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" " C293740"
+			(at 246.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1df2c0a-896c-45b9-9aaf-79d560ea8e9e")
 		)
@@ -2618,6 +2643,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" " C293740"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -2730,6 +2764,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C17734"
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10430a1b-b1c8-4a9d-8fd5-3b2848b9c35b")
 		)
@@ -2809,6 +2852,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 128.905 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" ""
 			(at 128.905 189.23 0)
 			(effects
 				(font
@@ -2917,6 +2969,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C149504"
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eec689dc-f584-453c-869c-0868e8cc7a47")
 		)
@@ -3015,6 +3076,15 @@
 			)
 		)
 		(property "P/N" "EL3H7DTAVG "
+			(at 219.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C32565"
 			(at 219.71 128.27 0)
 			(effects
 				(font
@@ -3267,6 +3337,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C32565"
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53f69223-3b95-4ed7-8181-fa809b9cb734")
 		)
@@ -3435,6 +3514,15 @@
 			)
 		)
 		(property "P/N" "CRCW0805510RFKEAC"
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C17734"
 			(at 49.53 96.52 0)
 			(effects
 				(font
@@ -3616,6 +3704,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C32565"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c675068f-e2fc-485c-a41e-e4b6f5500f89")
 		)
@@ -3731,6 +3828,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C5364304"
+			(at 236.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4012e776-5b12-4303-85ab-140a7594ecce")
 		)
@@ -3811,6 +3917,15 @@
 			)
 		)
 		(property "Vds" ""
+			(at 200.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" ""
 			(at 200.66 125.73 0)
 			(effects
 				(font
@@ -3983,6 +4098,15 @@
 			)
 		)
 		(property "P/N" "  IRLML0030TRPBF"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C5364304"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -4233,6 +4357,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C149504"
+			(at 227.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b750f82-c90e-48ce-a816-8334a4c96836")
 		)
@@ -4385,6 +4518,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" ""
+			(at 198.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8897b8f-45cf-4ec2-8336-5f8fcaba3e67")
 		)
@@ -4478,6 +4620,15 @@
 			)
 		)
 		(property "P/N" "CRCW0805510RFKEAC"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C17734"
 			(at 204.47 125.73 0)
 			(effects
 				(font
