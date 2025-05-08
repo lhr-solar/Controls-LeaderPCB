@@ -1830,6 +1830,12 @@
 		(uuid "712f4a13-16bd-4135-a904-96affb78f47a")
 	)
 	(junction
+		(at 109.22 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fbcc469-9347-4076-9fdf-71719fdbeb74")
+	)
+	(junction
 		(at 62.23 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1852,6 +1858,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b13227c9-d991-44db-b3cf-8a48fdc19731")
+	)
+	(junction
+		(at 193.04 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c520ad78-80ca-49f3-8056-ab84de0d6ca6")
 	)
 	(junction
 		(at 80.01 104.14)
@@ -1941,6 +1953,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 111.76) (xy 184.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325de9dd-029b-4dd6-94e3-36ed85b96ab6")
+	)
+	(wire
+		(pts
 			(xy 63.5 142.24) (xy 78.74 142.24)
 		)
 		(stroke
@@ -1998,6 +2020,16 @@
 			(type default)
 		)
 		(uuid "557d128f-cf69-4c70-9959-d139ac95c63c")
+	)
+	(wire
+		(pts
+			(xy 109.22 92.71) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636e21f4-b829-4fb4-a7ab-33959cf8fd6c")
 	)
 	(wire
 		(pts
@@ -2081,6 +2113,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 96.52) (xy 118.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f37a2d-911d-4426-8bc0-74fa82f5fc3f")
+	)
+	(wire
+		(pts
 			(xy 81.28 142.24) (xy 78.74 142.24)
 		)
 		(stroke
@@ -2131,7 +2173,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 111.76) (xy 203.2 111.76)
+			(xy 201.93 111.76) (xy 203.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 111.76) (xy 184.15 111.76)
+			(xy 194.31 111.76) (xy 193.04 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2188,6 +2230,16 @@
 			(type default)
 		)
 		(uuid "c68c8cec-3498-4bd1-b9fa-e688a2f1189b")
+	)
+	(wire
+		(pts
+			(xy 193.04 107.95) (xy 193.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8320c60-1a68-456d-8484-a0c2e9070d9d")
 	)
 	(wire
 		(pts
@@ -2221,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 96.52) (xy 118.11 96.52)
+			(xy 92.71 96.52) (xy 109.22 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2423,7 @@
 	)
 	(text "(Or 8.2k for 4.5V sig)\n"
 		(exclude_from_sim no)
-		(at 198.374 104.648 90)
+		(at 200.914 104.902 90)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2447,6 +2499,30 @@
 			(justify right)
 		)
 		(uuid "905e5779-5e20-4177-8c8a-ffb6ca82c90d")
+	)
+	(hierarchical_label "Brake_Raw"
+		(shape output)
+		(at 193.04 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6c78895-1733-481c-b3d7-9ac8d7f179d2")
+	)
+	(hierarchical_label "Accel_Raw"
+		(shape output)
+		(at 109.22 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1cf6dd5-c305-4f24-a80e-1b82ff9d407c")
 	)
 	(symbol
 		(lib_id "utsvt-chips:BAS70-04")
@@ -3407,7 +3483,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 195.58 111.76 270)
+		(at 198.12 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3416,7 +3492,7 @@
 		(fields_autoplaced yes)
 		(uuid "33d35799-d58a-4e34-9454-7068368586f8")
 		(property "Reference" "R13"
-			(at 195.58 105.41 90)
+			(at 198.12 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3500,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 195.58 107.95 90)
+			(at 198.12 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3508,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 195.326 112.776 90)
+			(at 197.866 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 111.76 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3526,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 195.58 111.76 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3535,7 @@
 			)
 		)
 		(property "P/N" "ERA-3ARB822V"
-			(at 195.58 111.76 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4274,7 @@
 			)
 		)
 		(property "Value" "Brake Pos. Sensor"
-			(at 177.546 102.616 0)
+			(at 168.656 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)

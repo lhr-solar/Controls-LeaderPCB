@@ -377,7 +377,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -391,8 +391,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x03_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -417,7 +417,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -444,7 +444,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x03_Odd_Even_1_1"
+			(symbol "Conn_02x04_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -480,13 +491,24 @@
 				)
 				(rectangle
 					(start -1.27 3.81)
-					(end 3.81 -3.81)
+					(end 3.81 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -623,6 +645,42 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5349,6 +5407,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 118.11) (xy 74.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187ba599-8c07-42d9-b25e-4e255199967c")
+	)
+	(wire
+		(pts
 			(xy 228.6 173.99) (xy 243.84 173.99)
 		)
 		(stroke
@@ -5449,7 +5517,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 109.22) (xy 74.93 109.22)
+			(xy 68.58 110.49) (xy 74.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5549,7 +5617,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 114.3) (xy 74.93 114.3)
+			(xy 68.58 115.57) (xy 74.93 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6069,7 +6137,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 111.76) (xy 325.12 110.49)
+			(xy 317.5 111.76) (xy 317.5 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6206,6 +6274,16 @@
 			(type default)
 		)
 		(uuid "73fbe87f-3928-49c2-bf87-839d907c6aef")
+	)
+	(wire
+		(pts
+			(xy 68.58 107.95) (xy 74.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7435123b-3342-46ee-9b9c-ea7285ac1e01")
 	)
 	(wire
 		(pts
@@ -6409,7 +6487,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 111.76) (xy 74.93 111.76)
+			(xy 68.58 113.03) (xy 74.93 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7059,7 +7137,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 110.49) (xy 328.93 110.49)
+			(xy 317.5 110.49) (xy 328.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7801,7 +7879,7 @@
 		(uuid "272c2a78-b5f5-4b61-aed3-ec69e0e92729")
 	)
 	(label "Brake_Pot"
-		(at 74.93 111.76 0)
+		(at 74.93 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7854,6 +7932,17 @@
 			(justify left bottom)
 		)
 		(uuid "355ced6c-c08a-4586-9a09-7a9c624536f6")
+	)
+	(label "Brake_Raw"
+		(at 328.93 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35a18f8d-d229-42a9-ac1e-5c2cd882843f")
 	)
 	(label "BPS_Fault"
 		(at 243.84 161.29 180)
@@ -8042,6 +8131,17 @@
 		)
 		(uuid "5db3ec52-6051-4e95-94d9-729fbdef86b7")
 	)
+	(label "Brake_Raw"
+		(at 341.63 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f3269e0-bc52-4cf8-94b0-003bdcc051dc")
+	)
 	(label "USART2_Tx"
 		(at 74.93 57.15 0)
 		(fields_autoplaced yes)
@@ -8107,6 +8207,17 @@
 			(justify left bottom)
 		)
 		(uuid "67cfbadc-64f6-4702-8c57-1228e3be8a89")
+	)
+	(label "Brake_Raw"
+		(at 74.93 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a42583d-ea02-4711-b85a-974a9696c33e")
 	)
 	(label "Forward"
 		(at 74.93 182.88 0)
@@ -8262,6 +8373,17 @@
 		)
 		(uuid "82a5ecbb-bf39-4c56-bf70-b294c30ee52f")
 	)
+	(label "Accel_Raw"
+		(at 74.93 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87325b7e-832e-48ee-9760-82f93cf84645")
+	)
 	(label "Brake_Pot"
 		(at 341.63 107.95 0)
 		(fields_autoplaced yes)
@@ -8296,7 +8418,7 @@
 		(uuid "8c6c7af2-a83f-4d8b-b857-f9c372f6f5da")
 	)
 	(label "Accel_Pot"
-		(at 74.93 109.22 0)
+		(at 74.93 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8483,7 +8605,7 @@
 		(uuid "ac8e171f-fd85-42a1-a5bb-9b7bb2c6a196")
 	)
 	(label "Brake_SW"
-		(at 74.93 114.3 0)
+		(at 74.93 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14173,7 +14295,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
 		(at 334.01 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14198,7 +14320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 334.01 107.95 0)
 			(effects
 				(font
@@ -14216,7 +14338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 334.01 107.95 0)
 			(effects
 				(font
@@ -14251,6 +14373,12 @@
 		)
 		(pin "4"
 			(uuid "4f4c56c2-2c1e-4411-a847-bd172368cd11")
+		)
+		(pin "7"
+			(uuid "c64bf305-2a19-42e0-aefd-a20f75d07767")
+		)
+		(pin "8"
+			(uuid "aa6c46ea-019e-4f6e-8b16-748addac52ed")
 		)
 		(instances
 			(project ""
@@ -14630,7 +14758,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 325.12 111.76 0)
+		(at 317.5 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14638,7 +14766,7 @@
 		(dnp no)
 		(uuid "a1f4b1a7-baf6-422e-8174-b9a4b83d9b74")
 		(property "Reference" "#PWR034"
-			(at 325.12 118.11 0)
+			(at 317.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14647,7 +14775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.247 116.1542 0)
+			(at 317.627 116.1542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14655,7 +14783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 111.76 0)
+			(at 317.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14664,7 +14792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 111.76 0)
+			(at 317.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14673,7 +14801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 111.76 0)
+			(at 317.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17072,7 +17200,7 @@
 	)
 	(sheet
 		(at 39.37 105.41)
-		(size 29.21 12.065)
+		(size 29.21 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -17092,7 +17220,7 @@
 			)
 		)
 		(property "Sheetfile" "Potentiometers.kicad_sch"
-			(at 39.37 118.0596 0)
+			(at 39.37 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17101,7 +17229,7 @@
 			)
 		)
 		(pin "Accel_Pot" output
-			(at 68.58 109.22 0)
+			(at 68.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17111,7 +17239,7 @@
 			(uuid "3c22d605-7855-4cc6-8ad2-906cadbd02dc")
 		)
 		(pin "Brake_Pot" output
-			(at 68.58 111.76 0)
+			(at 68.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17121,7 +17249,7 @@
 			(uuid "c66a19ed-90c0-4502-ae75-6a4c4ab9f297")
 		)
 		(pin "Brake_Switch" output
-			(at 68.58 114.3 0)
+			(at 68.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17129,6 +17257,26 @@
 				(justify right)
 			)
 			(uuid "0036c96e-8ec3-46f2-8291-9ff6fb04b28b")
+		)
+		(pin "Brake_Raw" output
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4d8d1364-1ffe-4183-a76e-a7e148b2d21c")
+		)
+		(pin "Accel_Raw" output
+			(at 68.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f7b0ab2-beae-4d8c-a669-11c1b0b37ece")
 		)
 		(instances
 			(project "Controls-Leader"
