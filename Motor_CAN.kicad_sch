@@ -2543,6 +2543,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 121.92) (xy 74.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47945a18-6ce3-49c6-9d1b-c9d655f8f224")
+	)
+	(wire
+		(pts
 			(xy 220.98 120.65) (xy 220.98 123.19)
 		)
 		(stroke
@@ -3233,6 +3243,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 119.38) (xy 74.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f890851b-2b5d-4f06-aa13-40f7c6d51ba8")
+	)
+	(wire
+		(pts
 			(xy 91.44 87.63) (xy 90.17 87.63)
 		)
 		(stroke
@@ -3398,6 +3418,18 @@
 		)
 		(uuid "01106a52-6b7d-40fd-b165-c927be1f6a1d")
 	)
+	(hierarchical_label "CAN_TX"
+		(shape input)
+		(at 74.93 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2055be88-0e91-44b6-8da8-d5c6f13a46e8")
+	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
 		(at 73.66 100.33 180)
@@ -3409,6 +3441,18 @@
 			(justify right)
 		)
 		(uuid "37e43d63-cb41-40f8-97c4-4ee588727924")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape output)
+		(at 74.93 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c206180c-3cec-4fe0-aee6-c2fd2451fece")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5893,6 +5937,75 @@
 			(project "Controls-Leader"
 				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f6018fb"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 85.09 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0f7a62d-f2cb-4814-9262-6a351d3c75c7")
+		(property "Reference" "J20"
+			(at 87.122 119.5832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN_TP"
+			(at 87.122 121.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4309efc-6cbe-4c58-8561-42f1b4b0be55")
+		)
+		(pin "2"
+			(uuid "0a80e8c4-e129-4e98-82a9-8762cb76a892")
+		)
+		(instances
+			(project "Controls-Leader"
+				(path "/66218487-e316-4467-9eba-79d4626ab24e/00000000-0000-0000-0000-00005f6018fb"
+					(reference "J20")
 					(unit 1)
 				)
 			)

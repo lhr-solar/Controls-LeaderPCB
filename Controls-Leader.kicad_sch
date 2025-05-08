@@ -5498,16 +5498,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 139.7) (xy 74.93 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53487206-e477-4090-bbd0-67cc1f91b052")
-	)
-	(wire
-		(pts
 			(xy 303.53 176.53) (xy 292.1 176.53)
 		)
 		(stroke
@@ -6368,7 +6358,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 143.51) (xy 74.93 143.51)
+			(xy 68.58 134.62) (xy 74.93 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6505,16 +6495,6 @@
 			(type default)
 		)
 		(uuid "c32ab1bc-061b-41b1-94ca-8f6d6fc5f605")
-	)
-	(wire
-		(pts
-			(xy 68.58 132.08) (xy 74.93 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ef33f3-e3d7-4463-a123-90bc473e126a")
 	)
 	(wire
 		(pts
@@ -6688,7 +6668,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 146.05) (xy 74.93 146.05)
+			(xy 68.58 137.16) (xy 74.93 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6908,16 +6888,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 134.62) (xy 74.93 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16cd051-fe94-40b5-80bd-563dadc02498")
-	)
-	(wire
-		(pts
 			(xy 217.17 60.96) (xy 232.41 60.96)
 		)
 		(stroke
@@ -6985,16 +6955,6 @@
 			(type default)
 		)
 		(uuid "f7d9b647-9dc4-4321-beda-09a7565cdcf4")
-	)
-	(wire
-		(pts
-			(xy 68.58 137.16) (xy 74.93 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8305597-bd48-4079-a40d-1b39f0df21d1")
 	)
 	(wire
 		(pts
@@ -7217,7 +7177,7 @@
 		)
 		(uuid "09de2426-5300-4e44-9157-b695b6d31409")
 	)
-	(label "Array_PRCHG_Bypass"
+	(label "Status_LED_2"
 		(at 154.94 248.92 90)
 		(fields_autoplaced yes)
 		(effects
@@ -7272,6 +7232,17 @@
 		)
 		(uuid "12d1d465-4d72-479b-864b-a91feb608329")
 	)
+	(label "PB9"
+		(at 283.21 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1431792f-b654-4200-9cde-9b400cb38be4")
+	)
 	(label "PC14"
 		(at 260.35 200.66 0)
 		(fields_autoplaced yes)
@@ -7282,17 +7253,6 @@
 			(justify left bottom)
 		)
 		(uuid "1abd4296-e0d2-4e4b-8f2a-3cee4716fc2a")
-	)
-	(label "TimerCLK"
-		(at 177.8 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bd80cf9-f42a-4aee-a408-9dbf4e81e625")
 	)
 	(label "Cruise_Set"
 		(at 243.84 135.89 180)
@@ -7415,17 +7375,6 @@
 		)
 		(uuid "2bee179d-a146-4658-9019-d1fb42aa1b81")
 	)
-	(label "Array_PBC_Sense"
-		(at 74.93 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3365e8b9-f1b5-49d8-ac72-bca47e57767f")
-	)
 	(label "CAN_Tx"
 		(at 74.93 74.93 0)
 		(fields_autoplaced yes)
@@ -7447,17 +7396,6 @@
 			(justify right bottom)
 		)
 		(uuid "37ba1d51-08f7-4215-909b-85d49cf804ab")
-	)
-	(label "Array_PBC_Sense"
-		(at 243.84 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "37c9399f-3861-44f5-acb1-ba2a4beccbad")
 	)
 	(label "Brake_Pot"
 		(at 177.8 143.51 0)
@@ -7635,7 +7573,7 @@
 		)
 		(uuid "5f6afe3e-3cb2-473a-819c-dc94ae52a6be")
 	)
-	(label "Array_PRCHG_Bypass"
+	(label "Status_LED_2"
 		(at 243.84 120.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7778,6 +7716,17 @@
 		)
 		(uuid "78b292d5-0c1f-4ed8-8f50-b4b3b2ac4c4f")
 	)
+	(label "PB8"
+		(at 243.84 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b9cc74b-d2b4-45da-9b3e-e01ff72cf02c")
+	)
 	(label "IG1"
 		(at 91.44 248.92 0)
 		(fields_autoplaced yes)
@@ -7799,6 +7748,17 @@
 			(justify right bottom)
 		)
 		(uuid "81360180-6f8e-4599-96e6-a8bf843e9b11")
+	)
+	(label "PB8"
+		(at 260.35 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82898445-5a3d-4978-8950-aace9ab884e2")
 	)
 	(label "MotorCAN_Tx"
 		(at 243.84 176.53 180)
@@ -7877,18 +7837,7 @@
 		)
 		(uuid "91daa110-179c-408f-b3bd-b3283d916294")
 	)
-	(label "Motor_PRCHG_Bypass"
-		(at 74.93 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97abdd4f-ad3c-48be-a49e-48100f6455c1")
-	)
-	(label "Motor_PRCHG_Bypass"
+	(label "Status_LED_1"
 		(at 140.97 248.92 90)
 		(fields_autoplaced yes)
 		(effects
@@ -7898,6 +7847,17 @@
 			(justify left bottom)
 		)
 		(uuid "97c9a642-7dc9-47bb-b3e1-aa5d82a14828")
+	)
+	(label "PC6"
+		(at 177.8 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98ce12fe-21d5-4ecc-9682-8dedce14a2b3")
 	)
 	(label "Cruise_Set"
 		(at 74.93 160.02 0)
@@ -7976,7 +7936,7 @@
 		)
 		(uuid "a40ec62f-adba-4763-afeb-de7244dd7d19")
 	)
-	(label "Motor_PRCHG_Bypass"
+	(label "Status_LED_1"
 		(at 243.84 118.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8130,6 +8090,17 @@
 		)
 		(uuid "c401e9c6-1deb-4979-99be-7c801c952098")
 	)
+	(label "PB9"
+		(at 243.84 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4415a68-bced-47ff-868f-fd8c8b1ffa85")
+	)
 	(label "Left_Ind"
 		(at 177.8 166.37 0)
 		(fields_autoplaced yes)
@@ -8207,17 +8178,6 @@
 		)
 		(uuid "d088a65f-f7a4-40a8-9d6c-bcab30d46f2d")
 	)
-	(label "Motor_PBC_Sense"
-		(at 74.93 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d11dfba0-fcb5-4426-b7f9-f4614414f5fc")
-	)
 	(label "MotorCAN_Rx"
 		(at 74.93 90.17 0)
 		(fields_autoplaced yes)
@@ -8230,7 +8190,7 @@
 		(uuid "d1cd5391-31d2-459f-8adb-4ae3f304a833")
 	)
 	(label "Motor_Contactor"
-		(at 74.93 143.51 0)
+		(at 74.93 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8339,17 +8299,6 @@
 		)
 		(uuid "edf2156e-0307-4f09-abe2-80064b389c50")
 	)
-	(label "Motor_PBC_Sense"
-		(at 243.84 184.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef5a5e4b-b010-425d-82dc-e40d34794733")
-	)
 	(label "PC11"
 		(at 177.8 168.91 0)
 		(fields_autoplaced yes)
@@ -8372,19 +8321,8 @@
 		)
 		(uuid "f6c7b282-608c-469f-95a5-db02875614e7")
 	)
-	(label "Array_PRCHG_Bypass"
-		(at 74.93 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa57fd08-fb9e-46f5-b55a-cd8f1c5488f2")
-	)
 	(label "Motor_C_Sense"
-		(at 74.93 146.05 0)
+		(at 74.93 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15029,7 +14967,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "APB_CNCTR"
+		(property "Value" "STAT_LED_2"
 			(at 157.9372 268.0462 90)
 			(effects
 				(font
@@ -15861,7 +15799,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MPB_CNCTR"
+		(property "Value" "STAT_LED_1"
 			(at 142.748 267.97 90)
 			(effects
 				(font
@@ -16416,7 +16354,7 @@
 	)
 	(sheet
 		(at 39.37 130.81)
-		(size 29.21 16.51)
+		(size 29.21 11.43)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -16436,7 +16374,7 @@
 			)
 		)
 		(property "Sheetfile" "Contactors.kicad_sch"
-			(at 39.37 147.9046 0)
+			(at 39.37 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16444,18 +16382,8 @@
 				(justify left top)
 			)
 		)
-		(pin "Array_PBC_Sense" input
-			(at 68.58 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4f901672-e20a-4f0e-b9bc-2a8ea4f0cf47")
-		)
 		(pin "Motor_C_Sense" input
-			(at 68.58 146.05 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16464,18 +16392,8 @@
 			)
 			(uuid "83622f10-ae68-4879-8a71-37c4444c9211")
 		)
-		(pin "Array_Precharge_Bypass" input
-			(at 68.58 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c66d2b95-5849-4129-9686-a0f851d2b29c")
-		)
 		(pin "Motor_Contactor" input
-			(at 68.58 143.51 0)
+			(at 68.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16483,26 +16401,6 @@
 				(justify right)
 			)
 			(uuid "4a8aea3f-da5b-4fa4-8d14-9c34a036f33e")
-		)
-		(pin "Motor_PBC_Sense" input
-			(at 68.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "998533ec-206e-497f-b633-edd22de1ed1a")
-		)
-		(pin "Motor_Precharge_Bypass" input
-			(at 68.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "23a50a42-cd1f-48ec-ac3d-80187bbae3d6")
 		)
 		(instances
 			(project "Controls-Leader"
