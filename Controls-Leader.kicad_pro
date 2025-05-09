@@ -59,12 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|123188205|129198775|766da185-9f97-4eed-ad88-875a55ec582f|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|137500000|74164046|09e9671c-7809-4d78-be34-8903efa33cf7|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|164894899|66011959|305dfc91-d183-4dd4-a73b-fd2a1224372b|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|172350000|72359046|81c9b1af-d108-4fae-90b6-36d1c9bda57c|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -585,7 +580,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -618,10 +613,10 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "P/N",
           "name": "P/N",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -654,10 +649,64 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "JLCPCB#",
           "name": "JLCPCB#",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Datasheet_Link",
+          "name": "DK_Datasheet_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Detail_Page",
+          "name": "DK_Detail_Page",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Family",
+          "name": "Family",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digi-Key_PN",
+          "name": "Digi-Key_PN",
+          "show": false
         }
       ],
       "filter_string": "",

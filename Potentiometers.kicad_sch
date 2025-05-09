@@ -703,169 +703,6 @@
 				)
 			)
 		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1027,6 +864,247 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "dk_Diodes-Rectifiers-Single:MBR0520LT1G"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "MBR0520LT1G"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:SOD-123"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIODE SCHOTTKY 20V 500MA SOD123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key_PN" "MBR0520LT1GOSCT-ND"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MBR0520LT1G"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Discrete Semiconductor Products"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Diodes - Rectifiers - Single"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "DIODE SCHOTTKY 20V 500MA SOD123"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ON Semiconductor"
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MBR0520LT1GOSCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MBR0520LT1G_0_1"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -1.905) (xy 1.905 -1.905) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 1.905) (xy 0.635 1.905) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBR0520LT1G_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1788,12 +1866,6 @@
 		(uuid "10e5ae6d-e43e-4ff8-abc5-fd9df16782da")
 	)
 	(junction
-		(at 217.17 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20677e31-822d-450d-aee4-fa2cb51dc9d1")
-	)
-	(junction
 		(at 92.71 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1804,6 +1876,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a56ac62-5ec2-46fc-a86c-9adf2d8fead1")
+	)
+	(junction
+		(at 226.06 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5acc80a2-5f9f-46f2-aeb9-72a8f52ab183")
 	)
 	(junction
 		(at 85.09 153.67)
@@ -1822,12 +1900,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f8f6cf9-f383-48bf-b18f-ea575e444041")
-	)
-	(junction
-		(at 226.06 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "712f4a13-16bd-4135-a904-96affb78f47a")
 	)
 	(junction
 		(at 109.22 96.52)
@@ -1872,6 +1944,18 @@
 		(uuid "c9ab240f-b898-4113-9b58-995237cd751a")
 	)
 	(junction
+		(at 217.17 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7594c05-cb00-413f-99f9-9529b7412a3c")
+	)
+	(junction
+		(at 226.06 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da7facda-972d-4728-8c02-33b6c385b6eb")
+	)
+	(junction
 		(at 72.39 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1903,26 +1987,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 111.76) (xy 226.06 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "179a8bbc-8543-4f06-abe2-b05feb516682")
-	)
-	(wire
-		(pts
-			(xy 226.06 111.76) (xy 237.49 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4dff64-0561-4689-b383-be5d69f77e89")
-	)
-	(wire
-		(pts
 			(xy 62.23 96.52) (xy 72.39 96.52)
 		)
 		(stroke
@@ -1950,6 +2014,16 @@
 			(type default)
 		)
 		(uuid "2b1a1d99-4ea2-4cae-846a-5609aadc4265")
+	)
+	(wire
+		(pts
+			(xy 226.06 119.38) (xy 226.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7a031d-c543-4186-a35f-03df129e0e9f")
 	)
 	(wire
 		(pts
@@ -2013,6 +2087,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 102.87) (xy 226.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1e7661-c1dc-4714-b68a-a50440798677")
+	)
+	(wire
+		(pts
 			(xy 80.01 97.79) (xy 80.01 96.52)
 		)
 		(stroke
@@ -2020,6 +2104,16 @@
 			(type default)
 		)
 		(uuid "557d128f-cf69-4c70-9959-d139ac95c63c")
+	)
+	(wire
+		(pts
+			(xy 226.06 111.76) (xy 237.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599fe1af-f298-4f44-87ed-4265f13a0ef2")
 	)
 	(wire
 		(pts
@@ -2040,6 +2134,16 @@
 			(type default)
 		)
 		(uuid "63ace593-9960-4666-bb08-47e6f085cee8")
+	)
+	(wire
+		(pts
+			(xy 226.06 110.49) (xy 226.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e51307-7459-42eb-b98c-1b4ccc205b60")
 	)
 	(wire
 		(pts
@@ -2103,6 +2207,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 111.76) (xy 226.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e4c07d-859c-40a5-987a-67809b519969")
+	)
+	(wire
+		(pts
 			(xy 203.2 113.03) (xy 203.2 111.76)
 		)
 		(stroke
@@ -2133,6 +2247,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 120.65) (xy 226.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4da9478-933b-4572-ae3e-5b32a5c2e06b")
+	)
+	(wire
+		(pts
 			(xy 92.71 99.06) (xy 118.11 99.06)
 		)
 		(stroke
@@ -2140,16 +2264,6 @@
 			(type default)
 		)
 		(uuid "a8cdda0e-7b06-4b92-8078-341b4e32614a")
-	)
-	(wire
-		(pts
-			(xy 226.06 119.38) (xy 226.06 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b087dbb9-86e1-4949-81ac-e948782e861f")
 	)
 	(wire
 		(pts
@@ -2280,6 +2394,16 @@
 			(type default)
 		)
 		(uuid "dd552f19-e379-4dd5-a10b-882b6c8e7a65")
+	)
+	(wire
+		(pts
+			(xy 217.17 111.76) (xy 226.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb78586-e4a9-4457-a06a-80fd1ac4ca9c")
 	)
 	(wire
 		(pts
@@ -2614,7 +2738,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB#" "C2959841"
+		(property "JLCPCB#" "C77298"
 			(at 80.01 100.33 0)
 			(effects
 				(font
@@ -2978,7 +3102,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB#" "C2959841"
+		(property "JLCPCB#" "C77298"
 			(at 80.01 91.44 0)
 			(effects
 				(font
@@ -3299,8 +3423,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 226.06 115.57 270)
+		(lib_id "dk_Diodes-Rectifiers-Single:MBR0520LT1G")
+		(at 226.06 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3309,42 +3433,44 @@
 		(fields_autoplaced yes)
 		(uuid "068fdfb3-0425-4d92-b7f7-f71cc806ca78")
 		(property "Reference" "D5"
-			(at 228.6 114.2999 90)
+			(at 228.6 112.7124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "MBR"
-			(at 228.6 116.8399 90)
+			(at 228.6 115.2524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 226.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbr0520lt1-d.pdf"
-			(at 226.06 115.57 0)
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF"
+			(at 218.44 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 20V 500MA SOD123"
 			(at 226.06 115.57 0)
 			(effects
 				(font
@@ -3363,12 +3489,12 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 226.06 115.57 0)
+			(at 228.6 117.7924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "P/N" "MBR0520LT1G"
@@ -3389,10 +3515,100 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Digi-Key_PN" "MBR0520LT1GOSCT-ND"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBR0520LT1G"
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Discrete Semiconductor Products"
+			(at 210.82 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Diodes - Rectifiers - Single"
+			(at 208.28 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF"
+			(at 205.74 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965"
+			(at 203.2 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "DIODE SCHOTTKY 20V 500MA SOD123"
+			(at 200.66 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ON Semiconductor"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "A"
 			(uuid "dddc60ce-c32e-4999-9cad-20bd60881d85")
 		)
-		(pin "2"
+		(pin "K"
 			(uuid "7cabbdfc-2365-470c-bece-5ddd542baa10")
 		)
 		(instances
@@ -3688,8 +3904,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 226.06 107.95 270)
+		(lib_id "dk_Diodes-Rectifiers-Single:MBR0520LT1G")
+		(at 226.06 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3698,42 +3914,44 @@
 		(fields_autoplaced yes)
 		(uuid "531af05a-8281-41ff-951f-9e141ef674b8")
 		(property "Reference" "D3"
-			(at 228.6 106.6799 90)
+			(at 228.6 106.3624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "MBR"
-			(at 228.6 109.2199 90)
+			(at 228.6 108.9024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 220.98 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbr0520lt1-d.pdf"
-			(at 226.06 107.95 0)
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF"
+			(at 218.44 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 20V 500MA SOD123"
 			(at 226.06 107.95 0)
 			(effects
 				(font
@@ -3757,7 +3975,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "P/N" "MBR0520LT1G"
@@ -3778,10 +3995,100 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Digi-Key_PN" "MBR0520LT1GOSCT-ND"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBR0520LT1G"
+			(at 213.36 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Discrete Semiconductor Products"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Diodes - Rectifiers - Single"
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "DIODE SCHOTTKY 20V 500MA SOD123"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ON Semiconductor"
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "K"
 			(uuid "0440fa95-1ba9-4884-9e5f-afd790850dd0")
 		)
-		(pin "2"
+		(pin "A"
 			(uuid "d72f5058-0a55-4696-ad59-ad5b98f9015b")
 		)
 		(instances
@@ -4309,7 +4616,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 104.14 0)
+		(at 226.06 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4317,7 +4624,7 @@
 		(dnp no)
 		(uuid "7d23ea07-d819-4228-9823-544bc4cd5953")
 		(property "Reference" "#PWR096"
-			(at 226.06 107.95 0)
+			(at 226.06 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4633,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 226.06 99.06 0)
+			(at 226.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 104.14 0)
+			(at 226.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 104.14 0)
+			(at 226.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 104.14 0)
+			(at 226.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
